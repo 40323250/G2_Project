@@ -40,7 +40,10 @@
 <v t="40323250.20151124123610.11"><vh>3</vh></v>
 </v>
 <v t="40323250.20151124123610.13"><vh>投影頁面3</vh></v>
-<v t="40323250.20151124123610.14"><vh>投影頁面4</vh></v>
+<v t="40323250.20151124123610.14" a="E"><vh>投影頁面4</vh>
+<v t="leo.20161114164927.1"><vh>1</vh></v>
+<v t="leo.20161114164933.1"><vh>2</vh></v>
+</v>
 </v>
 </v>
 <v t="40323250.20151124123610.15"><vh>script</vh></v>
@@ -70,10 +73,14 @@
 &lt;/section&gt;
 				
 </t>
-<t tx="40323250.20151124123610.14">&lt;section&gt;
-&lt;script src="https://embed.github.com/view/3d/Zhan-Wei-Chi/project/gh-pages/g2/printer.stl" width="300"height="300"&gt;&lt;/script&gt;&lt;/script&gt;
-&lt;/section&gt;
-				</t>
+<t tx="40323250.20151124123610.14"> &lt;section&gt;
+&lt;p&gt;
+@others
+&lt;/p&gt;
+				&lt;/section&gt;
+				
+
+</t>
 <t tx="40323250.20151124123610.15">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
 &lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
 &lt;script&gt;
@@ -319,5 +326,11 @@ NOTEBOOK_DIR = 'notebook'
 
 
 </t>
+<t tx="leo.20161114164927.1">&lt;section&gt;
+&lt;script src="https://embed.github.com/view/3d/40323250/Zhan-Wei-Zhi/gh-pages/g2/printer.stl" width="300"height="300"&gt;&lt;/script&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20161114164933.1">&lt;section&gt;
+&lt;script src="https://embed.github.com/view/3d/40323250/Zhan-Wei-Zhi/gh-pages/g2/printer_robot_arm.stl" width="300"height="300"&gt;&lt;/script&gt;
+&lt;/section&gt;</t>
 </tnodes>
 </leo_file>
