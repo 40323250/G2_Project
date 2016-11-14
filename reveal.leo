@@ -17,7 +17,7 @@
 <v t="amd.20150919102739.1"><vh>專案架構</vh>
 <v t="amd.20150919113520.1"><vh>@edit .gitignore</vh></v>
 </v>
-<v t="amd.20150919113957.1" a="E"><vh>以下為 pelican 文章</vh>
+<v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh>
 <v t="amd.20150919124128.1"><vh>@button user pelican</vh></v>
 <v t="amd.20150919114010.1" a="E"><vh>@path pelican</vh>
 <v t="amd.20151006130205.1"><vh>edit publishconf.py</vh></v>
@@ -33,14 +33,14 @@
 <v t="40323250.20151124123610.4" a="E"><vh>body 標註</vh>
 <v t="40323250.20151124123610.5" a="E"><vh>div class="reveal"</vh>
 <v t="40323250.20151124123610.6" a="E"><vh>div class="slides"</vh>
-<v t="40323250.20151124123610.7"><vh>投影頁面1 封面</vh></v>
-<v t="40323250.20151124123610.8" a="E"><vh>投影頁面2 筆記</vh>
+<v t="40323250.20151124123610.7"><vh>投影封面</vh></v>
+<v t="40323250.20151124123610.8" a="E"><vh>投影頁面2 </vh>
 <v t="40323250.20151124123610.9"><vh>1</vh></v>
 <v t="40323250.20151124123610.10"><vh>2</vh></v>
 <v t="40323250.20151124123610.11"><vh>3</vh></v>
 </v>
-<v t="40323250.20151124123610.13"><vh>投影頁面 自評與心得</vh></v>
-<v t="40323250.20151124123610.14"><vh>投影頁面 參考資料</vh></v>
+<v t="40323250.20151124123610.13"><vh>投影頁面3</vh></v>
+<v t="40323250.20151124123610.14"><vh>投影頁面4</vh></v>
 </v>
 </v>
 <v t="40323250.20151124123610.15"><vh>script</vh></v>
@@ -71,10 +71,9 @@
 				
 </t>
 <t tx="40323250.20151124123610.14">&lt;section&gt;
-   &lt;h3&gt;內容&lt;/h3&gt;
+&lt;script src="https://embed.github.com/view/3d/Zhan-Wei-Chi/project/gh-pages/g2/printer.stl" width="300"height="300"&gt;&lt;/script&gt;&lt;/script&gt;
 &lt;/section&gt;
-				
-</t>
+				</t>
 <t tx="40323250.20151124123610.15">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
 &lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
 &lt;script&gt;
@@ -126,8 +125,14 @@
     &lt;br&gt;
     &lt;br&gt;
     &lt;br&gt;	
-    &lt;h3&gt;題目&lt;/h3&gt;
-    &lt;h3&gt;內容&lt;/h3&gt;
+    &lt;h3&gt;題目 : &lt;/h3&gt;
+    &lt;br&gt;
+    &lt;h4&gt;組員 : &lt;/h4&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;h4&gt;指導老師 : 嚴家銘&lt;/h4&gt;
 	
 &lt;/section&gt;
 	
@@ -141,7 +146,6 @@
 </t>
 <t tx="40323250.20151124123610.9">&lt;section&gt;
     &lt;h3&gt;內容&lt;/h3&gt;
- 
 &lt;/section&gt;
 				
 </t>
