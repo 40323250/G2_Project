@@ -35,16 +35,19 @@
 <v t="ahshoe.20161116165944.1"><vh>IE</vh></v>
 </v>
 <v t="40323250.20151124123610.4" a="E"><vh>body 標註</vh>
+<v t="ahshoe.20161116172902.1" a="E"><vh>style</vh>
+<v t="ahshoe.20161116172929.1"><vh>自訂的CSS內容</vh></v>
+</v>
 <v t="40323250.20151124123610.5" a="E"><vh>div class="reveal"</vh>
 <v t="40323250.20151124123610.6" a="E"><vh>div class="slides"</vh>
-<v t="40323250.20151124123610.7" a="E"><vh>投影封面</vh>
+<v t="40323250.20151124123610.7"><vh>投影封面</vh>
 <v t="ahshoe.20161116163650.1"><vh>專題題目</vh></v>
 <v t="ahshoe.20161116170054.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116163706.1"><vh>組員</vh></v>
 <v t="ahshoe.20161116163835.1"><vh>br</vh></v>
 <v t="ahshoe.20161116163854.1"><vh>指導老師</vh></v>
 </v>
-<v t="ahshoe.20161116164356.1" a="E"><vh>目錄</vh>
+<v t="ahshoe.20161116164356.1"><vh>目錄(#contents)</vh>
 <v t="ahshoe.20161116164356.3"><vh>h3</vh></v>
 <v t="ahshoe.20161116170302.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116164442.1"><vh>ol</vh>
@@ -52,8 +55,8 @@
 <v t="ahshoe.20161116164540.1"><vh>Python Solvespace</vh></v>
 </v>
 </v>
-<v t="40323250.20151124123610.8" a="E"><vh>第一部份</vh>
-<v t="40323250.20151124123610.9"><vh>1</vh>
+<v t="40323250.20151124123610.8"><vh>Vrep(#vrep)</vh>
+<v t="40323250.20151124123610.9"><vh>章節首</vh>
 <v t="ahshoe.20161116162923.1"><vh>h3</vh></v>
 </v>
 <v t="ahshoe.20161116162940.1"><vh>2</vh>
@@ -63,8 +66,8 @@
 <v t="ahshoe.20161116162945.2"><vh>h3</vh></v>
 </v>
 </v>
-<v t="40323250.20151124123610.13" a="E"><vh>第二部份</vh>
-<v t="ahshoe.20161116162630.1"><vh>Python Solvespace</vh>
+<v t="40323250.20151124123610.13"><vh>Python Solvespace(#solvespace)</vh>
+<v t="ahshoe.20161116162630.1"><vh>章節首</vh>
 <v t="ahshoe.20161116162717.1"><vh>h3</vh></v>
 <v t="ahshoe.20161116162756.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116162802.1"><vh>p</vh></v>
@@ -75,14 +78,14 @@
 <v t="ahshoe.20161116162450.1"><vh>p</vh></v>
 </v>
 </v>
-<v t="40323250.20151124123610.14"><vh>stl部份</vh>
+<v t="40323250.20151124123610.14"><vh>STL(#stl)</vh>
 <v t="leo.20161114164927.1"><vh>1</vh></v>
 <v t="leo.20161114164933.1"><vh>2</vh></v>
 </v>
 </v>
 </v>
 <v t="40323250.20151124123610.15"><vh>script</vh>
-<v t="ahshoe.20161116165825.1"><vh>script</vh></v>
+<v t="ahshoe.20161116165825.1"><vh>啟動 Reveal</vh></v>
 </v>
 </v>
 </v>
@@ -93,7 +96,7 @@
 <t tx="40323250.20151124123610.1">@language xml
 @tabwidth -4
 @others</t>
-<t tx="40323250.20151124123610.13">&lt;section&gt;
+<t tx="40323250.20151124123610.13">&lt;section id="solvespace"&gt;
 &lt;p&gt;
 @others
 &lt;/p&gt;
@@ -103,8 +106,7 @@
 @others
 &lt;/p&gt;
 &lt;/section&gt;</t>
-<t tx="40323250.20151124123610.15">@language xml
-&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+<t tx="40323250.20151124123610.15">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
 &lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
 &lt;script&gt;
 @others
@@ -117,7 +119,8 @@
 --&gt;</t>
 <t tx="40323250.20151124123610.3">&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
-@others</t>
+@others
+&lt;/html&gt;</t>
 <t tx="40323250.20151124123610.4">&lt;body&gt;
 @others
 &lt;/body&gt;</t>
@@ -137,7 +140,7 @@
 @others
 &lt;/p&gt;
 &lt;/section&gt;</t>
-<t tx="40323250.20151124123610.8">&lt;section&gt;
+<t tx="40323250.20151124123610.8">&lt;section id="vrep"&gt;
 &lt;p&gt;
 @others
 &lt;/p&gt;
@@ -175,7 +178,7 @@ Summary: 導入 notebook 內容
 <t tx="ahshoe.20161116162717.1">&lt;h3&gt;Python Solvespace&lt;/h3&gt;</t>
 <t tx="ahshoe.20161116162756.1">&lt;hr&gt;</t>
 <t tx="ahshoe.20161116162802.1">&lt;p&gt;Solver of Solve Space in Python 3 module&lt;/p&gt;</t>
-<t tx="ahshoe.20161116162923.1">&lt;h3&gt;內容&lt;/h3&gt;</t>
+<t tx="ahshoe.20161116162923.1">&lt;h3&gt;章節首&lt;/h3&gt;</t>
 <t tx="ahshoe.20161116162940.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
@@ -192,9 +195,9 @@ Summary: 導入 notebook 內容
 <t tx="ahshoe.20161116163835.1">&lt;br&gt;
 &lt;br&gt;</t>
 <t tx="ahshoe.20161116163854.1">&lt;h4&gt;指導老師 : 嚴家銘&lt;/h4&gt;</t>
-<t tx="ahshoe.20161116164356.1">&lt;section&gt;
+<t tx="ahshoe.20161116164356.1">&lt;section id="contents"&gt;
 &lt;p&gt;
-&lt;section id="contents"&gt;
+&lt;section&gt;
 @others
 &lt;/section&gt;
 &lt;/p&gt;
@@ -229,6 +232,21 @@ Reveal.initialize({
 &lt;![endif]--&gt;</t>
 <t tx="ahshoe.20161116170054.1">&lt;hr&gt;</t>
 <t tx="ahshoe.20161116170302.1">&lt;hr&gt;</t>
+<t tx="ahshoe.20161116172902.1">&lt;style&gt;
+@others
+&lt;/style&gt;</t>
+<t tx="ahshoe.20161116172929.1">@language css
+#contents
+h4 {
+
+}
+p {
+  color : #FF0000;
+  font-size : 30px;
+}
+#vrep
+#solvespace
+#stl</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
