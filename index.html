@@ -19,17 +19,33 @@
 </head>
 <body>
 <style>
-#contents
-h4 {
+/*
+規則：
+章節使用 id="章節名稱" 來識別
+內文使用 class="article" 來識別
+*/
+
+/*目錄*/
+#contents h4 {
 
 }
-p {
+#contents .article {
   color : #FF0000;
   font-size : 30px;
+  text-align : left;
 }
-#vrep
-#solvespace
-#stl
+/*Vrep*/
+#vrep .article {
+  text-align : left;
+}
+/*solvespace*/
+#solvespace .article {
+  text-align : left;
+}
+/*STL*/
+#stl .article {
+  text-align : left;
+}
 </style>
 <!-- 將整個投影片包在 "reveal" class 中 -->
 <div class="reveal">
@@ -39,7 +55,6 @@ p {
 <!-- 每一個 section 都代表一張投影片,  -->
 <!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
 <section>
-<p>
 <h3>專題題目</h3>
 <hr>
 <h4>組員 : 李冠興</h4>
@@ -49,28 +64,24 @@ p {
 <br>
 <br>
 <h4>指導老師 : 嚴家銘</h4>
-</p>
 </section>
 <section id="contents">
-<p>
 <section>
 <h3>目錄</h3>
 <hr>
 <ol>
 <li>
 <h4>Vrep</h4>
-<p>Vrep</p>
+<p class="article">Vrep</p>
 </li>
 <li>
 <h4>Python Solvespace</h4>
-<p>Python Solvespace</p>
+<p class="article">Python Solvespace</p>
 </li>
 </ol>
 </section>
-</p>
 </section>
 <section id="vrep">
-<p>
 <section>
 <h3>章節首</h3>
 </section>
@@ -80,21 +91,29 @@ p {
 <section>
 <h3>內容</h3>
 </section>
-</p>
 </section>
 <section id="solvespace">
-<p>
 <section>
 <h3>Python Solvespace</h3>
 <hr>
-<p>Solver of Solve Space in Python 3 module</p>
+<p>使用 Python 3 的 Solve Space 模組。</p>
 </section>
 <section>
 <h3>Solvespace 簡介</h3>
 <hr>
-<p>Solvespace</p>
-</section>
+<p class="article">
+SolveSpace 是一款開源的 2D / 3D 電腦輔助設計繪圖軟體，從 2008 年釋出第一個版本，相容於 Windows / Mac / Linux 三個平台。
+<br><br>
+有著體積小、執行快速、免費，且不用安裝的特性，支援 STEP 或 STL 開啟，或輸出成 DXF 、 PDF 、 SVG 等開放格式，也有自己的文字式格式 「*.slvs」 。
+<br><br>
+更新方面，可以在 GitHub 的<a href="https://github.com/solvespace/solvespace" title="github.com">官方倉儲</a>或是<a href="https://github.com/whitequark/solvespace" title="github.com">非官方倉儲</a>中下載最新的原始碼後，直接利用開發者工具（如 GNU）編譯出主程式。
 </p>
+</section>
+<section>
+<p class="article">
+<img src="g2/Python_solvespace/solvespace_pre.jpg" weight="500">
+</p>
+</section>
 </section>
 <section>
 <p>
@@ -108,7 +127,7 @@ p {
 </section>
 </div>
 </div>
-<script src="lib/js/head.min.js"></script>
+<!--script src="lib/js/head.min.js"></script-->
 <script src="js/reveal.min.js"></script>
 <script>
 // 啟動 Reveal.

@@ -9,14 +9,12 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20150913232631.1" a="E"><vh>@settings</vh>
+<v t="amd.20150913232631.1"><vh>@settings</vh>
 <v t="amd.20150913232631.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="amd.20150913232631.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="amd.20150919102739.1" a="E"><vh>專案架構</vh>
-<v t="amd.20150919113520.1"><vh>@edit .gitignore</vh></v>
-</v>
-<v t="amd.20150919113957.1" a="E"><vh>以下為 pelican 文章</vh>
+<v t="amd.20150919102739.1"><vh>專案架構</vh></v>
+<v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh>
 <v t="amd.20150919124128.1"><vh>@button user pelican</vh></v>
 <v t="amd.20150919114010.1" a="E"><vh>@path pelican</vh>
 <v t="amd.20151006130205.1"><vh>edit publishconf.py</vh></v>
@@ -47,10 +45,10 @@
 <v t="ahshoe.20161116163835.1"><vh>br</vh></v>
 <v t="ahshoe.20161116163854.1"><vh>指導老師</vh></v>
 </v>
-<v t="ahshoe.20161116164356.1"><vh>目錄(#contents)</vh>
+<v t="ahshoe.20161116164356.1" a="E"><vh>目錄(#contents)</vh>
 <v t="ahshoe.20161116164356.3"><vh>h3</vh></v>
 <v t="ahshoe.20161116170302.1"><vh>hr</vh></v>
-<v t="ahshoe.20161116164442.1"><vh>ol</vh>
+<v t="ahshoe.20161116164442.1" a="E"><vh>ol</vh>
 <v t="ahshoe.20161116164501.1"><vh>Vrep</vh></v>
 <v t="ahshoe.20161116164540.1"><vh>Python Solvespace</vh></v>
 </v>
@@ -66,8 +64,8 @@
 <v t="ahshoe.20161116162945.2"><vh>h3</vh></v>
 </v>
 </v>
-<v t="40323250.20151124123610.13"><vh>Python Solvespace(#solvespace)</vh>
-<v t="ahshoe.20161116162630.1"><vh>章節首</vh>
+<v t="40323250.20151124123610.13" a="E"><vh>Python Solvespace(#solvespace)</vh>
+<v t="ahshoe.20161116162630.1" a="E"><vh>章節首</vh>
 <v t="ahshoe.20161116162717.1"><vh>h3</vh></v>
 <v t="ahshoe.20161116162756.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116162802.1"><vh>p</vh></v>
@@ -76,6 +74,9 @@
 <v t="ahshoe.20161116162349.1"><vh>h3</vh></v>
 <v t="ahshoe.20161116162432.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116162450.1"><vh>p</vh></v>
+</v>
+<v t="ahshoe.20161116204304.1" a="E"><vh>Solvespace範例</vh>
+<v t="ahshoe.20161116204359.1"><vh>p</vh></v>
 </v>
 </v>
 <v t="40323250.20151124123610.14"><vh>STL(#stl)</vh>
@@ -97,16 +98,14 @@
 @tabwidth -4
 @others</t>
 <t tx="40323250.20151124123610.13">&lt;section id="solvespace"&gt;
-&lt;p&gt;
 @others
-&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="40323250.20151124123610.14">&lt;section&gt;
 &lt;p&gt;
 @others
 &lt;/p&gt;
 &lt;/section&gt;</t>
-<t tx="40323250.20151124123610.15">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+<t tx="40323250.20151124123610.15">&lt;!--script src="lib/js/head.min.js"&gt;&lt;/script--&gt;
 &lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
 &lt;script&gt;
 @others
@@ -136,14 +135,10 @@
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;section&gt;
-&lt;p&gt;
 @others
-&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="40323250.20151124123610.8">&lt;section id="vrep"&gt;
-&lt;p&gt;
 @others
-&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="40323250.20151124123610.9">&lt;section&gt;
 @others
@@ -171,13 +166,19 @@ Summary: 導入 notebook 內容
 &lt;/section&gt;</t>
 <t tx="ahshoe.20161116162349.1">&lt;h3&gt;Solvespace 簡介&lt;/h3&gt;</t>
 <t tx="ahshoe.20161116162432.1">&lt;hr&gt;</t>
-<t tx="ahshoe.20161116162450.1">&lt;p&gt;Solvespace&lt;/p&gt;</t>
+<t tx="ahshoe.20161116162450.1">&lt;p class="article"&gt;
+SolveSpace 是一款開源的 2D / 3D 電腦輔助設計繪圖軟體，從 2008 年釋出第一個版本，相容於 Windows / Mac / Linux 三個平台。
+&lt;br&gt;&lt;br&gt;
+有著體積小、執行快速、免費，且不用安裝的特性，支援 STEP 或 STL 開啟，或輸出成 DXF 、 PDF 、 SVG 等開放格式，也有自己的文字式格式 「*.slvs」 。
+&lt;br&gt;&lt;br&gt;
+更新方面，可以在 GitHub 的&lt;a href="https://github.com/solvespace/solvespace" title="github.com"&gt;官方倉儲&lt;/a&gt;或是&lt;a href="https://github.com/whitequark/solvespace" title="github.com"&gt;非官方倉儲&lt;/a&gt;中下載最新的原始碼後，直接利用開發者工具（如 GNU）編譯出主程式。
+&lt;/p&gt;</t>
 <t tx="ahshoe.20161116162630.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
 <t tx="ahshoe.20161116162717.1">&lt;h3&gt;Python Solvespace&lt;/h3&gt;</t>
 <t tx="ahshoe.20161116162756.1">&lt;hr&gt;</t>
-<t tx="ahshoe.20161116162802.1">&lt;p&gt;Solver of Solve Space in Python 3 module&lt;/p&gt;</t>
+<t tx="ahshoe.20161116162802.1">&lt;p&gt;使用 Python 3 的 Solve Space 模組。&lt;/p&gt;</t>
 <t tx="ahshoe.20161116162923.1">&lt;h3&gt;章節首&lt;/h3&gt;</t>
 <t tx="ahshoe.20161116162940.1">&lt;section&gt;
 @others
@@ -196,11 +197,9 @@ Summary: 導入 notebook 內容
 &lt;br&gt;</t>
 <t tx="ahshoe.20161116163854.1">&lt;h4&gt;指導老師 : 嚴家銘&lt;/h4&gt;</t>
 <t tx="ahshoe.20161116164356.1">&lt;section id="contents"&gt;
-&lt;p&gt;
 &lt;section&gt;
 @others
 &lt;/section&gt;
-&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20161116164356.3">&lt;h3&gt;目錄&lt;/h3&gt;</t>
 <t tx="ahshoe.20161116164442.1">&lt;ol&gt;
@@ -208,11 +207,11 @@ Summary: 導入 notebook 內容
 &lt;/ol&gt;</t>
 <t tx="ahshoe.20161116164501.1">&lt;li&gt;
 &lt;h4&gt;Vrep&lt;/h4&gt;
-&lt;p&gt;Vrep&lt;/p&gt;
+&lt;p class="article"&gt;Vrep&lt;/p&gt;
 &lt;/li&gt;</t>
 <t tx="ahshoe.20161116164540.1">&lt;li&gt;
 &lt;h4&gt;Python Solvespace&lt;/h4&gt;
-&lt;p&gt;Python Solvespace&lt;/p&gt;
+&lt;p class="article"&gt;Python Solvespace&lt;/p&gt;
 &lt;/li&gt;</t>
 <t tx="ahshoe.20161116165231.1">&lt;head&gt;
 &lt;meta charset="utf-8"&gt;
@@ -236,17 +235,39 @@ Reveal.initialize({
 @others
 &lt;/style&gt;</t>
 <t tx="ahshoe.20161116172929.1">@language css
-#contents
-h4 {
+/*
+規則：
+章節使用 id="章節名稱" 來識別
+內文使用 class="article" 來識別
+*/
+
+/*目錄*/
+#contents h4 {
 
 }
-p {
+#contents .article {
   color : #FF0000;
   font-size : 30px;
+  text-align : left;
 }
-#vrep
-#solvespace
-#stl</t>
+/*Vrep*/
+#vrep .article {
+  text-align : left;
+}
+/*solvespace*/
+#solvespace .article {
+  text-align : left;
+}
+/*STL*/
+#stl .article {
+  text-align : left;
+}</t>
+<t tx="ahshoe.20161116204304.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="ahshoe.20161116204359.1">&lt;p class="article"&gt;
+&lt;img src="g2/Python_solvespace/solvespace_pre.jpg" weight="500"&gt;
+&lt;/p&gt;</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
