@@ -32,7 +32,22 @@
 <v t="40323250.20151124123610.4" a="E"><vh>body 標註</vh>
 <v t="40323250.20151124123610.5" a="E"><vh>div class="reveal"</vh>
 <v t="40323250.20151124123610.6" a="E"><vh>div class="slides"</vh>
-<v t="40323250.20151124123610.7"><vh>投影封面</vh></v>
+<v t="40323250.20151124123610.7"><vh>投影封面</vh>
+<v t="ahshoe.20161116163633.1"><vh>br</vh></v>
+<v t="ahshoe.20161116163650.1"><vh>專題題目</vh></v>
+<v t="ahshoe.20161116163706.1"><vh>組員</vh></v>
+<v t="ahshoe.20161116163835.1"><vh>br</vh></v>
+<v t="ahshoe.20161116163854.1"><vh>指導老師</vh></v>
+</v>
+<v t="ahshoe.20161116164356.1" a="E"><vh>目錄</vh>
+<v t="ahshoe.20161116164356.2" a="E"><vh>目錄_1</vh>
+<v t="ahshoe.20161116164356.3"><vh>h3</vh></v>
+<v t="ahshoe.20161116164442.1" a="E"><vh>ol</vh>
+<v t="ahshoe.20161116164501.1"><vh>Vrep</vh></v>
+<v t="ahshoe.20161116164540.1"><vh>Python Solvespace</vh></v>
+</v>
+</v>
+</v>
 <v t="40323250.20151124123610.8" a="E"><vh>第一部份</vh>
 <v t="40323250.20151124123610.9"><vh>1</vh>
 <v t="ahshoe.20161116162923.1"><vh>h3</vh></v>
@@ -50,7 +65,7 @@
 <v t="ahshoe.20161116162756.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116162802.1"><vh>p</vh></v>
 </v>
-<v t="ahshoe.20161116162135.1"><vh>概念啟發</vh>
+<v t="ahshoe.20161116162135.1" a="E"><vh>概念啟發</vh>
 <v t="ahshoe.20161116162349.1"><vh>h3</vh></v>
 <v t="ahshoe.20161116162432.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116162450.1"><vh>p</vh></v>
@@ -93,9 +108,7 @@
     // 啟動 Reveal.
     Reveal.initialize({
     });
-&lt;/script&gt;
-	
-</t>
+&lt;/script&gt;</t>
 <t tx="40323250.20151124123610.2">&lt;!--
 這個檔案展示了 reveal.js 投影片資料的基本架構
 其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
@@ -135,21 +148,10 @@
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;section&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-    &lt;br&gt;	
-    &lt;h3&gt;專題題目 : &lt;/h3&gt;
-    &lt;br&gt;
-    &lt;h4&gt;組員 : 李冠興&lt;/h4&gt;
-    &lt;h4&gt;張元&lt;/h4&gt;
-    &lt;h4&gt;張立昇&lt;/h4&gt;
-    &lt;h4&gt;詹偉志&lt;/h4&gt;
-    &lt;br&gt;
-    &lt;br&gt;
-    &lt;h4&gt;指導老師 : 嚴家銘&lt;/h4&gt;
-&lt;/section&gt;
-	
-</t>
+&lt;p&gt;
+@others
+&lt;/p&gt;
+&lt;/section&gt;</t>
 <t tx="40323250.20151124123610.8">&lt;section&gt;
 &lt;p&gt;
 @others
@@ -197,6 +199,37 @@ Summary: 導入 notebook 內容
 @others
 &lt;/section&gt;</t>
 <t tx="ahshoe.20161116162945.2">&lt;h3&gt;內容&lt;/h3&gt;</t>
+<t tx="ahshoe.20161116163633.1">&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;</t>
+<t tx="ahshoe.20161116163650.1">&lt;h3&gt;專題題目 : &lt;/h3&gt;</t>
+<t tx="ahshoe.20161116163706.1">&lt;h4&gt;組員 : 李冠興&lt;/h4&gt;
+&lt;h4&gt;張元&lt;/h4&gt;
+&lt;h4&gt;張立昇&lt;/h4&gt;
+&lt;h4&gt;詹偉志&lt;/h4&gt;</t>
+<t tx="ahshoe.20161116163835.1">&lt;br&gt;
+&lt;br&gt;</t>
+<t tx="ahshoe.20161116163854.1">&lt;h4&gt;指導老師 : 嚴家銘&lt;/h4&gt;</t>
+<t tx="ahshoe.20161116164356.1">&lt;section&gt;
+&lt;p&gt;
+@others
+&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20161116164356.2">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="ahshoe.20161116164356.3">&lt;h3&gt;目錄&lt;/h3&gt;</t>
+<t tx="ahshoe.20161116164442.1">&lt;ol&gt;
+@others
+&lt;/ol&gt;</t>
+<t tx="ahshoe.20161116164501.1">&lt;li&gt;
+&lt;h4&gt;Vrep&lt;/h4&gt;
+&lt;p&gt;Vrep&lt;/p&gt;
+&lt;/li&gt;</t>
+<t tx="ahshoe.20161116164540.1">&lt;li&gt;
+&lt;h4&gt;Python Solvespace&lt;/h4&gt;
+&lt;p&gt;Python Solvespace&lt;/p&gt;
+&lt;/li&gt;</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
