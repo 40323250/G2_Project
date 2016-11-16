@@ -38,14 +38,14 @@
 </v>
 <v t="40323250.20151124123610.5" a="E"><vh>div class="reveal"</vh>
 <v t="40323250.20151124123610.6" a="E"><vh>div class="slides"</vh>
-<v t="40323250.20151124123610.7" a="E"><vh>投影封面</vh>
+<v t="40323250.20151124123610.7"><vh>投影封面</vh>
 <v t="ahshoe.20161116163650.1"><vh>專題題目</vh></v>
 <v t="ahshoe.20161116170054.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116163706.1"><vh>組員</vh></v>
 <v t="ahshoe.20161116163835.1"><vh>br</vh></v>
 <v t="ahshoe.20161116163854.1"><vh>指導老師</vh></v>
 </v>
-<v t="ahshoe.20161116164356.1" a="E"><vh>目錄(#contents)</vh>
+<v t="ahshoe.20161116164356.1"><vh>目錄(#contents)</vh>
 <v t="ahshoe.20161116164356.3"><vh>h3</vh></v>
 <v t="ahshoe.20161116170302.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116164442.1" a="E"><vh>ol</vh>
@@ -53,7 +53,7 @@
 <v t="ahshoe.20161116164540.1"><vh>Python Solvespace</vh></v>
 </v>
 </v>
-<v t="40323250.20151124123610.8" a="E"><vh>Vrep(#vrep)</vh>
+<v t="40323250.20151124123610.8"><vh>Vrep(#vrep)</vh>
 <v t="40323250.20151124123610.9" a="E"><vh>章節首</vh>
 <v t="ahshoe.20161116162923.1"><vh>h3</vh></v>
 <v t="ahshoe.20161116210624.1"><vh>hr</vh></v>
@@ -71,18 +71,29 @@
 </v>
 </v>
 <v t="40323250.20151124123610.13" a="E"><vh>Python Solvespace(#solvespace)</vh>
-<v t="ahshoe.20161116162630.1" a="E"><vh>章節首</vh>
+<v t="ahshoe.20161116162630.1"><vh>章節首</vh>
 <v t="ahshoe.20161116162717.1"><vh>h3</vh></v>
 <v t="ahshoe.20161116162756.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116162802.1"><vh>p</vh></v>
+<v t="ahshoe.20161116213135.1"><vh>img</vh></v>
 </v>
-<v t="ahshoe.20161116162135.1" a="E"><vh>概念啟發</vh>
+<v t="ahshoe.20161116162135.1" a="E"><vh>Solvespace 介紹</vh>
 <v t="ahshoe.20161116162349.1"><vh>h3</vh></v>
 <v t="ahshoe.20161116162432.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116162450.1"><vh>p</vh></v>
 </v>
-<v t="ahshoe.20161116204304.1" a="E"><vh>Solvespace範例</vh>
-<v t="ahshoe.20161116204359.1"><vh>p</vh></v>
+<v t="ahshoe.20161116204304.1"><vh>Solvespace介面</vh>
+<v t="ahshoe.20161116204359.1"><vh>img</vh></v>
+</v>
+<v t="ahshoe.20161116213530.1" a="E"><vh>概念啟發</vh>
+<v t="ahshoe.20161116213542.1"><vh>h3</vh></v>
+<v t="ahshoe.20161116213620.1"><vh>hr</vh></v>
+<v t="ahshoe.20161116213632.1"><vh>p</vh></v>
+</v>
+<v t="ahshoe.20161116213806.1" a="E"><vh>轉為Python-解說</vh>
+<v t="ahshoe.20161116213955.1"><vh>h3</vh></v>
+<v t="ahshoe.20161116214001.1"><vh>hr</vh></v>
+<v t="ahshoe.20161116213912.1"><vh>p</vh></v>
 </v>
 </v>
 <v t="40323250.20151124123610.14"><vh>STL(#stl)</vh>
@@ -173,7 +184,7 @@ Summary: 導入 notebook 內容
 <t tx="ahshoe.20161116162349.1">&lt;h3&gt;Solvespace 簡介&lt;/h3&gt;</t>
 <t tx="ahshoe.20161116162432.1">&lt;hr&gt;</t>
 <t tx="ahshoe.20161116162450.1">&lt;p class="article"&gt;
-SolveSpace 是一款開源的 2D / 3D 電腦輔助設計繪圖軟體，從 2008 年釋出第一個版本，相容於 Windows / Mac / Linux 三個平台。
+SolveSpace 是一款開源的 2D / 3D 電腦輔助設計繪圖（CAD）軟體，從 2008 年釋出第一個版本，相容於 Windows / Mac / Linux 三個平台。
 &lt;br&gt;&lt;br&gt;
 有著體積小、執行快速、免費，且不用安裝的特性，支援 STEP 或 STL 開啟，或輸出成 DXF 、 PDF 、 SVG 等開放格式，也有自己的文字式格式 「*.slvs」 。
 &lt;br&gt;&lt;br&gt;
@@ -272,9 +283,7 @@ Reveal.initialize({
 <t tx="ahshoe.20161116204304.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
-<t tx="ahshoe.20161116204359.1">&lt;p class="article"&gt;
-&lt;img src="g2/Python_solvespace/solvespace_pre.jpg" weight="500"&gt;
-&lt;/p&gt;</t>
+<t tx="ahshoe.20161116204359.1">&lt;img src="g2/Python_solvespace/slvs_demo.jpg" width="100%"&gt;</t>
 <t tx="ahshoe.20161116210624.1">&lt;hr&gt;</t>
 <t tx="ahshoe.20161116210634.1">&lt;p&gt;
 介紹字樣
@@ -287,6 +296,31 @@ Reveal.initialize({
 <t tx="ahshoe.20161116210931.1">&lt;p class="article"&gt;
 內文
 &lt;/p&gt;</t>
+<t tx="ahshoe.20161116213135.1">&lt;img src="g2/Python_solvespace/solvespace_pre.jpg" width="40%"&gt;</t>
+<t tx="ahshoe.20161116213530.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="ahshoe.20161116213542.1">&lt;h3&gt;概念啟發&lt;/h3&gt;</t>
+<t tx="ahshoe.20161116213620.1">&lt;hr&gt;</t>
+<t tx="ahshoe.20161116213632.1">&lt;p class="article"&gt;
+Solvespace 在繪圖程式本身外還附帶一個名為 CDemo 的小執行檔，是利用 Solvespace 的原始碼編譯出來的。
+&lt;br&gt;&lt;br&gt;
+可以利用此外部程式呼叫 Solvespace 的程式庫 `libslvs.dll` 進行 2D 或是 3D 的解題運算，而無須啟動 Solvespace 。
+&lt;br&gt;&lt;br&gt;
+CDemo 的概念是能夠讓外部程式使用 Solvespace 的功能，無論是利用其解開最大行程、干涉位置，都能讓應用程式免去您需要親自使用 CAD 軟體解題的困擾。
+&lt;/p&gt;</t>
+<t tx="ahshoe.20161116213806.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="ahshoe.20161116213912.1">&lt;p class="article"&gt;
+CDemo 為 C 語言編譯而成，使用的 Solvespace 程式庫則是C++編譯的，在運算和使用上固然快速，但活用性較局限。
+&lt;br&gt;&lt;br&gt;
+Python 語言擁有大量自定義模組、易讀的函式，並且在網際執行方面比C語言多一片天，若將 Solvespace 程式庫轉換使用，將會使這些 Python 程式擁有線上解題的能力，在機械設計方面更是方便許多。
+&lt;br&gt;&lt;br&gt;
+在 Python 的連結庫中，「*.pyd」和 Windows 中 C 語言的動態載入庫「*.dll」相仿；「*.so」則是大部分開放式作業系統（如為人熟知的 Ubuntu）使用的。「*.so」的優點是利於共享資料，執行檔與程式庫分離，更新函式庫更為方便。
+&lt;/p&gt;</t>
+<t tx="ahshoe.20161116213955.1">&lt;h3&gt;轉為 Python 語言&lt;/h3&gt;</t>
+<t tx="ahshoe.20161116214001.1">&lt;hr&gt;</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
