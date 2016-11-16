@@ -38,7 +38,7 @@
 </v>
 <v t="40323250.20151124123610.5" a="E"><vh>div class="reveal"</vh>
 <v t="40323250.20151124123610.6" a="E"><vh>div class="slides"</vh>
-<v t="40323250.20151124123610.7"><vh>投影封面</vh>
+<v t="40323250.20151124123610.7" a="E"><vh>投影封面</vh>
 <v t="ahshoe.20161116163650.1"><vh>專題題目</vh></v>
 <v t="ahshoe.20161116170054.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116163706.1"><vh>組員</vh></v>
@@ -53,15 +53,21 @@
 <v t="ahshoe.20161116164540.1"><vh>Python Solvespace</vh></v>
 </v>
 </v>
-<v t="40323250.20151124123610.8"><vh>Vrep(#vrep)</vh>
-<v t="40323250.20151124123610.9"><vh>章節首</vh>
+<v t="40323250.20151124123610.8" a="E"><vh>Vrep(#vrep)</vh>
+<v t="40323250.20151124123610.9" a="E"><vh>章節首</vh>
 <v t="ahshoe.20161116162923.1"><vh>h3</vh></v>
+<v t="ahshoe.20161116210624.1"><vh>hr</vh></v>
+<v t="ahshoe.20161116210634.1"><vh>p</vh></v>
 </v>
-<v t="ahshoe.20161116162940.1"><vh>2</vh>
+<v t="ahshoe.20161116162940.1" a="E"><vh>2</vh>
 <v t="ahshoe.20161116162940.2"><vh>h3</vh></v>
+<v t="ahshoe.20161116210847.1"><vh>hr</vh></v>
+<v t="ahshoe.20161116210854.1"><vh>p</vh></v>
 </v>
-<v t="ahshoe.20161116162945.1"><vh>3</vh>
+<v t="ahshoe.20161116162945.1" a="E"><vh>3</vh>
 <v t="ahshoe.20161116162945.2"><vh>h3</vh></v>
+<v t="ahshoe.20161116210925.1"><vh>hr</vh></v>
+<v t="ahshoe.20161116210931.1"><vh>p</vh></v>
 </v>
 </v>
 <v t="40323250.20151124123610.13" a="E"><vh>Python Solvespace(#solvespace)</vh>
@@ -189,7 +195,8 @@ SolveSpace 是一款開源的 2D / 3D 電腦輔助設計繪圖軟體，從 2008 
 &lt;/section&gt;</t>
 <t tx="ahshoe.20161116162945.2">&lt;h3&gt;內容&lt;/h3&gt;</t>
 <t tx="ahshoe.20161116163650.1">&lt;h3&gt;專題題目&lt;/h3&gt;</t>
-<t tx="ahshoe.20161116163706.1">&lt;h4&gt;組員 : 李冠興&lt;/h4&gt;
+<t tx="ahshoe.20161116163706.1">&lt;h4 style="font-weight:bold"&gt;組員&lt;/h4&gt;
+&lt;h4&gt;李冠興&lt;/h4&gt;
 &lt;h4&gt;張元&lt;/h4&gt;
 &lt;h4&gt;張立昇&lt;/h4&gt;
 &lt;h4&gt;詹偉志&lt;/h4&gt;</t>
@@ -267,6 +274,18 @@ Reveal.initialize({
 &lt;/section&gt;</t>
 <t tx="ahshoe.20161116204359.1">&lt;p class="article"&gt;
 &lt;img src="g2/Python_solvespace/solvespace_pre.jpg" weight="500"&gt;
+&lt;/p&gt;</t>
+<t tx="ahshoe.20161116210624.1">&lt;hr&gt;</t>
+<t tx="ahshoe.20161116210634.1">&lt;p&gt;
+介紹字樣
+&lt;/p&gt;</t>
+<t tx="ahshoe.20161116210847.1">&lt;hr&gt;</t>
+<t tx="ahshoe.20161116210854.1">&lt;p class="article"&gt;
+內文
+&lt;/p&gt;</t>
+<t tx="ahshoe.20161116210925.1">&lt;hr&gt;</t>
+<t tx="ahshoe.20161116210931.1">&lt;p class="article"&gt;
+內文
 &lt;/p&gt;</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
