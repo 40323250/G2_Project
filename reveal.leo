@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
-<?xml-stylesheet ekr_test ?>
 <leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
 <globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
@@ -14,10 +13,10 @@
 <v t="amd.20150913232631.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="amd.20150913232631.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="amd.20150919102739.1"><vh>專案架構</vh>
+<v t="amd.20150919102739.1" a="E"><vh>專案架構</vh>
 <v t="amd.20150919113520.1"><vh>@edit .gitignore</vh></v>
 </v>
-<v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh>
+<v t="amd.20150919113957.1" a="E"><vh>以下為 pelican 文章</vh>
 <v t="amd.20150919124128.1"><vh>@button user pelican</vh></v>
 <v t="amd.20150919114010.1" a="E"><vh>@path pelican</vh>
 <v t="amd.20151006130205.1"><vh>edit publishconf.py</vh></v>
@@ -34,13 +33,30 @@
 <v t="40323250.20151124123610.5" a="E"><vh>div class="reveal"</vh>
 <v t="40323250.20151124123610.6" a="E"><vh>div class="slides"</vh>
 <v t="40323250.20151124123610.7"><vh>投影封面</vh></v>
-<v t="40323250.20151124123610.8"><vh>投影頁面2 </vh>
-<v t="40323250.20151124123610.9"><vh>1</vh></v>
-<v t="40323250.20151124123610.10"><vh>2</vh></v>
-<v t="40323250.20151124123610.11"><vh>3</vh></v>
+<v t="40323250.20151124123610.8" a="E"><vh>第一部份</vh>
+<v t="40323250.20151124123610.9"><vh>1</vh>
+<v t="ahshoe.20161116162923.1"><vh>h3</vh></v>
 </v>
-<v t="40323250.20151124123610.13"><vh>投影頁面3</vh></v>
-<v t="40323250.20151124123610.14"><vh>stl頁面4</vh>
+<v t="ahshoe.20161116162940.1"><vh>2</vh>
+<v t="ahshoe.20161116162940.2"><vh>h3</vh></v>
+</v>
+<v t="ahshoe.20161116162945.1"><vh>3</vh>
+<v t="ahshoe.20161116162945.2"><vh>h3</vh></v>
+</v>
+</v>
+<v t="40323250.20151124123610.13" a="E"><vh>第二部份</vh>
+<v t="ahshoe.20161116162630.1"><vh>Python Solvespace</vh>
+<v t="ahshoe.20161116162717.1"><vh>h3</vh></v>
+<v t="ahshoe.20161116162756.1"><vh>hr</vh></v>
+<v t="ahshoe.20161116162802.1"><vh>p</vh></v>
+</v>
+<v t="ahshoe.20161116162135.1"><vh>概念啟發</vh>
+<v t="ahshoe.20161116162349.1"><vh>h3</vh></v>
+<v t="ahshoe.20161116162432.1"><vh>hr</vh></v>
+<v t="ahshoe.20161116162450.1"><vh>p</vh></v>
+</v>
+</v>
+<v t="40323250.20151124123610.14"><vh>stl部份</vh>
 <v t="leo.20161114164927.1"><vh>1</vh></v>
 <v t="leo.20161114164933.1"><vh>2</vh></v>
 </v>
@@ -58,26 +74,16 @@
 @others
 
 </t>
-<t tx="40323250.20151124123610.10">&lt;section&gt;
-    &lt;h3&gt;內容&lt;/h3&gt;
-&lt;/section&gt;
-				
-</t>
-<t tx="40323250.20151124123610.11">&lt;section&gt;
-   &lt;h3&gt;內容&lt;/h3&gt;
-&lt;/section&gt;
-				
-</t>
 <t tx="40323250.20151124123610.13">&lt;section&gt;
-&lt;h3&gt;內容&lt;/h3&gt;
-&lt;/section&gt;
-				
-</t>
+&lt;p&gt;
+@others
+&lt;/p&gt;
+&lt;/section&gt;</t>
 <t tx="40323250.20151124123610.14"> &lt;section&gt;
 &lt;p&gt;
 @others
 &lt;/p&gt;
-				&lt;/section&gt;
+&lt;/section&gt;
 				
 
 </t>
@@ -141,7 +147,6 @@
     &lt;br&gt;
     &lt;br&gt;
     &lt;h4&gt;指導老師 : 嚴家銘&lt;/h4&gt;
-	
 &lt;/section&gt;
 	
 </t>
@@ -149,14 +154,10 @@
 &lt;p&gt;
 @others
 &lt;/p&gt;
-				&lt;/section&gt;
-				
-</t>
+&lt;/section&gt;</t>
 <t tx="40323250.20151124123610.9">&lt;section&gt;
-    &lt;h3&gt;內容&lt;/h3&gt;
-&lt;/section&gt;
-				
-</t>
+@others
+&lt;/section&gt;</t>
 <t tx="40323250.20151124123658.1">@language md
 Title: 2015 計算機程式 Jupyter
 Date: 2015-09-19 21:41
@@ -175,6 +176,27 @@ Summary: 導入 notebook 內容
 
 
 </t>
+<t tx="ahshoe.20161116162135.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="ahshoe.20161116162349.1">&lt;h3&gt;Solvespace 簡介&lt;/h3&gt;</t>
+<t tx="ahshoe.20161116162432.1">&lt;hr&gt;</t>
+<t tx="ahshoe.20161116162450.1">&lt;p&gt;Solvespace&lt;/p&gt;</t>
+<t tx="ahshoe.20161116162630.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="ahshoe.20161116162717.1">&lt;h3&gt;Python Solvespace&lt;/h3&gt;</t>
+<t tx="ahshoe.20161116162756.1">&lt;hr&gt;</t>
+<t tx="ahshoe.20161116162802.1">&lt;p&gt;Solver of Solve Space in Python 3 module&lt;/p&gt;</t>
+<t tx="ahshoe.20161116162923.1">&lt;h3&gt;內容&lt;/h3&gt;</t>
+<t tx="ahshoe.20161116162940.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="ahshoe.20161116162940.2">&lt;h3&gt;內容&lt;/h3&gt;</t>
+<t tx="ahshoe.20161116162945.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="ahshoe.20161116162945.2">&lt;h3&gt;內容&lt;/h3&gt;</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
