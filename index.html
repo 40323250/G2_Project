@@ -132,7 +132,7 @@ SolveSpace 是一款開源的 2D / 3D 電腦輔助設計繪圖（CAD）軟體，
 <p class="article">
 Solvespace 在繪圖程式本身外還附帶一個名為 CDemo 的小執行檔，是利用 Solvespace 的原始碼編譯出來的。
 <br><br>
-可以利用此外部程式呼叫 Solvespace 的程式庫 `libslvs.dll` 進行 2D 或是 3D 的解題運算，而無須啟動 Solvespace 。
+可以利用此外部程式呼叫 Solvespace 的程式庫「libslvs.dll」進行 2D 或是 3D 的解題運算，而無須啟動 Solvespace 。
 <br><br>
 CDemo 的概念是能夠讓外部程式使用 Solvespace 的功能，無論是利用其解開最大行程、干涉位置，都能讓應用程式免去您需要親自使用 CAD 軟體解題的困擾。
 </p>
@@ -147,6 +147,18 @@ Python 語言擁有大量自定義模組、易讀的函式，並且在網際執�
 <br><br>
 在 Python 的連結庫中，「*.pyd」和 Windows 中 C 語言的動態載入庫「*.dll」相仿；「*.so」則是大部分開放式作業系統（如為人熟知的 Ubuntu）使用的。「*.so」的優點是利於共享資料，執行檔與程式庫分離，更新函式庫更為方便。
 </p>
+</section>
+<section>
+<h3>轉為 Python 語言</h3>
+<hr>
+<p class="article">
+Python-Solvespace 的製作概念是利用 SWIG 軟體製作一個 C++ 至 Python 的端口，使任何一個使用 Anaconda 3 (Python 3.5) 的 Python 程式都能夠使用 Solvespace 的函式庫。
+<br><br>
+當 Solvespace 的函式轉換成 Python 介面時，也希望保持這個語言一貫清爽易懂的名稱，因此特別重新分類了這些指令的名稱及用法。
+</p>
+</section>
+<section>
+<img src="g2/Python_solvespace/slvs_demo.jpg" width="100%">
 </section>
 </section>
 <section>

@@ -95,6 +95,14 @@
 <v t="ahshoe.20161116214001.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116213912.1"><vh>p</vh></v>
 </v>
+<v t="ahshoe.20161117200156.1"><vh>轉為Python-想法</vh>
+<v t="ahshoe.20161117200410.1"><vh>h3</vh></v>
+<v t="ahshoe.20161117201508.1"><vh>hr</vh></v>
+<v t="ahshoe.20161117201519.1"><vh>p</vh></v>
+</v>
+<v t="ahshoe.20161117202158.1" a="E"><vh>流程圖</vh>
+<v t="ahshoe.20161117202310.1"><vh>img</vh></v>
+</v>
 </v>
 <v t="40323250.20151124123610.14"><vh>STL(#stl)</vh>
 <v t="leo.20161114164927.1"><vh>1</vh></v>
@@ -305,7 +313,7 @@ Reveal.initialize({
 <t tx="ahshoe.20161116213632.1">&lt;p class="article"&gt;
 Solvespace 在繪圖程式本身外還附帶一個名為 CDemo 的小執行檔，是利用 Solvespace 的原始碼編譯出來的。
 &lt;br&gt;&lt;br&gt;
-可以利用此外部程式呼叫 Solvespace 的程式庫 `libslvs.dll` 進行 2D 或是 3D 的解題運算，而無須啟動 Solvespace 。
+可以利用此外部程式呼叫 Solvespace 的程式庫「libslvs.dll」進行 2D 或是 3D 的解題運算，而無須啟動 Solvespace 。
 &lt;br&gt;&lt;br&gt;
 CDemo 的概念是能夠讓外部程式使用 Solvespace 的功能，無論是利用其解開最大行程、干涉位置，都能讓應用程式免去您需要親自使用 CAD 軟體解題的困擾。
 &lt;/p&gt;</t>
@@ -321,6 +329,20 @@ Python 語言擁有大量自定義模組、易讀的函式，並且在網際執�
 &lt;/p&gt;</t>
 <t tx="ahshoe.20161116213955.1">&lt;h3&gt;轉為 Python 語言&lt;/h3&gt;</t>
 <t tx="ahshoe.20161116214001.1">&lt;hr&gt;</t>
+<t tx="ahshoe.20161117200156.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="ahshoe.20161117200410.1">&lt;h3&gt;轉為 Python 語言&lt;/h3&gt;</t>
+<t tx="ahshoe.20161117201508.1">&lt;hr&gt;</t>
+<t tx="ahshoe.20161117201519.1">&lt;p class="article"&gt;
+Python-Solvespace 的製作概念是利用 SWIG 軟體製作一個 C++ 至 Python 的端口，使任何一個使用 Anaconda 3 (Python 3.5) 的 Python 程式都能夠使用 Solvespace 的函式庫。
+&lt;br&gt;&lt;br&gt;
+當 Solvespace 的函式轉換成 Python 介面時，也希望保持這個語言一貫清爽易懂的名稱，因此特別重新分類了這些指令的名稱及用法。
+&lt;/p&gt;</t>
+<t tx="ahshoe.20161117202158.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="ahshoe.20161117202310.1">&lt;img src="g2/Python_solvespace/slvs_demo.jpg" width="100%"&gt;</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
