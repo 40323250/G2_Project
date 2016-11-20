@@ -53,31 +53,45 @@
 <v t="ahshoe.20161116164540.1"><vh>Python Solvespace</vh></v>
 </v>
 </v>
-<v t="40323250.20151124123610.8"><vh>Vrep(#vrep)</vh>
-<v t="40323250.20151124123610.9" a="E"><vh>章節首</vh>
+<v t="40323250.20151124123610.8" a="E"><vh>Vrep(#vrep)</vh>
+<v t="40323250.20151124123610.9" a="E"><vh>V-rep介紹</vh>
 <v t="ahshoe.20161116162923.1"><vh>h3</vh></v>
 <v t="ahshoe.20161116210624.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116210634.1"><vh>p</vh></v>
+<v t="544.20161120172746.1"><vh>img</vh></v>
 </v>
-<v t="ahshoe.20161116162940.1" a="E"><vh>2</vh>
+<v t="ahshoe.20161116162940.1" a="E"><vh>V-rep使用說明</vh>
 <v t="ahshoe.20161116162940.2"><vh>h3</vh></v>
 <v t="ahshoe.20161116210847.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116210854.1"><vh>p</vh></v>
+<v t="544.20161120181552.1"><vh>img</vh></v>
 </v>
-<v t="ahshoe.20161116162945.1" a="E"><vh>3</vh>
+<v t="ahshoe.20161116162945.1" a="E"><vh>V-rep使用說明</vh>
 <v t="ahshoe.20161116162945.2"><vh>h3</vh></v>
 <v t="ahshoe.20161116210925.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116210931.1"><vh>p</vh></v>
+<v t="544.20161120192859.1"><vh>img</vh></v>
+</v>
+<v t="544.20161120201425.1" a="E"><vh>V-rep使用說明</vh>
+<v t="544.20161120201425.2"><vh>h3</vh></v>
+<v t="544.20161120201425.3"><vh>hr</vh></v>
+<v t="544.20161120201425.4"><vh>p</vh></v>
+<v t="544.20161120201425.5"><vh>vedio</vh></v>
+</v>
+<v t="544.20161120203024.1" a="E"><vh>V-rep使用說明</vh>
+<v t="544.20161120203024.2"><vh>h3</vh></v>
+<v t="544.20161120203024.3"><vh>hr</vh></v>
+<v t="544.20161120203024.4"><vh>p</vh></v>
 </v>
 </v>
-<v t="40323250.20151124123610.13" a="E"><vh>Python Solvespace(#solvespace)</vh>
-<v t="ahshoe.20161116162630.1"><vh>章節首</vh>
+<v t="40323250.20151124123610.13"><vh>Python Solvespace(#solvespace)</vh>
+<v t="ahshoe.20161116162630.1" a="E"><vh>章節首</vh>
 <v t="ahshoe.20161116162717.1"><vh>h3</vh></v>
 <v t="ahshoe.20161116162756.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116162802.1"><vh>p</vh></v>
 <v t="ahshoe.20161116213135.1"><vh>img</vh></v>
 </v>
-<v t="ahshoe.20161116162135.1" a="E"><vh>Solvespace 介紹</vh>
+<v t="ahshoe.20161116162135.1"><vh>Solvespace 介紹</vh>
 <v t="ahshoe.20161116162349.1"><vh>h3</vh></v>
 <v t="ahshoe.20161116162432.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116162450.1"><vh>p</vh></v>
@@ -85,28 +99,27 @@
 <v t="ahshoe.20161116204304.1"><vh>Solvespace介面</vh>
 <v t="ahshoe.20161116204359.1"><vh>img</vh></v>
 </v>
-<v t="ahshoe.20161116213530.1" a="E"><vh>概念啟發</vh>
+<v t="ahshoe.20161116213530.1"><vh>概念啟發</vh>
 <v t="ahshoe.20161116213542.1"><vh>h3</vh></v>
 <v t="ahshoe.20161116213620.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116213632.1"><vh>p</vh></v>
 </v>
-<v t="ahshoe.20161116213806.1" a="E"><vh>轉為Python-解說</vh>
+<v t="ahshoe.20161116213806.1"><vh>轉為Python-解說</vh>
 <v t="ahshoe.20161116213955.1"><vh>h3</vh></v>
 <v t="ahshoe.20161116214001.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116213912.1"><vh>p</vh></v>
 </v>
-<v t="ahshoe.20161117200156.1"><vh>轉為Python-想法</vh>
+<v t="ahshoe.20161117200156.1" a="E"><vh>轉為Python-想法</vh>
 <v t="ahshoe.20161117200410.1"><vh>h3</vh></v>
 <v t="ahshoe.20161117201508.1"><vh>hr</vh></v>
 <v t="ahshoe.20161117201519.1"><vh>p</vh></v>
 </v>
-<v t="ahshoe.20161117202158.1" a="E"><vh>流程圖</vh>
+<v t="ahshoe.20161117202158.1"><vh>流程圖</vh>
 <v t="ahshoe.20161117202310.1"><vh>img</vh></v>
 </v>
 </v>
-<v t="40323250.20151124123610.14"><vh>STL(#stl)</vh>
+<v t="40323250.20151124123610.14" a="E"><vh>STL(#stl)</vh>
 <v t="leo.20161114164927.1"><vh>1</vh></v>
-<v t="leo.20161114164933.1"><vh>2</vh></v>
 </v>
 </v>
 </v>
@@ -186,6 +199,36 @@ Summary: 導入 notebook 內容
 
 
 </t>
+<t tx="544.20161120172746.1">&lt;img src="g2/vrep.jpg" width="55%"&gt;
+</t>
+<t tx="544.20161120181552.1">&lt;img src="g2/subrelative.png" width="85%"&gt;
+</t>
+<t tx="544.20161120192859.1">&lt;img src="g2/solvespace_tutorial.gif" width="30%"&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;img src="g2/solvespace_successful.gif" width="35%"&gt;
+</t>
+<t tx="544.20161120201425.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="544.20161120201425.2">&lt;h3&gt;V-rep使用說明&lt;/h3&gt;</t>
+<t tx="544.20161120201425.3">&lt;hr&gt;</t>
+<t tx="544.20161120201425.4">&lt;p class="article"&gt;
+透過外界的參數輸入 ,可以模擬訊號輸入
+&lt;br&gt;&lt;br&gt;
+
+
+&lt;/p&gt;</t>
+<t tx="544.20161120201425.5">&lt;iframe width="1024" height="576" src="https://www.youtube.com/embed/y1vbxmeJ4M0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="544.20161120203024.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="544.20161120203024.2">&lt;h3&gt;V-rep使用說明&lt;/h3&gt;</t>
+<t tx="544.20161120203024.3">&lt;hr&gt;</t>
+<t tx="544.20161120203024.4">&lt;p class="article"&gt;
+&lt;br&gt;
+&lt;iframe width="1024" height="576" src="https://www.youtube.com/embed/Nsgt8YPSDpU" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;/p&gt;</t>
 <t tx="ahshoe.20161116162135.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
@@ -204,15 +247,15 @@ SolveSpace 是一款開源的 2D / 3D 電腦輔助設計繪圖（CAD）軟體，
 <t tx="ahshoe.20161116162717.1">&lt;h3&gt;Python Solvespace&lt;/h3&gt;</t>
 <t tx="ahshoe.20161116162756.1">&lt;hr&gt;</t>
 <t tx="ahshoe.20161116162802.1">&lt;p&gt;使用 Python 3 的 Solve Space 模組。&lt;/p&gt;</t>
-<t tx="ahshoe.20161116162923.1">&lt;h3&gt;章節首&lt;/h3&gt;</t>
+<t tx="ahshoe.20161116162923.1">&lt;h3&gt;V-rep&lt;/h3&gt;</t>
 <t tx="ahshoe.20161116162940.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
-<t tx="ahshoe.20161116162940.2">&lt;h3&gt;內容&lt;/h3&gt;</t>
+<t tx="ahshoe.20161116162940.2">&lt;h3&gt;V-rep使用說明&lt;/h3&gt;</t>
 <t tx="ahshoe.20161116162945.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
-<t tx="ahshoe.20161116162945.2">&lt;h3&gt;內容&lt;/h3&gt;</t>
+<t tx="ahshoe.20161116162945.2">&lt;h3&gt;V-rep使用說明&lt;/h3&gt;</t>
 <t tx="ahshoe.20161116163650.1">&lt;h3&gt;專題題目&lt;/h3&gt;</t>
 <t tx="ahshoe.20161116163706.1">&lt;h4 style="font-weight:bold"&gt;組員&lt;/h4&gt;
 &lt;h4&gt;李冠興&lt;/h4&gt;
@@ -293,16 +336,22 @@ Reveal.initialize({
 &lt;/section&gt;</t>
 <t tx="ahshoe.20161116204359.1">&lt;img src="g2/Python_solvespace/slvs_demo.jpg" width="100%"&gt;</t>
 <t tx="ahshoe.20161116210624.1">&lt;hr&gt;</t>
-<t tx="ahshoe.20161116210634.1">&lt;p&gt;
-介紹字樣
+<t tx="ahshoe.20161116210634.1">&lt;p class="article"&gt;
+V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系統或他的子系統(如感測器或機械結構) 
+&lt;br&gt;&lt;br&gt;
+可用在遠端監控、硬體控制、快速原型驗證、演算法開發與參數調整、安全性檢查、機器人教學與工廠自動化模擬等各種領域。
 &lt;/p&gt;</t>
 <t tx="ahshoe.20161116210847.1">&lt;hr&gt;</t>
 <t tx="ahshoe.20161116210854.1">&lt;p class="article"&gt;
-內文
+在模擬任何物件之前都必須引入圖檔 ,並在內部拆解開來重新組裝(建立子屬關係) ,讓環境能辨別出實體的各部位零件
 &lt;/p&gt;</t>
 <t tx="ahshoe.20161116210925.1">&lt;hr&gt;</t>
 <t tx="ahshoe.20161116210931.1">&lt;p class="article"&gt;
-內文
+子屬關係主要是針對各部位的旋轉軸(主動與從動關係)
+做設定 ,之後再依照個人需求 ,設定環境下的物理性質 ,最後再輸入參數來使其作動
+&lt;br&gt;&lt;br&gt;
+下方為範例  (左為預期 , 右為模擬)
+&lt;br&gt;&lt;br&gt;
 &lt;/p&gt;</t>
 <t tx="ahshoe.20161116213135.1">&lt;img src="g2/Python_solvespace/solvespace_pre.jpg" width="40%"&gt;</t>
 <t tx="ahshoe.20161116213530.1">&lt;section&gt;
@@ -496,9 +545,6 @@ NOTEBOOK_DIR = 'notebook'
 
 </t>
 <t tx="leo.20161114164927.1">&lt;section&gt;
-&lt;script src="https://embed.github.com/view/3d/40323250/Zhan-Wei-Zhi/gh-pages/g2/printer.stl" width="300"height="300"&gt;&lt;/script&gt;
-&lt;/section&gt;</t>
-<t tx="leo.20161114164933.1">&lt;section&gt;
 &lt;script src="https://embed.github.com/view/3d/40323250/Zhan-Wei-Zhi/gh-pages/g2/printer_robot_arm.stl" width="300"height="300"&gt;&lt;/script&gt;
 &lt;/section&gt;</t>
 </tnodes>
