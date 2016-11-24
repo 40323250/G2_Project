@@ -84,8 +84,8 @@
 <v t="544.20161120203024.4"><vh>p</vh></v>
 </v>
 </v>
-<v t="40323250.20151124123610.13"><vh>Python Solvespace(#solvespace)</vh>
-<v t="ahshoe.20161116162630.1" a="E"><vh>章節首</vh>
+<v t="40323250.20151124123610.13" a="E"><vh>Python Solvespace(#solvespace)</vh>
+<v t="ahshoe.20161116162630.1"><vh>章節首</vh>
 <v t="ahshoe.20161116162717.1"><vh>h3</vh></v>
 <v t="ahshoe.20161116162756.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116162802.1"><vh>p</vh></v>
@@ -109,13 +109,31 @@
 <v t="ahshoe.20161116214001.1"><vh>hr</vh></v>
 <v t="ahshoe.20161116213912.1"><vh>p</vh></v>
 </v>
-<v t="ahshoe.20161117200156.1" a="E"><vh>轉為Python-想法</vh>
-<v t="ahshoe.20161117200410.1"><vh>h3</vh></v>
-<v t="ahshoe.20161117201508.1"><vh>hr</vh></v>
+<v t="ahshoe.20161117200156.1"><vh>轉為Python-想法</vh>
 <v t="ahshoe.20161117201519.1"><vh>p</vh></v>
 </v>
 <v t="ahshoe.20161117202158.1"><vh>流程圖</vh>
 <v t="ahshoe.20161117202310.1"><vh>img</vh></v>
+</v>
+<v t="ahshoe.20161124115836.1"><vh>用途 - Jupyter</vh>
+<v t="ahshoe.20161124115935.1"><vh>h3</vh></v>
+<v t="ahshoe.20161124120001.1"><vh>hr</vh></v>
+<v t="ahshoe.20161124120011.1"><vh>p</vh></v>
+</v>
+<v t="ahshoe.20161124115858.1"><vh>用途 - PyQt</vh>
+<v t="ahshoe.20161124120029.1"><vh>h3</vh></v>
+<v t="ahshoe.20161124120117.1"><vh>hr</vh></v>
+<v t="ahshoe.20161124120128.1"><vh>p</vh></v>
+</v>
+<v t="ahshoe.20161124121738.1" a="E"><vh>Pyslvs</vh>
+<v t="ahshoe.20161124121754.1"><vh>h3</vh></v>
+<v t="ahshoe.20161124121834.1"><vh>hr</vh></v>
+<v t="ahshoe.20161124121843.1"><vh>p</vh></v>
+</v>
+<v t="ahshoe.20161124123416.1"><vh>Pyslvs 展示影片（待製）</vh>
+<v t="ahshoe.20161124123517.1"><vh>h3</vh></v>
+<v t="ahshoe.20161124123551.1"><vh>hr</vh></v>
+<v t="ahshoe.20161124123501.1"><vh>img</vh></v>
 </v>
 </v>
 <v t="40323250.20151124123610.14" a="E"><vh>STL(#stl)</vh>
@@ -381,17 +399,55 @@ Python 語言擁有大量自定義模組、易讀的函式，並且在網際執�
 <t tx="ahshoe.20161117200156.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
-<t tx="ahshoe.20161117200410.1">&lt;h3&gt;轉為 Python 語言&lt;/h3&gt;</t>
-<t tx="ahshoe.20161117201508.1">&lt;hr&gt;</t>
 <t tx="ahshoe.20161117201519.1">&lt;p class="article"&gt;
-Python-Solvespace 的製作概念是利用 SWIG 軟體製作一個 C++ 至 Python 的端口，使任何一個使用 Anaconda 3 (Python 3.5) 的 Python 程式都能夠使用 Solvespace 的函式庫。
+Python-Solvespace 的製作概念是利用 SWIG 軟體製作一個 C++ 至 Python 的端口，重新編譯了 Solvespace 的程式庫，使任何一個使用 Anaconda 3 (Python 3.5) 的 Python 程式都能夠使用 Solvespace 的程式庫。
+&lt;br&gt;&lt;br&gt;
+這個程式庫也不是使用固定的軟體版本，為開放原始碼的方式編譯。使用者使用哪種作業系統、編譯工具、Python 3 版本，都能適用新的工具來運作。
 &lt;br&gt;&lt;br&gt;
 當 Solvespace 的函式轉換成 Python 介面時，也希望保持這個語言一貫清爽易懂的名稱，因此特別重新分類了這些指令的名稱及用法。
 &lt;/p&gt;</t>
 <t tx="ahshoe.20161117202158.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
-<t tx="ahshoe.20161117202310.1">&lt;img src="g2/Python_solvespace/slvs_demo.jpg" width="100%"&gt;</t>
+<t tx="ahshoe.20161117202310.1">&lt;img src="g2/Python_solvespace/Solvespace_make.png" width="100%"&gt;</t>
+<t tx="ahshoe.20161124115836.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="ahshoe.20161124115858.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="ahshoe.20161124115935.1">&lt;h3&gt;Jupyter&lt;/h3&gt;</t>
+<t tx="ahshoe.20161124120001.1">&lt;hr&gt;</t>
+<t tx="ahshoe.20161124120011.1">&lt;p class="article"&gt;
+
+&lt;/p&gt;</t>
+<t tx="ahshoe.20161124120029.1">&lt;h3&gt;圖形介面程式（IDE）&lt;/h3&gt;</t>
+<t tx="ahshoe.20161124120117.1">&lt;hr&gt;</t>
+<t tx="ahshoe.20161124120128.1">&lt;p class="article"&gt;
+Python 的近端應用就是使用 PyQt 來寫一個機械設計相關的應用程式。
+&lt;br&gt;&lt;br&gt;
+Qt 是一個跨平台的 C++ 應用程式開發框架，使用標準的 C++ 和特殊的代碼生成擴充功能。這個龐大的架構亦有支援大部分的物件導向語言，例如 Java 的 QtJambi、Lua 的 QtLua、Python 的 PyQt 等等。
+&lt;br&gt;&lt;br&gt;
+應用我們新 Kernel 的方式就是設計一款解決 2D 連桿約束的圖形介面軟體。
+&lt;/p&gt;</t>
+<t tx="ahshoe.20161124121738.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="ahshoe.20161124121754.1">&lt;h3&gt;Pyslvs (pySolvespace)&lt;/h3&gt;</t>
+<t tx="ahshoe.20161124121834.1">&lt;hr&gt;</t>
+<t tx="ahshoe.20161124121843.1">&lt;p class="article"&gt;
+這個應用程式從 2016 年 9 月起開始開發，採用 AGPL-3.0 或以上的自由軟體授權。
+&lt;br&gt;&lt;br&gt;
+設計上盡量偏向機械工程人士使用的 CAD 軟體，以簡單的步驟設計出需要的連桿尺寸，並轉為公用的 2D 或 3D 圖檔，供其他 CAD 軟體編輯。
+&lt;br&gt;&lt;br&gt;
+2D 檔案格式採用公用格式 DXF，使用 Python 的 dxfwrite 模組（MIT License）生成。而 3D 的檔案格式採用 STL，使用 Python 的 python-stl 模組（MIT License）生成。
+&lt;/p&gt;</t>
+<t tx="ahshoe.20161124123416.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="ahshoe.20161124123501.1"></t>
+<t tx="ahshoe.20161124123517.1">&lt;h3&gt;Pyslvs 展示影片&lt;/h3&gt;</t>
+<t tx="ahshoe.20161124123551.1">&lt;hr&gt;</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/

@@ -180,16 +180,49 @@ Python 語言擁有大量自定義模組、易讀的函式，並且在網際執�
 </p>
 </section>
 <section>
-<h3>轉為 Python 語言</h3>
-<hr>
 <p class="article">
-Python-Solvespace 的製作概念是利用 SWIG 軟體製作一個 C++ 至 Python 的端口，使任何一個使用 Anaconda 3 (Python 3.5) 的 Python 程式都能夠使用 Solvespace 的函式庫。
+Python-Solvespace 的製作概念是利用 SWIG 軟體製作一個 C++ 至 Python 的端口，重新編譯了 Solvespace 的程式庫，使任何一個使用 Anaconda 3 (Python 3.5) 的 Python 程式都能夠使用 Solvespace 的程式庫。
+<br><br>
+這個程式庫也不是使用固定的軟體版本，為開放原始碼的方式編譯。使用者使用哪種作業系統、編譯工具、Python 3 版本，都能適用新的工具來運作。
 <br><br>
 當 Solvespace 的函式轉換成 Python 介面時，也希望保持這個語言一貫清爽易懂的名稱，因此特別重新分類了這些指令的名稱及用法。
 </p>
 </section>
 <section>
-<img src="g2/Python_solvespace/slvs_demo.jpg" width="100%">
+<img src="g2/Python_solvespace/Solvespace_make.png" width="100%">
+</section>
+<section>
+<h3>Jupyter</h3>
+<hr>
+<p class="article">
+
+</p>
+</section>
+<section>
+<h3>圖形介面程式（IDE）</h3>
+<hr>
+<p class="article">
+Python 的近端應用就是使用 PyQt 來寫一個機械設計相關的應用程式。
+<br><br>
+Qt 是一個跨平台的 C++ 應用程式開發框架，使用標準的 C++ 和特殊的代碼生成擴充功能。這個龐大的架構亦有支援大部分的物件導向語言，例如 Java 的 QtJambi、Lua 的 QtLua、Python 的 PyQt 等等。
+<br><br>
+應用我們新 Kernel 的方式就是設計一款解決 2D 連桿約束的圖形介面軟體。
+</p>
+</section>
+<section>
+<h3>Pyslvs (pySolvespace)</h3>
+<hr>
+<p class="article">
+這個應用程式從 2016 年 9 月起開始開發，採用 AGPL-3.0 或以上的自由軟體授權。
+<br><br>
+設計上盡量偏向機械工程人士使用的 CAD 軟體，以簡單的步驟設計出需要的連桿尺寸，並轉為公用的 2D 或 3D 圖檔，供其他 CAD 軟體編輯。
+<br><br>
+2D 檔案格式採用公用格式 DXF，使用 Python 的 dxfwrite 模組（MIT License）生成。而 3D 的檔案格式採用 STL，使用 Python 的 python-stl 模組（MIT License）生成。
+</p>
+</section>
+<section>
+<h3>Pyslvs 展示影片</h3>
+<hr>
 </section>
 </section>
 <section>
