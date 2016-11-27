@@ -125,7 +125,7 @@
 <v t="ahshoe.20161124120117.1"><vh>hr</vh></v>
 <v t="ahshoe.20161124120128.1"><vh>p</vh></v>
 </v>
-<v t="ahshoe.20161124121738.1" a="E"><vh>Pyslvs</vh>
+<v t="ahshoe.20161124121738.1"><vh>Pyslvs</vh>
 <v t="ahshoe.20161124121754.1"><vh>h3</vh></v>
 <v t="ahshoe.20161124121834.1"><vh>hr</vh></v>
 <v t="ahshoe.20161124121843.1"><vh>p</vh></v>
@@ -134,6 +134,11 @@
 <v t="ahshoe.20161124123517.1"><vh>h3</vh></v>
 <v t="ahshoe.20161124123551.1"><vh>hr</vh></v>
 <v t="ahshoe.20161124123501.1"><vh>img</vh></v>
+</v>
+<v t="ahshoe.20161127202701.1" a="E"><vh>銜接模擬部份</vh>
+<v t="ahshoe.20161127202739.1"><vh>h3</vh></v>
+<v t="ahshoe.20161127202753.1"><vh>hr</vh></v>
+<v t="ahshoe.20161127202838.1"><vh>p</vh></v>
 </v>
 </v>
 <v t="40323250.20151124123610.14" a="E"><vh>STL(#stl)</vh>
@@ -448,6 +453,14 @@ Qt 是一個跨平台的 C++ 應用程式開發框架，使用標準的 C++ 和�
 <t tx="ahshoe.20161124123501.1"></t>
 <t tx="ahshoe.20161124123517.1">&lt;h3&gt;Pyslvs 展示影片&lt;/h3&gt;</t>
 <t tx="ahshoe.20161124123551.1">&lt;hr&gt;</t>
+<t tx="ahshoe.20161127202701.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="ahshoe.20161127202739.1">&lt;h3&gt;Pyslvs 轉檔功能&lt;/h3&gt;</t>
+<t tx="ahshoe.20161127202753.1">&lt;hr&gt;</t>
+<t tx="ahshoe.20161127202838.1">&lt;p class="article"&gt;
+一些轉檔匯入VREP的圖片
+&lt;/p&gt;</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
