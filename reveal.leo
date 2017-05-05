@@ -69,7 +69,7 @@
 </v>
 </v>
 <v t="leo.20170505053249.35" a="E"><vh>3D Printer(#3D printer)_</vh>
-<v t="leo.20170505053249.36"><vh>3D Printer結構介紹</vh>
+<v t="leo.20170505053249.36" a="E"><vh>3D Printer結構介紹</vh>
 <v t="leo.20170505053249.37"><vh>h3</vh></v>
 <v t="leo.20170505053249.38"><vh>hr</vh></v>
 <v t="leo.20170505053249.39"><vh>p</vh></v>
@@ -112,26 +112,26 @@
 <v t="leo.20170505053249.70"><vh>img</vh></v>
 </v>
 </v>
-<v t="leo.20170505053249.71"><vh>V-rep(#v-rep)</vh>
-<v t="leo.20170505053249.72"><vh>V-rep介紹</vh>
+<v t="leo.20170505053249.71" a="E"><vh>V-rep(#v-rep)</vh>
+<v t="leo.20170505053249.72" a="E"><vh>V-rep介紹</vh>
 <v t="leo.20170505053249.73"><vh>h3</vh></v>
 <v t="leo.20170505053249.74"><vh>hr</vh></v>
 <v t="leo.20170505053249.75"><vh>p</vh></v>
 <v t="leo.20170505053249.76"><vh>img</vh></v>
 </v>
-<v t="leo.20170505053249.77"><vh>V-rep使用說明</vh>
+<v t="leo.20170505053249.77" a="E"><vh>V-rep使用說明</vh>
 <v t="leo.20170505053249.78"><vh>h3</vh></v>
 <v t="leo.20170505053249.79"><vh>hr</vh></v>
 <v t="leo.20170505053249.80"><vh>p</vh></v>
 <v t="leo.20170505053249.81"><vh>img</vh></v>
 </v>
-<v t="leo.20170505053249.82"><vh>V-rep使用說明</vh>
+<v t="leo.20170505053249.82" a="E"><vh>V-rep使用說明</vh>
 <v t="leo.20170505053249.83"><vh>h3</vh></v>
 <v t="leo.20170505053249.84"><vh>hr</vh></v>
 <v t="leo.20170505053249.85"><vh>p</vh></v>
 <v t="leo.20170505053249.86"><vh>img</vh></v>
 </v>
-<v t="leo.20170505053249.87"><vh>V-rep使用說明</vh>
+<v t="leo.20170505053249.87" a="E"><vh>V-rep使用說明</vh>
 <v t="leo.20170505053249.88"><vh>h3</vh></v>
 <v t="leo.20170505053249.89"><vh>hr</vh></v>
 <v t="leo.20170505053249.90"><vh>p</vh></v>
@@ -399,7 +399,7 @@ NOTEBOOK_DIR = 'notebook'
 
 }
 #contents .article {
-  color : #FF0000;
+  color : WHITE;
   font-size : 30px;
   text-align : left;
 }
