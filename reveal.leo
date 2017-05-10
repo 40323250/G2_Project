@@ -79,7 +79,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20170505053249.142"><vh>script</vh>
+<v t="leo.20170505053249.142" a="E"><vh>script</vh>
 <v t="leo.20170505053249.143"><vh>啟動 Reveal</vh></v>
 </v>
 </v>
@@ -231,7 +231,7 @@ Summary: 導入 notebook 內容
 &lt;img src="g2/pyslvs/SolveSpace_-_-home-ahshoe-__-_Example__Two_Pairs_Mutiple_Link.slvs_001.png"&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510233945.1">&lt;section&gt;
-&lt;!--Solvespace 部份--&gt;
+&lt;!--Solvespace C++端口編譯流程--&gt;
 &lt;h3&gt;透過 SWIG 轉換為 Python API&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/pyslvs/Solvespace_make.png"&gt;
@@ -438,7 +438,7 @@ NOTEBOOK_DIR = 'notebook'
 &lt;h4&gt;40323218 李冠興&lt;/h4&gt;
 &lt;h4&gt;40323231 張立昇&lt;/h4&gt;
 &lt;h4&gt;40323230 張元&lt;/h4&gt;
-&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
 &lt;h4&gt;指導老師：嚴家銘 教授&lt;/h4&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.140">&lt;section&gt;
@@ -652,8 +652,12 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 &lt;!--主要為「平面連桿模擬」以及「尺寸合成」兩個功能--&gt;
 &lt;h3&gt;Pyslvs&lt;/h3&gt;
 &lt;hr&gt;
-&lt;p&gt;Planar Linkages Simulation&lt;br&gt;Dimensional Synthesis&lt;/p&gt;
 &lt;img src="g2/pyslvs/cover.png"&gt;
+&lt;p&gt;
+Planar Linkages Simulation
+&lt;br&gt;
+Dimensional Synthesis
+&lt;/p&gt;
 &lt;/section&gt;</t>
 </tnodes>
 </leo_file>
