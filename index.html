@@ -9,9 +9,9 @@
 <head>
 <meta charset="utf-8">
 <link rel="icon" href="kmol.ico">
-<title>專題題目</title>
+<title>專題簡報：V-rep 在 Delta 3D Printer 虚實整合模擬上的應用</title>
 <link rel="stylesheet" href="css/reveal.min.css">
-<link rel="stylesheet" href="css/theme/default.css" id="theme">
+<link rel="stylesheet" href="css/theme/serif.css" id="theme">
 <!--增加對於 IE 早期版本的支援 -->
 <!--[if lt IE 9]>
 <script src="lib/js/html5shiv.js"></script>
@@ -30,7 +30,6 @@
 
 }
 #contents .article {
-  color : WHITE;
   font-size : 30px;
   text-align : left;
 }
@@ -66,17 +65,16 @@
 <h4>40323218 李冠興</h4>
 <h4>40323231 張立昇</h4>
 <h4>40323230 張元</h4>
-<br>
-<br>
-<h4>指導老師 : 嚴家銘 教授</h4>
+<br><br>
+<h4>指導老師：嚴家銘 教授</h4>
 </section>
 <section id="contents">
 <section>
-<h3>目錄</h3>
+<h3>3D Printer</h3>
 <hr>
-<h4>3D Printer</h4>
+<h4>3D 列印機</h4>
 <ol>
-<li>3D Printer結構介紹</li>
+<li>3D Printer 結構介紹</li>
 <li>組裝過程</li>
 <li>程式碼介紹</li>
 <li>Cura</li>
@@ -86,9 +84,9 @@
 </ol>
 </section>
 <section>
-<h3>目錄</h3>
+<h3>V-rep</h3>
 <hr>
-<h4>V-rep</h4>
+<h4>動態模擬</h4>
 <ol>
 <li>On Shape 介紹</li>
 <li>STL</li>
@@ -100,9 +98,9 @@
 </ol>
 </section>
 <section>
-<h3>目錄</h3>
+<h3>平面連桿機構模擬及尺寸合成套件開發</h3>
 <hr>
-<h4>平面連桿機構模擬及尺寸合成套件開發</h4>
+<h4>概要</h4>
 <ol>
 <li>使用技術</li>
 <li>平面模擬</li>
@@ -115,7 +113,7 @@
 </section>
 <section id="3DPrinter">
 <section>
-<h3>3D Printer結構介紹</h3>
+<h3>3D Printer 結構介紹</h3>
 <hr>
 <p class="article">
 
@@ -141,9 +139,9 @@
 <h3>Cura</h3>
 <hr>
 <p class="article">
-機台設定</br></br>
+機台設定
+</br></br>
 進入Cura後的主畫面後須先設定機台，點選機型設置(左圖)進入設定頁面(右圖)，此機台的平台為圓形所以設定Circular(因此寬、深因此相同)。擠出機也只有一個所以選擇1。由於機台為三角形機台，因此平台中心設為(0,0)。波特率設為115200(需與韌體相同)。設定完之後即可開始使用Cura
-</br>
 </p>
 <img src="g2/03.jpg" width="40%">
 <img src="g2/04.jpg" width="50%">
@@ -185,7 +183,7 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 <img src="g2/vrep.jpg" width="55%">
 </section>
 <section>
-<h3>V-rep使用說明</h3>
+<h3>V-rep 使用說明</h3>
 <hr>
 <p class="article">
 在模擬任何物件之前都必須引入圖檔 ,並在內部拆解開來重新組裝(建立子屬關係) ,讓環境能辨別出實體的各部位零件
@@ -193,7 +191,7 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 <img src="g2/subrelative.png" width="85%">
 </section>
 <section>
-<h3>V-rep使用說明</h3>
+<h3>V-rep 使用說明</h3>
 <hr>
 <p class="article">
 子屬關係主要是針對各部位的旋轉軸(主動與從動關係)
@@ -207,120 +205,29 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 <img src="g2/solvespace_successful.gif" width="35%">
 </section>
 <section>
-<h3>V-rep使用說明</h3>
+<h3>V-rep 使用說明</h3>
 <hr>
 <p class="article">
 透過外界的參數輸入 ,可以模擬訊號輸入
 <br><br>
-
-
 </p>
 <iframe width="1024" height="576" src="https://www.youtube.com/embed/y1vbxmeJ4M0" frameborder="0" allowfullscreen></iframe>
 </section>
 <section>
-<h3>V-rep使用說明</h3>
+<h3>V-rep 使用說明</h3>
 <hr>
 <p class="article">
 <br>
 <iframe width="1024" height="576" src="https://www.youtube.com/embed/Nsgt8YPSDpU" frameborder="0" allowfullscreen></iframe>
-
 </p>
 </section>
 </section>
 <section id="solvespace">
 <section>
-<h3>Python Solvespace</h3>
+<h3>Pyslvs</h3>
 <hr>
-<p>使用 Python 3 的 Solve Space 模組。</p>
-<img src="g2/Python_solvespace/solvespace_pre.jpg" width="40%">
-</section>
-<section>
-<h3>Solvespace 簡介</h3>
-<hr>
-<p class="article">
-SolveSpace 是一款開源的 2D / 3D 電腦輔助設計繪圖（CAD）軟體，從 2008 年釋出第一個版本，相容於 Windows / Mac / Linux 三個平台。
-<br><br>
-有著體積小、執行快速、免費，且不用安裝的特性，支援 STEP 或 STL 開啟，或輸出成 DXF 、 PDF 、 SVG 等開放格式，也有自己的文字式格式 「*.slvs」 。
-<br><br>
-更新方面，可以在 GitHub 的<a href="https://github.com/solvespace/solvespace" title="github.com">官方倉儲</a>或是<a href="https://github.com/whitequark/solvespace" title="github.com">非官方倉儲</a>中下載最新的原始碼後，直接利用開發者工具（如 GNU）編譯出主程式。
-</p>
-</section>
-<section>
-<img src="g2/Python_solvespace/slvs_demo.jpg" width="100%">
-</section>
-<section>
-<h3>概念啟發</h3>
-<hr>
-<p class="article">
-Solvespace 在繪圖程式本身外還附帶一個名為 CDemo 的小執行檔，是利用 Solvespace 的原始碼編譯出來的。
-<br><br>
-可以利用此外部程式呼叫 Solvespace 的程式庫「libslvs.dll」進行 2D 或是 3D 的解題運算，而無須啟動 Solvespace 。
-<br><br>
-CDemo 的概念是能夠讓外部程式使用 Solvespace 的功能，無論是利用其解開最大行程、干涉位置，都能讓應用程式免去您需要親自使用 CAD 軟體解題的困擾。
-</p>
-</section>
-<section>
-<h3>轉為 Python 語言</h3>
-<hr>
-<p class="article">
-CDemo 為 C 語言編譯而成，使用的 Solvespace 程式庫則是C++編譯的，在運算和使用上固然快速，但活用性較局限。
-<br><br>
-Python 語言擁有大量自定義模組、易讀的函式，並且在網際執行方面比C語言多一片天，若將 Solvespace 程式庫轉換使用，將會使這些 Python 程式擁有線上解題的能力，在機械設計方面更是方便許多。
-<br><br>
-在 Python 的連結庫中，「*.pyd」和 Windows 中 C 語言的動態載入庫「*.dll」相仿；「*.so」則是大部分開放式作業系統（如為人熟知的 Ubuntu）使用的。「*.so」的優點是利於共享資料，執行檔與程式庫分離，更新函式庫更為方便。
-</p>
-</section>
-<section>
-<p class="article">
-Python-Solvespace 的製作概念是利用 SWIG 軟體製作一個 C++ 至 Python 的端口，重新編譯了 Solvespace 的程式庫，使任何一個使用 Anaconda 3 (Python 3.5) 的 Python 程式都能夠使用 Solvespace 的程式庫。
-<br><br>
-這個程式庫也不是使用固定的軟體版本，為開放原始碼的方式編譯。使用者使用哪種作業系統、編譯工具、Python 3 版本，都能適用新的工具來運作。
-<br><br>
-當 Solvespace 的函式轉換成 Python 介面時，也希望保持這個語言一貫清爽易懂的名稱，因此特別重新分類了這些指令的名稱及用法。
-</p>
-</section>
-<section>
-<img src="g2/Python_solvespace/Solvespace_make.png" width="100%">
-</section>
-<section>
-<h3>Jupyter</h3>
-<hr>
-<p class="article">
-
-</p>
-</section>
-<section>
-<h3>圖形介面程式（IDE）</h3>
-<hr>
-<p class="article">
-Python 的近端應用就是使用 PyQt 來寫一個機械設計相關的應用程式。
-<br><br>
-Qt 是一個跨平台的 C++ 應用程式開發框架，使用標準的 C++ 和特殊的代碼生成擴充功能。這個龐大的架構亦有支援大部分的物件導向語言，例如 Java 的 QtJambi、Lua 的 QtLua、Python 的 PyQt 等等。
-<br><br>
-應用我們新 Kernel 的方式就是設計一款解決 2D 連桿約束的圖形介面軟體。
-</p>
-</section>
-<section>
-<h3>Pyslvs (pySolvespace)</h3>
-<hr>
-<p class="article">
-這個應用程式從 2016 年 9 月起開始開發，採用 AGPL-3.0 或以上的自由軟體授權。
-<br><br>
-設計上盡量偏向機械工程人士使用的 CAD 軟體，以簡單的步驟設計出需要的連桿尺寸，並轉為公用的 2D 或 3D 圖檔，供其他 CAD 軟體編輯。
-<br><br>
-2D 檔案格式採用公用格式 DXF，使用 Python 的 dxfwrite 模組（MIT License）生成。而 3D 的檔案格式採用 STL，使用 Python 的 python-stl 模組（MIT License）生成。
-</p>
-</section>
-<section>
-<h3>Pyslvs 展示影片</h3>
-<hr>
-</section>
-<section>
-<h3>Pyslvs 轉檔功能</h3>
-<hr>
-<p class="article">
-一些轉檔匯入VREP的圖片
-</p>
+<p>Planar Linkages Simulation<br>Dimensional Synthesis</p>
+<img src="https://github.com/KmolYuan/Pyslvs-PyQt5/raw/master/icons/title.png" width="40%">
 </section>
 </section>
 <section>
