@@ -29,18 +29,18 @@
 <v t="leo.20170505053249.3" a="E"><vh>html 標註</vh>
 <v t="leo.20170505053249.4"><vh>head</vh></v>
 <v t="leo.20170505053249.8" a="E"><vh>body 標註</vh>
-<v t="leo.20170505053249.9" a="E"><vh>style</vh>
+<v t="leo.20170505053249.9"><vh>style</vh>
 <v t="leo.20170505053249.10"><vh>自訂的CSS內容</vh></v>
 </v>
 <v t="leo.20170505053249.11" a="E"><vh>div class="reveal"</vh>
 <v t="leo.20170505053249.12" a="E"><vh>div class="slides"</vh>
+<v t="leo.20170505053249.19" a="E"><vh>目錄(#contents)</vh>
 <v t="leo.20170505053249.13"><vh>投影封面</vh></v>
-<v t="leo.20170505053249.19"><vh>目錄(#contents)</vh>
 <v t="leo.20170505053249.20"><vh>3D Printer 目錄</vh></v>
 <v t="leo.20170505053249.25"><vh>V-rep 目錄</vh></v>
 <v t="leo.20170505053249.30"><vh>Pyslvs 目錄</vh></v>
 </v>
-<v t="leo.20170505053249.35"><vh>3D Printer(#3D printer)</vh>
+<v t="leo.20170505053249.35" a="E"><vh>3D Printer(#3D printer)</vh>
 <v t="leo.20170505053249.36"><vh>3D Printer結構介紹</vh></v>
 <v t="leo.20170505053249.41"><vh>組裝過程</vh></v>
 <v t="leo.20170505053249.46"><vh>程式碼介紹</vh></v>
@@ -49,15 +49,21 @@
 <v t="leo.20170505053249.61"><vh>校正機台</vh></v>
 <v t="leo.20170505053249.66"><vh>重點提攜</vh></v>
 </v>
-<v t="leo.20170505053249.71"><vh>V-rep(#v-rep)</vh>
-<v t="leo.20170505053249.72"><vh>V-rep介紹</vh></v>
-<v t="leo.20170505053249.77"><vh>V-rep使用說明</vh></v>
-<v t="leo.20170505053249.82"><vh>V-rep使用說明</vh></v>
-<v t="leo.20170505053249.87"><vh>V-rep使用說明</vh></v>
-<v t="leo.20170505053249.92"><vh>V-rep使用說明</vh></v>
+<v t="leo.20170505053249.71" a="E"><vh>V-rep(#v-rep)</vh>
+<v t="leo.20170505053249.72"><vh>V-rep 介紹</vh></v>
+<v t="leo.20170505053249.77"><vh>V-rep 使用說明</vh></v>
+<v t="leo.20170505053249.82"><vh>V-rep 使用說明</vh></v>
+<v t="leo.20170505053249.87"><vh>V-rep 使用說明</vh></v>
+<v t="leo.20170505053249.92"><vh>V-rep 使用說明</vh></v>
 </v>
-<v t="leo.20170505053249.96"><vh>Python Solvespace(#solvespace)</vh>
-<v t="leo.20170505053249.97"><vh>章節首</vh></v>
+<v t="leo.20170505053249.96" a="E"><vh>Python Solvespace(#solvespace)</vh>
+<v t="leo.20170505053249.97"><vh>概述</vh></v>
+<v t="ahshoe.20170510224721.1"><vh>使用技術</vh></v>
+<v t="ahshoe.20170510224924.1"><vh>平面模擬</vh></v>
+<v t="ahshoe.20170510224926.1"><vh>數學模型</vh></v>
+<v t="ahshoe.20170510224927.1"><vh>尺寸合成</vh></v>
+<v t="ahshoe.20170510224930.1"><vh>功能</vh></v>
+<v t="ahshoe.20170510224932.1"><vh>開發歷程</vh></v>
 </v>
 <v t="leo.20170505053249.140"><vh>STL(#stl)</vh>
 <v t="leo.20170505053249.141"><vh>1</vh></v>
@@ -91,6 +97,50 @@ Summary: 導入 notebook 內容
 
 
 </t>
+<t tx="ahshoe.20170510224721.1">&lt;section&gt;
+&lt;!--利用的技術--&gt;
+&lt;h3&gt;Technologies&lt;/h3&gt;
+&lt;hr&gt;
+&lt;img src="https://github.com/KmolYuan/Pyslvs-PyQt5/raw/master/icons/title.png" width="40%"&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20170510224924.1">&lt;section&gt;
+&lt;!--Solvespace 部份--&gt;
+&lt;h3&gt;Planar Linkages Simulation&lt;/h3&gt;
+&lt;hr&gt;
+&lt;img src="https://github.com/KmolYuan/Pyslvs-PyQt5/raw/master/icons/title.png" width="40%"&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20170510224926.1">&lt;section&gt;
+&lt;!--三角形的解說--&gt;
+&lt;h3&gt;Mathematical Model&lt;/h3&gt;
+&lt;hr&gt;
+&lt;img src="https://github.com/KmolYuan/Pyslvs-PyQt5/raw/master/icons/title.png" width="40%"&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20170510224927.1">&lt;section&gt;
+&lt;!--演算法--&gt;
+&lt;h3&gt;Dimensional Synthesis&lt;/h3&gt;
+&lt;hr&gt;
+&lt;img src="https://github.com/KmolYuan/Pyslvs-PyQt5/raw/master/icons/title.png" width="40%"&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20170510224930.1">&lt;section&gt;
+&lt;!--大概功能介紹--&gt;
+&lt;h3&gt;Features&lt;/h3&gt;
+&lt;hr&gt;
+&lt;img src="https://github.com/KmolYuan/Pyslvs-PyQt5/raw/master/icons/title.png" width="40%"&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20170510224932.1">&lt;section&gt;
+&lt;!--版本大綱--&gt;
+&lt;h3&gt;Milestone of Pyslvs&lt;/h3&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;編譯 Solvespace 對 Python API 成功，並成功用 matplotlib 繪製第一張四連桿的端點路徑。（2016 年 8 月中）&lt;/li&gt;
+&lt;li&gt;PyQt 介面計畫開始。（2016 年 8 月底）&lt;/li&gt;
+&lt;li&gt;第一個 Release 版本 v0.1。（2016 年 9 月 27 日）&lt;/li&gt;
+&lt;li&gt;第四版 v0.4 加入了路徑解題的尺寸合成演算法系統。（2017 年 1 月 31 日）&lt;/li&gt;
+&lt;li&gt;第五版 v0.5 加入了滑塊和參數系統、復原重做功能、DXF 與 slvs 格式的匯出功能。（2017 年 3 月 4 日）&lt;/li&gt;
+&lt;li&gt;第六版 v0.6 開始進行大量錯誤修正與介面改善，並加入三角求解器。（2017 年 3 月 23 日 ~ 2017 年 4 月 29 日）&lt;/li&gt;
+&lt;li&gt;近來開發的 v0.7 版會針對檔案格式和演算法做改善。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -291,7 +341,7 @@ NOTEBOOK_DIR = 'notebook'
 &lt;section&gt;
 &lt;h3&gt;V-rep 在 Delta 3D Printer&lt;/br&gt;虚實整合模擬上的應用&lt;/h3&gt;
 &lt;hr&gt;
-&lt;h4 style="font-weight:bold"&gt;組員&lt;/h4&gt;
+&lt;h4&gt;組員&lt;/h4&gt;
 &lt;h4&gt;40323250 詹偉志&lt;/h4&gt;
 &lt;h4&gt;40323218 李冠興&lt;/h4&gt;
 &lt;h4&gt;40323231 張立昇&lt;/h4&gt;
@@ -328,7 +378,7 @@ Reveal.initialize({
 <t tx="leo.20170505053249.20">&lt;section&gt;
 &lt;h3&gt;3D Printer&lt;/h3&gt;
 &lt;hr&gt;
-&lt;h4&gt;3D 列印機&lt;/h4&gt;
+&lt;h4&gt;3D 列印機硬體設置&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;3D Printer 結構介紹&lt;/li&gt;
 &lt;li&gt;組裝過程&lt;/li&gt;
@@ -342,7 +392,7 @@ Reveal.initialize({
 <t tx="leo.20170505053249.25">&lt;section&gt;
 &lt;h3&gt;V-rep&lt;/h3&gt;
 &lt;hr&gt;
-&lt;h4&gt;動態模擬&lt;/h4&gt;
+&lt;h4&gt;電腦輔助動態模擬&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;On Shape 介紹&lt;/li&gt;
 &lt;li&gt;STL&lt;/li&gt;
@@ -358,9 +408,9 @@ Reveal.initialize({
 @others
 &lt;/html&gt;</t>
 <t tx="leo.20170505053249.30">&lt;section&gt;
-&lt;h3&gt;平面連桿機構模擬及尺寸合成套件開發&lt;/h3&gt;
+&lt;h3&gt;Pyslvs&lt;/h3&gt;
 &lt;hr&gt;
-&lt;h4&gt;概要&lt;/h4&gt;
+&lt;h4&gt;平面連桿機構模擬及尺寸合成套件開發&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;使用技術&lt;/li&gt;
 &lt;li&gt;平面模擬&lt;/li&gt;
@@ -504,6 +554,7 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 @others
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.97">&lt;section&gt;
+&lt;!--主要為「平面連桿模擬」以及「尺寸合成」兩個功能--&gt;
 &lt;h3&gt;Pyslvs&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p&gt;Planar Linkages Simulation&lt;br&gt;Dimensional Synthesis&lt;/p&gt;

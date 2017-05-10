@@ -54,13 +54,14 @@
 <div class="reveal">
 <!-- 將所有投影片包在 "slides" class 中 -->
 <div class="slides">
+<section id="contents">
 <!-- 以下為投影片 -->
 <!-- 每一個 section 都代表一張投影片,  -->
 <!-- section 標註中的多 section 標註, 將往下垂直延伸 -->
 <section>
 <h3>V-rep 在 Delta 3D Printer</br>虚實整合模擬上的應用</h3>
 <hr>
-<h4 style="font-weight:bold">組員</h4>
+<h4>組員</h4>
 <h4>40323250 詹偉志</h4>
 <h4>40323218 李冠興</h4>
 <h4>40323231 張立昇</h4>
@@ -68,11 +69,10 @@
 <br><br>
 <h4>指導老師：嚴家銘 教授</h4>
 </section>
-<section id="contents">
 <section>
 <h3>3D Printer</h3>
 <hr>
-<h4>3D 列印機</h4>
+<h4>3D 列印機硬體設置</h4>
 <ol>
 <li>3D Printer 結構介紹</li>
 <li>組裝過程</li>
@@ -86,7 +86,7 @@
 <section>
 <h3>V-rep</h3>
 <hr>
-<h4>動態模擬</h4>
+<h4>電腦輔助動態模擬</h4>
 <ol>
 <li>On Shape 介紹</li>
 <li>STL</li>
@@ -98,9 +98,9 @@
 </ol>
 </section>
 <section>
-<h3>平面連桿機構模擬及尺寸合成套件開發</h3>
+<h3>Pyslvs</h3>
 <hr>
-<h4>概要</h4>
+<h4>平面連桿機構模擬及尺寸合成套件開發</h4>
 <ol>
 <li>使用技術</li>
 <li>平面模擬</li>
@@ -224,10 +224,55 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 </section>
 <section id="solvespace">
 <section>
+<!--主要為「平面連桿模擬」以及「尺寸合成」兩個功能-->
 <h3>Pyslvs</h3>
 <hr>
 <p>Planar Linkages Simulation<br>Dimensional Synthesis</p>
 <img src="https://github.com/KmolYuan/Pyslvs-PyQt5/raw/master/icons/title.png" width="40%">
+</section>
+<section>
+<!--利用的技術-->
+<h3>Technologies</h3>
+<hr>
+<img src="https://github.com/KmolYuan/Pyslvs-PyQt5/raw/master/icons/title.png" width="40%">
+</section>
+<section>
+<!--Solvespace 部份-->
+<h3>Planar Linkages Simulation</h3>
+<hr>
+<img src="https://github.com/KmolYuan/Pyslvs-PyQt5/raw/master/icons/title.png" width="40%">
+</section>
+<section>
+<!--三角形的解說-->
+<h3>Mathematical Model</h3>
+<hr>
+<img src="https://github.com/KmolYuan/Pyslvs-PyQt5/raw/master/icons/title.png" width="40%">
+</section>
+<section>
+<!--演算法-->
+<h3>Dimensional Synthesis</h3>
+<hr>
+<img src="https://github.com/KmolYuan/Pyslvs-PyQt5/raw/master/icons/title.png" width="40%">
+</section>
+<section>
+<!--大概功能介紹-->
+<h3>Features</h3>
+<hr>
+<img src="https://github.com/KmolYuan/Pyslvs-PyQt5/raw/master/icons/title.png" width="40%">
+</section>
+<section>
+<!--版本大綱-->
+<h3>Milestone of Pyslvs</h3>
+<hr>
+<ol>
+<li>編譯 Solvespace 對 Python API 成功，並成功用 matplotlib 繪製第一張四連桿的端點路徑。（2016 年 8 月中）</li>
+<li>PyQt 介面計畫開始。（2016 年 8 月底）</li>
+<li>第一個 Release 版本 v0.1。（2016 年 9 月 27 日）</li>
+<li>第四版 v0.4 加入了路徑解題的尺寸合成演算法系統。（2017 年 1 月 31 日）</li>
+<li>第五版 v0.5 加入了滑塊和參數系統、復原重做功能、DXF 與 slvs 格式的匯出功能。（2017 年 3 月 4 日）</li>
+<li>第六版 v0.6 開始進行大量錯誤修正與介面改善，並加入三角求解器。（2017 年 3 月 23 日 ~ 2017 年 4 月 29 日）</li>
+<li>近來開發的 v0.7 版會針對檔案格式和演算法做改善。</li>
+</ol>
 </section>
 </section>
 <section>
