@@ -45,27 +45,21 @@
 <v t="leo.20170505053249.17"><vh>br</vh></v>
 <v t="leo.20170505053249.18"><vh>指導老師</vh></v>
 </v>
-<v t="leo.20170505053249.19"><vh>目錄(#contents)</vh>
-<v t="leo.20170505053249.20"><vh>目錄</vh>
+<v t="leo.20170505053249.19" a="E"><vh>目錄(#contents)</vh>
+<v t="leo.20170505053249.20" a="E"><vh>3D Printer 目錄</vh>
 <v t="leo.20170505053249.21"><vh>h3</vh></v>
 <v t="leo.20170505053249.22"><vh>hr</vh></v>
-<v t="leo.20170505053249.23"><vh>ol</vh>
 <v t="leo.20170505053249.24"><vh>3D Printer</vh></v>
 </v>
-</v>
-<v t="leo.20170505053249.25"><vh>目錄</vh>
+<v t="leo.20170505053249.25" a="E"><vh>V-rep 目錄</vh>
 <v t="leo.20170505053249.26"><vh>h3</vh></v>
 <v t="leo.20170505053249.27"><vh>hr</vh></v>
-<v t="leo.20170505053249.28"><vh>ol</vh>
 <v t="leo.20170505053249.29"><vh>V-rep</vh></v>
 </v>
-</v>
-<v t="leo.20170505053249.30"><vh>目錄</vh>
+<v t="leo.20170505053249.30" a="E"><vh>Pyslvs 目錄</vh>
 <v t="leo.20170505053249.31"><vh>h3</vh></v>
 <v t="leo.20170505053249.32"><vh>hr</vh></v>
-<v t="leo.20170505053249.33"><vh>ol</vh>
 <v t="leo.20170505053249.34"><vh>Python Solvespace</vh></v>
-</v>
 </v>
 </v>
 <v t="leo.20170505053249.35" a="E"><vh>3D Printer(#3D printer)_</vh>
@@ -144,7 +138,7 @@
 </v>
 </v>
 <v t="leo.20170505053249.96" a="E"><vh>Python Solvespace(#solvespace)</vh>
-<v t="leo.20170505053249.97"><vh>章節首</vh>
+<v t="leo.20170505053249.97" a="E"><vh>章節首</vh>
 <v t="leo.20170505053249.98"><vh>h3</vh></v>
 <v t="leo.20170505053249.99"><vh>hr</vh></v>
 <v t="leo.20170505053249.100"><vh>p</vh></v>
@@ -576,61 +570,31 @@ Reveal.initialize({
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.21">&lt;h3&gt;目錄&lt;/h3&gt;</t>
 <t tx="leo.20170505053249.22">&lt;hr&gt;</t>
-<t tx="leo.20170505053249.23">&lt;ol&gt;
-@others
-&lt;/ol&gt;</t>
 <t tx="leo.20170505053249.24">&lt;h4&gt;3D Printer&lt;/h4&gt;
-&lt;p class="article"&gt;
-3D Printer結構介紹
-&lt;/br&gt;
-&lt;/br&gt;
-組裝過程
-&lt;/br&gt;
-&lt;/br&gt;
-程式碼介紹
-&lt;/br&gt;
-&lt;/br&gt;
-Cura
-&lt;/br&gt;
-&lt;/br&gt;
-Pronterface
-&lt;/br&gt;
-&lt;/br&gt;
-校正機台
-&lt;/br&gt;
-&lt;/br&gt;
-重點提攜
-&lt;/p&gt;</t>
+&lt;ol&gt;
+&lt;li&gt;3D Printer結構介紹&lt;/li&gt;
+&lt;li&gt;組裝過程&lt;/li&gt;
+&lt;li&gt;程式碼介紹&lt;/li&gt;
+&lt;li&gt;Cura&lt;/li&gt;
+&lt;li&gt;Pronterface&lt;/li&gt;
+&lt;li&gt;校正機台&lt;/li&gt;
+&lt;li&gt;重點提攜&lt;/li&gt;
+&lt;/ol&gt;</t>
 <t tx="leo.20170505053249.25">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.26">&lt;h3&gt;目錄&lt;/h3&gt;</t>
 <t tx="leo.20170505053249.27">&lt;hr&gt;</t>
-<t tx="leo.20170505053249.28">&lt;ol&gt;
-@others
-&lt;/ol&gt;</t>
 <t tx="leo.20170505053249.29">&lt;h4&gt;V-rep&lt;/h4&gt;
-&lt;p class="article"&gt;
-On Shape 介紹
-&lt;/br&gt;
-&lt;/br&gt;
-STL
-&lt;/br&gt;
-&lt;/br&gt;
-四連桿
-&lt;/br&gt;
-&lt;/br&gt;
-八連桿
-&lt;/br&gt;
-&lt;/br&gt;
-控制模擬
-&lt;/br&gt;
-&lt;/br&gt;
-Arduino
-&lt;/br&gt;
-&lt;/br&gt;
-Python
-&lt;/p&gt;</t>
+&lt;ol&gt;
+&lt;li&gt;On Shape 介紹&lt;/li&gt;
+&lt;li&gt;STL&lt;/li&gt;
+&lt;li&gt;四連桿&lt;/li&gt;
+&lt;li&gt;八連桿&lt;/li&gt;
+&lt;li&gt;控制模擬&lt;/li&gt;
+&lt;li&gt;Arduino&lt;/li&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;/ol&gt;</t>
 <t tx="leo.20170505053249.3">&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
 @others
@@ -640,11 +604,15 @@ Python
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.31">&lt;h3&gt;目錄&lt;/h3&gt;</t>
 <t tx="leo.20170505053249.32">&lt;hr&gt;</t>
-<t tx="leo.20170505053249.33">&lt;ol&gt;
-@others
+<t tx="leo.20170505053249.34">&lt;h4&gt;平面連桿機構模擬及尺寸合成套件開發&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;使用技術&lt;/li&gt;
+&lt;li&gt;平面模擬&lt;/li&gt;
+&lt;li&gt;數學模型&lt;/li&gt;
+&lt;li&gt;尺寸合成&lt;/li&gt;
+&lt;li&gt;功能&lt;/li&gt;
+&lt;li&gt;開發歷程&lt;/li&gt;
 &lt;/ol&gt;</t>
-<t tx="leo.20170505053249.34">&lt;h4&gt;Python Solvespace&lt;/h4&gt;
-&lt;p class="article"&gt;Python Solvespace&lt;/p&gt;</t>
 <t tx="leo.20170505053249.35">&lt;section id="3DPrinter"&gt;
 @others
 &lt;/section&gt;</t>
