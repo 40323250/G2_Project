@@ -59,11 +59,20 @@
 <v t="leo.20170505053249.96" a="E"><vh>Python Solvespace(#solvespace)</vh>
 <v t="leo.20170505053249.97"><vh>概述</vh></v>
 <v t="ahshoe.20170510224721.1"><vh>使用技術</vh></v>
+<v t="ahshoe.20170510231618.1"><vh>使用技術1</vh></v>
+<v t="ahshoe.20170510232035.1"><vh>使用技術2</vh></v>
+<v t="ahshoe.20170510232210.1"><vh>使用技術3</vh></v>
+<v t="ahshoe.20170510232450.1"><vh>使用技術4</vh></v>
+<v t="ahshoe.20170510232751.1"><vh>使用技術5</vh></v>
+<v t="ahshoe.20170510233238.1"><vh>使用技術6</vh></v>
 <v t="ahshoe.20170510224924.1"><vh>平面模擬</vh></v>
+<v t="ahshoe.20170510233659.1"><vh>平面模擬1</vh></v>
+<v t="ahshoe.20170510233945.1"><vh>平面模擬2</vh></v>
 <v t="ahshoe.20170510224926.1"><vh>數學模型</vh></v>
 <v t="ahshoe.20170510224927.1"><vh>尺寸合成</vh></v>
 <v t="ahshoe.20170510224930.1"><vh>功能</vh></v>
 <v t="ahshoe.20170510224932.1"><vh>開發歷程</vh></v>
+<v t="ahshoe.20170510231343.1"><vh>開發歷程1</vh></v>
 </v>
 <v t="leo.20170505053249.140"><vh>STL(#stl)</vh>
 <v t="leo.20170505053249.141"><vh>1</vh></v>
@@ -100,38 +109,31 @@ Summary: 導入 notebook 內容
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--利用的技術--&gt;
 &lt;h3&gt;Technologies&lt;/h3&gt;
-&lt;hr&gt;
-&lt;img src="https://github.com/KmolYuan/Pyslvs-PyQt5/raw/master/icons/title.png" width="40%"&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224924.1">&lt;section&gt;
 &lt;!--Solvespace 部份--&gt;
 &lt;h3&gt;Planar Linkages Simulation&lt;/h3&gt;
-&lt;hr&gt;
-&lt;img src="https://github.com/KmolYuan/Pyslvs-PyQt5/raw/master/icons/title.png" width="40%"&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224926.1">&lt;section&gt;
 &lt;!--三角形的解說--&gt;
 &lt;h3&gt;Mathematical Model&lt;/h3&gt;
-&lt;hr&gt;
-&lt;img src="https://github.com/KmolYuan/Pyslvs-PyQt5/raw/master/icons/title.png" width="40%"&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224927.1">&lt;section&gt;
 &lt;!--演算法--&gt;
 &lt;h3&gt;Dimensional Synthesis&lt;/h3&gt;
-&lt;hr&gt;
-&lt;img src="https://github.com/KmolYuan/Pyslvs-PyQt5/raw/master/icons/title.png" width="40%"&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224930.1">&lt;section&gt;
 &lt;!--大概功能介紹--&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
-&lt;hr&gt;
-&lt;img src="https://github.com/KmolYuan/Pyslvs-PyQt5/raw/master/icons/title.png" width="40%"&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224932.1">&lt;section&gt;
 &lt;!--版本大綱--&gt;
 &lt;h3&gt;Milestone of Pyslvs&lt;/h3&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20170510231343.1">&lt;section&gt;
+&lt;h3&gt;開發歷程&lt;/h3&gt;
 &lt;hr&gt;
-&lt;ol&gt;
+&lt;ul&gt;
 &lt;li&gt;編譯 Solvespace 對 Python API 成功，並成功用 matplotlib 繪製第一張四連桿的端點路徑。（2016 年 8 月中）&lt;/li&gt;
 &lt;li&gt;PyQt 介面計畫開始。（2016 年 8 月底）&lt;/li&gt;
 &lt;li&gt;第一個 Release 版本 v0.1。（2016 年 9 月 27 日）&lt;/li&gt;
@@ -139,7 +141,100 @@ Summary: 導入 notebook 內容
 &lt;li&gt;第五版 v0.5 加入了滑塊和參數系統、復原重做功能、DXF 與 slvs 格式的匯出功能。（2017 年 3 月 4 日）&lt;/li&gt;
 &lt;li&gt;第六版 v0.6 開始進行大量錯誤修正與介面改善，並加入三角求解器。（2017 年 3 月 23 日 ~ 2017 年 4 月 29 日）&lt;/li&gt;
 &lt;li&gt;近來開發的 v0.7 版會針對檔案格式和演算法做改善。&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20170510231618.1">&lt;section&gt;
+&lt;!--Python--&gt;
+&lt;h3&gt;Python 3&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;
+&lt;img src="g2/pyslvs/python-logo-inkscape.svg"&gt;
+&lt;ul&gt;
+&lt;li&gt;易於閱讀與整理的程式碼&lt;/li&gt;
+&lt;li&gt;與中低階語言的結合力&lt;/li&gt;
+&lt;li&gt;背景記憶體處理&lt;/li&gt;
+&lt;li&gt;Web 框架&lt;/li&gt;
+&lt;li&gt;物件導向、泛型編成&lt;/li&gt;
+&lt;li&gt;豐富的模組資源&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20170510232035.1">&lt;section&gt;
+&lt;!--編譯工具--&gt;
+&lt;h3&gt;Tool Kit&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;
+&lt;img src="g2/pyslvs/GNU_Labs.png"&gt;
+&lt;img src="g2/pyslvs/Visual_Studio_2012_logo_and_wordmark.svg.png"&gt;
+&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20170510232210.1">&lt;section&gt;
+&lt;!--Python 控 C++：擅長撰寫 C 語言--&gt;
+&lt;h3&gt;SWIG&lt;/h3&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;將 C 語言與 C++ 語言轉換給中高階語言使用&lt;/li&gt;
+&lt;li&gt;適合對 C 語言熟悉的使用者製作程式端口&lt;/li&gt;
+&lt;li&gt;能夠在高階語言的程式碼中發揮 C 語言高速運算的能力&lt;/li&gt;
+&lt;li&gt;GPL 3.0 授權&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20170510232450.1">&lt;section&gt;
+&lt;!--Python 控 C++：擅長撰寫 Python--&gt;
+&lt;h3&gt;Cython&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;
+&lt;img src="g2/pyslvs/Cython-logo.svg.png" width="50%"&gt;
+&lt;ul&gt;
+&lt;li&gt;以 Python 語法編寫程式&lt;/li&gt;
+&lt;li&gt;使用 C++ 語言函式庫&lt;/li&gt;
+&lt;li&gt;用以大量運算驗證後的數學模型&lt;/li&gt;
+&lt;li&gt;擁有 C++ 語言高速執行的特性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20170510232751.1">&lt;section&gt;
+&lt;!--版本控制--&gt;
+&lt;h3&gt;Git and Fossil&lt;/h3&gt;
+&lt;hr&gt;
+&lt;div&gt;
+&lt;img src="g2/pyslvs/Git-Logo-2Color.png" width="50%"&gt;
+&lt;img src="g2/pyslvs/1200px-Fossil_SCM_logo.svg.png" width="25%"&gt;
+&lt;/div&gt;
+&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;雲端倉儲管理軟體&lt;/li&gt;
+&lt;li&gt;系統性的版本紀錄功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20170510233238.1">&lt;section&gt;
+&lt;!--Qt--&gt;
+&lt;h3&gt;Qt and PyQt&lt;/h3&gt;
+&lt;hr&gt;
+&lt;div&gt;
+&lt;img src="g2/pyslvs/qtlogo.png" width="25%"&gt;
+&lt;img src="g2/pyslvs/1200px-Python_and_Qt.svg.png" width="25%"&gt;
+&lt;/div&gt;
+&lt;h4&gt;跨平台的 C++ 應用程式開發框架&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;商業授權&lt;/li&gt;
+&lt;li&gt;LGPL 2.1&lt;/li&gt;
+&lt;li&gt;GPL 3.0&lt;/li&gt;
+&lt;li&gt;PyQt 作為 Python API 的形式連接 Qt&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20170510233659.1">&lt;section&gt;
+&lt;!--Solvespace 介紹--&gt;
+&lt;h3&gt;Solvespace&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h4&gt;免費開源 2D 3D CAD 程式&lt;/h4&gt;
+&lt;img src="g2/pyslvs/SolveSpace_-_-home-ahshoe-__-_Example__Two_Pairs_Mutiple_Link.slvs_001.png"&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20170510233945.1">&lt;section&gt;
+&lt;!--Solvespace 部份--&gt;
+&lt;h3&gt;透過 SWIG 轉換為 Python API&lt;/h3&gt;
+&lt;hr&gt;
+&lt;img src="g2/pyslvs/Solvespace_make.png"&gt;
 &lt;/section&gt;</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
@@ -335,10 +430,7 @@ NOTEBOOK_DIR = 'notebook'
 &lt;div class="slides"&gt;
 @others
 &lt;/div&gt;</t>
-<t tx="leo.20170505053249.13">&lt;!-- 以下為投影片 --&gt;
-&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
-&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
-&lt;section&gt;
+<t tx="leo.20170505053249.13">&lt;section&gt;
 &lt;h3&gt;V-rep 在 Delta 3D Printer&lt;/br&gt;虚實整合模擬上的應用&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h4&gt;組員&lt;/h4&gt;
@@ -366,7 +458,10 @@ NOTEBOOK_DIR = 'notebook'
 // 啟動 Reveal.
 Reveal.initialize({
 });</t>
-<t tx="leo.20170505053249.19">&lt;section id="contents"&gt;
+<t tx="leo.20170505053249.19">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section id="contents"&gt;
 @others
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.2">&lt;!--
@@ -558,7 +653,7 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 &lt;h3&gt;Pyslvs&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p&gt;Planar Linkages Simulation&lt;br&gt;Dimensional Synthesis&lt;/p&gt;
-&lt;img src="https://github.com/KmolYuan/Pyslvs-PyQt5/raw/master/icons/title.png" width="40%"&gt;
+&lt;img src="g2/pyslvs/cover.png"&gt;
 &lt;/section&gt;</t>
 </tnodes>
 </leo_file>
