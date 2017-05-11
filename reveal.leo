@@ -67,15 +67,12 @@
 <v t="ahshoe.20170510233238.1"><vh>使用技術6</vh></v>
 <v t="ahshoe.20170510224924.1"><vh>平面模擬</vh></v>
 <v t="ahshoe.20170510233659.1"><vh>平面模擬1</vh></v>
-<v t="ahshoe.20170510233945.1"><vh>平面模擬2</vh></v>
+<v t="ahshoe.20170511172336.1"><vh>平面模擬2</vh></v>
 <v t="ahshoe.20170510224926.1"><vh>數學模型</vh></v>
 <v t="ahshoe.20170510224927.1"><vh>尺寸合成</vh></v>
 <v t="ahshoe.20170510224930.1"><vh>功能</vh></v>
 <v t="ahshoe.20170510224932.1"><vh>開發歷程</vh></v>
 <v t="ahshoe.20170510231343.1"><vh>開發歷程1</vh></v>
-</v>
-<v t="leo.20170505053249.140"><vh>STL(#stl)</vh>
-<v t="leo.20170505053249.141"><vh>1</vh></v>
 </v>
 </v>
 </v>
@@ -109,10 +106,14 @@ Summary: 導入 notebook 內容
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--利用的技術--&gt;
 &lt;h3&gt;Technologies&lt;/h3&gt;
+&lt;hr&gt;
+&lt;img src="g2/pyslvs/Organization_chart.svg" width="120%"&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224924.1">&lt;section&gt;
 &lt;!--Solvespace 部份--&gt;
 &lt;h3&gt;Planar Linkages Simulation&lt;/h3&gt;
+&lt;hr&gt;
+&lt;img src="g2/pyslvs/Solvespace_make.png"&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224926.1">&lt;section&gt;
 &lt;!--三角形的解說--&gt;
@@ -147,7 +148,6 @@ Summary: 導入 notebook 內容
 &lt;!--Python--&gt;
 &lt;h3&gt;Python 3&lt;/h3&gt;
 &lt;hr&gt;
-&lt;p&gt;
 &lt;img src="g2/pyslvs/python-logo-inkscape.svg"&gt;
 &lt;ul&gt;
 &lt;li&gt;易於閱讀與整理的程式碼&lt;/li&gt;
@@ -157,14 +157,13 @@ Summary: 導入 notebook 內容
 &lt;li&gt;物件導向、泛型編成&lt;/li&gt;
 &lt;li&gt;豐富的模組資源&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510232035.1">&lt;section&gt;
 &lt;!--編譯工具--&gt;
 &lt;h3&gt;Tool Kit&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p&gt;
-&lt;img src="g2/pyslvs/GNU_Labs.png"&gt;
+&lt;img src="g2/pyslvs/GNU_Labs.png" width="75%"&gt;
 &lt;img src="g2/pyslvs/Visual_Studio_2012_logo_and_wordmark.svg.png"&gt;
 &lt;/p&gt;
 &lt;/section&gt;</t>
@@ -183,15 +182,13 @@ Summary: 導入 notebook 內容
 &lt;!--Python 控 C++：擅長撰寫 Python--&gt;
 &lt;h3&gt;Cython&lt;/h3&gt;
 &lt;hr&gt;
-&lt;p&gt;
-&lt;img src="g2/pyslvs/Cython-logo.svg.png" width="50%"&gt;
+&lt;img src="g2/pyslvs/Cython-logo.svg.png" width="35%"&gt;
 &lt;ul&gt;
 &lt;li&gt;以 Python 語法編寫程式&lt;/li&gt;
 &lt;li&gt;使用 C++ 語言函式庫&lt;/li&gt;
 &lt;li&gt;用以大量運算驗證後的數學模型&lt;/li&gt;
 &lt;li&gt;擁有 C++ 語言高速執行的特性&lt;/li&gt;
 &lt;/ul&gt;
-&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510232751.1">&lt;section&gt;
 &lt;!--版本控制--&gt;
@@ -230,11 +227,12 @@ Summary: 導入 notebook 內容
 &lt;h4&gt;免費開源 2D 3D CAD 程式&lt;/h4&gt;
 &lt;img src="g2/pyslvs/SolveSpace_-_-home-ahshoe-__-_Example__Two_Pairs_Mutiple_Link.slvs_001.png"&gt;
 &lt;/section&gt;</t>
-<t tx="ahshoe.20170510233945.1">&lt;section&gt;
-&lt;!--Solvespace C++端口編譯流程--&gt;
-&lt;h3&gt;透過 SWIG 轉換為 Python API&lt;/h3&gt;
+<t tx="ahshoe.20170511172336.1">&lt;section&gt;
+&lt;!--Solvespace 介紹--&gt;
+&lt;h3&gt;CDemo&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/pyslvs/Solvespace_make.png"&gt;
+&lt;h4&gt;獨立幾何解題程式庫&lt;/h4&gt;
+&lt;img src="g2/pyslvs/CDemo.png" width="75%"&gt;
 &lt;/section&gt;</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
@@ -440,14 +438,6 @@ NOTEBOOK_DIR = 'notebook'
 &lt;h4&gt;40323230 張元&lt;/h4&gt;
 &lt;br&gt;
 &lt;h4&gt;指導老師：嚴家銘 教授&lt;/h4&gt;
-&lt;/section&gt;</t>
-<t tx="leo.20170505053249.140">&lt;section&gt;
-&lt;p&gt;
-@others
-&lt;/p&gt;
-&lt;/section&gt;</t>
-<t tx="leo.20170505053249.141">&lt;section&gt;
-&lt;script src="https://embed.github.com/view/3d/40323250/Zhan-Wei-Zhi/gh-pages/g2/printer_robot_arm.stl" width="300"height="300"&gt;&lt;/script&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.142">&lt;!--script src="lib/js/head.min.js"&gt;&lt;/script--&gt;
 &lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
