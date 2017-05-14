@@ -130,7 +130,6 @@ Summary: 導入 notebook 內容
 繪圖採用On Shape網頁繪圖 ,優點為能夠協同繪圖 ,和組圓能夠分工合作 ,且能達到參數繪圖方式等等。
 &lt;/p&gt;
 
-&lt;img src="g2/subrelative.png" width="85%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170514200732.1"></t>
 <t tx="544.20170514200732.2"></t>
@@ -143,7 +142,7 @@ Summary: 導入 notebook 內容
 
 &lt;/p&gt;
 
-&lt;img src="g2/printer.png" width="85%"&gt;
+&lt;img src="g2/printer.png" width="40%"&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--利用的技術--&gt;
