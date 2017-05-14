@@ -36,6 +36,8 @@
 <v t="leo.20170505053249.12" a="E"><vh>div class="slides"</vh>
 <v t="leo.20170505053249.19" a="E"><vh>目錄(#contents)</vh>
 <v t="leo.20170505053249.13"><vh>投影封面</vh></v>
+<v t="544.20170515005219.1"><vh>研究動機、目的、...</vh></v>
+<v t="544.20170515005232.1"><vh>摘要</vh></v>
 <v t="leo.20170505053249.20"><vh>3D Printer 目錄</vh></v>
 <v t="leo.20170505053249.25"><vh>V-rep 目錄</vh></v>
 <v t="leo.20170505053249.30"><vh>Pyslvs 目錄</vh></v>
@@ -133,7 +135,6 @@ Summary: 導入 notebook 內容
 &lt;/br&gt;&lt;/br&gt;
 繪圖採用On Shape網頁繪圖 ,優點為能夠協同繪圖 ,和組員能夠分工合作 ,且能達到參數繪圖方式等等。
 &lt;/p&gt;
-
 &lt;/section&gt;</t>
 <t tx="544.20170514200732.1"></t>
 <t tx="544.20170514200732.2"></t>
@@ -168,6 +169,8 @@ Summary: 導入 notebook 內容
 &lt;iframe width="1024" height="576" src="https://www.youtube.com/embed/Nsgt8YPSDpU" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 &lt;/section&gt;</t>
+<t tx="544.20170515005219.1"></t>
+<t tx="544.20170515005232.1"></t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--利用的技術--&gt;
 &lt;h3&gt;Technologies&lt;/h3&gt;
