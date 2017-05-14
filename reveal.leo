@@ -109,7 +109,7 @@ Summary: 導入 notebook 內容
 &lt;hr&gt;
 &lt;p class="article"&gt;
 &lt;br&gt;
-&lt;iframe src="g2/V-rep 3D-Printer simulation .avi" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="1024" height="576" src="https://www.youtube.com/watch?v=CF8xtkBd60k" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
@@ -631,7 +631,7 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 透過外界的參數輸入 ,可以模擬訊號輸入
 &lt;br&gt;&lt;br&gt;
 &lt;/p&gt;
-&lt;iframe width="1024" height="576" src="g2/vrep - printer  simulation  by CJMCU-116.avi" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="1024" height="576" src="https://www.youtube.com/watch?v=y1vbxmeJ4M0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.9">&lt;style&gt;
 @others
@@ -641,7 +641,7 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 &lt;hr&gt;
 &lt;p class="article"&gt;
 &lt;br&gt;
-&lt;iframe width="1024" height="576" src="g2/v-rep control with arduino.avi" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="1024" height="576" src="https://www.youtube.com/watch?v=Nsgt8YPSDpU" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.96">&lt;section id="solvespace"&gt;
