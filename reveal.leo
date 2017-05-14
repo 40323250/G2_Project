@@ -160,7 +160,14 @@ Summary: 導入 notebook 內容
 &lt;/section&gt;</t>
 <t tx="544.20170515003915.1"></t>
 <t tx="544.20170515003932.1"></t>
-<t tx="544.20170515003940.1"></t>
+<t tx="544.20170515003940.1">&lt;section&gt;
+&lt;h3&gt;V-rep 範例&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+&lt;br&gt;
+&lt;iframe width="1024" height="576" src="https://www.youtube.com/embed/Nsgt8YPSDpU" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--利用的技術--&gt;
 &lt;h3&gt;Technologies&lt;/h3&gt;
@@ -667,7 +674,7 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 &lt;img src="g2/solvespace_successful.gif" width="35%"&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.87">&lt;section&gt;
-&lt;h3&gt;V-rep 使用說明&lt;/h3&gt;
+&lt;h3&gt;V-rep 軸加速度感測器控制&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 透過外界的參數輸入 ,可以模擬訊號輸入
@@ -679,7 +686,7 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 @others
 &lt;/style&gt;</t>
 <t tx="leo.20170505053249.92">&lt;section&gt;
-&lt;h3&gt;V-rep 範例&lt;/h3&gt;
+&lt;h3&gt;V-rep 可變電阻控制&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 &lt;br&gt;
