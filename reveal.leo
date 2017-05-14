@@ -109,7 +109,7 @@ Summary: 導入 notebook 內容
 &lt;hr&gt;
 &lt;p class="article"&gt;
 &lt;br&gt;
-&lt;iframe width="1024" height="576" src="www.youtube.com/embed/CF8xtkBd60k" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="1024" height="576" src="https://www.youtube.com/embed/CF8xtkBd60k" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
