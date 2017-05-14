@@ -142,7 +142,7 @@ Summary: 導入 notebook 內容
 
 &lt;/p&gt;
 
-&lt;img src="g2/printer.png" width="40%"&gt;
+&lt;img src="g2/printer.png" width="30%"&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--利用的技術--&gt;
@@ -473,10 +473,10 @@ NOTEBOOK_DIR = 'notebook'
 &lt;h3&gt;V-rep 在 Delta 3D Printer&lt;/br&gt;虚實整合模擬上的應用&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h4&gt;組員&lt;/h4&gt;
-&lt;h4&gt;40323250 詹偉志&lt;/h4&gt;
 &lt;h4&gt;40323218 李冠興&lt;/h4&gt;
-&lt;h4&gt;40323231 張立昇&lt;/h4&gt;
 &lt;h4&gt;40323230 張元&lt;/h4&gt;
+&lt;h4&gt;40323231 張立昇&lt;/h4&gt;
+&lt;h4&gt;40323250 詹偉志&lt;/h4&gt;
 &lt;br&gt;
 &lt;h4&gt;指導老師：嚴家銘 教授&lt;/h4&gt;
 &lt;/section&gt;</t>
