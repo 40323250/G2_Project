@@ -14,7 +14,7 @@
 <v t="amd.20150913232631.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
 <v t="amd.20150919102739.1"><vh>專案架構</vh></v>
-<v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh>
+<v t="amd.20150919113957.1" a="E"><vh>以下為 pelican 文章</vh>
 <v t="amd.20150919124128.1"><vh>@button user pelican</vh></v>
 <v t="amd.20150919114010.1" a="E"><vh>@path pelican</vh>
 <v t="amd.20151006130205.1"><vh>edit publishconf.py</vh></v>
@@ -109,7 +109,7 @@ Summary: 導入 notebook 內容
 &lt;hr&gt;
 &lt;p class="article"&gt;
 &lt;br&gt;
-&lt;iframe width="1024" height="576" src="g2/v-rep control with arduino.avi" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe src="g2/V-rep 3D-Printer simulation .avi" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
