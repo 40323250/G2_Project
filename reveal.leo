@@ -126,7 +126,7 @@ Summary: 導入 notebook 內容
 &lt;hr&gt;
 &lt;p class="article"&gt;
 在模擬任何物件之前都必須引入 Stl 圖檔 ,於V-rep內部拆解開後並重新組裝(建立子屬關係) ,讓模擬軟體能夠建立各零件之基本約束條件。
-&lt;/br&gt;
+&lt;/br&gt;&lt;/br&gt;
 繪圖採用On Shape網頁繪圖 ,優點為能夠協同繪圖 ,和組圓能夠分工合作 ,且能達到參數繪圖方式等等。
 &lt;/p&gt;
 
