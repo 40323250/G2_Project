@@ -222,11 +222,20 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 
 </section>
 <section>
-<h3>V-rep 使用說明</h3>
+<h3>V-rep 四連桿範例</h3>
 <hr>
 <p class="article">
-子屬關係主要是針對各部位的旋轉軸(主動與從動關係)
-做設定 ,之後再依照個人需求 ,設定環境下的物理性質 ,最後再輸入參數來使其作動
+內容
+
+</p>
+<img src="g2/4_links.gif" width="30%">
+
+</section>
+<section>
+<h3>V-rep 八連桿範例</h3>
+<hr>
+<p class="article">
+內容
 <br><br>
 下方為範例  (左為預期 , 右為模擬)
 <br><br>
@@ -234,6 +243,16 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 <img src="g2/solvespace_tutorial.gif" width="30%">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="g2/solvespace_successful.gif" width="35%">
+</section>
+<section>
+<h3>V-rep Printer設定</h3>
+<hr>
+<p class="article">
+經過前面幾個範例的練習後 ,對於Printer噴頭的close chain部分就比較熟悉了 。
+<br>
+<br>
+在控制之前 ,校正噴頭的部分須要配合當初繪製之尺寸 ,零件的座標設定為以形狀中心為基準 ,所以在校正噴頭至熱床的位置時 ,要先計算零件間彼此的距離。 
+</p>
 </section>
 <section>
 <h3>控制範例 1 - 可變電阻控制噴頭位置</h3>
@@ -255,12 +274,12 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 <h3>控制範例 1 - Lua程式</h3>
 <hr>
 <p class="article">
-本程式基本架構由 Eric Rohmer 所提供 ,控制方式為收到Arduino所傳來之固定格式的點座標後 ,使噴頭移動到相對映之位置。
+本程式基本架構由 Eric Rohmer 所提供 ,控制方式為收到Arduino傳來固定格式的點座標後 ,使噴頭移動到相對映之位置。
 </p>
 <img src="g2/example2_lua.png" align="center" width="60%">
 </section>
 <section>
-<h3>V-rep 可變電阻控制</h3>
+<h3>可變電阻控制噴頭位置 範例影片</h3>
 <hr>
 <p class="article">
 <br>
@@ -268,7 +287,7 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 </p>
 </section>
 <section>
-<h3>控制範例 2 - 6軸加速度感測器控制噴頭位置 </h3>
+<h3>控制範例 2 - 六軸感測器控制噴頭位置 </h3>
 <hr>
 <p class="article">
 透過外界的參數輸入 ,可以模擬訊號輸入
@@ -277,43 +296,46 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 
 </section>
 <section>
-<h3>V-rep 軸加速度感測器控制</h3>
+<h3>六軸感測器控制噴頭位置 範例影片</h3>
 <hr>
 <p class="article">
-
-<br><br>
 </p>
 <iframe width="1024" height="576" src="https://www.youtube.com/embed/y1vbxmeJ4M0" frameborder="0" allowfullscreen></iframe>
-</section>
-<section>
-<h3>V-rep Printer設定</h3>
-<hr>
-<p class="article">
-經過前面幾個範例的練習後 ,對於Printer噴頭的close chain部分就比較熟悉了 ,但噴頭的移動方向有三個軸向 ,所以在連桿接頭的部分都個別需要三個旋轉接頭來配合。
-<br>
-<br>
-噴頭校正的部分須要配合當初繪製之尺寸 ,零件的座標設定為以形狀中心為基準 ,所以在校正噴頭至加熱板之位置時 ,須要計算零件間彼此的距離。 
-</p>
 </section>
 <section>
 <h3>Printer 程式碼 - 位置校正</h3>
 <hr>
 <p class="article">
-控制器和實體列印時同樣需要校正 ,雖然底板處座標為 (0,0,0) ,但V-rep 之內部座標還要包含底座本身之高度 ,故要補償一個高度值(L1+L2) ,如此就能控制出料口之位置。
+控制器和實體列印時同樣需要校正 ,雖然底板處座標為 (0,0,0) ,但V-rep 之內部座標還要包含底座本身之高度 ,故要補償一個高度值 (L1+L2) ,如此就能控制出料口之位置。
 <br>
 <br>
-如圖 ,出料口碰觸熱床之補正後高度 t ,經單位換算後之高度為0.1165m
+如圖 ,出料口碰觸熱床之補正後高度為 t ,經單位換算後之高度 t = L1+L2 = 0.1165m ( 116.5 mm )
 </p>
 <img src="g2/setposition.png" align="left" width="30%">
 <img src="g2/tk_code.png" align="right" width="70%">
 </section>
 <section>
+<h3>V-rep 列印成果</h3>
+<hr>
+<p class="article">
+<img src="g2/printer_sim.png" width="30%">
+</p>
+</section>
+<section>
 <h3>V-rep 列印成果影片</h3>
 <hr>
 <p class="article">
-<br>
 <iframe width="1024" height="576" src="https://www.youtube.com/embed/CF8xtkBd60k" frameborder="0" allowfullscreen></iframe>
 </p>
+</section>
+<section>
+<h3>結論 </h3>
+<hr>
+<p class="article">
+結論內容
+
+</p>
+
 </section>
 </section>
 <section id="solvespace">
