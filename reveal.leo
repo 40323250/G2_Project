@@ -60,10 +60,12 @@
 <v t="544.20170514200732.1"><vh>四連桿 範例</vh></v>
 <v t="544.20170514200732.2"><vh>八連桿 範例</vh></v>
 <v t="544.20170514200732.3"><vh>控制模擬</vh></v>
-<v t="544.20170515003932.1"><vh>V-rep 6軸加速度感測器範例</vh></v>
-<v t="leo.20170505053249.87"><vh>V-rep 6軸加速度感測器範例影片</vh></v>
-<v t="544.20170515003940.1"><vh>V-rep 可變電阻範例</vh></v>
-<v t="leo.20170505053249.92"><vh>V-rep 可變電阻範例影片</vh></v>
+<v t="544.20170515003940.1"><vh>V-rep 可變電阻範例 1</vh></v>
+<v t="544.20170515191155.1"><vh>V-rep 可變電阻範例 1 - Arduino</vh></v>
+<v t="544.20170515192011.1"><vh>V-rep 可變電阻範例 1 - Lua</vh></v>
+<v t="leo.20170505053249.92"><vh>V-rep 可變電阻範例 1 影片</vh></v>
+<v t="544.20170515003932.1"><vh>V-rep 6軸加速度感測器範例 2</vh></v>
+<v t="leo.20170505053249.87"><vh>V-rep 6軸加速度感測器範例 2 影片</vh></v>
 <v t="544.20170515002049.1"><vh>V-rep Printer 1</vh></v>
 <v t="544.20170515003915.1"><vh>V-rep Printer 2</vh></v>
 <v t="544.20170514180423.1"><vh>V-rep 列印成果影片</vh></v>
@@ -171,14 +173,22 @@ Summary: 導入 notebook 內容
 &lt;img src="g2/setposition.png" align="left" width="30%"&gt;
 &lt;img src="g2/tk_code.png" align="right" width="70%"&gt;
 &lt;/section&gt;</t>
-<t tx="544.20170515003932.1"></t>
-<t tx="544.20170515003940.1">&lt;section&gt;
-&lt;h3&gt;V-rep 範例&lt;/h3&gt;
+<t tx="544.20170515003932.1">&lt;section&gt;
+&lt;h3&gt;控制範例 2 - 6軸加速度感測器控制噴頭位置 &lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-&lt;br&gt;
-&lt;iframe width="1024" height="576" src="https://www.youtube.com/embed/Nsgt8YPSDpU" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+透過外界的參數輸入 ,可以模擬訊號輸入
+&lt;br&gt;&lt;br&gt;
 &lt;/p&gt;
+
+&lt;/section&gt;</t>
+<t tx="544.20170515003940.1">&lt;section&gt;
+&lt;h3&gt;控制範例 1 - 可變電阻控制噴頭位置&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+若要使用Arduino控制V-rep ,除了Ardunio本身之程式碼之外 ,還須設定V-rep的scripts內部程式 ,並透過設定相同之通訊埠和arduino之COM點 ,才能達到內外溝通之功能。
+&lt;/p&gt;
+&lt;img src="g2/arduino_lua.png" align="center" width="60%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515005219.1">&lt;section&gt;
 &lt;h3&gt;研究動機&lt;/h3&gt;
@@ -197,6 +207,22 @@ Summary: 導入 notebook 內容
 &lt;hr&gt;
 
 
+&lt;/section&gt;</t>
+<t tx="544.20170515191155.1">&lt;section&gt;
+&lt;h3&gt;控制範例 1 - Arduino程式&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+以下程式碼為使用三個可變電阻 ,分別控制V-rep內之Printer噴頭位置 ,可變電阻能轉之角度為360度 ,,轉1度之電阻值為 最大電阻值/360  ,經單位換算 ,電阻每轉一度能使噴頭移動固定距離 ,最後將三個值存成固定格式 (x,y,z) ,以便在 V-rep 內讀取 。
+&lt;/p&gt;
+&lt;img src="g2/example2_ardunio.png" align="center" width="40%"&gt;
+&lt;/section&gt;</t>
+<t tx="544.20170515192011.1">&lt;section&gt;
+&lt;h3&gt;控制範例 1 - Lua程式&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+本程式基本架構由 Eric Rohmer 所提供 ,控制方式為收到Arduino所傳來之固定格式的點座標後 ,使噴頭移動到相對映之位置。
+&lt;/p&gt;
+&lt;img src="g2/example2_lua.png" align="center" width="60%"&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--利用的技術--&gt;
@@ -707,7 +733,7 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 &lt;h3&gt;V-rep 軸加速度感測器控制&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-透過外界的參數輸入 ,可以模擬訊號輸入
+
 &lt;br&gt;&lt;br&gt;
 &lt;/p&gt;
 &lt;iframe width="1024" height="576" src="https://www.youtube.com/embed/y1vbxmeJ4M0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
