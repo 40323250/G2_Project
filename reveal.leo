@@ -189,10 +189,10 @@ Summary: 導入 notebook 內容
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515003915.1">&lt;section&gt;
-&lt;h3&gt;Printer 程式碼 - 位置校正&lt;/h3&gt;
+&lt;h3&gt;Printer 程式碼 - Tkinter&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-控制器和實體列印時同樣需要校正 ,雖然底板處座標為 (0,0,0) ,但V-rep 之內部座標還要包含底座本身之高度 ,故要補償一個高度值 (L1+L2) ,如此就能控制出料口之位置。
+控制器和實體列印時同樣需要校正 ,雖然實體熱床對於CURA程式的座標為 (0,0,0) ,但V-rep 之內部座標還要包含熱床本身之高度 ,故要補償一個高度值 (L1+L2) ,如此就能控制出料口之位置。
 &lt;br&gt;
 &lt;br&gt;
 如圖 ,出料口碰觸熱床之補正後高度為 t ,經單位換算後之高度 t = L1+L2 = 0.1165m ( 116.5 mm )
@@ -204,10 +204,9 @@ Summary: 導入 notebook 內容
 &lt;h3&gt;控制範例 2 - 六軸感測器控制噴頭位置 &lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-透過外界的參數輸入 ,可以模擬訊號輸入
-&lt;br&gt;&lt;br&gt;
+這個控制採用 MPU6050 六軸加速度感測器 ,經由角度之變化後 ,透過和前範例相同的方式傳送數值到V-rep內部後 ,轉換成噴頭欲移動之點座標。
 &lt;/p&gt;
-
+&lt;img src="g2/6axis_arduino.png" align="center" width="50%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515003940.1">&lt;section&gt;
 &lt;h3&gt;控制範例 1 - 可變電阻控制噴頭位置&lt;/h3&gt;
@@ -239,7 +238,7 @@ Summary: 導入 notebook 內容
 &lt;h3&gt;控制範例 1 - Arduino程式&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-以下程式碼為使用三個可變電阻 ,分別控制V-rep內之Printer噴頭位置 ,可變電阻能轉之角度為360度 ,,轉1度之電阻值為 最大電阻值/360  ,經單位換算 ,電阻每轉一度能使噴頭移動固定距離 ,最後將三個值存成固定格式 (x,y,z) ,以便在 V-rep 內讀取 。
+以下程式碼為使用三個可變電阻 ,分別控制V-rep內之Printer噴頭位置 ,可變電阻能轉之角度為360度 ,轉1度之電阻值為最大電阻值/360  ,經單位換算 ,電阻每轉一度能使噴頭移動固定距離 ,最後將三個值存成固定格式 (x,y,z) ,以便在 V-rep 內部 讀取後轉換成噴頭位置 。
 &lt;/p&gt;
 &lt;img src="g2/example2_ardunio.png" align="center" width="40%"&gt;
 &lt;/section&gt;</t>
@@ -247,7 +246,7 @@ Summary: 導入 notebook 內容
 &lt;h3&gt;控制範例 1 - Lua程式&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-本程式基本架構由 Eric Rohmer 所提供 ,控制方式為收到Arduino傳來固定格式的點座標後 ,使噴頭移動到相對映之位置。
+本程式基本架構由 Eric Rohmer 所提供 ,控制方式為收到Arduino傳來固定格式的數值後 ,經由程式語法將其轉換為點座標 ,使噴頭移動到相對映之位置。
 &lt;/p&gt;
 &lt;img src="g2/example2_lua.png" align="center" width="60%"&gt;
 &lt;/section&gt;</t>
@@ -754,6 +753,7 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 &lt;h3&gt;六軸感測器控制噴頭位置 範例影片&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
+因為手的晃動導致噴頭位置不穩定。
 &lt;/p&gt;
 &lt;iframe width="1024" height="576" src="https://www.youtube.com/embed/y1vbxmeJ4M0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/section&gt;</t>

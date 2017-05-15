@@ -266,7 +266,7 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 <h3>控制範例 1 - Arduino程式</h3>
 <hr>
 <p class="article">
-以下程式碼為使用三個可變電阻 ,分別控制V-rep內之Printer噴頭位置 ,可變電阻能轉之角度為360度 ,,轉1度之電阻值為 最大電阻值/360  ,經單位換算 ,電阻每轉一度能使噴頭移動固定距離 ,最後將三個值存成固定格式 (x,y,z) ,以便在 V-rep 內讀取 。
+以下程式碼為使用三個可變電阻 ,分別控制V-rep內之Printer噴頭位置 ,可變電阻能轉之角度為360度 ,轉1度之電阻值為最大電阻值/360  ,經單位換算 ,電阻每轉一度能使噴頭移動固定距離 ,最後將三個值存成固定格式 (x,y,z) ,以便在 V-rep 內部 讀取後轉換成噴頭位置 。
 </p>
 <img src="g2/example2_ardunio.png" align="center" width="40%">
 </section>
@@ -274,7 +274,7 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 <h3>控制範例 1 - Lua程式</h3>
 <hr>
 <p class="article">
-本程式基本架構由 Eric Rohmer 所提供 ,控制方式為收到Arduino傳來固定格式的點座標後 ,使噴頭移動到相對映之位置。
+本程式基本架構由 Eric Rohmer 所提供 ,控制方式為收到Arduino傳來固定格式的數值後 ,經由程式語法將其轉換為點座標 ,使噴頭移動到相對映之位置。
 </p>
 <img src="g2/example2_lua.png" align="center" width="60%">
 </section>
@@ -290,23 +290,23 @@ V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系�
 <h3>控制範例 2 - 六軸感測器控制噴頭位置 </h3>
 <hr>
 <p class="article">
-透過外界的參數輸入 ,可以模擬訊號輸入
-<br><br>
+這個控制採用 MPU6050 六軸加速度感測器 ,經由角度之變化後 ,透過和前範例相同的方式傳送數值到V-rep內部後 ,轉換成噴頭欲移動之點座標。
 </p>
-
+<img src="g2/6axis_arduino.png" align="center" width="50%">
 </section>
 <section>
 <h3>六軸感測器控制噴頭位置 範例影片</h3>
 <hr>
 <p class="article">
+因為手的晃動導致噴頭位置不穩定。
 </p>
 <iframe width="1024" height="576" src="https://www.youtube.com/embed/y1vbxmeJ4M0" frameborder="0" allowfullscreen></iframe>
 </section>
 <section>
-<h3>Printer 程式碼 - 位置校正</h3>
+<h3>Printer 程式碼 - Tkinter</h3>
 <hr>
 <p class="article">
-控制器和實體列印時同樣需要校正 ,雖然底板處座標為 (0,0,0) ,但V-rep 之內部座標還要包含底座本身之高度 ,故要補償一個高度值 (L1+L2) ,如此就能控制出料口之位置。
+控制器和實體列印時同樣需要校正 ,雖然實體熱床對於CURA程式的座標為 (0,0,0) ,但V-rep 之內部座標還要包含熱床本身之高度 ,故要補償一個高度值 (L1+L2) ,如此就能控制出料口之位置。
 <br>
 <br>
 如圖 ,出料口碰觸熱床之補正後高度為 t ,經單位換算後之高度 t = L1+L2 = 0.1165m ( 116.5 mm )
