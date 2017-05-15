@@ -208,7 +208,7 @@ Summary: 導入 notebook 內容
 &lt;h3&gt;控制範例 2 - 六軸感測器控制噴頭位置 &lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article" &gt;
-這個控制採用 MPU6050 六軸加速度感測器 ,經由角度之變化後 ,透過和前範例相同的方式傳送數值到V-rep內部後 ,轉換成噴頭欲移動之座標點。
+這個控制採用 MPU6050 六軸加速度感測器 ,經由角度之變化後 ,透過和前範例相同的方式 ,傳送數值到V-rep內部後 ,轉換成噴頭欲移動之座標點。
 &lt;/p&gt;
 &lt;img src="g2/6axis_arduino.png" align="center" width="50%"&gt;
 &lt;/section&gt;</t>
@@ -216,7 +216,7 @@ Summary: 導入 notebook 內容
 &lt;h3&gt;控制範例 1 - 可變電阻控制噴頭位置&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-若要使用Arduino控制V-rep ,除了Ardunio本身之程式碼之外 ,還須設定V-rep的scripts內部程式 ,並透過設定相同之通訊埠和arduino之COM點 ,才能達到內外溝通之功能。
+若要使用Arduino控制V-rep ,除了Arduino本身之程式碼之外 ,還須設定V-rep的scripts內部程式 ,並透過設定相同之通訊埠和arduino之COM點 ,才能達到內外溝通之功能。
 &lt;/p&gt;
 &lt;img src="g2/arduino_lua.png" align="center" width="60%"&gt;
 &lt;/section&gt;</t>
@@ -288,7 +288,7 @@ Summary: 導入 notebook 內容
 &lt;h3&gt;Printer模擬列印&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-如同先前所說 ,列印的粒子數量不能太龐大 ,如同填充的密度不可太密 ,模擬的部分稍為將粒子的尺寸調大 ,已達到更真實的效果 ,如同填充密度100%。
+如同先前所說 ,列印的粒子數量不能太龐大 ,如同填充的密度不可太密 ,但模擬的部分稍為將粒子的尺寸調大 ,達到更真實的效果 ,如同填充密度100%。
 &lt;/p&gt;
 &lt;img src="g2/printer.png" width="25%"&gt;
 &lt;/section&gt;</t>
