@@ -36,11 +36,11 @@
 <v t="leo.20170505053249.12" a="E"><vh>div class="slides"</vh>
 <v t="leo.20170505053249.19" a="E"><vh>目錄(#contents)</vh>
 <v t="leo.20170505053249.13"><vh>投影封面</vh></v>
-<v t="544.20170515005219.1"><vh>研究動機、目的、...</vh></v>
-<v t="544.20170515005232.1"><vh>摘要</vh></v>
 <v t="leo.20170505053249.20"><vh>3D Printer 目錄</vh></v>
 <v t="leo.20170505053249.25"><vh>V-rep 目錄</vh></v>
 <v t="leo.20170505053249.30"><vh>Pyslvs 目錄</vh></v>
+<v t="544.20170515005219.1"><vh>研究動機、目的、...</vh></v>
+<v t="544.20170515005232.1"><vh>摘要</vh></v>
 </v>
 <v t="leo.20170505053249.35" a="E"><vh>3D Printer(#3D printer)</vh>
 <v t="leo.20170505053249.36"><vh>3D Printer結構介紹</vh></v>
@@ -153,13 +153,24 @@ Summary: 導入 notebook 內容
 &lt;h3&gt;V-rep Printer設定&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-經過前面幾個範例的練習後 ,對於Printer噴頭的close chain部分就比較熟悉了 ,但噴頭的移動方向有三軸 ,所以在連桿接頭的部分都個別需要三個旋轉接頭來配合。
+經過前面幾個範例的練習後 ,對於Printer噴頭的close chain部分就比較熟悉了 ,但噴頭的移動方向有三個軸向 ,所以在連桿接頭的部分都個別需要三個旋轉接頭來配合。
 &lt;br&gt;
 &lt;br&gt;
 噴頭校正的部分須要配合當初繪製之尺寸 ,零件的座標設定為以形狀中心為基準 ,所以在校正噴頭至加熱板之位置時 ,須要計算零件間彼此的距離。 
 &lt;/p&gt;
 &lt;/section&gt;</t>
-<t tx="544.20170515003915.1"></t>
+<t tx="544.20170515003915.1">&lt;section&gt;
+&lt;h3&gt;Printer 程式碼 - 位置校正&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+控制器和實體列印時同樣需要校正 ,雖然底板處座標為 (0,0,0) ,但V-rep 之內部座標還要包含底座本身之高度 ,故要補償一個高度值(L1+L2) ,如此就能控制出料口之位置。
+&lt;br&gt;
+如圖 :
+&lt;br&gt;
+&lt;/p&gt;
+&lt;img src="g2/setposition.png" align="middle" width="40%"&gt;
+&lt;img src="g2/tk_code.png" align="middle" width="40%"&gt;
+&lt;/section&gt;</t>
 <t tx="544.20170515003932.1"></t>
 <t tx="544.20170515003940.1">&lt;section&gt;
 &lt;h3&gt;V-rep 範例&lt;/h3&gt;
@@ -169,8 +180,24 @@ Summary: 導入 notebook 內容
 &lt;iframe width="1024" height="576" src="https://www.youtube.com/embed/Nsgt8YPSDpU" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 &lt;/section&gt;</t>
-<t tx="544.20170515005219.1"></t>
-<t tx="544.20170515005232.1"></t>
+<t tx="544.20170515005219.1">&lt;section&gt;
+&lt;h3&gt;研究動機&lt;/h3&gt;
+&lt;hr&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h3&gt;研究目的&lt;/h3&gt;
+&lt;hr&gt;
+
+
+&lt;/section&gt;</t>
+<t tx="544.20170515005232.1">&lt;section&gt;
+&lt;h3&gt;摘要&lt;/h3&gt;
+&lt;hr&gt;
+
+
+&lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--利用的技術--&gt;
 &lt;h3&gt;Technologies&lt;/h3&gt;
