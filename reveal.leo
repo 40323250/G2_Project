@@ -165,11 +165,11 @@ Summary: 導入 notebook 內容
 &lt;p class="article"&gt;
 控制器和實體列印時同樣需要校正 ,雖然底板處座標為 (0,0,0) ,但V-rep 之內部座標還要包含底座本身之高度 ,故要補償一個高度值(L1+L2) ,如此就能控制出料口之位置。
 &lt;br&gt;
-如圖 :
 &lt;br&gt;
+如圖 ,出料口碰觸熱床之補正後高度 t ,經單位換算後之高度為0.1165m
 &lt;/p&gt;
-&lt;img src="g2/setposition.png" align="middle" width="40%"&gt;
-&lt;img src="g2/tk_code.png" align="middle" width="40%"&gt;
+&lt;img src="g2/setposition.png" align="left" width="30%"&gt;
+&lt;img src="g2/tk_code.png" align="right" width="70%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515003932.1"></t>
 <t tx="544.20170515003940.1">&lt;section&gt;
