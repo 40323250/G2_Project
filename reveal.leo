@@ -39,8 +39,9 @@
 <v t="leo.20170505053249.20"><vh>3D Printer 目錄</vh></v>
 <v t="leo.20170505053249.25"><vh>V-rep 目錄</vh></v>
 <v t="leo.20170505053249.30"><vh>Pyslvs 目錄</vh></v>
-<v t="544.20170515005219.1"><vh>研究動機、目的、...</vh></v>
 <v t="544.20170515005232.1"><vh>摘要</vh></v>
+<v t="544.20170515005219.1"><vh>研究動機</vh></v>
+<v t="544.20170516214054.1"><vh>研究目的</vh></v>
 </v>
 <v t="leo.20170505053249.35" a="E"><vh>3D Printer(#3D printer)</vh>
 <v t="leo.20170505053249.36"><vh>3D Printer結構介紹</vh></v>
@@ -60,6 +61,7 @@
 <v t="544.20170514200732.2"><vh>八連桿 範例</vh></v>
 <v t="544.20170514200732.3" a="E"><vh>以下為控制模擬</vh>
 <v t="544.20170515002049.1"><vh>V-rep Printer 組裝</vh></v>
+<v t="544.20170516215532.1"><vh>V-rep Arduino</vh></v>
 <v t="544.20170515003940.1"><vh>V-rep 可變電阻範例 1</vh></v>
 <v t="544.20170515191155.1"><vh>V-rep 可變電阻範例 1 - Arduino</vh></v>
 <v t="544.20170515192011.1"><vh>V-rep 可變電阻範例 1 - Lua</vh></v>
@@ -183,20 +185,22 @@ Summary: 導入 notebook 內容
 
 &lt;/section&gt;</t>
 <t tx="544.20170515002049.1">&lt;section&gt;
-&lt;h3&gt;V-rep Printer設定&lt;/h3&gt;
+&lt;h3&gt;V-rep - Printer設定&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-經過前面幾個範例的練習後 ,對於Printer噴頭的close chain部分就比較熟悉了 。
+當Printer匯入 V-rep 後 ,拆解開來的零件約有一百個 ,組裝時須要特別留意噴頭座的部分為 close chain ,六連桿的關節處須要....。
+
+
 &lt;br&gt;
 &lt;br&gt;
-在控制之前 ,校正噴頭的部分須要配合當初繪製之尺寸 ,零件的座標設定為以形狀中心為基準 ,所以在校正噴頭至熱床的位置時 ,要先計算零件間彼此的距離。 
+( 擺放位置 )
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515003915.1">&lt;section&gt;
-&lt;h3&gt;V-rep Printer - 校正&lt;/h3&gt;
+&lt;h3&gt;V-rep - Printer校正&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-前兩者範例移動的位置並未經過精準校正 ,但控制器和實體列印時同樣需要校正 ,雖然實體熱床對於CURA程式的座標為 (0,0,0) ,但V-rep 之內部座標還要包含熱床本身之高度 ,故要補償一個高度值 (L1+L2) ,如此就能控制出料口之位置。
+前兩者為模擬練習 ,只有限制移動範圍但並未經過精準校正 ,但控制器和實體列印時同樣需要校正 ,雖然實體熱床對於 CURA 程式的座標為 (0,0,0) ,但V-rep 之內部座標還要包含熱床本身之高度 ,故要補償一個高度值 (L1+L2) ,如此就能控制出料口之位置。
 &lt;br&gt;
 &lt;br&gt;
 如圖 ,出料口碰觸熱床之補正後高度為 t ,經單位換算後之高度 t = L1+L2 = 0.1165m ( 116.5 mm )
@@ -223,20 +227,20 @@ Summary: 導入 notebook 內容
 <t tx="544.20170515005219.1">&lt;section&gt;
 &lt;h3&gt;研究動機&lt;/h3&gt;
 &lt;hr&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;h3&gt;研究目的&lt;/h3&gt;
-&lt;hr&gt;
-
-
+&lt;p class="article"&gt;
+根據國外研究指出 ,3D Printing 是近年來發展最快速的技術之一 ,國內外各家科技大廠紛紛投入。
+&lt;/br&gt;&lt;/br&gt;
+3D列印技術讓原本只存在腦海中的概念 ,經由 3D Printer 做快速打樣成型 ,節省了過往傳統打樣的繁複過程與費用。
+&lt;/br&gt;&lt;/br&gt;
+在使用 3D Printer 列印的過程中 ,我們發現有時會有路徑錯誤的問題 ,跟 CNC 比較起來缺少模擬列印的功能 ,使列印前缺少一道檢查錯誤的步驟。
+&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515005232.1">&lt;section&gt;
 &lt;h3&gt;摘要&lt;/h3&gt;
 &lt;hr&gt;
-
-
+&lt;p class="article"&gt;
+內容
+&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515191155.1">&lt;section&gt;
 &lt;h3&gt;控制範例 1 - Arduino程式&lt;/h3&gt;
@@ -252,7 +256,7 @@ Summary: 導入 notebook 內容
 &lt;h3&gt;控制範例 1 - Lua程式&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-本程式基本架構由 Eric Rohmer 所提供 ,控制方式為收到Arduino傳來固定格式的數值後 ,經由程式語法將其轉換為點座標 ,使噴頭移動到相對映之位置。
+本程式基本架構由 Eric Rohmer 所提供 ,控制方式為收到Arduino傳來固定格式的數值後 ,經由程式語法將其轉換為點座標 ,使噴頭移動到相對映的位置。
 &lt;/p&gt;
 &lt;img src="g2/example2_lua.png" align="center" width="60%"&gt;
 &lt;/section&gt;</t>
@@ -267,17 +271,17 @@ Summary: 導入 notebook 內容
 &lt;img src="g2/print1.png" width="80%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515212926.1">&lt;section&gt;
-&lt;h3&gt;Printer控制 - Tkinter介面&lt;/h3&gt;
+&lt;h3&gt;V-rep - Tkinter控制介面&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-此控制採用 Python 本身的 Tkinter 模組 ,經由 Vrep.py 將 V-rep 內的函式轉換後 Python也能使用 ,通訊採用類似Arduino之通訊埠 ,達到內外溝通。
+此控制採用 Python 本身的 Tkinter 模組 ,經由 Vrep.py 將 V-rep 內的函式轉換後 再由 Python 控制,通訊採用類似Arduino之通訊埠 ,達到內外溝通。
 &lt;/br&gt;&lt;/br&gt;
-以下為Tkinter介面 ,依靠輸入的座標位置 ,讓噴頭移動至該處。
+以下為Tkinter介面 ,依照輸入的座標位置 ,讓噴頭移動至該位置。
 &lt;/p&gt;
 &lt;img src="g2/controller.png" width="40%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515222109.1">&lt;section&gt;
-&lt;h3&gt;Printer模擬列印&lt;/h3&gt;
+&lt;h3&gt;V-rep - Printer模擬列印&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 當控制及列印的粒子完成之後 ,G-Code的部分為CURA產生 ,並採用先前報告小組同學 祐生的程式來解讀 ,並透過先前的方式 ,將值傳回V-rep內部 ,雖然不是專門模擬列印的軟體 ,也是能達到模擬列印的功能。
@@ -285,12 +289,29 @@ Summary: 導入 notebook 內容
 &lt;img src="g2/gcode.png" width="80%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515225150.1">&lt;section&gt;
-&lt;h3&gt;Printer模擬列印&lt;/h3&gt;
+&lt;h3&gt;V-rep - Printer模擬列印&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 如同先前所說 ,列印的粒子數量不能太龐大 ,如同填充的密度不可太密 ,但模擬的部分稍為將粒子的尺寸調大 ,達到更真實的效果 ,如同填充密度100%。
 &lt;/p&gt;
 &lt;img src="g2/printer.png" width="25%"&gt;
+&lt;/section&gt;</t>
+<t tx="544.20170516214054.1">&lt;section&gt;
+&lt;h3&gt;研究目的&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+內容
+&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="544.20170516215532.1">&lt;section&gt;
+&lt;h3&gt;V-rep - Arduino控制範例&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+
+&lt;/br&gt;&lt;/br&gt;
+當V-rep內部設定完成之後 ,再來就需要透過外界輸入參數 ,控制內部實體 ,因此選擇了容易上手的Adroid ,
+&lt;/p&gt;
+
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--利用的技術--&gt;
@@ -669,17 +690,14 @@ Reveal.initialize({
 &lt;h4&gt;電腦輔助動態模擬&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;V-rep 基本介紹&lt;/li&gt;
-&lt;li&gt;On Shape 介紹&lt;/li&gt;
-&lt;li&gt;V-rep 內部介紹&lt;/li&gt;
-&lt;li&gt;四連桿 範例&lt;/li&gt;
-&lt;li&gt;八連桿 範例&lt;/li&gt;
-&lt;li&gt;控制模擬&lt;/li&gt;
+&lt;li&gt;On Shape 介紹(待改)&lt;/li&gt;
+&lt;li&gt;V-rep 內部介紹(待改)&lt;/li&gt;
+&lt;li&gt;四連桿 範例(待改)&lt;/li&gt;
+&lt;li&gt;八連桿 範例(待改)&lt;/li&gt;
+&lt;li&gt;控制模擬(待改)&lt;/li&gt;
 &lt;li&gt;控制範例 1 - 可變電阻控制噴頭位置&lt;/li&gt;
 &lt;li&gt;控制範例 2 - 六軸感測器控制噴頭位置&lt;/li&gt;
-
-
-
-
+&lt;li&gt;V-rep - 模擬列印與控制&lt;/li&gt;
 &lt;li&gt;結論&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;</t>
@@ -779,7 +797,7 @@ Reveal.initialize({
 &lt;h3&gt;V-rep 簡介&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系統或他的子系統(如感測器或其它機械結構等等) 
+V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系統或他的子系統(如感測器或其它機械結構等等) 。
 &lt;br&gt;&lt;br&gt;
 可用在遠端監控、硬體控制、快速原型驗證、演算法開發與參數調整、安全性檢查、機器人教學與工廠自動化模擬等各種領域。
 &lt;/p&gt;
