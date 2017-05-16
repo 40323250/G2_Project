@@ -44,8 +44,8 @@
 <v t="544.20170516214054.1"><vh>研究目的</vh></v>
 </v>
 <v t="leo.20170505053249.35" a="E"><vh>3D Printer(#3D printer)</vh>
-<v t="leo.20170505053249.36"><vh>3D列印組成</vh></v>
-<v t="leo.20170505053249.41"><vh>3D Printer結構介紹</vh></v>
+<v t="leo.20170505053249.36"><vh>3D Printer結構介紹</vh></v>
+<v t="leo.20170505053249.41"><vh>3D Printer硬體介紹</vh></v>
 <v t="leo.20170505053249.46"><vh>韌體程式碼介紹</vh></v>
 <v t="leo.20170505053249.51"><vh>Cura介紹 - 機台設定</vh></v>
 <v t="leo.20170505053249.56"><vh>Cura介紹 - 參數設定1</vh></v>
@@ -752,7 +752,7 @@ Reveal.initialize({
 &lt;![endif]--&gt;
 &lt;/head&gt;</t>
 <t tx="leo.20170505053249.41">&lt;section&gt;
-&lt;h3&gt;Delta 3D-Printer 結構介紹&lt;/h3&gt;
+&lt;h3&gt;Delta 3D-Printer 硬體介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 &lt;/p&gt;
@@ -784,8 +784,8 @@ Reveal.initialize({
 &lt;hr&gt;
 &lt;p class="article"&gt;
 &lt;/p&gt;
-&lt;img src="g2/40323231/8.png" width="45%"&gt;
-&lt;img src="g2/40323231/9.png" width="45%"&gt;
+&lt;img src="g2/40323231/8.PNG" width="45%"&gt;
+&lt;img src="g2/40323231/9.PNG" width="45%"&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.61">&lt;section&gt;
 &lt;h3&gt;校正機台&lt;/h3&gt;
