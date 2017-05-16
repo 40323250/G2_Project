@@ -44,13 +44,18 @@
 <v t="544.20170516214054.1"><vh>研究目的</vh></v>
 </v>
 <v t="leo.20170505053249.35" a="E"><vh>3D Printer(#3D printer)</vh>
-<v t="leo.20170505053249.36"><vh>3D Printer結構介紹</vh></v>
-<v t="leo.20170505053249.41"><vh>組裝過程</vh></v>
-<v t="leo.20170505053249.46"><vh>程式碼介紹</vh></v>
-<v t="leo.20170505053249.51"><vh>Cura</vh></v>
-<v t="leo.20170505053249.56"><vh>Pronterface</vh></v>
+<v t="leo.20170505053249.36"><vh>3D列印組成</vh></v>
+<v t="leo.20170505053249.41"><vh>3D Printer結構介紹</vh></v>
+<v t="leo.20170505053249.46"><vh>韌體程式碼介紹</vh></v>
+<v t="leo.20170505053249.51"><vh>Cura介紹 - 機台設定</vh></v>
+<v t="leo.20170505053249.56"><vh>Cura介紹 - 參數設定</vh></v>
 <v t="leo.20170505053249.61"><vh>校正機台</vh></v>
 <v t="leo.20170505053249.66"><vh>重點提攜</vh></v>
+<v t="544.20170516232554.1"><vh>newHeadline</vh></v>
+<v t="544.20170516232554.2"><vh>newHeadline</vh></v>
+<v t="544.20170516232554.3"><vh>newHeadline</vh></v>
+<v t="544.20170516232555.1"><vh>newHeadline</vh></v>
+<v t="544.20170516232555.2"><vh>newHeadline</vh></v>
 </v>
 <v t="leo.20170505053249.71" a="E"><vh>V-rep(#v-rep)</vh>
 <v t="leo.20170505053249.72"><vh>V-rep 基本介紹</vh></v>
@@ -75,7 +80,7 @@
 <v t="544.20170515225150.1"><vh>V-rep Printer 5 simulation-2</vh></v>
 <v t="544.20170514180423.1"><vh>V-rep 列印成果影片</vh></v>
 </v>
-<v t="544.20170514195356.1"><vh>結論</vh></v>
+<v t="544.20170514195356.1"><vh>結論、未來展望</vh></v>
 </v>
 <v t="leo.20170505053249.96" a="E"><vh>Python Solvespace(#solvespace)</vh>
 <v t="leo.20170505053249.97"><vh>概述</vh></v>
@@ -313,6 +318,11 @@ Summary: 導入 notebook 內容
 &lt;/p&gt;
 
 &lt;/section&gt;</t>
+<t tx="544.20170516232554.1"></t>
+<t tx="544.20170516232554.2"></t>
+<t tx="544.20170516232554.3"></t>
+<t tx="544.20170516232555.1"></t>
+<t tx="544.20170516232555.2"></t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--利用的技術--&gt;
 &lt;h3&gt;Technologies&lt;/h3&gt;
@@ -639,7 +649,7 @@ NOTEBOOK_DIR = 'notebook'
 @others
 &lt;/div&gt;</t>
 <t tx="leo.20170505053249.13">&lt;section&gt;
-&lt;h3&gt;V-rep 在 Delta 3D Printer&lt;/br&gt;虚實整合模擬上的應用&lt;/h3&gt;
+&lt;h3&gt;V-rep 在 Delta 3D-Printer&lt;/br&gt;虚實整合模擬上的應用&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h4&gt;組員&lt;/h4&gt;
 &lt;h4&gt;40323218 李冠興&lt;/h4&gt;
@@ -671,7 +681,7 @@ Reveal.initialize({
 且支援平行與垂直的投影片配置方法
 --&gt;</t>
 <t tx="leo.20170505053249.20">&lt;section&gt;
-&lt;h3&gt;3D Printer&lt;/h3&gt;
+&lt;h3&gt;Delta 3D-Printer&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h4&gt;3D 列印機硬體設置&lt;/h4&gt;
 &lt;ol&gt;
@@ -722,13 +732,13 @@ Reveal.initialize({
 @others
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.36">&lt;section&gt;
-&lt;h3&gt;3D Printer 結構介紹&lt;/h3&gt;
+&lt;h3&gt;Delta 3D-Printer 結構介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 
 &lt;/p&gt;
-&lt;img src="g2/printer.jpg" width="30%"&gt;
-&lt;img src="g2/02.jpg" width="45%"&gt;
+&lt;img src="g2/40323231/1.png" width="80%"&gt;
+
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.4">&lt;head&gt;
 &lt;meta charset="utf-8"&gt;
@@ -742,37 +752,40 @@ Reveal.initialize({
 &lt;![endif]--&gt;
 &lt;/head&gt;</t>
 <t tx="leo.20170505053249.41">&lt;section&gt;
-&lt;h3&gt;組裝過程&lt;/h3&gt;
+&lt;h3&gt;Delta 3D-Printer 結構介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-
 &lt;/p&gt;
+&lt;img src="g2/printer.jpg" width="50%"&gt;
+&lt;img src="g2/40323231/02.jpg" width="45%"&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.46">&lt;section&gt;
-&lt;h3&gt;程式碼介紹&lt;/h3&gt;
+&lt;h3&gt;韌體程式碼介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-
 &lt;/p&gt;
+&lt;img src="g2/40323231/4.png" width="62%"&gt;
+&lt;img src="g2/40323231/5.png" width="35%"&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.51">&lt;section&gt;
-&lt;h3&gt;Cura&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-機台設定
-&lt;/br&gt;&lt;/br&gt;
-進入Cura後的主畫面後須先設定機台，點選機型設置(左圖)進入設定頁面(右圖)，此機台的平台為圓形所以設定Circular(因此寬、深因此相同)。擠出機也只有一個所以選擇1。由於機台為三角形機台，因此平台中心設為(0,0)。波特率設為115200(需與韌體相同)。設定完之後即可開始使用Cura
-&lt;/p&gt;
-&lt;img src="g2/03.jpg" width="40%"&gt;
-&lt;img src="g2/04.jpg" width="50%"&gt;
-&lt;/section&gt;</t>
-<t tx="leo.20170505053249.56">&lt;section&gt;
-&lt;h3&gt;Pronterface&lt;/h3&gt;
+&lt;h3&gt;Cura介紹 - 機台設定&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 
+進入Cura後的主畫面後須先設定機台 ,點選機型設置(左圖)進入設定頁面(右圖) ,此機台的平台為圓形所以設定 Circular (因此寬、深相同)。
+&lt;/br&gt;&lt;/br&gt;
+擠出機也只有一個所以選擇1。由於機台為三角形機台 ,因此平台中心設為 (0,0) ,波特率設為115200(需與韌體相同) ,設定完之後即可開始使用Cura。
 &lt;/p&gt;
-&lt;img src="g2/subrelative.png" width="85%"&gt;
+&lt;img src="g2/40323231/03.jpg" width="40%"&gt;
+&lt;img src="g2/40323231/04.jpg" width="50%"&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170505053249.56">&lt;section&gt;
+&lt;h3&gt;Cura介紹 - 參數設定&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+&lt;/p&gt;
+&lt;img src="g2/40323231/8.png" width="45%"&gt;
+&lt;img src="g2/40323231/9.png" width="45%"&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.61">&lt;section&gt;
 &lt;h3&gt;校正機台&lt;/h3&gt;
