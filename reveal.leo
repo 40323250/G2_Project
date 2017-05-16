@@ -48,8 +48,8 @@
 <v t="leo.20170505053249.41"><vh>3D Printer結構介紹</vh></v>
 <v t="leo.20170505053249.46"><vh>韌體程式碼介紹</vh></v>
 <v t="leo.20170505053249.51"><vh>Cura介紹 - 機台設定</vh></v>
-<v t="leo.20170505053249.56"><vh>Cura介紹 - 參數設定</vh></v>
-<v t="leo.20170505053249.61"><vh>校正機台</vh></v>
+<v t="leo.20170505053249.56"><vh>Cura介紹 - 參數設定1</vh></v>
+<v t="leo.20170505053249.61"><vh>Cura介紹 - 參數設定2</vh></v>
 <v t="leo.20170505053249.66"><vh>重點提攜</vh></v>
 <v t="544.20170516232554.1"><vh>newHeadline</vh></v>
 <v t="544.20170516232554.2"><vh>newHeadline</vh></v>
@@ -737,7 +737,7 @@ Reveal.initialize({
 &lt;p class="article"&gt;
 
 &lt;/p&gt;
-&lt;img src="g2/40323231/1.png" width="80%"&gt;
+&lt;img src="g2/40323231/1.png" width="70%"&gt;
 
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.4">&lt;head&gt;
