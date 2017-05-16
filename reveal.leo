@@ -50,18 +50,25 @@
 <v t="leo.20170505053249.51"><vh>Cura介紹 - 機台設定</vh></v>
 <v t="leo.20170505053249.56"><vh>Cura介紹 - 參數設定1</vh></v>
 <v t="leo.20170505053249.61"><vh>Cura介紹 - 參數設定2</vh></v>
-<v t="leo.20170505053249.66"><vh>重點提攜</vh></v>
-<v t="544.20170516232554.1"><vh>newHeadline</vh></v>
-<v t="544.20170516232554.2"><vh>newHeadline</vh></v>
-<v t="544.20170516232554.3"><vh>newHeadline</vh></v>
-<v t="544.20170516232555.1"><vh>newHeadline</vh></v>
-<v t="544.20170516232555.2"><vh>newHeadline</vh></v>
+<v t="leo.20170505053249.66"><vh>Cura介紹 - 界面說明</vh></v>
+<v t="544.20170516232554.1"><vh>Pronterface介紹 - 界面介紹</vh></v>
+<v t="544.20170516232554.2"><vh>Pronterface介紹 - 機台校正1</vh></v>
+<v t="544.20170516232554.3"><vh>Pronterface介紹 - 機台校正2</vh></v>
+<v t="544.20170516232555.1"><vh>Pronterface介紹 - 機台校正3</vh></v>
+<v t="544.20170516232555.2"><vh>Pronterface介紹 - 機台校正4</vh></v>
+<v t="544.20170517005916.1"><vh>Pronterface介紹 - 機台校正5</vh></v>
+<v t="544.20170517010100.1"><vh>Pronterface介紹 - 機台校正6</vh></v>
+<v t="544.20170517010100.2"><vh>Pronterface介紹 - 機台校正7</vh></v>
+<v t="544.20170517010100.3"><vh>Pronterface介紹 - 機台校正8</vh></v>
+<v t="544.20170517010100.4"><vh>Pronterface介紹 - 機台校正9</vh></v>
+<v t="544.20170517010633.1"><vh>Pronterface介紹 - 機台校正10</vh></v>
+<v t="544.20170517011528.1"><vh>Pronterface介紹 - 機台校正11</vh></v>
 </v>
 <v t="leo.20170505053249.71" a="E"><vh>V-rep(#v-rep)</vh>
 <v t="leo.20170505053249.72"><vh>V-rep 基本介紹</vh></v>
 <v t="544.20170514200717.2"><vh>On Shape 介紹1</vh></v>
 <v t="544.20170514201601.1"><vh>On Shape 介紹2</vh></v>
-<v t="544.20170515195524.1"><vh>Vrep內部介紹</vh></v>
+<v t="544.20170515195524.1"><vh>Vrep細部介紹</vh></v>
 <v t="544.20170514200732.1"><vh>四連桿 範例</vh></v>
 <v t="544.20170514200732.2"><vh>八連桿 範例</vh></v>
 <v t="544.20170514200732.3" a="E"><vh>以下為控制模擬</vh>
@@ -265,7 +272,16 @@ Summary: 導入 notebook 內容
 &lt;/p&gt;
 &lt;img src="g2/example2_lua.png" align="center" width="60%"&gt;
 &lt;/section&gt;</t>
-<t tx="544.20170515195524.1"></t>
+<t tx="544.20170515195524.1">&lt;section&gt;
+&lt;h3&gt;Vrep 細部介紹&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+
+
+&lt;/p&gt;
+
+
+&lt;/section&gt;</t>
 <t tx="544.20170515202348.1">&lt;section&gt;
 &lt;h3&gt;V-rep - Particles&lt;/h3&gt;
 &lt;hr&gt;
@@ -318,11 +334,180 @@ Summary: 導入 notebook 內容
 &lt;/p&gt;
 
 &lt;/section&gt;</t>
-<t tx="544.20170516232554.1"></t>
-<t tx="544.20170516232554.2"></t>
-<t tx="544.20170516232554.3"></t>
-<t tx="544.20170516232555.1"></t>
-<t tx="544.20170516232555.2"></t>
+<t tx="544.20170516232554.1">&lt;section&gt;
+&lt;h3&gt;Pronterface介紹 - 界面介紹&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+&lt;/p&gt;
+&lt;img src="g2/40323231/13.PNG" width="45%"&gt;
+&lt;img src="g2/40323231/14.PNG" width="50%"&gt;
+
+&lt;/section&gt;</t>
+<t tx="544.20170516232554.2">&lt;section&gt;
+&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+步驟一.與Pronterface連接
+&lt;/br&gt;&lt;/br&gt;
+電腦先與3D列印機連接(USB) ,之後開啟Pronterface ,按下Port(會直接幫你搜尋端口) ,之後按下connect進行連接(圖.3)。
+&lt;/p&gt;
+&lt;img src="g2/40323231/15.PNG" width="50%"&gt;
+
+&lt;/section&gt;</t>
+<t tx="544.20170516232554.3">&lt;section&gt;
+&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+步驟二.原點復歸
+&lt;/br&gt;&lt;/br&gt;
+在圖樣控制面板中按下房子符號(原點復歸)，讓Pronterface紀錄原點(沒做此步驟可能會造成撞機的危機)(圖.4)。
+
+&lt;/p&gt;
+&lt;img src="g2/40323231/16.PNG" width="40%"&gt;
+
+&lt;/section&gt;</t>
+<t tx="544.20170516232555.1">&lt;section&gt;
+&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+步驟三.量測列印高度
+&lt;/br&gt;&lt;/br&gt;
+在輸入地方輸入G01  Z10，讓噴頭下降至距離平台10mm處(預留量，避免撞機的可能) ,放置一張紙在平台上(檢測用) ,之後在圖樣控制面板中按Z軸的位移量讓噴頭接近平台(位移量由大到小避免撞機)，噴頭下降的過程中挪動平台上的紙張 ,直到拉動紙張會有一股阻力時 ,即可紀錄顯示中的數值。
+&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="544.20170516232555.2">&lt;section&gt;
+&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+步驟四.修改列印高度
+&lt;/br&gt;&lt;/br&gt;
+按下disconnect解除連結，之後開啟Cura，點選機型-&gt;機器調試，修改列印高度。(圖.5)
+&lt;/br&gt;
+&lt;img src="g2/40323231/17.PNG" width="50%"&gt;
+&lt;/br&gt;
+如果Ponterface上顯示Z軸
+正數，則將列印高度的數值減掉顯示的數值
+負數，則將列印高度的數值加上顯示的數值
+改完後，按下保存-&gt;復位
+
+&lt;/p&gt;
+
+&lt;/section&gt;</t>
+<t tx="544.20170517005916.1">&lt;section&gt;
+&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+步驟五.調整XYZ軸的高度
+&lt;/br&gt;&lt;/br&gt;
+連接Pronterface重複步驟一.和步驟二.之後下指令量測紅色三點(圖.6) ,並記錄下來。
+&lt;/p&gt;
+&lt;img src="g2/40323231/18.PNG" width="60%"&gt;
+
+&lt;/section&gt;</t>
+<t tx="544.20170517010100.1">&lt;section&gt;
+&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+之後調整各軸滑塊上的螺絲 ,使螺絲向上或向下移動 ,影響光學極限開關 ,讓個軸的總位移量改變。(圖.7)
+&lt;/p&gt;
+&lt;img src="g2/40323231/19.PNG" width="60%"&gt;
+
+&lt;/section&gt;</t>
+<t tx="544.20170517010100.2">&lt;section&gt;
+&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+例如:pronterface量出來個點的值為  圖.8
+&lt;/br&gt;
+調整螺絲後為量出來的值為 圖.9
+&lt;/br&gt;
+&lt;img src="g2/40323231/20.PNG" width="45%"&gt;
+&lt;/br&gt;
+螺絲:
+&lt;/br&gt;
+逆時針轉一圈 ,值上升0.4mm
+順時針轉一圈 ,值下降0.4mm
+&lt;/br&gt;
+A軸:
+由0.9上升到1.6 ,將螺絲逆時針轉1.75圈
+&lt;/br&gt;
+B軸:
+由1.5上升到1.6 ,將螺絲逆時針轉0.25圈
+     &lt;/br&gt;
+C軸;
+     由2.5下降到1.6，將螺絲逆順時針轉2.25圈
+&lt;/p&gt;
+
+&lt;/section&gt;</t>
+<t tx="544.20170517010100.3">&lt;section&gt;
+&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+步驟五.四點同高
+&lt;/br&gt;&lt;/br&gt;
+做完步驟一 ~ 步驟四後 ,四點高度為圖.10。
+&lt;img src="g2/40323231/21.PNG" width="30%"&gt;
+&lt;/br&gt;
+圖.三這種狀況會讓列印出來的東西變碗狀。
+&lt;/br&gt;
+如:圖.11 ,四周較高而中間偏低
+&lt;/br&gt;
+&lt;img src="g2/40323231/22.PNG" width="25%"&gt;
+&lt;/p&gt;
+
+&lt;/section&gt;</t>
+<t tx="544.20170517010100.4">&lt;section&gt;
+&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+切斷Pronterface ,切換至Cura中的參數設定頁面 ,修改水平半徑的參數。(圖.12)
+&lt;/br&gt;
+&lt;img src="g2/40323231/23.PNG" width="35%"&gt;
+&lt;/br&gt;
+水平半徑:
+&lt;/br&gt;
+     數值減少:四周數值增加0.2
+&lt;/br&gt;
+數值增加:四周數值減少0.2
+&lt;/br&gt;
+本例題為將四周數值降低1.6 ,因此將水平半徑的數值增加8。修改完後按下保存 ,在按復歸後完成。
+
+
+&lt;/p&gt;
+
+
+&lt;/section&gt;</t>
+<t tx="544.20170517010633.1">&lt;section&gt;
+&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+步驟六:修改列印成品大小
+&lt;/br&gt;&lt;/br&gt;
+做完步驟一到步驟五後即可開始列印 ,列印出來的工件用游標卡尺做量測 ,有可能會發現工件不如預期的縮水或變大。
+&lt;/br&gt;&lt;/br&gt;
+例如 : 工程圖尺寸為40.00mm，量測出來的值為39.40mm，尺寸縮小
+&lt;/br&gt;
+做法:開啟cura的參數設置修改斜桿長度(圖.13)  
+&lt;img src="g2/40323231/24.PNG" width="40%"&gt;
+&lt;/p&gt;
+
+&lt;/section&gt;</t>
+<t tx="544.20170517011528.1">&lt;section&gt;
+&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+斜桿長度:
+&lt;/br&gt;
+    增加1mm:列印成品尺寸減少0.2mm
+&lt;/br&gt;
+    減少1mm:列印成品尺寸增加0.2mm
+&lt;/br&gt;&lt;/br&gt;
+本題須將39.40mm增加到40.00mm ,則減少斜桿長度3mm。改完後 ,按下保存 ,在按復歸後完成。
+
+
+&lt;/p&gt;
+
+&lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--利用的技術--&gt;
 &lt;h3&gt;Technologies&lt;/h3&gt;
@@ -788,20 +973,20 @@ Reveal.initialize({
 &lt;img src="g2/40323231/9.PNG" width="45%"&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.61">&lt;section&gt;
-&lt;h3&gt;校正機台&lt;/h3&gt;
+&lt;h3&gt;Cura介紹 - 參數設定&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-
 &lt;/p&gt;
-&lt;img src="g2/subrelative.png" width="85%"&gt;
+&lt;img src="g2/40323231/10.PNG" width="40%"&gt;
+&lt;img src="g2/40323231/11.PNG" width="40%"&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.66">&lt;section&gt;
-&lt;h3&gt;重點提攜&lt;/h3&gt;
+&lt;h3&gt;Cura介紹 - 界面說明&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-
 &lt;/p&gt;
-&lt;img src="g2/subrelative.png" width="85%"&gt;
+&lt;img src="g2/40323231/12.PNG" width="50%"&gt;
+&lt;img src="g2/40323231/25.png" width="45%"&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.71">&lt;section id="vrep"&gt;
 @others
