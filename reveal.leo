@@ -764,8 +764,8 @@ Reveal.initialize({
 &lt;hr&gt;
 &lt;p class="article"&gt;
 &lt;/p&gt;
-&lt;img src="g2/40323231/4.png" width="62%"&gt;
-&lt;img src="g2/40323231/5.png" width="35%"&gt;
+&lt;img src="g2/40323231/4.PNG" width="62%"&gt;
+&lt;img src="g2/40323231/5.PNG" width="35%"&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.51">&lt;section&gt;
 &lt;h3&gt;Cura介紹 - 機台設定&lt;/h3&gt;
