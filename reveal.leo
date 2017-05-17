@@ -154,13 +154,13 @@ Summary: 導入 notebook 內容
 
 &lt;/section&gt;</t>
 <t tx="544.20170514200717.2">&lt;section&gt;
-&lt;h3&gt;On Shape 介紹&lt;/h3&gt;
+&lt;h3&gt;OnShape 介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 &lt;img src="g2/printer.png" align="right" width="30%"&gt;
 在模擬任何物件之前都必須引入 Stl 圖檔 ,於V-rep內部拆解開後並重新組裝(建立子屬關係) ,讓模擬軟體能夠建立各零件之基本約束條件。
 &lt;/br&gt;&lt;/br&gt;
-繪圖採用On Shape網頁繪圖 ,優點為能夠協同繪圖 ,和組員能夠分工合作 ,且能達到參數繪圖方式等等。
+繪圖採用OnShape網頁繪圖 ,優點為能夠協同繪圖 ,和組員能夠分工合作 ,且能達到參數繪圖方式等等。
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170514200732.1">&lt;section&gt;
@@ -188,7 +188,7 @@ Summary: 導入 notebook 內容
 &lt;/section&gt;</t>
 <t tx="544.20170514200732.3"></t>
 <t tx="544.20170514201601.1">&lt;section&gt;
-&lt;h3&gt;On Shape 介紹&lt;/h3&gt;
+&lt;h3&gt;OnShape 介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 
@@ -233,7 +233,7 @@ Summary: 導入 notebook 內容
 &lt;h3&gt;控制範例 1 - 可變電阻控制噴頭位置&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-若要使用Arduino控制V-rep ,除了Arduino本身之程式碼之外 ,還須設定V-rep的scripts內部程式 ,並透過設定相同之通訊埠和arduino之COM點 ,才能達到內外溝通之功能。
+若要使用Arduino控制V-rep ,除了Arduino本身的程式碼之外 ,還須設定V-rep的scripts內部程式 ,並透過設定相同的通訊埠和arduino的COM點 ,才能達到內外溝通之功能。
 &lt;/p&gt;
 &lt;img src="g2/arduino_lua.png" align="center" width="60%"&gt;
 &lt;/section&gt;</t>
