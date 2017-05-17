@@ -34,7 +34,7 @@
 </v>
 <v t="leo.20170505053249.11" a="E"><vh>div class="reveal"</vh>
 <v t="leo.20170505053249.12" a="E"><vh>div class="slides"</vh>
-<v t="leo.20170505053249.19" a="E"><vh>目錄(#contents)</vh>
+<v t="leo.20170505053249.19"><vh>目錄(#contents)</vh>
 <v t="leo.20170505053249.13"><vh>投影封面</vh></v>
 <v t="leo.20170505053249.20"><vh>3D Printer 目錄</vh></v>
 <v t="leo.20170505053249.25"><vh>V-rep 目錄</vh></v>
@@ -46,6 +46,7 @@
 <v t="leo.20170505053249.35" a="E"><vh>3D Printer(#3D printer)</vh>
 <v t="leo.20170505053249.36"><vh>3D Printer結構介紹</vh></v>
 <v t="leo.20170505053249.41"><vh>3D Printer硬體介紹</vh></v>
+<v t="544.20170517205437.1"><vh>韌體程式碼介紹</vh></v>
 <v t="leo.20170505053249.46"><vh>韌體程式碼介紹</vh></v>
 <v t="leo.20170505053249.51"><vh>Cura介紹 - 機台設定</vh></v>
 <v t="leo.20170505053249.56"><vh>Cura介紹 - 參數設定1</vh></v>
@@ -240,18 +241,22 @@ Summary: 導入 notebook 內容
 &lt;h3&gt;研究動機&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-根據國外研究指出 ,3D Printing 是近年來發展最快速的技術之一 ,國內外各家科技大廠紛紛投入。
-&lt;/br&gt;&lt;/br&gt;
-3D列印技術讓原本只存在腦海中的概念 ,經由 3D Printer 做快速打樣成型 ,節省了過往傳統打樣的繁複過程與費用。
-&lt;/br&gt;&lt;/br&gt;
-在使用 3D Printer 列印的過程中 ,我們發現有時會有路徑錯誤的問題 ,跟 CNC 比較起來缺少模擬列印的功能 ,使列印前缺少一道檢查錯誤的步驟。
+一開始我們在研究模擬腳踏車的齒輪與鍊條機構，利用
+3D Printer 印製零件組裝，但是在印製的過程時常出現
+問題，導致花費許多時間和材料，經過討論想到如果有一
+套能夠模擬3D列印的軟體，先經過這套軟體的模擬可以降
+低錯誤的發生率，也可以提升印製的品質。
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515005232.1">&lt;section&gt;
 &lt;h3&gt;摘要&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-內容
+根據國外研究指出 ,3D Printing 是近年來發展最快速的技術之一 ,國內外各家科技大廠紛紛投入。
+&lt;/br&gt;&lt;/br&gt;
+3D列印技術讓原本只存在腦海中的概念 ,經由 3D Printer 做快速打樣成型 ,節省了過往傳統打樣的繁複過程與費用。
+&lt;/br&gt;&lt;/br&gt;
+在使用 3D Printer 列印的過程中 ,我們發現有時會有路徑錯誤的問題 ,跟 CNC 比較起來缺少模擬列印的功能 ,使列印前缺少一道檢查錯誤的步驟。
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515191155.1">&lt;section&gt;
@@ -330,7 +335,7 @@ Summary: 導入 notebook 內容
 &lt;p class="article"&gt;
 
 &lt;/br&gt;&lt;/br&gt;
-當V-rep內部設定完成之後 ,再來就需要透過外界輸入參數 ,控制內部實體 ,因此選擇了容易上手的Adroid ,
+當V-rep內部設定完成後 ,再來就需要透過外界輸入參數 ,控制內部實體 ,因此選擇了容易上手的Adroid ,
 &lt;/p&gt;
 
 &lt;/section&gt;</t>
@@ -351,7 +356,7 @@ Summary: 導入 notebook 內容
 &lt;/br&gt;&lt;/br&gt;
 電腦先與3D列印機連接(USB) ,之後開啟Pronterface ,按下Port(會直接幫你搜尋端口) ,之後按下connect進行連接(圖.3)。
 &lt;/p&gt;
-&lt;img src="g2/40323231/15.PNG" width="50%"&gt;
+&lt;img src="g2/40323231/15.PNG" width="60%"&gt;
 
 &lt;/section&gt;</t>
 <t tx="544.20170516232554.3">&lt;section&gt;
@@ -408,7 +413,7 @@ Summary: 導入 notebook 內容
 &lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-之後調整各軸滑塊上的螺絲 ,使螺絲向上或向下移動 ,影響光學極限開關 ,讓個軸的總位移量改變。(圖.7)
+之後調整各軸滑塊上的螺絲 ,使螺絲向上或向下移動 ,影響光學極限開關 ,讓各軸的總位移量改變。(圖.7)
 &lt;/p&gt;
 &lt;img src="g2/40323231/19.PNG" width="60%"&gt;
 
@@ -426,6 +431,7 @@ Summary: 導入 notebook 內容
 螺絲:
 &lt;/br&gt;
 逆時針轉一圈 ,值上升0.4mm
+&lt;/br&gt;
 順時針轉一圈 ,值下降0.4mm
 &lt;/br&gt;
 A軸:
@@ -435,7 +441,7 @@ B軸:
 由1.5上升到1.6 ,將螺絲逆時針轉0.25圈
      &lt;/br&gt;
 C軸;
-     由2.5下降到1.6，將螺絲逆順時針轉2.25圈
+     由2.5下降到1.6 ,將螺絲順時針轉2.25圈
 &lt;/p&gt;
 
 &lt;/section&gt;</t>
@@ -448,11 +454,11 @@ C軸;
 做完步驟一 ~ 步驟四後 ,四點高度為圖.10。
 &lt;img src="g2/40323231/21.PNG" width="30%"&gt;
 &lt;/br&gt;
-圖.三這種狀況會讓列印出來的東西變碗狀。
+圖.10這種狀況會讓列印出來的東西變碗狀。
 &lt;/br&gt;
 如:圖.11 ,四周較高而中間偏低
 &lt;/br&gt;
-&lt;img src="g2/40323231/22.PNG" width="25%"&gt;
+&lt;img src="g2/40323231/22.PNG" width="20%"&gt;
 &lt;/p&gt;
 
 &lt;/section&gt;</t>
@@ -471,8 +477,6 @@ C軸;
 數值增加:四周數值減少0.2
 &lt;/br&gt;
 本例題為將四周數值降低1.6 ,因此將水平半徑的數值增加8。修改完後按下保存 ,在按復歸後完成。
-
-
 &lt;/p&gt;
 
 
@@ -485,7 +489,7 @@ C軸;
 &lt;/br&gt;&lt;/br&gt;
 做完步驟一到步驟五後即可開始列印 ,列印出來的工件用游標卡尺做量測 ,有可能會發現工件不如預期的縮水或變大。
 &lt;/br&gt;&lt;/br&gt;
-例如 : 工程圖尺寸為40.00mm，量測出來的值為39.40mm，尺寸縮小
+例如 : 工程圖尺寸為40.00mm，量測出來的值為39.40mm，尺寸縮小。
 &lt;/br&gt;
 做法:開啟cura的參數設置修改斜桿長度(圖.13)  
 &lt;img src="g2/40323231/24.PNG" width="40%"&gt;
@@ -507,6 +511,16 @@ C軸;
 
 &lt;/p&gt;
 
+&lt;/section&gt;</t>
+<t tx="544.20170517205437.1">&lt;section&gt;
+&lt;h3&gt;韌體程式碼介紹&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+先下載arduino ,之後開啟Repetier中的Configuration.h進行修改裡面的參數 ,修改完後按上傳(向右的箭頭) ,完成韌體的部分。
+&lt;/p&gt;
+&lt;img src="g2/40323231/31.PNG" width="40%"&gt;
+&lt;/br&gt;
+&lt;img src="g2/40323231/30.PNG" width="50%"&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--利用的技術--&gt;
@@ -913,7 +927,7 @@ Reveal.initialize({
 &lt;li&gt;開發歷程&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20170505053249.35">&lt;section id="3DPrinter"&gt;
+<t tx="leo.20170505053249.35">&lt;section id="vrep"&gt;
 @others
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.36">&lt;section&gt;
@@ -956,10 +970,9 @@ Reveal.initialize({
 &lt;h3&gt;Cura介紹 - 機台設定&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-
-進入Cura後的主畫面後須先設定機台 ,點選機型設置(左圖)進入設定頁面(右圖) ,此機台的平台為圓形所以設定 Circular (因此寬、深相同)。
+進入Cura的主畫面後須先設定機台 ,點選機型設置(圖.1)進入設定頁面(圖.2) ,此機台的平台為圓形所以設定Circular(因此寬、深因此相同)。
 &lt;/br&gt;&lt;/br&gt;
-擠出機也只有一個所以選擇1。由於機台為三角形機台 ,因此平台中心設為 (0,0) ,波特率設為115200(需與韌體相同) ,設定完之後即可開始使用Cura。
+擠出機也只有一個所以選擇1。由於機台為三角形機台 ,因此平台中心設為(0,0)。波特率設為115200(需與韌體相同)。設定完之後即可開始使用Cura。
 &lt;/p&gt;
 &lt;img src="g2/40323231/03.jpg" width="40%"&gt;
 &lt;img src="g2/40323231/04.jpg" width="50%"&gt;
@@ -995,9 +1008,9 @@ Reveal.initialize({
 &lt;h3&gt;V-rep 簡介&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-V-rep是一套機器人模擬軟體 ,讓使用者可以模擬整個機器人系統或他的子系統(如感測器或其它機械結構等等) 。
+V-rep為 Virtual robot experimentation platform 的縮寫 ,是一套機器人模擬軟體 ,讓使用者可以模擬整個機械系統 。
 &lt;br&gt;&lt;br&gt;
-可用在遠端監控、硬體控制、快速原型驗證、演算法開發與參數調整、安全性檢查、機器人教學與工廠自動化模擬等各種領域。
+程式語言支援 C/C++, Python, Java, Lua, Matlab, Octave 等等 ,可使用在遠端監控、硬體控制、快速原型驗證、演算法開發與參數調整、安全性檢查、機器人教學與工廠自動化模擬等各種領域。
 &lt;/p&gt;
 &lt;img src="g2/vrep.jpg" width="55%"&gt;
 &lt;/section&gt;</t>
