@@ -29,7 +29,7 @@
 <v t="leo.20170505053249.3" a="E"><vh>html 標註</vh>
 <v t="leo.20170505053249.4"><vh>head</vh></v>
 <v t="leo.20170505053249.8" a="E"><vh>body 標註</vh>
-<v t="leo.20170505053249.9"><vh>style</vh>
+<v t="leo.20170505053249.9" a="E"><vh>style</vh>
 <v t="leo.20170505053249.10"><vh>自訂的CSS內容</vh></v>
 </v>
 <v t="leo.20170505053249.11" a="E"><vh>div class="reveal"</vh>
@@ -43,7 +43,7 @@
 <v t="544.20170515005219.1"><vh>研究動機</vh></v>
 <v t="544.20170516214054.1"><vh>研究目的</vh></v>
 </v>
-<v t="leo.20170505053249.35" a="E"><vh>3D Printer(#3D printer)</vh>
+<v t="leo.20170505053249.35"><vh>3D Printer(#3D printer)</vh>
 <v t="leo.20170505053249.36"><vh>3D Printer結構介紹</vh></v>
 <v t="leo.20170505053249.41"><vh>3D Printer硬體介紹</vh></v>
 <v t="544.20170517205437.1"><vh>韌體程式碼介紹</vh></v>
@@ -67,12 +67,14 @@
 </v>
 <v t="leo.20170505053249.71" a="E"><vh>V-rep(#v-rep)</vh>
 <v t="leo.20170505053249.72"><vh>V-rep 基本介紹</vh></v>
-<v t="544.20170514200717.2"><vh>On Shape 介紹1</vh></v>
-<v t="544.20170514201601.1"><vh>On Shape 介紹2</vh></v>
-<v t="544.20170515195524.1"><vh>Vrep細部介紹</vh></v>
+<v t="544.20170514200717.2"><vh>Onshape 介紹1</vh></v>
+<v t="544.20170514201601.1"><vh>Onshape 介紹2</vh></v>
+<v t="leo.20170518041620.1"><vh>Onshape 圖形</vh></v>
+<v t="544.20170515195524.1"><vh>V-rep細部介紹1</vh></v>
+<v t="leo.20170518032405.1"><vh>V-rep細部介紹2</vh></v>
 <v t="544.20170514200732.1"><vh>四連桿 範例</vh></v>
 <v t="544.20170514200732.2"><vh>八連桿 範例</vh></v>
-<v t="544.20170514200732.3" a="E"><vh>以下為控制模擬</vh>
+<v t="544.20170514200732.3"><vh>以下為控制模擬</vh>
 <v t="544.20170515002049.1"><vh>V-rep Printer 組裝</vh></v>
 <v t="544.20170516215532.1"><vh>V-rep Arduino</vh></v>
 <v t="544.20170515003940.1"><vh>V-rep 可變電阻範例 1</vh></v>
@@ -154,13 +156,13 @@ Summary: 導入 notebook 內容
 
 &lt;/section&gt;</t>
 <t tx="544.20170514200717.2">&lt;section&gt;
-&lt;h3&gt;OnShape 介紹&lt;/h3&gt;
+&lt;h3&gt;Onshape 介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-&lt;img src="g2/printer.png" align="right" width="30%"&gt;
-在模擬任何物件之前都必須引入 Stl 圖檔 ,於V-rep內部拆解開後並重新組裝(建立子屬關係) ,讓模擬軟體能夠建立各零件之基本約束條件。
-&lt;/br&gt;&lt;/br&gt;
-繪圖採用OnShape網頁繪圖 ,優點為能夠協同繪圖 ,和組員能夠分工合作 ,且能達到參數繪圖方式等等。
+&lt;img src="g2/onshape.png"align="right" width="50%"&gt;
+Onshape 是一套由前 Solidworks 團隊開發出來的 3D 建模平台 ,它的優點及特色就是可以線上協同設計 ,和同伴能夠分工合作 ,且能達到參數繪圖。&lt;/br&gt;&lt;/br&gt;&lt;img src="g2/onshape.jpg"align="right"width="50%"&gt;&lt;/br&gt;
+Onshape的使用者分類 ：&lt;br&gt;
+教育、商業跟業餘三大類。&lt;br&gt;
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170514200732.1">&lt;section&gt;
@@ -188,14 +190,14 @@ Summary: 導入 notebook 內容
 &lt;/section&gt;</t>
 <t tx="544.20170514200732.3"></t>
 <t tx="544.20170514201601.1">&lt;section&gt;
-&lt;h3&gt;OnShape 介紹&lt;/h3&gt;
+&lt;h3&gt;Onshape 介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-
-
+&lt;img src="g2/cloud.jpg" align="right" width="40%"&gt;
+Onshape 是一種 Full Cloud 的網路 CAD 設計平台 ,它的檔案都存在&lt;br&gt;"雲端"  ,協同設計時可以很輕鬆地從雲上找到其他人繪製的模型。 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;img src="g2/cooperation.jpg" align="right" width="50%"&gt;
+協同設計主要的概念是互相支援協助 ,大家提供自己的想法或專長 ,使概念更完整 ,這部份 Onshape 甚至提供可在平板或手機上使用的功能。
 &lt;/p&gt;
-
-
 &lt;/section&gt;</t>
 <t tx="544.20170515002049.1">&lt;section&gt;
 &lt;h3&gt;V-rep - Printer設定&lt;/h3&gt;
@@ -278,11 +280,31 @@ Summary: 導入 notebook 內容
 &lt;img src="g2/example2_lua.png" align="center" width="60%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515195524.1">&lt;section&gt;
-&lt;h3&gt;Vrep 細部介紹&lt;/h3&gt;
+&lt;h3&gt;V-rep 細部介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-
-
+ V-rep 基本操作&lt;/br&gt;
+ &lt;img src="g2/40323218/introduce1.png" width="100%"&gt;&lt;/br&gt;
+1. 2D移動 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&amp;nbsp;&amp;nbsp;
+V-rep 整體介面&lt;/br&gt;
+2. 3D旋轉
+&lt;img src="g2/vrep_printer.png" align="right" width="60%"&gt;&lt;/br&gt;
+3. 遠近&lt;/br&gt;
+4. 移動畫面至物體&lt;/br&gt;
+5. 物體定位(x,y,z)&lt;/br&gt;
+6. 物體旋轉(x,y,z)&lt;/br&gt;
+7. 開始模擬&lt;/br&gt;
+8. 暫停模擬&lt;/br&gt;
+9. 結束模擬&lt;/br&gt;
+10. 慢速&lt;/br&gt;
+11. 加速&lt;/br&gt;
+&lt;/br&gt;
 &lt;/p&gt;
 
 
@@ -852,11 +874,13 @@ NOTEBOOK_DIR = 'notebook'
 &lt;hr&gt;
 &lt;h4&gt;組員&lt;/h4&gt;
 &lt;h4&gt;40323218 李冠興&lt;/h4&gt;
-&lt;h4&gt;40323230 張元&lt;/h4&gt;
+&lt;h4&gt;40323230 張&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;元&lt;/h4&gt;
 &lt;h4&gt;40323231 張立昇&lt;/h4&gt;
 &lt;h4&gt;40323250 詹偉志&lt;/h4&gt;
 &lt;br&gt;
 &lt;h4&gt;指導老師：嚴家銘 教授&lt;/h4&gt;
+&lt;h4&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+李武鉦 教授&lt;/h4&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.142">&lt;!--script src="lib/js/head.min.js"&gt;&lt;/script--&gt;
 &lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
@@ -899,8 +923,8 @@ Reveal.initialize({
 &lt;h4&gt;電腦輔助動態模擬&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;V-rep 基本介紹&lt;/li&gt;
-&lt;li&gt;On Shape 介紹(待改)&lt;/li&gt;
-&lt;li&gt;V-rep 內部介紹(待改)&lt;/li&gt;
+&lt;li&gt;Onshape 介紹(待改)&lt;/li&gt;
+&lt;li&gt;V-rep 細部介紹(待改)&lt;/li&gt;
 &lt;li&gt;四連桿 範例(待改)&lt;/li&gt;
 &lt;li&gt;八連桿 範例(待改)&lt;/li&gt;
 &lt;li&gt;控制模擬(待改)&lt;/li&gt;
@@ -1010,7 +1034,7 @@ Reveal.initialize({
 &lt;p class="article"&gt;
 V-rep為 Virtual robot experimentation platform 的縮寫 ,是一套機器人模擬軟體 ,讓使用者可以模擬整個機械系統 。
 &lt;br&gt;&lt;br&gt;
-程式語言支援 C/C++, Python, Java, Lua, Matlab, Octave 等等 ,可使用在遠端監控、硬體控制、快速原型驗證、演算法開發與參數調整、安全性檢查、機器人教學與工廠自動化模擬等各種領域。
+程式語言支援 C/C++ , Python , Java , Lua , Matlab , Octave 等等 ,可使用在遠端監控、硬體控制、快速原型驗證、演算法開發與參數調整、安全性檢查、機器人教學與工廠自動化模擬等各種領域。
 &lt;/p&gt;
 &lt;img src="g2/vrep.jpg" width="55%"&gt;
 &lt;/section&gt;</t>
@@ -1048,6 +1072,26 @@ V-rep為 Virtual robot experimentation platform 的縮寫 ,是一套機器人模
 Planar Linkages Simulation
 &lt;br&gt;
 Dimensional Synthesis
+&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170518032405.1">&lt;section&gt;
+&lt;h3&gt;V-rep 細部介紹&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+
+&lt;/p&gt;
+
+
+&lt;/section&gt;</t>
+<t tx="leo.20170518041620.1">&lt;section&gt;
+&lt;h3&gt;Onshape 圖形&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+&lt;img src="g2/printer_top.gif" width="25%"&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;img src="g2/eight.png"  width="30%"&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&lt;img src="g2/four.png"  width="30%"&gt;
 &lt;/p&gt;
 &lt;/section&gt;</t>
 </tnodes>
