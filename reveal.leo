@@ -233,7 +233,7 @@ Summary: 導入 notebook 內容
 &lt;h3&gt;控制範例 1 - 可變電阻控制噴頭位置&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-若要使用Arduino控制V-rep ,除了Arduino本身的程式碼之外 ,還須設定V-rep的scripts內部程式 ,並透過設定相同的通訊埠和arduino的COM點 ,才能達到內外溝通之功能。
+若要使用Arduino控制V-rep ,除了Arduino本身的程式碼之外 ,還須設定V-rep的scripts內部程式 ,並透過設定相同的通訊埠和arduino的COM點 ,才能達到內外溝通的功能。
 &lt;/p&gt;
 &lt;img src="g2/arduino_lua.png" align="center" width="60%"&gt;
 &lt;/section&gt;</t>
