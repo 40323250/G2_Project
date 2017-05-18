@@ -466,10 +466,13 @@ V-rep 整體介面</br>
 <h3>V-rep 細部介紹</h3>
 <hr>
 <p class="article">
-組合方式是由上往下所構成
+組合方式是由動力輸入端開始 ,由上往下所構成 ,類似樹狀圖的方式往下延伸。
 </p>
-
-
+<img src="g2/v_rep/vrep_example.png" align="center" width="35%">
+<img src="g2/v_rep/vrep_example2.png" align="center" width="50%">
+<p class="article">
+馬達在組合的時候要和軸分開 ,並導入 Revolute_joint 和軸結合 , 因為要設定動力源必須使用內部的旋轉軸 ,當旋轉軸設定固定轉速或扭矩就能轉動。
+</p>
 </section>
 <section>
 <h3>V-rep - 四連桿範例</h3>
@@ -478,19 +481,21 @@ V-rep 整體介面</br>
 以此例來說 ,當組合階層變成了一個封閉迴路 ,就會有一個零件會被共用 ,這就稱做 close chain ,這時候就必須使用 dummy 當做連結 ,以保持此機構之約束條件。
 </p>
 <img src="g2/v_rep/fourbar_1.png" align="left" width="30%">
-<img src="g2/v_rep/fourbar_2.png" align="left" width="60%">
+<img src="g2/v_rep/fourbar_2.png" align="center" width="40%">
+<img src="g2/4_links.gif" align="center" width="40%">
 
 </section>
 <section>
 <h3>V-rep - 四連桿範例</h3>
 <hr>
 <p class="article">
-內容
-
+若 close chain 不使用 dummy 接合 ,會導致運動狀況出問題。
 </p>
+<img src="g2/v_rep/fourbar_3.png" align="left" width="35%">
+<img src="g2/v_rep/fourbar_4.png" align="center" width="35%">
+<img src="g2/v_test2.gif" align="center" width="35%">
 
 
-<img src="g2/4_links.gif" width="30%">
 
 </section>
 <section>

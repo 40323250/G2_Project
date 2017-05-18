@@ -170,7 +170,8 @@ Onshape的使用者分類 ：&lt;br&gt;
 以此例來說 ,當組合階層變成了一個封閉迴路 ,就會有一個零件會被共用 ,這就稱做 close chain ,這時候就必須使用 dummy 當做連結 ,以保持此機構之約束條件。
 &lt;/p&gt;
 &lt;img src="g2/v_rep/fourbar_1.png" align="left" width="30%"&gt;
-&lt;img src="g2/v_rep/fourbar_2.png" align="left" width="60%"&gt;
+&lt;img src="g2/v_rep/fourbar_2.png" align="center" width="40%"&gt;
+&lt;img src="g2/4_links.gif" align="center" width="40%"&gt;
 
 &lt;/section&gt;</t>
 <t tx="544.20170514200732.2">&lt;section&gt;
@@ -546,12 +547,13 @@ C軸;
 &lt;h3&gt;V-rep - 四連桿範例&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-內容
-
+若 close chain 不使用 dummy 接合 ,會導致運動狀況出問題。
 &lt;/p&gt;
+&lt;img src="g2/v_rep/fourbar_3.png" align="left" width="35%"&gt;
+&lt;img src="g2/v_rep/fourbar_4.png" align="center" width="35%"&gt;
+&lt;img src="g2/v_test2.gif" align="center" width="35%"&gt;
 
 
-&lt;img src="g2/4_links.gif" width="30%"&gt;
 
 &lt;/section&gt;</t>
 <t tx="544.20170518125516.1"></t>
@@ -1098,10 +1100,13 @@ Dimensional Synthesis
 &lt;h3&gt;V-rep 細部介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-組合方式是由上往下所構成
+組合方式是由動力輸入端開始 ,由上往下所構成 ,類似樹狀圖的方式往下延伸。
 &lt;/p&gt;
-
-
+&lt;img src="g2/v_rep/vrep_example.png" align="center" width="35%"&gt;
+&lt;img src="g2/v_rep/vrep_example2.png" align="center" width="50%"&gt;
+&lt;p class="article"&gt;
+馬達在組合的時候要和軸分開 ,並導入 Revolute_joint 和軸結合 , 因為要設定動力源必須使用內部的旋轉軸 ,當旋轉軸設定固定轉速或扭矩就能轉動。
+&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170518041620.1">&lt;section&gt;
 &lt;h3&gt;Onshape - 繪製範例&lt;/h3&gt;
