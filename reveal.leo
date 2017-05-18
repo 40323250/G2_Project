@@ -14,11 +14,11 @@
 <v t="amd.20150913232631.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
 <v t="amd.20150919102739.1"><vh>專案架構</vh></v>
-<v t="amd.20150919113957.1" a="E"><vh>以下為 pelican 文章</vh>
+<v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh>
 <v t="amd.20150919124128.1"><vh>@button user pelican</vh></v>
-<v t="amd.20150919114010.1" a="E"><vh>@path pelican</vh>
+<v t="amd.20150919114010.1"><vh>@path pelican</vh>
 <v t="amd.20151006130205.1"><vh>edit publishconf.py</vh></v>
-<v t="amd.20151006113136.1" a="E"><vh>@path content</vh>
+<v t="amd.20151006113136.1"><vh>@path content</vh>
 <v t="40323250.20151124123658.1"><vh>edit 2015cpnote1.md</vh></v>
 </v>
 </v>
@@ -29,7 +29,7 @@
 <v t="leo.20170505053249.3" a="E"><vh>html 標註</vh>
 <v t="leo.20170505053249.4"><vh>head</vh></v>
 <v t="leo.20170505053249.8" a="E"><vh>body 標註</vh>
-<v t="leo.20170505053249.9" a="E"><vh>style</vh>
+<v t="leo.20170505053249.9"><vh>style</vh>
 <v t="leo.20170505053249.10"><vh>自訂的CSS內容</vh></v>
 </v>
 <v t="leo.20170505053249.11" a="E"><vh>div class="reveal"</vh>
@@ -69,13 +69,14 @@
 <v t="leo.20170505053249.72"><vh>V-rep 基本介紹</vh></v>
 <v t="544.20170514200717.2"><vh>Onshape 介紹1</vh></v>
 <v t="544.20170514201601.1"><vh>Onshape 介紹2</vh></v>
-<v t="leo.20170518041620.1"><vh>Onshape 圖形</vh></v>
+<v t="leo.20170518041620.1"><vh>Onshape 範例圖形</vh></v>
 <v t="544.20170515195524.1"><vh>V-rep細部介紹1</vh></v>
 <v t="leo.20170518032405.1"><vh>V-rep細部介紹2</vh></v>
 <v t="544.20170514200732.1"><vh>四連桿 範例1</vh></v>
 <v t="544.20170518123349.1"><vh>四連桿 範例2</vh></v>
-<v t="544.20170514200732.2"><vh>八連桿 範例</vh></v>
-<v t="544.20170514200732.3"><vh>以下為控制模擬</vh>
+<v t="544.20170514200732.2"><vh>八連桿 範例1</vh></v>
+<v t="544.20170518125516.1"><vh>八連桿 範例2</vh></v>
+<v t="544.20170514200732.3" a="E"><vh>以下為控制模擬</vh>
 <v t="544.20170515002049.1"><vh>V-rep Printer 組裝</vh></v>
 <v t="544.20170516215532.1"><vh>V-rep Arduino</vh></v>
 <v t="544.20170515003940.1"><vh>V-rep 可變電阻範例 1</vh></v>
@@ -93,7 +94,7 @@
 </v>
 <v t="544.20170514195356.1"><vh>結論、未來展望</vh></v>
 </v>
-<v t="leo.20170505053249.96" a="E"><vh>Python Solvespace(#pyslvs)</vh>
+<v t="leo.20170505053249.96"><vh>Python Solvespace(#pyslvs)</vh>
 <v t="leo.20170505053249.97"><vh>概述</vh></v>
 <v t="ahshoe.20170510231618.1"><vh>使用技術 - Python</vh></v>
 <v t="ahshoe.20170510224721.1"><vh>使用技術 - 專案總覽</vh></v>
@@ -153,7 +154,7 @@ Summary: 導入 notebook 內容
 
 &lt;/section&gt;</t>
 <t tx="544.20170514200717.2">&lt;section&gt;
-&lt;h3&gt;Onshape 介紹&lt;/h3&gt;
+&lt;h3&gt;Onshape - 簡介&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 &lt;img src="g2/onshape.png"align="right" width="50%"&gt;
@@ -167,7 +168,6 @@ Onshape的使用者分類 ：&lt;br&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 以此例來說 ,當組合階層變成了一個封閉迴路 ,就會有一個零件會被共用 ,這就稱做 close chain ,這時候就必須使用 dummy 當做連結 ,以保持此機構之約束條件。
-
 &lt;/p&gt;
 &lt;img src="g2/v_rep/fourbar_1.png" align="left" width="30%"&gt;
 &lt;img src="g2/v_rep/fourbar_2.png" align="left" width="60%"&gt;
@@ -188,7 +188,7 @@ Onshape的使用者分類 ：&lt;br&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170514200732.3"></t>
 <t tx="544.20170514201601.1">&lt;section&gt;
-&lt;h3&gt;Onshape 介紹&lt;/h3&gt;
+&lt;h3&gt;Onshape - 簡介&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 &lt;img src="g2/cloud.jpg" align="right" width="40%"&gt;
@@ -554,6 +554,7 @@ C軸;
 &lt;img src="g2/4_links.gif" width="30%"&gt;
 
 &lt;/section&gt;</t>
+<t tx="544.20170518125516.1"></t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--利用的技術--&gt;
 &lt;h3&gt;Technologies&lt;/h3&gt;
@@ -1048,7 +1049,7 @@ Reveal.initialize({
 @others
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.72">&lt;section&gt;
-&lt;h3&gt;V-rep 簡介&lt;/h3&gt;
+&lt;h3&gt;V-rep - 簡介&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 V-rep為 Virtual robot experimentation platform 的縮寫 ,是一套機器人模擬軟體 ,讓使用者可以模擬整個機械系統 。
@@ -1103,7 +1104,7 @@ Dimensional Synthesis
 
 &lt;/section&gt;</t>
 <t tx="leo.20170518041620.1">&lt;section&gt;
-&lt;h3&gt;Onshape 圖形&lt;/h3&gt;
+&lt;h3&gt;Onshape - 繪製範例&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 &lt;img src="g2/printer_top.gif" width="25%"&gt;
