@@ -562,7 +562,7 @@ C軸;
 &lt;h3&gt;V-rep - 細部介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-組合的系統分成開放式(Open chain) 與封閉式 (Close chain) ,這種狀況在某些分析軟體也會遇到 
+組合的系統分成開放式(Open chain) 與封閉式 (Close chain) ,這種狀況在某些分析軟體也會遇到。 
 &lt;/br&gt;&lt;/br&gt;
 Open chain:當系統架構為 Base 接出至 link ,而沒有接回至 Base者。
 &lt;/br&gt;&lt;/br&gt;
