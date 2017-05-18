@@ -280,7 +280,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台 ,它的檔案都存在&l
 &lt;hr&gt;
 &lt;p class="article"&gt;
  V-rep 基本操作&lt;/br&gt;
- &lt;img src="g2/40323218/introduce1.png" width="100%"&gt;&lt;/br&gt;
+ &lt;img src="g2/40323218/introduce1.PNG" width="100%"&gt;&lt;/br&gt;
 1. 視角移動 
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
