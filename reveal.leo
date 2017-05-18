@@ -72,7 +72,8 @@
 <v t="leo.20170518041620.1"><vh>Onshape 圖形</vh></v>
 <v t="544.20170515195524.1"><vh>V-rep細部介紹1</vh></v>
 <v t="leo.20170518032405.1"><vh>V-rep細部介紹2</vh></v>
-<v t="544.20170514200732.1"><vh>四連桿 範例</vh></v>
+<v t="544.20170514200732.1"><vh>四連桿 範例1</vh></v>
+<v t="544.20170518123349.1"><vh>四連桿 範例2</vh></v>
 <v t="544.20170514200732.2"><vh>八連桿 範例</vh></v>
 <v t="544.20170514200732.3"><vh>以下為控制模擬</vh>
 <v t="544.20170515002049.1"><vh>V-rep Printer 組裝</vh></v>
@@ -162,13 +163,14 @@ Onshape的使用者分類 ：&lt;br&gt;
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170514200732.1">&lt;section&gt;
-&lt;h3&gt;V-rep 四連桿範例&lt;/h3&gt;
+&lt;h3&gt;V-rep - 四連桿範例&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-內容
+以此例來說 ,當組合階層變成了一個封閉迴路 ,就會有一個零件會被共用 ,這就稱做 close chain ,這時候就必須使用 dummy 當做連結 ,以保持此機構之約束條件。
 
 &lt;/p&gt;
-&lt;img src="g2/4_links.gif" width="30%"&gt;
+&lt;img src="g2/v_rep/fourbar_1.png" align="left" width="30%"&gt;
+&lt;img src="g2/v_rep/fourbar_2.png" align="left" width="60%"&gt;
 
 &lt;/section&gt;</t>
 <t tx="544.20170514200732.2">&lt;section&gt;
@@ -539,6 +541,18 @@ C軸;
 &lt;img src="g2/40323231/31.PNG" width="40%"&gt;
 &lt;/br&gt;
 &lt;img src="g2/40323231/30.PNG" width="50%"&gt;
+&lt;/section&gt;</t>
+<t tx="544.20170518123349.1">&lt;section&gt;
+&lt;h3&gt;V-rep - 四連桿範例&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+內容
+
+&lt;/p&gt;
+
+
+&lt;img src="g2/4_links.gif" width="30%"&gt;
+
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--利用的技術--&gt;
@@ -1083,7 +1097,7 @@ Dimensional Synthesis
 &lt;h3&gt;V-rep 細部介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-
+組合方式是由上往下所構成
 &lt;/p&gt;
 
 
