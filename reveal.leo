@@ -281,7 +281,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台 ,它的檔案都存在&l
 &lt;p class="article"&gt;
  V-rep 基本操作&lt;/br&gt;
  &lt;img src="g2/40323218/introduce1.png" width="100%"&gt;&lt;/br&gt;
-1. 2D移動 
+1. 視角移動 
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
@@ -289,10 +289,10 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台 ,它的檔案都存在&l
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
 &amp;nbsp;&amp;nbsp;
 V-rep 整體介面&lt;/br&gt;
-2. 3D旋轉
+2. 視角旋轉
 &lt;img src="g2/vrep_printer.png" align="right" width="60%"&gt;&lt;/br&gt;
-3. 遠近&lt;/br&gt;
-4. 移動畫面至物體&lt;/br&gt;
+3. 視角縮放&lt;/br&gt;
+4. 視角移動至物體&lt;/br&gt;
 5. 物體定位(x,y,z)&lt;/br&gt;
 6. 物體旋轉(x,y,z)&lt;/br&gt;
 7. 開始模擬&lt;/br&gt;
