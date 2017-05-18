@@ -190,9 +190,9 @@ Onshape的使用者分類 ：&lt;br&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 &lt;img src="g2/cloud.jpg" align="right" width="40%"&gt;
-Onshape 是一種 Full Cloud 的網路 CAD 設計平台 ,它的檔案都存在&lt;br&gt;"雲端"  ,協同設計時可以很輕鬆地從雲上找到其他人繪製的模型。 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+Onshape 是一種 Full Cloud 的網路 CAD 設計平台 ,它的檔案都存在&lt;br&gt;"雲端"  ,提供協同設計的功能 ,並且可以很容易地從雲上找到其他人公開的模型。 &lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 &lt;img src="g2/cooperation.jpg" align="right" width="50%"&gt;
-協同設計主要的概念是互相支援協助 ,大家提供自己的想法或專長 ,使概念更完整 ,這部份 Onshape 甚至提供可在平板或手機上使用的功能。
+協同設計主要的概念為團隊間的分工合作 ,大家提供自己的想法或專長 ,使概念更完善 ,這部份 Onshape 甚至提供可在平板或手機上使用的功能。
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515002049.1">&lt;section&gt;
