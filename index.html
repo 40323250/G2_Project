@@ -466,12 +466,13 @@ V-rep 整體介面</br>
 <h3>V-rep - 細部介紹</h3>
 <hr>
 <p class="article">
-組合方式是由動力輸入端開始 ,由上往下所構成 ,類似樹狀圖的方式往下延伸。
+V-rep的組合方式是由基座開始排序每個零件的主從關係 ,由上往下所構成 ,類似樹狀圖的方式往下延伸。
 </p>
 <img src="g2/v_rep/vrep_example.png" align="center" width="35%">
 <img src="g2/v_rep/vrep_example2.png" align="center" width="50%">
 <p class="article">
-馬達在組合的時候要和軸分開 ,並導入 Revolute_joint 和軸結合 , 因為要設定動力源必須使用內部的旋轉軸 ,當旋轉軸設定固定轉速或扭矩就能轉動。
+排序到需要轉動的地方時 ,需要加裝 Revolute _ joint ( 類似馬達 ) ,它可以設定固定的轉速或扭矩。<br>
+呼叫出 Revolute _ joint 時需要和軸重疊 ,排序完成後設定參數 ,按下啟動就可以使軸轉動。
 </p>
 </section>
 <section>
@@ -480,9 +481,9 @@ V-rep 整體介面</br>
 <p class="article">
 組合的系統分成開放式(Open chain) 與封閉式 (Close chain) ,這種狀況在某些分析軟體也會遇到。 
 </br></br>
-Open chain:當系統架構為 Base 接出至 link ,而沒有接回至 Base者。
+Open chain : 當系統架構為非封閉式機構 ,各個零件只受另一零件影響做相對運動。
 </br></br>
-Close chain:當系統架構為 Base 接出至 link ,且又接回至 Base者 ( Base 連接兩者以上桿件 )。
+Close chain : 當系統架構為封閉式機構 ,會有兩個(含)以上零件同時對單一零件造成影響。
 </p>
 <img src="g2/v_rep/open_chain.png" align="center" width="35%">
 <img src="g2/v_rep/close_chain.png" align="center" width="55%">

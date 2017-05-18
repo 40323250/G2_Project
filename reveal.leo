@@ -71,8 +71,8 @@
 <v t="544.20170514201601.1"><vh>Onshape 介紹2</vh></v>
 <v t="leo.20170518041620.1"><vh>Onshape 範例圖形</vh></v>
 <v t="544.20170515195524.1"><vh>V-rep細部介紹1</vh></v>
-<v t="leo.20170518032405.1"><vh>V-rep細部介紹2 </vh></v>
-<v t="544.20170518233011.1"><vh>V-rep細部介紹3 close_chain</vh></v>
+<v t="leo.20170519025311.1"><vh>V-rep細部介紹2 </vh></v>
+<v t="leo.20170519025325.1"><vh>V-rep細部介紹3 close_chain</vh></v>
 <v t="544.20170514200732.1"><vh>四連桿 範例1</vh></v>
 <v t="544.20170518123349.1"><vh>四連桿 範例2</vh></v>
 <v t="544.20170514200732.2"><vh>八連桿 範例1</vh></v>
@@ -536,20 +536,6 @@ C軸;
 &lt;img src="g2/v_test2.gif" align="center" width="35%"&gt;
 
 
-
-&lt;/section&gt;</t>
-<t tx="544.20170518233011.1">&lt;section&gt;
-&lt;h3&gt;V-rep - 細部介紹&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-組合的系統分成開放式(Open chain) 與封閉式 (Close chain) ,這種狀況在某些分析軟體也會遇到。 
-&lt;/br&gt;&lt;/br&gt;
-Open chain:當系統架構為 Base 接出至 link ,而沒有接回至 Base者。
-&lt;/br&gt;&lt;/br&gt;
-Close chain:當系統架構為 Base 接出至 link ,且又接回至 Base者 ( Base 連接兩者以上桿件 )。
-&lt;/p&gt;
-&lt;img src="g2/v_rep/open_chain.png" align="center" width="35%"&gt;
-&lt;img src="g2/v_rep/close_chain.png" align="center" width="55%"&gt;
 
 &lt;/section&gt;</t>
 <t tx="544.20170519005035.1">&lt;section&gt;
@@ -1107,18 +1093,6 @@ Planar Linkages Simulation
 Dimensional Synthesis
 &lt;/p&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20170518032405.1">&lt;section&gt;
-&lt;h3&gt;V-rep - 細部介紹&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-組合方式是由動力輸入端開始 ,由上往下所構成 ,類似樹狀圖的方式往下延伸。
-&lt;/p&gt;
-&lt;img src="g2/v_rep/vrep_example.png" align="center" width="35%"&gt;
-&lt;img src="g2/v_rep/vrep_example2.png" align="center" width="50%"&gt;
-&lt;p class="article"&gt;
-馬達在組合的時候要和軸分開 ,並導入 Revolute_joint 和軸結合 , 因為要設定動力源必須使用內部的旋轉軸 ,當旋轉軸設定固定轉速或扭矩就能轉動。
-&lt;/p&gt;
-&lt;/section&gt;</t>
 <t tx="leo.20170518041620.1">&lt;section&gt;
 &lt;h3&gt;Onshape - 繪製範例&lt;/h3&gt;
 &lt;hr&gt;
@@ -1129,6 +1103,33 @@ Dimensional Synthesis
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
 &lt;img src="g2/onshape/example_3.gif"  width="30%"&gt;
 &lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170519025311.1">&lt;section&gt;
+&lt;h3&gt;V-rep - 細部介紹&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+V-rep的組合方式是由基座開始排序每個零件的主從關係 ,由上往下所構成 ,類似樹狀圖的方式往下延伸。
+&lt;/p&gt;
+&lt;img src="g2/v_rep/vrep_example.png" align="center" width="35%"&gt;
+&lt;img src="g2/v_rep/vrep_example2.png" align="center" width="50%"&gt;
+&lt;p class="article"&gt;
+排序到需要轉動的地方時 ,需要加裝 Revolute _ joint ( 類似馬達 ) ,它可以設定固定的轉速或扭矩。&lt;br&gt;
+呼叫出 Revolute _ joint 時需要和軸重疊 ,排序完成後設定參數 ,按下啟動就可以使軸轉動。
+&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20170519025325.1">&lt;section&gt;
+&lt;h3&gt;V-rep - 細部介紹&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+組合的系統分成開放式(Open chain) 與封閉式 (Close chain) ,這種狀況在某些分析軟體也會遇到。 
+&lt;/br&gt;&lt;/br&gt;
+Open chain : 當系統架構為非封閉式機構 ,各個零件只受另一零件影響做相對運動。
+&lt;/br&gt;&lt;/br&gt;
+Close chain : 當系統架構為封閉式機構 ,會有兩個(含)以上零件同時對單一零件造成影響。
+&lt;/p&gt;
+&lt;img src="g2/v_rep/open_chain.png" align="center" width="35%"&gt;
+&lt;img src="g2/v_rep/close_chain.png" align="center" width="55%"&gt;
+
 &lt;/section&gt;</t>
 </tnodes>
 </leo_file>
