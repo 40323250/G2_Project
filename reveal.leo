@@ -71,7 +71,8 @@
 <v t="544.20170514201601.1"><vh>Onshape 介紹2</vh></v>
 <v t="leo.20170518041620.1"><vh>Onshape 範例圖形</vh></v>
 <v t="544.20170515195524.1"><vh>V-rep細部介紹1</vh></v>
-<v t="leo.20170518032405.1"><vh>V-rep細部介紹2</vh></v>
+<v t="leo.20170518032405.1"><vh>V-rep細部介紹2 </vh></v>
+<v t="544.20170518233011.1"><vh>V-rep細部介紹3 close_chain</vh></v>
 <v t="544.20170514200732.1"><vh>四連桿 範例1</vh></v>
 <v t="544.20170518123349.1"><vh>四連桿 範例2</vh></v>
 <v t="544.20170514200732.2"><vh>八連桿 範例1</vh></v>
@@ -167,7 +168,7 @@ Onshape的使用者分類 ：&lt;br&gt;
 &lt;h3&gt;V-rep - 四連桿範例&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-以此例來說 ,當組合階層變成了一個封閉迴路 ,就會有一個零件會被共用 ,這就稱做 close chain ,這時候就必須使用 dummy 當做連結 ,以保持此機構之約束條件。
+以此例來說 ,當組合階層變成了一個封閉迴路 ,就會有一個零件會被共用 ,這就稱做 Close chain ,這時候就必須使用 dummy 連結 ,以保持此機構之約束條件。
 &lt;/p&gt;
 &lt;img src="g2/v_rep/fourbar_1.png" align="left" width="30%"&gt;
 &lt;img src="g2/v_rep/fourbar_2.png" align="center" width="40%"&gt;
@@ -175,7 +176,7 @@ Onshape的使用者分類 ：&lt;br&gt;
 
 &lt;/section&gt;</t>
 <t tx="544.20170514200732.2">&lt;section&gt;
-&lt;h3&gt;V-rep 八連桿範例&lt;/h3&gt;
+&lt;h3&gt;V-rep - 八連桿範例&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 內容
@@ -279,7 +280,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台 ,它的檔案都存在&l
 &lt;img src="g2/example2_lua.png" align="center" width="60%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515195524.1">&lt;section&gt;
-&lt;h3&gt;V-rep 細部介紹&lt;/h3&gt;
+&lt;h3&gt;V-rep - 細部介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
  V-rep 基本操作&lt;/br&gt;
@@ -356,7 +357,7 @@ V-rep 整體介面&lt;/br&gt;
 &lt;p class="article"&gt;
 
 &lt;/br&gt;&lt;/br&gt;
-當V-rep內部設定完成後 ,再來就需要透過外界輸入參數 ,控制內部實體 ,因此選擇了容易上手的Adroid ,
+當V-rep內部設定完成後 ,再來就需要透過外界輸入參數 ,控制內部實體 ,因此選擇了容易上手的arduino ,
 &lt;/p&gt;
 
 &lt;/section&gt;</t>
@@ -547,7 +548,7 @@ C軸;
 &lt;h3&gt;V-rep - 四連桿範例&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-若 close chain 不使用 dummy 接合 ,會導致運動狀況出問題。
+若 Close chain 不使用 dummy 接合 ,會導致運動狀況出問題。
 &lt;/p&gt;
 &lt;img src="g2/v_rep/fourbar_3.png" align="left" width="35%"&gt;
 &lt;img src="g2/v_rep/fourbar_4.png" align="center" width="35%"&gt;
@@ -557,6 +558,20 @@ C軸;
 
 &lt;/section&gt;</t>
 <t tx="544.20170518125516.1"></t>
+<t tx="544.20170518233011.1">&lt;section&gt;
+&lt;h3&gt;V-rep - 細部介紹&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+組合的系統分成開放式(Open chain) 與封閉式 (Close chain) ,這種狀況在某些分析軟體也會遇到 
+&lt;/br&gt;&lt;/br&gt;
+Open chain:當系統架構為 Base 接出至 link ,而沒有接回至 Base者。
+&lt;/br&gt;&lt;/br&gt;
+Close chain:當系統架構為 Base 接出至 link ,且又接回至 Base者。
+&lt;/p&gt;
+&lt;img src="g2/v_rep/open_chain.png" align="center" width="35%"&gt;
+&lt;img src="g2/v_rep/close_chain.png" align="center" width="55%"&gt;
+
+&lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--利用的技術--&gt;
 &lt;h3&gt;Technologies&lt;/h3&gt;
@@ -1097,7 +1112,7 @@ Dimensional Synthesis
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170518032405.1">&lt;section&gt;
-&lt;h3&gt;V-rep 細部介紹&lt;/h3&gt;
+&lt;h3&gt;V-rep - 細部介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 組合方式是由動力輸入端開始 ,由上往下所構成 ,類似樹狀圖的方式往下延伸。

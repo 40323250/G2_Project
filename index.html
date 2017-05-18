@@ -433,7 +433,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台 ,它的檔案都存在<b
 </p>
 </section>
 <section>
-<h3>V-rep 細部介紹</h3>
+<h3>V-rep - 細部介紹</h3>
 <hr>
 <p class="article">
  V-rep 基本操作</br>
@@ -463,7 +463,7 @@ V-rep 整體介面</br>
 
 </section>
 <section>
-<h3>V-rep 細部介紹</h3>
+<h3>V-rep - 細部介紹</h3>
 <hr>
 <p class="article">
 組合方式是由動力輸入端開始 ,由上往下所構成 ,類似樹狀圖的方式往下延伸。
@@ -475,10 +475,24 @@ V-rep 整體介面</br>
 </p>
 </section>
 <section>
+<h3>V-rep - 細部介紹</h3>
+<hr>
+<p class="article">
+組合的系統分成開放式(Open chain) 與封閉式 (Close chain) ,這種狀況在某些分析軟體也會遇到 
+</br></br>
+Open chain:當系統架構為 Base 接出至 link ,而沒有接回至 Base者。
+</br></br>
+Close chain:當系統架構為 Base 接出至 link ,且又接回至 Base者。
+</p>
+<img src="g2/v_rep/open_chain.png" align="center" width="35%">
+<img src="g2/v_rep/close_chain.png" align="center" width="55%">
+
+</section>
+<section>
 <h3>V-rep - 四連桿範例</h3>
 <hr>
 <p class="article">
-以此例來說 ,當組合階層變成了一個封閉迴路 ,就會有一個零件會被共用 ,這就稱做 close chain ,這時候就必須使用 dummy 當做連結 ,以保持此機構之約束條件。
+以此例來說 ,當組合階層變成了一個封閉迴路 ,就會有一個零件會被共用 ,這就稱做 Close chain ,這時候就必須使用 dummy 連結 ,以保持此機構之約束條件。
 </p>
 <img src="g2/v_rep/fourbar_1.png" align="left" width="30%">
 <img src="g2/v_rep/fourbar_2.png" align="center" width="40%">
@@ -489,7 +503,7 @@ V-rep 整體介面</br>
 <h3>V-rep - 四連桿範例</h3>
 <hr>
 <p class="article">
-若 close chain 不使用 dummy 接合 ,會導致運動狀況出問題。
+若 Close chain 不使用 dummy 接合 ,會導致運動狀況出問題。
 </p>
 <img src="g2/v_rep/fourbar_3.png" align="left" width="35%">
 <img src="g2/v_rep/fourbar_4.png" align="center" width="35%">
@@ -499,7 +513,7 @@ V-rep 整體介面</br>
 
 </section>
 <section>
-<h3>V-rep 八連桿範例</h3>
+<h3>V-rep - 八連桿範例</h3>
 <hr>
 <p class="article">
 內容
@@ -529,7 +543,7 @@ V-rep 整體介面</br>
 <p class="article">
 
 </br></br>
-當V-rep內部設定完成後 ,再來就需要透過外界輸入參數 ,控制內部實體 ,因此選擇了容易上手的Adroid ,
+當V-rep內部設定完成後 ,再來就需要透過外界輸入參數 ,控制內部實體 ,因此選擇了容易上手的arduino ,
 </p>
 
 </section>
