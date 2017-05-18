@@ -482,7 +482,7 @@ V-rep 整體介面</br>
 </br></br>
 Open chain:當系統架構為 Base 接出至 link ,而沒有接回至 Base者。
 </br></br>
-Close chain:當系統架構為 Base 接出至 link ,且又接回至 Base者。
+Close chain:當系統架構為 Base 接出至 link ,且又接回至 Base者 ( Base 連接兩者以上桿件 )。
 </p>
 <img src="g2/v_rep/open_chain.png" align="center" width="35%">
 <img src="g2/v_rep/close_chain.png" align="center" width="55%">
@@ -516,26 +516,18 @@ Close chain:當系統架構為 Base 接出至 link ,且又接回至 Base者。
 <h3>V-rep - 八連桿範例</h3>
 <hr>
 <p class="article">
-八連桿範例也屬於 Closechain ,
-<br><br>
-下方為範例  (左為預期 , 右為模擬)
-<br><br>
+八連桿範例也屬於 Close chain ,因為多處都有連接複數零件 ,故要使用的 dummy 較四連桿多。
 </p>
-<img src="g2/solvespace_tutorial.gif" width="30%">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="g2/solvespace_successful.gif" width="35%">
+<img src="g2/v_rep/eightbar_1.png" align="left" width="30%">
+<img src="g2/solvespace_successful.gif" width="45%">
 </section>
 <section>
 <h3>V-rep - Printer組裝</h3>
 <hr>
 <p class="article">
-當Printer匯入 V-rep 後 ,拆解開來的零件約有一百個 ,組裝時須要特別留意噴頭座的部分為 close chain ,六連桿的關節處須要....。
-
-
-<br>
-<br>
-( 擺放位置 )
+當Printer匯入 V-rep 後 ,拆解開來的零件約有一百個 ,組裝時須要特別留意 ,尤其是噴頭座的部分為 Close chain ,該關節處因為自由度的關係 , joint 的位置就顯得非常重要。
 </p>
+<img src="g2/v_rep/heater.png" align="center" width="40%">
 </section>
 <section>
 <h3>V-rep - 內部 Scripts 控制</h3>
@@ -572,7 +564,7 @@ V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制 ,以下
 <img src="g2/example2_ardunio.png" align="center" width="40%">
 </section>
 <section>
-<h3>控制範例 1 - Lua程式</h3>
+<h3>控制範例 1 - Scripts 程式</h3>
 <hr>
 <p class="article">
 本程式基本架構由 Eric Rohmer 所提供 ,控制方式為收到 Arduino 傳來固定格式的數值後 ,經由程式語法將其轉換為點座標 ,使噴頭移動到相對映的位置。

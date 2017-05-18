@@ -76,13 +76,12 @@
 <v t="544.20170514200732.1"><vh>四連桿 範例1</vh></v>
 <v t="544.20170518123349.1"><vh>四連桿 範例2</vh></v>
 <v t="544.20170514200732.2"><vh>八連桿 範例1</vh></v>
-<v t="544.20170518125516.1"><vh>八連桿 範例2</vh></v>
 <v t="544.20170515002049.1"><vh>V-rep Printer 組裝</vh></v>
 <v t="544.20170514200732.3" a="E"><vh>以下為控制模擬</vh>
 <v t="544.20170519005035.1"><vh>V-rep Scripts</vh></v>
 <v t="544.20170515003940.1"><vh>V-rep 可變電阻範例 1</vh></v>
 <v t="544.20170515191155.1"><vh>V-rep 可變電阻範例 1 - Arduino</vh></v>
-<v t="544.20170515192011.1"><vh>V-rep 可變電阻範例 1 - Lua</vh></v>
+<v t="544.20170515192011.1"><vh>V-rep 可變電阻範例 1 - Scripts</vh></v>
 <v t="leo.20170505053249.92"><vh>V-rep 可變電阻範例 1 影片</vh></v>
 <v t="544.20170515003932.1"><vh>V-rep 6軸加速度感測器範例 2</vh></v>
 <v t="leo.20170505053249.87"><vh>V-rep 6軸加速度感測器範例 2 影片</vh></v>
@@ -179,14 +178,10 @@ Onshape的使用者分類 ：&lt;br&gt;
 &lt;h3&gt;V-rep - 八連桿範例&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-八連桿範例也屬於 Closechain ,
-&lt;br&gt;&lt;br&gt;
-下方為範例  (左為預期 , 右為模擬)
-&lt;br&gt;&lt;br&gt;
+八連桿範例也屬於 Close chain ,因為多處都有連接複數零件 ,故要使用的 dummy 較四連桿多。
 &lt;/p&gt;
-&lt;img src="g2/solvespace_tutorial.gif" width="30%"&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-&lt;img src="g2/solvespace_successful.gif" width="35%"&gt;
+&lt;img src="g2/v_rep/eightbar_1.png" align="left" width="30%"&gt;
+&lt;img src="g2/solvespace_successful.gif" width="45%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170514200732.3"></t>
 <t tx="544.20170514201601.1">&lt;section&gt;
@@ -203,13 +198,9 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台 ,它的檔案都存在&l
 &lt;h3&gt;V-rep - Printer組裝&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-當Printer匯入 V-rep 後 ,拆解開來的零件約有一百個 ,組裝時須要特別留意噴頭座的部分為 close chain ,六連桿的關節處須要....。
-
-
-&lt;br&gt;
-&lt;br&gt;
-( 擺放位置 )
+當Printer匯入 V-rep 後 ,拆解開來的零件約有一百個 ,組裝時須要特別留意 ,尤其是噴頭座的部分為 Close chain ,該關節處因為自由度的關係 , joint 的位置就顯得非常重要。
 &lt;/p&gt;
+&lt;img src="g2/v_rep/heater.png" align="center" width="40%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515003915.1">&lt;section&gt;
 &lt;h3&gt;V-rep - Printer校正&lt;/h3&gt;
@@ -272,7 +263,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台 ,它的檔案都存在&l
 &lt;img src="g2/example2_ardunio.png" align="center" width="40%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515192011.1">&lt;section&gt;
-&lt;h3&gt;控制範例 1 - Lua程式&lt;/h3&gt;
+&lt;h3&gt;控制範例 1 - Scripts 程式&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 本程式基本架構由 Eric Rohmer 所提供 ,控制方式為收到 Arduino 傳來固定格式的數值後 ,經由程式語法將其轉換為點座標 ,使噴頭移動到相對映的位置。
@@ -547,7 +538,6 @@ C軸;
 
 
 &lt;/section&gt;</t>
-<t tx="544.20170518125516.1"></t>
 <t tx="544.20170518233011.1">&lt;section&gt;
 &lt;h3&gt;V-rep - 細部介紹&lt;/h3&gt;
 &lt;hr&gt;
@@ -556,7 +546,7 @@ C軸;
 &lt;/br&gt;&lt;/br&gt;
 Open chain:當系統架構為 Base 接出至 link ,而沒有接回至 Base者。
 &lt;/br&gt;&lt;/br&gt;
-Close chain:當系統架構為 Base 接出至 link ,且又接回至 Base者。
+Close chain:當系統架構為 Base 接出至 link ,且又接回至 Base者 ( Base 連接兩者以上桿件 )。
 &lt;/p&gt;
 &lt;img src="g2/v_rep/open_chain.png" align="center" width="35%"&gt;
 &lt;img src="g2/v_rep/close_chain.png" align="center" width="55%"&gt;
