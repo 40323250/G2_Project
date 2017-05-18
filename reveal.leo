@@ -43,7 +43,7 @@
 <v t="544.20170515005219.1"><vh>研究動機</vh></v>
 <v t="544.20170516214054.1"><vh>研究目的</vh></v>
 </v>
-<v t="leo.20170505053249.35"><vh>3D Printer(#3D printer)</vh>
+<v t="leo.20170505053249.35" a="E"><vh>3D Printer(#3D printer)</vh>
 <v t="leo.20170505053249.36"><vh>3D Printer結構介紹</vh></v>
 <v t="leo.20170505053249.41"><vh>3D Printer硬體介紹</vh></v>
 <v t="544.20170517205437.1"><vh>韌體程式碼介紹</vh></v>
@@ -53,17 +53,17 @@
 <v t="leo.20170505053249.61"><vh>Cura介紹 - 參數設定2</vh></v>
 <v t="leo.20170505053249.66"><vh>Cura介紹 - 界面說明</vh></v>
 <v t="544.20170516232554.1"><vh>Pronterface介紹 - 界面介紹</vh></v>
-<v t="544.20170516232554.2"><vh>Pronterface介紹 - 機台校正1</vh></v>
-<v t="544.20170516232554.3"><vh>Pronterface介紹 - 機台校正2</vh></v>
-<v t="544.20170516232555.1"><vh>Pronterface介紹 - 機台校正3</vh></v>
-<v t="544.20170516232555.2"><vh>Pronterface介紹 - 機台校正4</vh></v>
-<v t="544.20170517005916.1"><vh>Pronterface介紹 - 機台校正5</vh></v>
-<v t="544.20170517010100.1"><vh>Pronterface介紹 - 機台校正6</vh></v>
-<v t="544.20170517010100.2"><vh>Pronterface介紹 - 機台校正7</vh></v>
-<v t="544.20170517010100.3"><vh>Pronterface介紹 - 機台校正8</vh></v>
-<v t="544.20170517010100.4"><vh>Pronterface介紹 - 機台校正9</vh></v>
-<v t="544.20170517010633.1"><vh>Pronterface介紹 - 機台校正10</vh></v>
-<v t="544.20170517011528.1"><vh>Pronterface介紹 - 機台校正11</vh></v>
+<v t="544.20170516232554.2"><vh>機台校正1</vh></v>
+<v t="544.20170516232554.3"><vh>機台校正2</vh></v>
+<v t="544.20170516232555.1"><vh>機台校正3</vh></v>
+<v t="544.20170516232555.2"><vh>機台校正4</vh></v>
+<v t="544.20170517005916.1"><vh>機台校正5</vh></v>
+<v t="544.20170517010100.1"><vh>機台校正6</vh></v>
+<v t="544.20170517010100.2"><vh>機台校正7</vh></v>
+<v t="544.20170517010100.3"><vh>機台校正8</vh></v>
+<v t="544.20170517010100.4"><vh>機台校正9</vh></v>
+<v t="544.20170517010633.1"><vh>機台校正10</vh></v>
+<v t="544.20170517011528.1"><vh>機台校正11</vh></v>
 </v>
 <v t="leo.20170505053249.71" a="E"><vh>V-rep(#v-rep)</vh>
 <v t="leo.20170505053249.72"><vh>V-rep 基本介紹</vh></v>
@@ -371,7 +371,7 @@ V-rep 整體介面&lt;/br&gt;
 
 &lt;/section&gt;</t>
 <t tx="544.20170516232554.2">&lt;section&gt;
-&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;h3&gt;機台校正&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 步驟一.與Pronterface連接
@@ -382,7 +382,7 @@ V-rep 整體介面&lt;/br&gt;
 
 &lt;/section&gt;</t>
 <t tx="544.20170516232554.3">&lt;section&gt;
-&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;h3&gt;機台校正&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 步驟二.原點復歸
@@ -394,7 +394,7 @@ V-rep 整體介面&lt;/br&gt;
 
 &lt;/section&gt;</t>
 <t tx="544.20170516232555.1">&lt;section&gt;
-&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;h3&gt;機台校正&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 步驟三.量測列印高度
@@ -403,7 +403,7 @@ V-rep 整體介面&lt;/br&gt;
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170516232555.2">&lt;section&gt;
-&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;h3&gt;機台校正&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 步驟四.修改列印高度
@@ -421,7 +421,7 @@ V-rep 整體介面&lt;/br&gt;
 
 &lt;/section&gt;</t>
 <t tx="544.20170517005916.1">&lt;section&gt;
-&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;h3&gt;機台校正&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 步驟五.調整XYZ軸的高度
@@ -432,7 +432,7 @@ V-rep 整體介面&lt;/br&gt;
 
 &lt;/section&gt;</t>
 <t tx="544.20170517010100.1">&lt;section&gt;
-&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;h3&gt;機台校正&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 之後調整各軸滑塊上的螺絲 ,使螺絲向上或向下移動 ,影響光學極限開關 ,讓各軸的總位移量改變。(圖.7)
@@ -441,7 +441,7 @@ V-rep 整體介面&lt;/br&gt;
 
 &lt;/section&gt;</t>
 <t tx="544.20170517010100.2">&lt;section&gt;
-&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;h3&gt;機台校正&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 例如:pronterface量出來個點的值為  圖.8
@@ -468,7 +468,7 @@ C軸;
 
 &lt;/section&gt;</t>
 <t tx="544.20170517010100.3">&lt;section&gt;
-&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;h3&gt;機台校正&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 步驟五.四點同高
@@ -485,7 +485,7 @@ C軸;
 
 &lt;/section&gt;</t>
 <t tx="544.20170517010100.4">&lt;section&gt;
-&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;h3&gt;機台校正&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 切斷Pronterface ,切換至Cura中的參數設定頁面 ,修改水平半徑的參數。(圖.12)
@@ -504,7 +504,7 @@ C軸;
 
 &lt;/section&gt;</t>
 <t tx="544.20170517010633.1">&lt;section&gt;
-&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;h3&gt;機台校正&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 步驟六:修改列印成品大小
@@ -519,7 +519,7 @@ C軸;
 
 &lt;/section&gt;</t>
 <t tx="544.20170517011528.1">&lt;section&gt;
-&lt;h3&gt;Pronterface介紹 - 機台校正&lt;/h3&gt;
+&lt;h3&gt;機台校正&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 斜桿長度:
