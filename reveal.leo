@@ -43,7 +43,7 @@
 <v t="544.20170515005219.1"><vh>研究動機</vh></v>
 <v t="544.20170516214054.1"><vh>研究目的</vh></v>
 </v>
-<v t="leo.20170505053249.35" a="E"><vh>3D Printer(#3D printer)</vh>
+<v t="leo.20170505053249.35"><vh>3D Printer(#3D printer)</vh>
 <v t="leo.20170505053249.36"><vh>3D Printer結構介紹</vh></v>
 <v t="leo.20170505053249.41"><vh>3D Printer硬體介紹</vh></v>
 <v t="544.20170517205437.1"><vh>韌體程式碼介紹</vh></v>
@@ -77,9 +77,9 @@
 <v t="544.20170518123349.1"><vh>四連桿 範例2</vh></v>
 <v t="544.20170514200732.2"><vh>八連桿 範例1</vh></v>
 <v t="544.20170518125516.1"><vh>八連桿 範例2</vh></v>
-<v t="544.20170514200732.3" a="E"><vh>以下為控制模擬</vh>
 <v t="544.20170515002049.1"><vh>V-rep Printer 組裝</vh></v>
-<v t="544.20170516215532.1"><vh>V-rep Arduino</vh></v>
+<v t="544.20170514200732.3" a="E"><vh>以下為控制模擬</vh>
+<v t="544.20170519005035.1"><vh>V-rep Scripts</vh></v>
 <v t="544.20170515003940.1"><vh>V-rep 可變電阻範例 1</vh></v>
 <v t="544.20170515191155.1"><vh>V-rep 可變電阻範例 1 - Arduino</vh></v>
 <v t="544.20170515192011.1"><vh>V-rep 可變電阻範例 1 - Lua</vh></v>
@@ -179,7 +179,7 @@ Onshape的使用者分類 ：&lt;br&gt;
 &lt;h3&gt;V-rep - 八連桿範例&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-內容
+八連桿範例也屬於 Closechain ,
 &lt;br&gt;&lt;br&gt;
 下方為範例  (左為預期 , 右為模擬)
 &lt;br&gt;&lt;br&gt;
@@ -200,7 +200,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台 ,它的檔案都存在&l
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515002049.1">&lt;section&gt;
-&lt;h3&gt;V-rep - Printer設定&lt;/h3&gt;
+&lt;h3&gt;V-rep - Printer組裝&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 當Printer匯入 V-rep 後 ,拆解開來的零件約有一百個 ,組裝時須要特別留意噴頭座的部分為 close chain ,六連桿的關節處須要....。
@@ -227,7 +227,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台 ,它的檔案都存在&l
 &lt;h3&gt;控制範例 2 - 六軸感測器控制噴頭位置 &lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article" &gt;
-這個控制採用 MPU6050 六軸加速度感測器 ,經由角度之變化後 ,透過和前範例相同的方式 ,傳送數值到V-rep內部後 ,轉換成噴頭欲移動之座標點。
+這個控制採用 MPU6050 六軸加速度感測器 ,經由角度之變化後 ,透過和前範例相同的方式 ,傳送數值到 V-rep 內部後 ,轉換成噴頭欲移動之座標點。
 &lt;/p&gt;
 &lt;img src="g2/6axis_arduino.png" align="center" width="50%"&gt;
 &lt;/section&gt;</t>
@@ -235,7 +235,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台 ,它的檔案都存在&l
 &lt;h3&gt;控制範例 1 - 可變電阻控制噴頭位置&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-若要使用Arduino控制V-rep ,除了Arduino本身的程式碼之外 ,還須設定V-rep的scripts內部程式 ,並透過設定相同的通訊埠和arduino的COM點 ,才能達到內外溝通的功能。
+若要使用 Arduino 控制 V-rep ,除了Arduino本身的程式碼之外 ,還須設定 V-rep 的 Scripts 內部程式 ,並透過設定相同的通訊埠和 Arduino 的COM 點 ,才能達到內外溝通的功能。
 &lt;/p&gt;
 &lt;img src="g2/arduino_lua.png" align="center" width="60%"&gt;
 &lt;/section&gt;</t>
@@ -275,7 +275,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台 ,它的檔案都存在&l
 &lt;h3&gt;控制範例 1 - Lua程式&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-本程式基本架構由 Eric Rohmer 所提供 ,控制方式為收到Arduino傳來固定格式的數值後 ,經由程式語法將其轉換為點座標 ,使噴頭移動到相對映的位置。
+本程式基本架構由 Eric Rohmer 所提供 ,控制方式為收到 Arduino 傳來固定格式的數值後 ,經由程式語法將其轉換為點座標 ,使噴頭移動到相對映的位置。
 &lt;/p&gt;
 &lt;img src="g2/example2_lua.png" align="center" width="60%"&gt;
 &lt;/section&gt;</t>
@@ -322,7 +322,7 @@ V-rep 整體介面&lt;/br&gt;
 &lt;h3&gt;V-rep - Tkinter控制介面&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-此控制採用 Python 本身的 Tkinter 模組 ,經由 Vrep.py 將 V-rep 內的函式轉換後 再由 Python 控制,通訊採用類似Arduino之通訊埠 ,達到內外溝通。
+此控制採用 Python 本身的 Tkinter 模組 ,經由 Vrep.py 將 V-rep 內的函式轉換後 再由 Python 控制,通訊採用類似 Arduino 之通訊埠 ,達到內外溝通。
 &lt;/br&gt;&lt;/br&gt;
 以下為Tkinter介面 ,依照輸入的座標位置 ,讓噴頭移動至該位置。
 &lt;/p&gt;
@@ -332,7 +332,7 @@ V-rep 整體介面&lt;/br&gt;
 &lt;h3&gt;V-rep - Printer模擬列印&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-當控制及列印的粒子完成之後 ,G-Code的部分為CURA產生 ,並採用先前報告小組同學 祐生的程式來解讀 ,並透過先前的方式 ,將值傳回V-rep內部 ,雖然不是專門模擬列印的軟體 ,也是能達到模擬列印的功能。
+當控制及列印的粒子完成之後 , G-Code 的部分為 CURA 產生 ,並採用先前報告小組同學 祐生的程式來解讀 ,並透過先前的方式 ,將值傳回V-rep內部 ,雖然不是專門模擬列印的軟體 ,也是能達到模擬列印的功能。
 &lt;/p&gt;
 &lt;img src="g2/gcode.png" width="80%"&gt;
 &lt;/section&gt;</t>
@@ -350,16 +350,6 @@ V-rep 整體介面&lt;/br&gt;
 &lt;p class="article"&gt;
 內容
 &lt;/p&gt;
-&lt;/section&gt;</t>
-<t tx="544.20170516215532.1">&lt;section&gt;
-&lt;h3&gt;V-rep - Arduino控制範例&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-
-&lt;/br&gt;&lt;/br&gt;
-當V-rep內部設定完成後 ,再來就需要透過外界輸入參數 ,控制內部實體 ,因此選擇了容易上手的arduino ,
-&lt;/p&gt;
-
 &lt;/section&gt;</t>
 <t tx="544.20170516232554.1">&lt;section&gt;
 &lt;h3&gt;Pronterface介紹 - 界面介紹&lt;/h3&gt;
@@ -571,6 +561,22 @@ Close chain:當系統架構為 Base 接出至 link ,且又接回至 Base者。
 &lt;img src="g2/v_rep/open_chain.png" align="center" width="35%"&gt;
 &lt;img src="g2/v_rep/close_chain.png" align="center" width="55%"&gt;
 
+&lt;/section&gt;</t>
+<t tx="544.20170519005035.1">&lt;section&gt;
+&lt;h3&gt;V-rep - 內部 Scripts 控制&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+V-rep可透過內部 Scripts 編寫控制指令 ,能夠控制轉軸角度、位置、路徑等等 ,如下圖 ,先讓轉軸 往負45度角轉動,當轉軸到達目標時 ,再往45度角轉動。
+&lt;/br&gt;
+&lt;/p&gt;
+&lt;img src="g2/v_rep/scripts_example.png" align="left" width="50%"&gt;
+&lt;img src="g2/v_rep/fourbar_scripts.gif" width="40%"&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;p class="article"&gt;
+V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制 ,以下拿 Arduino 做為範例。
+&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--利用的技術--&gt;

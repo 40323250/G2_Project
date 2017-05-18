@@ -516,7 +516,7 @@ Close chain:當系統架構為 Base 接出至 link ,且又接回至 Base者。
 <h3>V-rep - 八連桿範例</h3>
 <hr>
 <p class="article">
-內容
+八連桿範例也屬於 Closechain ,
 <br><br>
 下方為範例  (左為預期 , 右為模擬)
 <br><br>
@@ -526,7 +526,7 @@ Close chain:當系統架構為 Base 接出至 link ,且又接回至 Base者。
 <img src="g2/solvespace_successful.gif" width="35%">
 </section>
 <section>
-<h3>V-rep - Printer設定</h3>
+<h3>V-rep - Printer組裝</h3>
 <hr>
 <p class="article">
 當Printer匯入 V-rep 後 ,拆解開來的零件約有一百個 ,組裝時須要特別留意噴頭座的部分為 close chain ,六連桿的關節處須要....。
@@ -538,20 +538,26 @@ Close chain:當系統架構為 Base 接出至 link ,且又接回至 Base者。
 </p>
 </section>
 <section>
-<h3>V-rep - Arduino控制範例</h3>
+<h3>V-rep - 內部 Scripts 控制</h3>
 <hr>
 <p class="article">
-
-</br></br>
-當V-rep內部設定完成後 ,再來就需要透過外界輸入參數 ,控制內部實體 ,因此選擇了容易上手的arduino ,
+V-rep可透過內部 Scripts 編寫控制指令 ,能夠控制轉軸角度、位置、路徑等等 ,如下圖 ,先讓轉軸 往負45度角轉動,當轉軸到達目標時 ,再往45度角轉動。
+</br>
 </p>
-
+<img src="g2/v_rep/scripts_example.png" align="left" width="50%">
+<img src="g2/v_rep/fourbar_scripts.gif" width="40%">
+</br>
+</br>
+</br>
+<p class="article">
+V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制 ,以下拿 Arduino 做為範例。
+</p>
 </section>
 <section>
 <h3>控制範例 1 - 可變電阻控制噴頭位置</h3>
 <hr>
 <p class="article">
-若要使用Arduino控制V-rep ,除了Arduino本身的程式碼之外 ,還須設定V-rep的scripts內部程式 ,並透過設定相同的通訊埠和arduino的COM點 ,才能達到內外溝通的功能。
+若要使用 Arduino 控制 V-rep ,除了Arduino本身的程式碼之外 ,還須設定 V-rep 的 Scripts 內部程式 ,並透過設定相同的通訊埠和 Arduino 的COM 點 ,才能達到內外溝通的功能。
 </p>
 <img src="g2/arduino_lua.png" align="center" width="60%">
 </section>
@@ -569,7 +575,7 @@ Close chain:當系統架構為 Base 接出至 link ,且又接回至 Base者。
 <h3>控制範例 1 - Lua程式</h3>
 <hr>
 <p class="article">
-本程式基本架構由 Eric Rohmer 所提供 ,控制方式為收到Arduino傳來固定格式的數值後 ,經由程式語法將其轉換為點座標 ,使噴頭移動到相對映的位置。
+本程式基本架構由 Eric Rohmer 所提供 ,控制方式為收到 Arduino 傳來固定格式的數值後 ,經由程式語法將其轉換為點座標 ,使噴頭移動到相對映的位置。
 </p>
 <img src="g2/example2_lua.png" align="center" width="60%">
 </section>
@@ -585,7 +591,7 @@ Close chain:當系統架構為 Base 接出至 link ,且又接回至 Base者。
 <h3>控制範例 2 - 六軸感測器控制噴頭位置 </h3>
 <hr>
 <p class="article" >
-這個控制採用 MPU6050 六軸加速度感測器 ,經由角度之變化後 ,透過和前範例相同的方式 ,傳送數值到V-rep內部後 ,轉換成噴頭欲移動之座標點。
+這個控制採用 MPU6050 六軸加速度感測器 ,經由角度之變化後 ,透過和前範例相同的方式 ,傳送數值到 V-rep 內部後 ,轉換成噴頭欲移動之座標點。
 </p>
 <img src="g2/6axis_arduino.png" align="center" width="50%">
 </section>
@@ -613,7 +619,7 @@ Close chain:當系統架構為 Base 接出至 link ,且又接回至 Base者。
 <h3>V-rep - Tkinter控制介面</h3>
 <hr>
 <p class="article">
-此控制採用 Python 本身的 Tkinter 模組 ,經由 Vrep.py 將 V-rep 內的函式轉換後 再由 Python 控制,通訊採用類似Arduino之通訊埠 ,達到內外溝通。
+此控制採用 Python 本身的 Tkinter 模組 ,經由 Vrep.py 將 V-rep 內的函式轉換後 再由 Python 控制,通訊採用類似 Arduino 之通訊埠 ,達到內外溝通。
 </br></br>
 以下為Tkinter介面 ,依照輸入的座標位置 ,讓噴頭移動至該位置。
 </p>
@@ -632,7 +638,7 @@ Close chain:當系統架構為 Base 接出至 link ,且又接回至 Base者。
 <h3>V-rep - Printer模擬列印</h3>
 <hr>
 <p class="article">
-當控制及列印的粒子完成之後 ,G-Code的部分為CURA產生 ,並採用先前報告小組同學 祐生的程式來解讀 ,並透過先前的方式 ,將值傳回V-rep內部 ,雖然不是專門模擬列印的軟體 ,也是能達到模擬列印的功能。
+當控制及列印的粒子完成之後 , G-Code 的部分為 CURA 產生 ,並採用先前報告小組同學 祐生的程式來解讀 ,並透過先前的方式 ,將值傳回V-rep內部 ,雖然不是專門模擬列印的軟體 ,也是能達到模擬列印的功能。
 </p>
 <img src="g2/gcode.png" width="80%">
 </section>
