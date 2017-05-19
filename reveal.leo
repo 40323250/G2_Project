@@ -1043,11 +1043,11 @@ V-rep為 Virtual robot experimentation platform 的縮寫，是一套機器人�
 &lt;hr&gt;
 &lt;img src="g2/pyslvs/cover.png"&gt;
 &lt;p&gt;
+Version 0.7 (stable)
+&lt;br&gt;&lt;br&gt;
 Planar Linkages Simulation
 &lt;br&gt;
 Dimensional Synthesis
-&lt;br&gt;
-Version 0.7 (stable)
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170518041620.1">&lt;section&gt;
