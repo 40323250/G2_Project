@@ -1098,11 +1098,11 @@ Dimensional Synthesis
 &lt;h3&gt;Onshape - 繪製範例&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-&lt;img src="g2/onshape/example_1.gif" width="25%"&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-&lt;img src="g2/onshape/example_2.gif"  width="30%"&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-&lt;img src="g2/onshape/example_3.gif"  width="30%"&gt;
+&lt;img src="g2/onshape/example_1.gif" width="26%"&gt;
+&amp;nbsp;&amp;nbsp;
+&lt;img src="g2/onshape/example_2.gif"  width="31%"&gt;
+&amp;nbsp;&amp;nbsp;
+&lt;img src="g2/onshape/example_3.gif"  width="37%"&gt;
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170519025311.1">&lt;section&gt;
