@@ -109,6 +109,8 @@
 <v t="ahshoe.20170519121706.1"><vh>尺寸合成 - 三種收斂誤差</vh></v>
 <v t="ahshoe.20170519122009.1"><vh>尺寸合成 - 兩種收斂誤差</vh></v>
 <v t="ahshoe.20170510224930.1"><vh>功能</vh></v>
+<v t="ahshoe.20170519134311.1"><vh>功能 - 主畫面</vh></v>
+<v t="ahshoe.20170519142618.1"><vh>功能 - 面版</vh></v>
 <v t="ahshoe.20170510231343.1"><vh>開發歷程 - 1</vh></v>
 <v t="ahshoe.20170518002614.1"><vh>開發歷程 - 2</vh></v>
 </v>
@@ -581,12 +583,14 @@ V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制，以�
 &lt;!--大概功能介紹--&gt;
 &lt;h3&gt;Features&lt;/h3&gt;
 &lt;hr&gt;
+&lt;img src="g2/pyslvs/Features.png"&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510231343.1">&lt;section&gt;
 &lt;!--開發歷程介紹--&gt;
 &lt;h3&gt;開發歷程&lt;/h3&gt;
 &lt;hr&gt;
 &lt;ul&gt;
+&lt;li&gt;研究 Solvespace 原始碼。（2016 年 7 ~ 8 月）&lt;/li&gt;
 &lt;li&gt;編譯 Solvespace 對 Python API 成功，並成功用 matplotlib 繪製第一張四連桿的端點路徑。（2016 年 9 月初）&lt;/li&gt;
 &lt;li&gt;PyQt 介面計畫開始。（2016 年 9 月中）&lt;/li&gt;
 &lt;li&gt;第一個 Release 版本 v0.1。（2016 年 9 月 27 日）&lt;/li&gt;
@@ -698,15 +702,29 @@ Python 控 C++：
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170519121706.1">&lt;section&gt;
 &lt;!--三種誤差比較--&gt;
-&lt;h3&gt;Convergence&lt;/h3&gt;
+&lt;h3&gt;Convergence of f(x)=x&lt;/h3&gt;
 &lt;hr&gt;
+&lt;h4&gt;Genetic, Firefly and Differential Evolution&lt;/h4&gt;
 &lt;img src="g2/pyslvs/Three Algorithm.png"&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170519122009.1">&lt;section&gt;
 &lt;!--兩種誤差比較--&gt;
-&lt;h3&gt;Convergence&lt;/h3&gt;
+&lt;h3&gt;Convergence of f(x)=x&lt;/h3&gt;
 &lt;hr&gt;
+&lt;h4&gt;Genetic and Firefly&lt;/h4&gt;
 &lt;img src="g2/pyslvs/Two Algorithm.png"&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20170519134311.1">&lt;section&gt;
+&lt;!--主畫面--&gt;
+&lt;h3&gt;Main Window&lt;/h3&gt;
+&lt;hr&gt;
+&lt;img src="g2/pyslvs/MainWindow.png"&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20170519142618.1">&lt;section&gt;
+&lt;!--主畫面--&gt;
+&lt;h3&gt;Path Solving Panel&lt;/h3&gt;
+&lt;hr&gt;
+&lt;img src="g2/pyslvs/pathSolving.png"&gt;
 &lt;/section&gt;</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
