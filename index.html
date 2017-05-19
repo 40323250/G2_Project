@@ -138,19 +138,13 @@
 <section>
 <h3>Delta 3D-Printer 結構介紹</h3>
 <hr>
-<p class="article">
-
-</p>
-<img src="g2/40323231/1.png" width="70%">
-
+<img src="g2/40323231/1.png" width="65%">
 </section>
 <section>
 <h3>Delta 3D-Printer 硬體介紹</h3>
 <hr>
-<p class="article">
-</p>
 <img src="g2/printer.jpg" width="50%">
-<img src="g2/40323231/02.jpg" width="45%">
+<img src="g2/40323231/02.jpg" width="40%">
 </section>
 <section>
 <h3>韌體程式碼介紹</h3>
@@ -217,63 +211,50 @@
 <section>
 <h3>機台校正</h3>
 <hr>
+<h4>與 Pronterface 連接</h4>
 <p class="article">
-步驟一.與Pronterface連接
-</br></br>
-電腦先與3D列印機連接(USB)，之後開啟Pronterface，按下Port(會直接幫你搜尋端口)，之後按下connect進行連接(圖.3)。
+電腦先與3D列印機連接（USB），之後開啟 Pronterface，按下 Port（自動搜尋端口），之後按下 connect 進行連接 (圖.3)。
 </p>
 <img src="g2/40323231/15.PNG" width="60%">
-
 </section>
 <section>
 <h3>機台校正</h3>
 <hr>
+<h4>原點復歸</h4>
 <p class="article">
-步驟二.原點復歸
-</br></br>
-在圖樣控制面板中按下房子符號(原點復歸)，讓Pronterface紀錄原點(沒做此步驟可能會造成撞機的危機)(圖.4)。
-
+在圖樣控制面板中按下原點復歸，讓 Pronterface 紀錄原點，沒做此步驟可能會造成撞機 (圖.4)。
 </p>
 <img src="g2/40323231/16.PNG" width="40%">
-
 </section>
 <section>
 <h3>機台校正</h3>
 <hr>
+<h4>量測列印高度</h4>
 <p class="article">
-步驟三.量測列印高度
-</br></br>
-在輸入地方輸入G01  Z10，讓噴頭下降至距離平台10mm處(預留量，避免撞機的可能)，放置一張紙在平台上(檢測用)，之後在圖樣控制面板中按Z軸的位移量讓噴頭接近平台(位移量由大到小避免撞機)，噴頭下降的過程中挪動平台上的紙張，直到拉動紙張會有一股阻力時，即可紀錄顯示中的數值。
+在輸入地方輸入 G01  Z10，讓噴頭下降至距離平台 10mm 處，預留避免撞機的可能，放置一張紙在平台上，之後在圖樣控制面板中按 Z 軸的位移量讓噴頭接近平台，位移量由大到小避免撞機。噴頭下降的過程中挪動平台上的紙張，直到拉動紙張會有一股阻力時，即可紀錄顯示中的數值。
 </p>
 </section>
 <section>
 <h3>機台校正</h3>
 <hr>
+<h4>修改列印高度</h4>
 <p class="article">
-步驟四.修改列印高度
-</br></br>
-按下disconnect解除連結，之後開啟Cura，點選機型->機器調試，修改列印高度。(圖.5)
+按下 disconnect 解除連結，之後開啟 Cura，點選機型選單中的機器調試，修改列印高度。(圖.5)
 </br>
 <img src="g2/40323231/17.PNG" width="50%">
 </br>
-如果Ponterface上顯示Z軸
-正數，則將列印高度的數值減掉顯示的數值
-負數，則將列印高度的數值加上顯示的數值
-改完後，按下保存->復位
-
+如果 Ponterface 上顯示 Z 軸為正數，則將列印高度的數值減掉顯示的數值；反之則加上。改完後，按下保存後復位。
 </p>
 
 </section>
 <section>
 <h3>機台校正</h3>
 <hr>
+<h4>調整 XYZ 軸的高度</h4>
 <p class="article">
-步驟五.調整XYZ軸的高度
-</br></br>
-連接Pronterface重複步驟一.和步驟二.之後下指令量測紅色三點(圖.6)，並記錄下來。
+連接 Pronterface 重複連接和復歸後下指令量測紅色三點 (圖.6)，並記錄下來。
 </p>
 <img src="g2/40323231/18.PNG" width="60%">
-
 </section>
 <section>
 <h3>機台校正</h3>
@@ -282,101 +263,66 @@
 之後調整各軸滑塊上的螺絲，使螺絲向上或向下移動，影響光學極限開關，讓各軸的總位移量改變。(圖.7)
 </p>
 <img src="g2/40323231/19.PNG" width="60%">
-
 </section>
 <section>
 <h3>機台校正</h3>
 <hr>
-<p class="article">
-例如:pronterface量出來個點的值為  圖.8
-</br>
-調整螺絲後為量出來的值為 圖.9
-</br>
+<h4>圖.8 和 圖.9 分別為 pronterface 與調整螺絲後的數值。</h4>
 <img src="g2/40323231/20.PNG" width="45%">
-</br>
-螺絲:
-</br>
-逆時針轉一圈，值上升0.4mm
-</br>
-順時針轉一圈，值下降0.4mm
-</br>
-A軸:
-由0.9上升到1.6，將螺絲逆時針轉1.75圈
-</br>
-B軸:
-由1.5上升到1.6，將螺絲逆時針轉0.25圈
-     </br>
-C軸;
-     由2.5下降到1.6，將螺絲順時針轉2.25圈
+<ul style="font-size:0.75em">
+<li>螺絲逆時針轉一圈，值上升0.4mm</li>
+<li>螺絲順時針轉一圈，值下降0.4mm</li>
+<li>A軸 - 由0.9上升到1.6，將螺絲逆時針轉1.75圈</li>
+<li>B軸 - 由1.5上升到1.6，將螺絲逆時針轉0.25圈</li>
+<li>C軸 - 由2.5下降到1.6，將螺絲順時針轉2.25圈</li>
+</ul>
+</section>
+<section>
+<h3>機台校正</h3>
+<hr>
+<h4>四點同高</h4>
+<p class="article">
+做完機台校正、原點復歸、測量與修改列印高度後，四點高度為如 圖.10，這種狀況會讓列印出來的東西變碗狀，四周較高而中間偏低。
 </p>
-
+<img src="g2/40323231/21.PNG" style="float:left;" width="30%">
+<img src="g2/40323231/22.PNG" style="float:right;" width="20%">
 </section>
 <section>
 <h3>機台校正</h3>
 <hr>
 <p class="article">
-步驟五.四點同高
-</br></br>
-做完步驟一 ~ 步驟四後，四點高度為圖.10。
-<img src="g2/40323231/21.PNG" width="30%">
-</br>
-圖.10這種狀況會讓列印出來的東西變碗狀。
-</br>
-如:圖.11，四周較高而中間偏低
-</br>
-<img src="g2/40323231/22.PNG" width="20%">
+切斷 Pronterface ，切換至 Cura 中的參數設定頁面，修改水平半徑的參數。(圖.12)
 </p>
-
-</section>
-<section>
-<h3>機台校正</h3>
-<hr>
-<p class="article">
-切斷Pronterface，切換至Cura中的參數設定頁面，修改水平半徑的參數。(圖.12)
-</br>
 <img src="g2/40323231/23.PNG" width="35%">
-</br>
-水平半徑:
-</br>
-     數值減少:四周數值增加0.2
-</br>
-數值增加:四周數值減少0.2
-</br>
-本例題為將四周數值降低1.6，因此將水平半徑的數值增加8。修改完後按下保存，在按復歸後完成。
+<ul style="font-size:0.75em">
+<li>水平半徑數值減少 - 四周數值增加 0.2</li>
+<li>水平半徑數值增加 - 四周數值減少 0.2</li>
+</ul>
+<p class="article">
+本例題為將四周數值降低 1.6，因此將水平半徑的數值增加 8。修改完後按下保存，在按復歸後完成。
 </p>
-
-
 </section>
 <section>
 <h3>機台校正</h3>
 <hr>
+<h4>修改列印成品大小</h4>
 <p class="article">
-步驟六:修改列印成品大小
-</br></br>
 做完步驟一到步驟五後即可開始列印，列印出來的工件用游標卡尺做量測，有可能會發現工件不如預期的縮水或變大。
-</br></br>
-例如 : 工程圖尺寸為40.00mm，量測出來的值為39.40mm，尺寸縮小。
 </br>
-做法:開啟cura的參數設置修改斜桿長度(圖.13)  
-<img src="g2/40323231/24.PNG" width="40%">
+做法：開啟 Cura 的參數設置修改斜桿長度(圖.13)  
 </p>
-
+<img src="g2/40323231/24.PNG" style="float:right;" width="40%">
 </section>
 <section>
 <h3>機台校正</h3>
 <hr>
+<ul style="font-size:0.75em">
+<li>斜桿長度增加 1mm - 列印成品尺寸減少 0.2mm</li>
+<li>斜桿長度減少 1mm - 列印成品尺寸增加0.2mm</li>
+</ul>
 <p class="article">
-斜桿長度:
-</br>
-    增加1mm:列印成品尺寸減少0.2mm
-</br>
-    減少1mm:列印成品尺寸增加0.2mm
-</br></br>
 本題須將39.40mm增加到40.00mm，則減少斜桿長度3mm。改完後，按下保存，在按復歸後完成。
-
-
 </p>
-
 </section>
 </section>
 <section id="vrep">
@@ -803,7 +749,7 @@ Python 控 C++：
 </section>
 <section>
 <!--主畫面-->
-<h3>Path Solving Panel</h3>
+<h3>Triangle Solver Panel</h3>
 <hr>
 <img src="g2/pyslvs/pathSolving.png">
 </section>
