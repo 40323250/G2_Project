@@ -34,7 +34,7 @@
 </v>
 <v t="leo.20170505053249.11" a="E"><vh>div class="reveal"</vh>
 <v t="leo.20170505053249.12" a="E"><vh>div class="slides"</vh>
-<v t="leo.20170505053249.19"><vh>目錄(#contents)</vh>
+<v t="leo.20170505053249.19" a="E"><vh>目錄(#contents)</vh>
 <v t="leo.20170505053249.13"><vh>投影封面</vh></v>
 <v t="leo.20170505053249.20"><vh>3D Printer 目錄</vh></v>
 <v t="leo.20170505053249.25"><vh>V-rep 目錄</vh></v>
@@ -895,12 +895,11 @@ Reveal.initialize({
 &lt;h4&gt;3D 列印機硬體設置&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;3D Printer 結構介紹&lt;/li&gt;
-&lt;li&gt;組裝過程&lt;/li&gt;
+&lt;li&gt;韌體程式碼介紹&lt;/li&gt;
 &lt;li&gt;程式碼介紹&lt;/li&gt;
-&lt;li&gt;Cura&lt;/li&gt;
-&lt;li&gt;Pronterface&lt;/li&gt;
+&lt;li&gt;Cura介紹&lt;/li&gt;
+&lt;li&gt;Pronterface介紹&lt;/li&gt;
 &lt;li&gt;校正機台&lt;/li&gt;
-&lt;li&gt;重點提攜&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.25">&lt;section&gt;
@@ -909,14 +908,15 @@ Reveal.initialize({
 &lt;h4&gt;電腦輔助動態模擬&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;V-rep 基本介紹&lt;/li&gt;
-&lt;li&gt;Onshape 介紹(待改)&lt;/li&gt;
-&lt;li&gt;V-rep 細部介紹(待改)&lt;/li&gt;
-&lt;li&gt;四連桿 範例(待改)&lt;/li&gt;
-&lt;li&gt;八連桿 範例(待改)&lt;/li&gt;
-&lt;li&gt;控制模擬(待改)&lt;/li&gt;
+&lt;li&gt;Onshape 介紹&lt;/li&gt;
+&lt;li&gt;V-rep 細部介紹&lt;/li&gt;
+&lt;li&gt;四連桿 範例&lt;/li&gt;
+&lt;li&gt;八連桿 範例&lt;/li&gt;
+&lt;li&gt;V-rep Printer 組裝&lt;/li&gt;
 &lt;li&gt;控制範例 1 - 可變電阻控制噴頭位置&lt;/li&gt;
 &lt;li&gt;控制範例 2 - 六軸感測器控制噴頭位置&lt;/li&gt;
-&lt;li&gt;V-rep - 模擬列印與控制&lt;/li&gt;
+&lt;li&gt;V-rep - Printer校正&lt;/li&gt;
+&lt;li&gt;V-rep - 模擬列印&lt;/li&gt;
 &lt;li&gt;結論&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;</t>
