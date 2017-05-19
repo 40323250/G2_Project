@@ -171,7 +171,7 @@ Onshape的使用者分類 ：&lt;br&gt;
 &lt;h3&gt;V-rep - 四連桿範例&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-以此例來說，當組合階層變成了一個封閉迴路，就會有一個零件會被共用，這就稱做 Close chain，這時候就必須使用 dummy 連結，以保持此機構之約束條件。
+以此例來說，當組合階層變成了一個封閉迴路，就會有一個零件會被共用，稱為 Close chain，這時候就必須使用 dummy 連結，以保持此機構之約束條件。
 &lt;/p&gt;
 &lt;img src="g2/v_rep/fourbar_1.png" align="left" width="30%"&gt;
 &lt;img src="g2/v_rep/fourbar_2.png" align="center" width="40%"&gt;
@@ -202,7 +202,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;h3&gt;V-rep - Printer組裝&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-當Printer匯入 V-rep 後，拆解開來的零件約有一百個，組裝時須要特別留意，尤其是噴頭座的部分為 Close chain，該關節處因為自由度的關係， joint 的位置就顯得非常重要。
+當 Printer 匯入 V-rep 後，拆解開來的零件約有一百個，組裝時須要特別留意，尤其是噴頭座的部分為 Close chain，該關節處因為自由度的關係， joint 的位置就顯得非常重要。
 &lt;/p&gt;
 &lt;img src="g2/v_rep/heater.png" align="center" width="40%"&gt;
 &lt;/section&gt;</t>
@@ -210,7 +210,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;h3&gt;V-rep - Printer校正&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-前兩者為模擬練習，只有限制移動範圍但並未經過精準校正，但控制器和實體列印時同樣需要校正，雖然實體熱床對於 CURA 程式的座標為 (0,0,0)，但V-rep 之內部座標還要包含熱床本身之高度，故要補償一個高度值 (L1+L2)，如此就能控制出料口之位置。
+前兩者為模擬練習，只有限制移動範圍但並未經過精準校正，但控制器和實體列印時同樣需要校正，雖然實體熱床對於 CURA 程式的座標為 (0,0,0)，但 V-rep 之內部座標還要包含熱床本身之高度，故要補償一個高度值 (L1+L2)，如此就能控制出料口之位置。
 &lt;br&gt;
 &lt;br&gt;
 如圖，出料口碰觸熱床之補正後高度為 t，經單位換算後之高度 t = L1+L2 = 0.1165m ( 116.5 mm )
@@ -230,7 +230,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;h3&gt;控制範例 1 - 可變電阻控制噴頭位置&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-若要使用 Arduino 控制 V-rep，除了Arduino本身的程式碼之外，還須設定 V-rep 的 Scripts 內部程式，並透過設定相同的通訊埠和 Arduino 的COM 點，才能達到內外溝通的功能。
+若要使用 Arduino 控制 V-rep，除了Arduino本身的程式碼之外，還須設定 V-rep 的 Scripts 內部程式，並透過設定相同的通訊埠和 Arduino 的 COM 點，才能達到內外溝通的功能。
 &lt;/p&gt;
 &lt;img src="g2/arduino_lua.png" align="center" width="60%"&gt;
 &lt;/section&gt;</t>
@@ -1122,11 +1122,11 @@ Revolute _ joint 需要和軸重疊，排序完成後設定參數，按下啟動
 &lt;h3&gt;V-rep - 細部介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-組合的系統分成開放式(Open chain) 與封閉式 (Close chain)，這種狀況在某些分析軟體也會遇到。 
+組合的系統分成開放式 (Open chain) 與封閉式 (Close chain)，這種狀況在某些分析軟體也會遇到。 
 &lt;/br&gt;&lt;/br&gt;
 Open chain : 當系統架構為非封閉式機構，各個零件只受另一零件影響做相對運動。
 &lt;/br&gt;&lt;/br&gt;
-Close chain : 當系統架構為封閉式機構，會有兩個(含)以上零件同時對單一零件造成影響。
+Close chain : 當系統架構為封閉式機構，會有兩個 (含 )以上零件同時對單一零件造成影響。
 &lt;/p&gt;
 &lt;img src="g2/v_rep/open_chain.png" align="center" width="35%"&gt;
 &lt;img src="g2/v_rep/close_chain.png" align="center" width="55%"&gt;
