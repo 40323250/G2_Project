@@ -14,11 +14,11 @@
 <v t="amd.20150913232631.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
 <v t="amd.20150919102739.1"><vh>專案架構</vh></v>
-<v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh>
+<v t="amd.20150919113957.1" a="E"><vh>以下為 pelican 文章</vh>
 <v t="amd.20150919124128.1"><vh>@button user pelican</vh></v>
-<v t="amd.20150919114010.1"><vh>@path pelican</vh>
+<v t="amd.20150919114010.1" a="E"><vh>@path pelican</vh>
 <v t="amd.20151006130205.1"><vh>edit publishconf.py</vh></v>
-<v t="amd.20151006113136.1"><vh>@path content</vh>
+<v t="amd.20151006113136.1" a="E"><vh>@path content</vh>
 <v t="40323250.20151124123658.1"><vh>edit 2015cpnote1.md</vh></v>
 </v>
 </v>
@@ -34,7 +34,7 @@
 </v>
 <v t="leo.20170505053249.11" a="E"><vh>div class="reveal"</vh>
 <v t="leo.20170505053249.12" a="E"><vh>div class="slides"</vh>
-<v t="leo.20170505053249.19"><vh>目錄(#contents)</vh>
+<v t="leo.20170505053249.19" a="E"><vh>目錄(#contents)</vh>
 <v t="leo.20170505053249.13"><vh>投影封面</vh></v>
 <v t="leo.20170505053249.20"><vh>3D Printer 目錄</vh></v>
 <v t="leo.20170505053249.25"><vh>V-rep 目錄</vh></v>
@@ -43,16 +43,16 @@
 <v t="544.20170515005219.1"><vh>研究動機</vh></v>
 <v t="544.20170516214054.1"><vh>研究目的</vh></v>
 </v>
-<v t="leo.20170505053249.35"><vh>3D Printer(#3D printer)</vh>
-<v t="leo.20170505053249.36"><vh>3D Printer結構介紹</vh></v>
-<v t="leo.20170505053249.41"><vh>3D Printer硬體介紹</vh></v>
-<v t="544.20170517205437.1"><vh>韌體程式碼介紹</vh></v>
-<v t="leo.20170505053249.46"><vh>韌體程式碼介紹</vh></v>
-<v t="leo.20170505053249.51"><vh>Cura介紹 - 機台設定</vh></v>
-<v t="leo.20170505053249.56"><vh>Cura介紹 - 參數設定1</vh></v>
-<v t="leo.20170505053249.61"><vh>Cura介紹 - 參數設定2</vh></v>
-<v t="leo.20170505053249.66"><vh>Cura介紹 - 界面說明</vh></v>
-<v t="544.20170516232554.1"><vh>Pronterface介紹 - 界面介紹</vh></v>
+<v t="leo.20170505053249.35" a="E"><vh>3D Printer(#3D printer)</vh>
+<v t="leo.20170505053249.36"><vh>3D Printer 結構</vh></v>
+<v t="leo.20170505053249.41"><vh>3D Printer 硬體</vh></v>
+<v t="544.20170517205437.1"><vh>韌體程式碼</vh></v>
+<v t="leo.20170505053249.46"><vh>韌體程式碼</vh></v>
+<v t="leo.20170505053249.51"><vh>Cura - 機台設定</vh></v>
+<v t="leo.20170505053249.56"><vh>Cura - 參數設定1</vh></v>
+<v t="leo.20170505053249.61"><vh>Cura - 參數設定2</vh></v>
+<v t="leo.20170505053249.66"><vh>Cura - 介面說明</vh></v>
+<v t="544.20170516232554.1"><vh>Pronterface - 介面</vh></v>
 <v t="544.20170516232554.2"><vh>機台校正 - 與 Pronterface 連接</vh></v>
 <v t="544.20170516232554.3"><vh>機台校正 - 原點復歸</vh></v>
 <v t="544.20170516232555.1"><vh>機台校正 - 量測列印高度</vh></v>
@@ -62,8 +62,7 @@
 <v t="544.20170517010100.2"><vh>機台校正 - 調整 XYZ 軸的高度3</vh></v>
 <v t="544.20170517010100.3"><vh>機台校正 - 調整 XYZ 軸的高度4</vh></v>
 <v t="544.20170517010100.4"><vh>機台校正 - 調整 XYZ 軸的高度5</vh></v>
-<v t="544.20170517010633.1"><vh>機台校正 - 修改列印成品大小1</vh></v>
-<v t="544.20170517011528.1"><vh>機台校正 - 修改列印成品大小2</vh></v>
+<v t="544.20170517010633.1"><vh>機台校正 - 修改列印成品大小</vh></v>
 </v>
 <v t="leo.20170505053249.71" a="E"><vh>V-rep(#v-rep)</vh>
 <v t="leo.20170505053249.72"><vh>V-rep 基本介紹</vh></v>
@@ -108,9 +107,9 @@
 <v t="ahshoe.20170510224927.1"><vh>尺寸合成</vh></v>
 <v t="ahshoe.20170519121706.1"><vh>尺寸合成 - 三種收斂誤差</vh></v>
 <v t="ahshoe.20170519122009.1"><vh>尺寸合成 - 兩種收斂誤差</vh></v>
-<v t="ahshoe.20170510224930.1"><vh>功能</vh></v>
-<v t="ahshoe.20170519134311.1"><vh>功能 - 主畫面</vh></v>
-<v t="ahshoe.20170519142618.1"><vh>功能 - 面版</vh></v>
+<v t="ahshoe.20170510224930.1"><vh>功能簡介</vh></v>
+<v t="ahshoe.20170519134311.1"><vh>功能簡介 - 主畫面</vh></v>
+<v t="ahshoe.20170519142618.1"><vh>功能簡介 - 面版</vh></v>
 <v t="ahshoe.20170510231343.1"><vh>開發歷程 - 1</vh></v>
 <v t="ahshoe.20170518002614.1"><vh>開發歷程 - 2</vh></v>
 </v>
@@ -342,13 +341,12 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170516232554.1">&lt;section&gt;
-&lt;h3&gt;Pronterface介紹 - 界面介紹&lt;/h3&gt;
+&lt;h3&gt;Pronterface - 介面&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 &lt;/p&gt;
 &lt;img src="g2/40323231/13.PNG" width="45%"&gt;
 &lt;img src="g2/40323231/14.PNG" width="50%"&gt;
-
 &lt;/section&gt;</t>
 <t tx="544.20170516232554.2">&lt;section&gt;
 &lt;h3&gt;機台校正&lt;/h3&gt;
@@ -454,23 +452,19 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 做法：開啟 Cura 的參數設置修改斜桿長度(圖.13)  
 &lt;/p&gt;
 &lt;img src="g2/40323231/24.PNG" style="float:right;" width="40%"&gt;
-&lt;/section&gt;</t>
-<t tx="544.20170517011528.1">&lt;section&gt;
-&lt;h3&gt;機台校正&lt;/h3&gt;
-&lt;hr&gt;
 &lt;ul style="font-size:0.75em"&gt;
 &lt;li&gt;斜桿長度增加 1mm - 列印成品尺寸減少 0.2mm&lt;/li&gt;
 &lt;li&gt;斜桿長度減少 1mm - 列印成品尺寸增加0.2mm&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p class="article"&gt;
-本題須將39.40mm增加到40.00mm，則減少斜桿長度3mm。改完後，按下保存，在按復歸後完成。
+本題須將 39.40mm 增加到 40.00mm，則減少斜桿長度 3mm。按下保存後復歸。
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170517205437.1">&lt;section&gt;
-&lt;h3&gt;韌體程式碼介紹&lt;/h3&gt;
+&lt;h3&gt;韌體程式碼&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-先下載arduino，之後開啟Repetier中的Configuration.h進行修改裡面的參數，修改完後按上傳(向右的箭頭)，完成韌體的部分。
+先下載 Arduino，之後開啟 Repetier 中的 Configuration.h 進行修改裡面的參數，修改完後按編譯，完成韌體的參數設定。
 &lt;/p&gt;
 &lt;img src="g2/40323231/31.PNG" width="40%"&gt;
 &lt;/br&gt;
@@ -676,7 +670,7 @@ Python 控 C++：
 &lt;!--主畫面--&gt;
 &lt;h3&gt;Triangle Solver Panel&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/pyslvs/pathSolving.png"&gt;
+&lt;img src="g2/pyslvs/triangleSolver.png"&gt;
 &lt;/section&gt;</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
@@ -860,15 +854,15 @@ NOTEBOOK_DIR = 'notebook'
 <t tx="leo.20170505053249.13">&lt;section&gt;
 &lt;h3&gt;V-rep 在 Delta 3D-Printer&lt;/br&gt;虚實整合模擬上的應用&lt;/h3&gt;
 &lt;hr&gt;
-&lt;h4&gt;組員&lt;/h4&gt;
+&lt;h4 style="font-size:0.75em"&gt;組員&lt;/h4&gt;
 &lt;h4&gt;40323218 李冠興&lt;/h4&gt;
 &lt;h4&gt;40323230 張&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;元&lt;/h4&gt;
 &lt;h4&gt;40323231 張立昇&lt;/h4&gt;
 &lt;h4&gt;40323250 詹偉志&lt;/h4&gt;
 &lt;br&gt;
-&lt;h4&gt;指導老師：嚴家銘 教授&lt;/h4&gt;
-&lt;h4&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
-李武鉦 教授&lt;/h4&gt;
+&lt;h4 style="font-size:0.75em"&gt;指導老師&lt;/h4&gt;
+&lt;h4&gt;嚴家銘 教授&lt;/h4&gt;
+&lt;h4&gt;李武鉦 教授&lt;/h4&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.142">&lt;!--script src="lib/js/head.min.js"&gt;&lt;/script--&gt;
 &lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
@@ -933,7 +927,7 @@ Reveal.initialize({
 &lt;li&gt;平面模擬&lt;/li&gt;
 &lt;li&gt;數學模型&lt;/li&gt;
 &lt;li&gt;尺寸合成&lt;/li&gt;
-&lt;li&gt;功能&lt;/li&gt;
+&lt;li&gt;功能簡介&lt;/li&gt;
 &lt;li&gt;開發歷程&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;</t>
@@ -957,13 +951,13 @@ Reveal.initialize({
 &lt;![endif]--&gt;
 &lt;/head&gt;</t>
 <t tx="leo.20170505053249.41">&lt;section&gt;
-&lt;h3&gt;Delta 3D-Printer 硬體介紹&lt;/h3&gt;
+&lt;h3&gt;Delta 3D-Printer 硬體&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/printer.jpg" width="50%"&gt;
 &lt;img src="g2/40323231/02.jpg" width="40%"&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.46">&lt;section&gt;
-&lt;h3&gt;韌體程式碼介紹&lt;/h3&gt;
+&lt;h3&gt;韌體程式碼&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 &lt;/p&gt;
@@ -971,18 +965,18 @@ Reveal.initialize({
 &lt;img src="g2/40323231/5.PNG" width="35%"&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.51">&lt;section&gt;
-&lt;h3&gt;Cura介紹 - 機台設定&lt;/h3&gt;
+&lt;h3&gt;Cura - 機台設定&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-進入Cura的主畫面後須先設定機台，點選機型設置(圖.1)進入設定頁面(圖.2)，此機台的平台為圓形所以設定Circular(因此寬、深因此相同)。
+進入 Cura 的主畫面後須先設定機台，點選機型設置 (圖.1) 進入設定頁面 (圖.2)，此機台的平台為圓形所以寬、深相同，設定 Circular。
 &lt;/br&gt;&lt;/br&gt;
-擠出機也只有一個所以選擇1。由於機台為三角形機台，因此平台中心設為(0,0)。波特率設為115200(需與韌體相同)。設定完之後即可開始使用Cura。
+由於機台為三角形機台，因此平台中心設為 (0,0)。波特率設為 115200（需與韌體相同）。設定完之後即可開始使用 Cura。
 &lt;/p&gt;
 &lt;img src="g2/40323231/03.jpg" width="40%"&gt;
 &lt;img src="g2/40323231/04.jpg" width="50%"&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.56">&lt;section&gt;
-&lt;h3&gt;Cura介紹 - 參數設定&lt;/h3&gt;
+&lt;h3&gt;Cura - 參數設定&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 &lt;/p&gt;
@@ -990,7 +984,7 @@ Reveal.initialize({
 &lt;img src="g2/40323231/9.PNG" width="45%"&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.61">&lt;section&gt;
-&lt;h3&gt;Cura介紹 - 參數設定&lt;/h3&gt;
+&lt;h3&gt;Cura - 參數設定&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 &lt;/p&gt;
@@ -998,7 +992,7 @@ Reveal.initialize({
 &lt;img src="g2/40323231/11.PNG" width="40%"&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.66">&lt;section&gt;
-&lt;h3&gt;Cura介紹 - 界面說明&lt;/h3&gt;
+&lt;h3&gt;Cura - 介面說明&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 &lt;/p&gt;
@@ -1052,6 +1046,8 @@ V-rep為 Virtual robot experimentation platform 的縮寫，是一套機器人�
 Planar Linkages Simulation
 &lt;br&gt;
 Dimensional Synthesis
+&lt;br&gt;
+Version 0.7 (stable)
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170518041620.1">&lt;section&gt;
@@ -1084,9 +1080,9 @@ Revolute _ joint 需要和軸重疊，排序完成後設定參數，按下啟動
 &lt;p class="article"&gt;
 組合的系統分成開放式 (Open chain) 與封閉式 (Close chain)，這種狀況在某些分析軟體也會遇到。 
 &lt;/br&gt;&lt;/br&gt;
-Open chain : 當系統架構為非封閉式機構，各個零件只受另一零件影響做相對運動。
+Open chain - 當系統架構為非封閉式機構，各個零件只受另一零件影響做相對運動。
 &lt;/br&gt;&lt;/br&gt;
-Close chain : 當系統架構為封閉式機構，會有兩個 (含 )以上零件同時對單一零件造成影響。
+Close chain - 當系統架構為封閉式機構，會有兩個 (含 )以上零件同時對單一零件造成影響。
 &lt;/p&gt;
 &lt;img src="g2/v_rep/open_chain.png" align="center" width="35%"&gt;
 &lt;img src="g2/v_rep/close_chain.png" align="center" width="55%"&gt;

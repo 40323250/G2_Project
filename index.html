@@ -50,15 +50,15 @@
 <section>
 <h3>V-rep 在 Delta 3D-Printer</br>虚實整合模擬上的應用</h3>
 <hr>
-<h4>組員</h4>
+<h4 style="font-size:0.75em">組員</h4>
 <h4>40323218 李冠興</h4>
 <h4>40323230 張&nbsp;&nbsp;&nbsp;&nbsp;元</h4>
 <h4>40323231 張立昇</h4>
 <h4>40323250 詹偉志</h4>
 <br>
-<h4>指導老師：嚴家銘 教授</h4>
-<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-李武鉦 教授</h4>
+<h4 style="font-size:0.75em">指導老師</h4>
+<h4>嚴家銘 教授</h4>
+<h4>李武鉦 教授</h4>
 </section>
 <section>
 <h3>Delta 3D-Printer</h3>
@@ -100,7 +100,7 @@
 <li>平面模擬</li>
 <li>數學模型</li>
 <li>尺寸合成</li>
-<li>功能</li>
+<li>功能簡介</li>
 <li>開發歷程</li>
 </ol>
 </section>
@@ -141,23 +141,23 @@
 <img src="g2/40323231/1.png" width="65%">
 </section>
 <section>
-<h3>Delta 3D-Printer 硬體介紹</h3>
+<h3>Delta 3D-Printer 硬體</h3>
 <hr>
 <img src="g2/printer.jpg" width="50%">
 <img src="g2/40323231/02.jpg" width="40%">
 </section>
 <section>
-<h3>韌體程式碼介紹</h3>
+<h3>韌體程式碼</h3>
 <hr>
 <p class="article">
-先下載arduino，之後開啟Repetier中的Configuration.h進行修改裡面的參數，修改完後按上傳(向右的箭頭)，完成韌體的部分。
+先下載 Arduino，之後開啟 Repetier 中的 Configuration.h 進行修改裡面的參數，修改完後按編譯，完成韌體的參數設定。
 </p>
 <img src="g2/40323231/31.PNG" width="40%">
 </br>
 <img src="g2/40323231/30.PNG" width="50%">
 </section>
 <section>
-<h3>韌體程式碼介紹</h3>
+<h3>韌體程式碼</h3>
 <hr>
 <p class="article">
 </p>
@@ -165,18 +165,18 @@
 <img src="g2/40323231/5.PNG" width="35%">
 </section>
 <section>
-<h3>Cura介紹 - 機台設定</h3>
+<h3>Cura - 機台設定</h3>
 <hr>
 <p class="article">
-進入Cura的主畫面後須先設定機台，點選機型設置(圖.1)進入設定頁面(圖.2)，此機台的平台為圓形所以設定Circular(因此寬、深因此相同)。
+進入 Cura 的主畫面後須先設定機台，點選機型設置 (圖.1) 進入設定頁面 (圖.2)，此機台的平台為圓形所以寬、深相同，設定 Circular。
 </br></br>
-擠出機也只有一個所以選擇1。由於機台為三角形機台，因此平台中心設為(0,0)。波特率設為115200(需與韌體相同)。設定完之後即可開始使用Cura。
+由於機台為三角形機台，因此平台中心設為 (0,0)。波特率設為 115200（需與韌體相同）。設定完之後即可開始使用 Cura。
 </p>
 <img src="g2/40323231/03.jpg" width="40%">
 <img src="g2/40323231/04.jpg" width="50%">
 </section>
 <section>
-<h3>Cura介紹 - 參數設定</h3>
+<h3>Cura - 參數設定</h3>
 <hr>
 <p class="article">
 </p>
@@ -184,7 +184,7 @@
 <img src="g2/40323231/9.PNG" width="45%">
 </section>
 <section>
-<h3>Cura介紹 - 參數設定</h3>
+<h3>Cura - 參數設定</h3>
 <hr>
 <p class="article">
 </p>
@@ -192,7 +192,7 @@
 <img src="g2/40323231/11.PNG" width="40%">
 </section>
 <section>
-<h3>Cura介紹 - 界面說明</h3>
+<h3>Cura - 介面說明</h3>
 <hr>
 <p class="article">
 </p>
@@ -200,13 +200,12 @@
 <img src="g2/40323231/25.png" width="45%">
 </section>
 <section>
-<h3>Pronterface介紹 - 界面介紹</h3>
+<h3>Pronterface - 介面</h3>
 <hr>
 <p class="article">
 </p>
 <img src="g2/40323231/13.PNG" width="45%">
 <img src="g2/40323231/14.PNG" width="50%">
-
 </section>
 <section>
 <h3>機台校正</h3>
@@ -312,16 +311,12 @@
 做法：開啟 Cura 的參數設置修改斜桿長度(圖.13)  
 </p>
 <img src="g2/40323231/24.PNG" style="float:right;" width="40%">
-</section>
-<section>
-<h3>機台校正</h3>
-<hr>
 <ul style="font-size:0.75em">
 <li>斜桿長度增加 1mm - 列印成品尺寸減少 0.2mm</li>
 <li>斜桿長度減少 1mm - 列印成品尺寸增加0.2mm</li>
 </ul>
 <p class="article">
-本題須將39.40mm增加到40.00mm，則減少斜桿長度3mm。改完後，按下保存，在按復歸後完成。
+本題須將 39.40mm 增加到 40.00mm，則減少斜桿長度 3mm。按下保存後復歸。
 </p>
 </section>
 </section>
@@ -412,9 +407,9 @@ Revolute _ joint 需要和軸重疊，排序完成後設定參數，按下啟動
 <p class="article">
 組合的系統分成開放式 (Open chain) 與封閉式 (Close chain)，這種狀況在某些分析軟體也會遇到。 
 </br></br>
-Open chain : 當系統架構為非封閉式機構，各個零件只受另一零件影響做相對運動。
+Open chain - 當系統架構為非封閉式機構，各個零件只受另一零件影響做相對運動。
 </br></br>
-Close chain : 當系統架構為封閉式機構，會有兩個 (含 )以上零件同時對單一零件造成影響。
+Close chain - 當系統架構為封閉式機構，會有兩個 (含 )以上零件同時對單一零件造成影響。
 </p>
 <img src="g2/v_rep/open_chain.png" align="center" width="35%">
 <img src="g2/v_rep/close_chain.png" align="center" width="55%">
@@ -600,6 +595,8 @@ V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制，以�
 Planar Linkages Simulation
 <br>
 Dimensional Synthesis
+<br>
+Version 0.7 (stable)
 </p>
 </section>
 <section>
@@ -751,7 +748,7 @@ Python 控 C++：
 <!--主畫面-->
 <h3>Triangle Solver Panel</h3>
 <hr>
-<img src="g2/pyslvs/pathSolving.png">
+<img src="g2/pyslvs/triangleSolver.png">
 </section>
 <section>
 <!--開發歷程介紹-->
