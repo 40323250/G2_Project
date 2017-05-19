@@ -1039,8 +1039,6 @@ V-rep為 Virtual robot experimentation platform 的縮寫，是一套機器人�
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.97">&lt;section&gt;
 &lt;!--主要為「平面連桿模擬」以及「尺寸合成」兩個功能--&gt;
-&lt;h3&gt;Pyslvs&lt;/h3&gt;
-&lt;hr&gt;
 &lt;img src="g2/pyslvs/cover.png"&gt;
 &lt;p&gt;
 Version 0.7 (stable)
