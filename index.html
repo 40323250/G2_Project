@@ -33,21 +33,10 @@
   font-size : 30px;
   text-align : left;
 }
-/*3D Printer*/
-#3DPrinter .article {
+/*所有內文*/
+.reveal .article {
   text-align : left;
-}
-/*Vrep*/
-#vrep .article {
-  text-align : left;
-}
-/*pyslvs*/
-#pyslvs .article {
-  text-align : left;
-}
-/*STL*/
-#stl .article {
-  text-align : left;
+  font-size : 0.75em;
 }
 </style>
 <!-- 將整個投影片包在 "reveal" class 中 -->
@@ -119,11 +108,11 @@
 <h3>摘要</h3>
 <hr>
 <p class="article">
-根據國外研究指出 ,3D Printing 是近年來發展最快速的技術之一 ,國內外各家科技大廠紛紛投入。
+根據國外研究指出，3D Printing 是近年來發展最快速的技術之一，國內外各家科技大廠紛紛投入。
 </br></br>
-3D列印技術讓原本只存在腦海中的概念 ,經由 3D Printer 做快速打樣成型 ,節省了過往傳統打樣的繁複過程與費用。
+3D列印技術讓原本只存在腦海中的概念，經由 3D Printer 做快速打樣成型，節省了過往傳統打樣的繁複過程與費用。
 </br></br>
-在使用 3D Printer 列印的過程中 ,我們發現有時會有路徑錯誤的問題 ,跟 CNC 比較起來缺少模擬列印的功能 ,使列印前缺少一道檢查錯誤的步驟。
+在使用 3D Printer 列印的過程中，我們發現有時會有路徑錯誤的問題，跟 CNC 比較起來缺少模擬列印的功能，使列印前缺少一道檢查錯誤的步驟。
 </p>
 </section>
 <section>
@@ -167,7 +156,7 @@
 <h3>韌體程式碼介紹</h3>
 <hr>
 <p class="article">
-先下載arduino ,之後開啟Repetier中的Configuration.h進行修改裡面的參數 ,修改完後按上傳(向右的箭頭) ,完成韌體的部分。
+先下載arduino，之後開啟Repetier中的Configuration.h進行修改裡面的參數，修改完後按上傳(向右的箭頭)，完成韌體的部分。
 </p>
 <img src="g2/40323231/31.PNG" width="40%">
 </br>
@@ -185,9 +174,9 @@
 <h3>Cura介紹 - 機台設定</h3>
 <hr>
 <p class="article">
-進入Cura的主畫面後須先設定機台 ,點選機型設置(圖.1)進入設定頁面(圖.2) ,此機台的平台為圓形所以設定Circular(因此寬、深因此相同)。
+進入Cura的主畫面後須先設定機台，點選機型設置(圖.1)進入設定頁面(圖.2)，此機台的平台為圓形所以設定Circular(因此寬、深因此相同)。
 </br></br>
-擠出機也只有一個所以選擇1。由於機台為三角形機台 ,因此平台中心設為(0,0)。波特率設為115200(需與韌體相同)。設定完之後即可開始使用Cura。
+擠出機也只有一個所以選擇1。由於機台為三角形機台，因此平台中心設為(0,0)。波特率設為115200(需與韌體相同)。設定完之後即可開始使用Cura。
 </p>
 <img src="g2/40323231/03.jpg" width="40%">
 <img src="g2/40323231/04.jpg" width="50%">
@@ -231,7 +220,7 @@
 <p class="article">
 步驟一.與Pronterface連接
 </br></br>
-電腦先與3D列印機連接(USB) ,之後開啟Pronterface ,按下Port(會直接幫你搜尋端口) ,之後按下connect進行連接(圖.3)。
+電腦先與3D列印機連接(USB)，之後開啟Pronterface，按下Port(會直接幫你搜尋端口)，之後按下connect進行連接(圖.3)。
 </p>
 <img src="g2/40323231/15.PNG" width="60%">
 
@@ -254,7 +243,7 @@
 <p class="article">
 步驟三.量測列印高度
 </br></br>
-在輸入地方輸入G01  Z10，讓噴頭下降至距離平台10mm處(預留量，避免撞機的可能) ,放置一張紙在平台上(檢測用) ,之後在圖樣控制面板中按Z軸的位移量讓噴頭接近平台(位移量由大到小避免撞機)，噴頭下降的過程中挪動平台上的紙張 ,直到拉動紙張會有一股阻力時 ,即可紀錄顯示中的數值。
+在輸入地方輸入G01  Z10，讓噴頭下降至距離平台10mm處(預留量，避免撞機的可能)，放置一張紙在平台上(檢測用)，之後在圖樣控制面板中按Z軸的位移量讓噴頭接近平台(位移量由大到小避免撞機)，噴頭下降的過程中挪動平台上的紙張，直到拉動紙張會有一股阻力時，即可紀錄顯示中的數值。
 </p>
 </section>
 <section>
@@ -281,7 +270,7 @@
 <p class="article">
 步驟五.調整XYZ軸的高度
 </br></br>
-連接Pronterface重複步驟一.和步驟二.之後下指令量測紅色三點(圖.6) ,並記錄下來。
+連接Pronterface重複步驟一.和步驟二.之後下指令量測紅色三點(圖.6)，並記錄下來。
 </p>
 <img src="g2/40323231/18.PNG" width="60%">
 
@@ -290,7 +279,7 @@
 <h3>機台校正</h3>
 <hr>
 <p class="article">
-之後調整各軸滑塊上的螺絲 ,使螺絲向上或向下移動 ,影響光學極限開關 ,讓各軸的總位移量改變。(圖.7)
+之後調整各軸滑塊上的螺絲，使螺絲向上或向下移動，影響光學極限開關，讓各軸的總位移量改變。(圖.7)
 </p>
 <img src="g2/40323231/19.PNG" width="60%">
 
@@ -307,18 +296,18 @@
 </br>
 螺絲:
 </br>
-逆時針轉一圈 ,值上升0.4mm
+逆時針轉一圈，值上升0.4mm
 </br>
-順時針轉一圈 ,值下降0.4mm
+順時針轉一圈，值下降0.4mm
 </br>
 A軸:
-由0.9上升到1.6 ,將螺絲逆時針轉1.75圈
+由0.9上升到1.6，將螺絲逆時針轉1.75圈
 </br>
 B軸:
-由1.5上升到1.6 ,將螺絲逆時針轉0.25圈
+由1.5上升到1.6，將螺絲逆時針轉0.25圈
      </br>
 C軸;
-     由2.5下降到1.6 ,將螺絲順時針轉2.25圈
+     由2.5下降到1.6，將螺絲順時針轉2.25圈
 </p>
 
 </section>
@@ -328,12 +317,12 @@ C軸;
 <p class="article">
 步驟五.四點同高
 </br></br>
-做完步驟一 ~ 步驟四後 ,四點高度為圖.10。
+做完步驟一 ~ 步驟四後，四點高度為圖.10。
 <img src="g2/40323231/21.PNG" width="30%">
 </br>
 圖.10這種狀況會讓列印出來的東西變碗狀。
 </br>
-如:圖.11 ,四周較高而中間偏低
+如:圖.11，四周較高而中間偏低
 </br>
 <img src="g2/40323231/22.PNG" width="20%">
 </p>
@@ -343,7 +332,7 @@ C軸;
 <h3>機台校正</h3>
 <hr>
 <p class="article">
-切斷Pronterface ,切換至Cura中的參數設定頁面 ,修改水平半徑的參數。(圖.12)
+切斷Pronterface，切換至Cura中的參數設定頁面，修改水平半徑的參數。(圖.12)
 </br>
 <img src="g2/40323231/23.PNG" width="35%">
 </br>
@@ -353,7 +342,7 @@ C軸;
 </br>
 數值增加:四周數值減少0.2
 </br>
-本例題為將四周數值降低1.6 ,因此將水平半徑的數值增加8。修改完後按下保存 ,在按復歸後完成。
+本例題為將四周數值降低1.6，因此將水平半徑的數值增加8。修改完後按下保存，在按復歸後完成。
 </p>
 
 
@@ -364,7 +353,7 @@ C軸;
 <p class="article">
 步驟六:修改列印成品大小
 </br></br>
-做完步驟一到步驟五後即可開始列印 ,列印出來的工件用游標卡尺做量測 ,有可能會發現工件不如預期的縮水或變大。
+做完步驟一到步驟五後即可開始列印，列印出來的工件用游標卡尺做量測，有可能會發現工件不如預期的縮水或變大。
 </br></br>
 例如 : 工程圖尺寸為40.00mm，量測出來的值為39.40mm，尺寸縮小。
 </br>
@@ -383,7 +372,7 @@ C軸;
 </br>
     減少1mm:列印成品尺寸增加0.2mm
 </br></br>
-本題須將39.40mm增加到40.00mm ,則減少斜桿長度3mm。改完後 ,按下保存 ,在按復歸後完成。
+本題須將39.40mm增加到40.00mm，則減少斜桿長度3mm。改完後，按下保存，在按復歸後完成。
 
 
 </p>
@@ -395,30 +384,33 @@ C軸;
 <h3>V-rep - 簡介</h3>
 <hr>
 <p class="article">
-V-rep為 Virtual robot experimentation platform 的縮寫 ,是一套機器人模擬軟體 ,讓使用者可以模擬整個機械系統 。
+V-rep為 Virtual robot experimentation platform 的縮寫，是一套機器人模擬軟體，讓使用者可以模擬整個機械系統 。
 <br><br>
-程式語言支援 C/C++ , Python , Java , Lua , Matlab , Octave 等等 ,可使用在遠端監控、硬體控制、快速原型驗證、演算法開發與參數調整、安全性檢查、機器人教學與工廠自動化模擬等各種領域。
+程式語言支援 C/C++、 Python、 Java、 Lua、 Matlab、 Octave 等等，可使用在遠端監控、硬體控制、快速原型驗證、演算法開發與參數調整、安全性檢查、機器人教學與工廠自動化模擬等各種領域。
 </p>
 <img src="g2/vrep.jpg" width="55%">
 </section>
 <section>
 <h3>Onshape - 簡介</h3>
 <hr>
+<img src="g2/onshape.png" width="50%">
+<img src="g2/onshape.jpg" width="45%">
 <p class="article">
-<img src="g2/onshape.png"align="right" width="50%">
-Onshape 是一套由前 Solidworks 團隊開發出來的 3D 建模平台 ,它的優點及特色就是可以線上協同設計 ,和同伴能夠分工合作 ,且能達到參數繪圖。</br></br><img src="g2/onshape.jpg"align="right"width="50%"></br>
+Onshape 是一套由前 Solidworks 團隊開發出來的 3D 建模平台，它的優點及特色就是可以線上協同設計，和同伴能夠分工合作，且能達到參數式設計。
+</p>
+<p class="article">
 Onshape的使用者分類 ：<br>
-教育、商業跟業餘三大類。<br>
+教育、商業跟業餘三大類。
 </p>
 </section>
 <section>
 <h3>Onshape - 簡介</h3>
 <hr>
+<img src="g2/cloud.jpg" width="40%">
+<img src="g2/cooperation.jpg" width="50%">
 <p class="article">
-<img src="g2/cloud.jpg" align="right" width="40%">
-Onshape 是一種 Full Cloud 的網路 CAD 設計平台 ,它的檔案都存在<br>"雲端"  ,提供協同設計的功能 ,並且可以很容易地從雲上找到其他人公開的模型。 <br><br><br><br>
-<img src="g2/cooperation.jpg" align="right" width="50%">
-協同設計主要的概念為團隊間的分工合作 ,大家提供自己的想法或專長 ,使概念更完善 ,這部份 Onshape 甚至提供可在平板或手機上使用的功能。
+Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"雲端" ，提供協同設計的功能，並且可以很容易地從雲上找到其他人公開的模型。 <br>
+協同設計主要的概念為團隊間的分工合作，大家提供自己的想法或專長，使概念更完善，這部份 Onshape 甚至提供可在平板或手機上使用的功能。
 </p>
 </section>
 <section>
@@ -435,55 +427,48 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台 ,它的檔案都存在<b
 <section>
 <h3>V-rep - 細部介紹</h3>
 <hr>
-<p class="article">
- V-rep 基本操作</br>
- <img src="g2/40323218/introduce1.PNG" width="100%"></br>
-1. 視角移動 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;
-V-rep 整體介面</br>
-2. 視角旋轉
-<img src="g2/vrep_printer.png" align="right" width="60%"></br>
-3. 視角縮放</br>
-4. 視角移動至物體</br>
-5. 物體定位(x,y,z)</br>
-6. 物體旋轉(x,y,z)</br>
-7. 開始模擬</br>
-8. 暫停模擬</br>
-9. 結束模擬</br>
-10. 慢速</br>
-11. 加速</br>
-</br>
+<img src="g2/40323218/introduce1.PNG" width="100%">
+<p>
+<img src="g2/vrep_printer.png" style="float:right;" width="55%">
+<div style="float:left;">
+<ol style="font-size:0.9em">
+<li>視角移動</li>
+<li>視角旋轉</li>
+<li>視角縮放</li>
+<li>視角移動至物體</li>
+<li>物體定位 (x,y,z)</li>
+<li>物體旋轉 (x,y,z)</li>
+<li>開始模擬</li>
+<li>暫停模擬</li>
+<li>結束模擬</li>
+<li>慢速</li>
+<li>加速</li>
+</ol>
+</div>
 </p>
-
-
 </section>
 <section>
 <h3>V-rep - 細部介紹</h3>
 <hr>
 <p class="article">
-V-rep的組合方式是由基座開始排序每個零件的主從關係 ,由上往下所構成 ,類似樹狀圖的方式往下延伸。
+V-rep的組合方式是由基座開始排序每個零件的主從關係，由上往下所構成，類似樹狀圖的方式往下延伸。
 </p>
 <img src="g2/v_rep/vrep_example.png" align="center" width="35%">
 <img src="g2/v_rep/vrep_example2.png" align="center" width="50%">
 <p class="article">
-排序到需要轉動的地方時 ,需要加裝 Revolute _ joint ( 類似馬達 ) ,它可以設定固定的轉速或扭矩。<br>
-呼叫出 Revolute _ joint 時需要和軸重疊 ,排序完成後設定參數 ,按下啟動就可以使軸轉動。
+排序到需要轉動的地方時，需要加裝 Revolute _ joint ( 類似馬達 )，它可以設定固定的轉速或扭矩。<br>
+呼叫出 Revolute _ joint 時需要和軸重疊，排序完成後設定參數，按下啟動就可以使軸轉動。
 </p>
 </section>
 <section>
 <h3>V-rep - 細部介紹</h3>
 <hr>
 <p class="article">
-組合的系統分成開放式(Open chain) 與封閉式 (Close chain) ,這種狀況在某些分析軟體也會遇到。 
+組合的系統分成開放式(Open chain) 與封閉式 (Close chain)，這種狀況在某些分析軟體也會遇到。 
 </br></br>
-Open chain : 當系統架構為非封閉式機構 ,各個零件只受另一零件影響做相對運動。
+Open chain : 當系統架構為非封閉式機構，各個零件只受另一零件影響做相對運動。
 </br></br>
-Close chain : 當系統架構為封閉式機構 ,會有兩個(含)以上零件同時對單一零件造成影響。
+Close chain : 當系統架構為封閉式機構，會有兩個(含)以上零件同時對單一零件造成影響。
 </p>
 <img src="g2/v_rep/open_chain.png" align="center" width="35%">
 <img src="g2/v_rep/close_chain.png" align="center" width="55%">
@@ -493,7 +478,7 @@ Close chain : 當系統架構為封閉式機構 ,會有兩個(含)以上零件�
 <h3>V-rep - 四連桿範例</h3>
 <hr>
 <p class="article">
-以此例來說 ,當組合階層變成了一個封閉迴路 ,就會有一個零件會被共用 ,這就稱做 Close chain ,這時候就必須使用 dummy 連結 ,以保持此機構之約束條件。
+以此例來說，當組合階層變成了一個封閉迴路，就會有一個零件會被共用，這就稱做 Close chain，這時候就必須使用 dummy 連結，以保持此機構之約束條件。
 </p>
 <img src="g2/v_rep/fourbar_1.png" align="left" width="30%">
 <img src="g2/v_rep/fourbar_2.png" align="center" width="40%">
@@ -504,7 +489,7 @@ Close chain : 當系統架構為封閉式機構 ,會有兩個(含)以上零件�
 <h3>V-rep - 四連桿範例</h3>
 <hr>
 <p class="article">
-若 Close chain 不使用 dummy 接合 ,會導致運動狀況出問題。
+若 Close chain 不使用 dummy 接合，會導致運動狀況出問題。
 </p>
 <img src="g2/v_rep/fourbar_3.png" align="left" width="35%">
 <img src="g2/v_rep/fourbar_4.png" align="center" width="35%">
@@ -517,7 +502,7 @@ Close chain : 當系統架構為封閉式機構 ,會有兩個(含)以上零件�
 <h3>V-rep - 八連桿範例</h3>
 <hr>
 <p class="article">
-八連桿範例也屬於 Close chain ,因為多處都有連接複數零件 ,故要使用的 dummy 較四連桿多。
+八連桿範例也屬於 Close chain，因為多處都有連接複數零件，故要使用的 dummy 較四連桿多。
 </p>
 <img src="g2/v_rep/eightbar_1.png" align="left" width="30%">
 <img src="g2/solvespace_successful.gif" width="45%">
@@ -526,7 +511,7 @@ Close chain : 當系統架構為封閉式機構 ,會有兩個(含)以上零件�
 <h3>V-rep - Printer組裝</h3>
 <hr>
 <p class="article">
-當Printer匯入 V-rep 後 ,拆解開來的零件約有一百個 ,組裝時須要特別留意 ,尤其是噴頭座的部分為 Close chain ,該關節處因為自由度的關係 , joint 的位置就顯得非常重要。
+當Printer匯入 V-rep 後，拆解開來的零件約有一百個，組裝時須要特別留意，尤其是噴頭座的部分為 Close chain，該關節處因為自由度的關係， joint 的位置就顯得非常重要。
 </p>
 <img src="g2/v_rep/heater.png" align="center" width="40%">
 </section>
@@ -534,7 +519,7 @@ Close chain : 當系統架構為封閉式機構 ,會有兩個(含)以上零件�
 <h3>V-rep - 內部 Scripts 控制</h3>
 <hr>
 <p class="article">
-V-rep可透過內部 Scripts 編寫控制指令 ,能夠控制轉軸角度、位置、路徑等等 ,如下圖 ,先讓轉軸 往負45度角轉動,當轉軸到達目標時 ,再往45度角轉動。
+V-rep可透過內部 Scripts 編寫控制指令，能夠控制轉軸角度、位置、路徑等等，如下圖，先讓轉軸 往負45度角轉動,當轉軸到達目標時，再往45度角轉動。
 </br>
 </p>
 <img src="g2/v_rep/scripts_example.png" align="left" width="50%">
@@ -543,14 +528,14 @@ V-rep可透過內部 Scripts 編寫控制指令 ,能夠控制轉軸角度、位�
 </br>
 </br>
 <p class="article">
-V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制 ,以下拿 Arduino 做為範例。
+V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制，以下拿 Arduino 做為範例。
 </p>
 </section>
 <section>
 <h3>控制範例 1 - 可變電阻控制噴頭位置</h3>
 <hr>
 <p class="article">
-若要使用 Arduino 控制 V-rep ,除了Arduino本身的程式碼之外 ,還須設定 V-rep 的 Scripts 內部程式 ,並透過設定相同的通訊埠和 Arduino 的COM 點 ,才能達到內外溝通的功能。
+若要使用 Arduino 控制 V-rep，除了Arduino本身的程式碼之外，還須設定 V-rep 的 Scripts 內部程式，並透過設定相同的通訊埠和 Arduino 的COM 點，才能達到內外溝通的功能。
 </p>
 <img src="g2/arduino_lua.png" align="center" width="60%">
 </section>
@@ -558,9 +543,9 @@ V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制 ,以下
 <h3>控制範例 1 - Arduino程式</h3>
 <hr>
 <p class="article">
-以下程式碼為使用三個可變電阻 ,分別控制V-rep內之Printer噴頭位置 ,可變電阻能轉之角度為360度 ,轉1度之電阻值為 最大電阻值/360  ,經單位換算 ,電阻每轉一度能使噴頭移動固定距離 。
+以下程式碼為使用三個可變電阻，分別控制V-rep內之Printer噴頭位置，可變電阻能轉之角度為360度，轉1度之電阻值為 最大電阻值/360 ，經單位換算，電阻每轉一度能使噴頭移動固定距離 。
 </br></br>
-分別將三個可變電阻的值存成固定格式 (x,y,z) ,以便在 V-rep 內部讀取後轉換成噴頭位置 。
+分別將三個可變電阻的值存成固定格式 (x,y,z)，以便在 V-rep 內部讀取後轉換成噴頭位置 。
 </p>
 <img src="g2/example2_ardunio.png" align="center" width="40%">
 </section>
@@ -568,7 +553,7 @@ V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制 ,以下
 <h3>控制範例 1 - Scripts 程式</h3>
 <hr>
 <p class="article">
-本程式基本架構由 Eric Rohmer 所提供 ,控制方式為收到 Arduino 傳來固定格式的數值後 ,經由程式語法將其轉換為點座標 ,使噴頭移動到相對映的位置。
+本程式基本架構由 Eric Rohmer 所提供，控制方式為收到 Arduino 傳來固定格式的數值後，經由程式語法將其轉換為點座標，使噴頭移動到相對映的位置。
 </p>
 <img src="g2/example2_lua.png" align="center" width="60%">
 </section>
@@ -584,7 +569,7 @@ V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制 ,以下
 <h3>控制範例 2 - 六軸感測器控制噴頭位置 </h3>
 <hr>
 <p class="article" >
-這個控制採用 MPU6050 六軸加速度感測器 ,經由角度之變化後 ,透過和前範例相同的方式 ,傳送數值到 V-rep 內部後 ,轉換成噴頭欲移動之座標點。
+這個控制採用 MPU6050 六軸加速度感測器，經由角度之變化後，透過和前範例相同的方式，傳送數值到 V-rep 內部後，轉換成噴頭欲移動之座標點。
 </p>
 <img src="g2/6axis_arduino.png" align="center" width="50%">
 </section>
@@ -600,10 +585,10 @@ V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制 ,以下
 <h3>V-rep - Printer校正</h3>
 <hr>
 <p class="article">
-前兩者為模擬練習 ,只有限制移動範圍但並未經過精準校正 ,但控制器和實體列印時同樣需要校正 ,雖然實體熱床對於 CURA 程式的座標為 (0,0,0) ,但V-rep 之內部座標還要包含熱床本身之高度 ,故要補償一個高度值 (L1+L2) ,如此就能控制出料口之位置。
+前兩者為模擬練習，只有限制移動範圍但並未經過精準校正，但控制器和實體列印時同樣需要校正，雖然實體熱床對於 CURA 程式的座標為 (0,0,0)，但V-rep 之內部座標還要包含熱床本身之高度，故要補償一個高度值 (L1+L2)，如此就能控制出料口之位置。
 <br>
 <br>
-如圖 ,出料口碰觸熱床之補正後高度為 t ,經單位換算後之高度 t = L1+L2 = 0.1165m ( 116.5 mm )
+如圖，出料口碰觸熱床之補正後高度為 t，經單位換算後之高度 t = L1+L2 = 0.1165m ( 116.5 mm )
 </p>
 <img src="g2/setposition.png" align="left" width="30%">
 <img src="g2/tk_code.png" align="right" width="70%">
@@ -612,9 +597,9 @@ V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制 ,以下
 <h3>V-rep - Tkinter控制介面</h3>
 <hr>
 <p class="article">
-此控制採用 Python 本身的 Tkinter 模組 ,經由 Vrep.py 將 V-rep 內的函式轉換後 再由 Python 控制,通訊採用類似 Arduino 之通訊埠 ,達到內外溝通。
+此控制採用 Python 本身的 Tkinter 模組，經由 Vrep.py 將 V-rep 內的函式轉換後 再由 Python 控制,通訊採用類似 Arduino 之通訊埠，達到內外溝通。
 </br></br>
-以下為Tkinter介面 ,依照輸入的座標位置 ,讓噴頭移動至該位置。
+以下為Tkinter介面，依照輸入的座標位置，讓噴頭移動至該位置。
 </p>
 <img src="g2/controller.png" width="40%">
 </section>
@@ -622,7 +607,7 @@ V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制 ,以下
 <h3>V-rep - Particles</h3>
 <hr>
 <p class="article">
-為了能夠達到模擬列印的功能 ,必須讓噴頭的位置產生物件(粒子) ,且這個物件產生的位置會隨著噴頭的位置變化而改變 ,但因為粒子的屬性為 dynamic ,電腦運算的部分會隨粒子的數目變多而變慢 ,故不太能列印大型零件。
+為了能夠達到模擬列印的功能，必須讓噴頭的位置產生物件(粒子)，且這個物件產生的位置會隨著噴頭的位置變化而改變，但因為粒子的屬性為 dynamic，電腦運算的部分會隨粒子的數目變多而變慢，故不太能列印大型零件。
 
 </p>
 <img src="g2/print1.png" width="80%">
@@ -631,7 +616,7 @@ V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制 ,以下
 <h3>V-rep - Printer模擬列印</h3>
 <hr>
 <p class="article">
-當控制及列印的粒子完成之後 , G-Code 的部分為 CURA 產生 ,並採用先前報告小組同學 祐生的程式來解讀 ,並透過先前的方式 ,將值傳回V-rep內部 ,雖然不是專門模擬列印的軟體 ,也是能達到模擬列印的功能。
+當控制及列印的粒子完成之後， G-Code 的部分為 CURA 產生，並採用先前報告小組同學 祐生的程式來解讀，並透過先前的方式，將值傳回V-rep內部，雖然不是專門模擬列印的軟體，也是能達到模擬列印的功能。
 </p>
 <img src="g2/gcode.png" width="80%">
 </section>
@@ -639,7 +624,7 @@ V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制 ,以下
 <h3>V-rep - Printer模擬列印</h3>
 <hr>
 <p class="article">
-如同先前所說 ,列印的粒子數量不能太龐大 ,如同填充的密度不可太密 ,但模擬的部分稍為將粒子的尺寸調大 ,達到更真實的效果 ,如同填充密度100%。
+如同先前所說，列印的粒子數量不能太龐大，如同填充的密度不可太密，但模擬的部分稍為將粒子的尺寸調大，達到更真實的效果，如同填充密度100%。
 </p>
 <img src="g2/printer.png" width="25%">
 </section>
@@ -657,7 +642,6 @@ V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制 ,以下
 結論內容
 
 </p>
-
 </section>
 </section>
 <section id="pyslvs">
@@ -676,8 +660,10 @@ Dimensional Synthesis
 <!--Python-->
 <h3>Python 3</h3>
 <hr>
+<p>
 <img src="g2/pyslvs/python-logo-inkscape.svg">
 <ul>
+<li style="color: red;">直譯式語言利於有效率地測試調整</li>
 <li>易於閱讀與整理的程式碼</li>
 <li>與中低階語言的結合力</li>
 <li>背景記憶體處理</li>
@@ -685,6 +671,7 @@ Dimensional Synthesis
 <li>物件導向、泛型編成</li>
 <li>豐富、易使用的模組資源</li>
 </ul>
+</p>
 </section>
 <section>
 <!--利用的技術-->
@@ -768,14 +755,13 @@ Python 控 C++：
 </section>
 <section>
 <!--Solvespace C++ kernel 介紹-->
-<h3>CDemo</h3>
+<h3>Problem-solving library</h3>
 <hr>
+<h4>獨立幾何解題程式庫</h4>
 <div>
 <img src="g2/pyslvs/CDemo.png" width="45%">
 <img src="g2/pyslvs/Solvespace_make.png" width="50%">
 </div>
-<br>
-<h4>獨立幾何解題程式庫</h4>
 </section>
 <section>
 <!--三角形的解說-->
@@ -787,6 +773,19 @@ Python 控 C++：
 <!--演算法-->
 <h3>Dimensional Synthesis</h3>
 <hr>
+<img src="g2/pyslvs/尺寸合成演算法.png">
+</section>
+<section>
+<!--三種誤差比較-->
+<h3>Convergence</h3>
+<hr>
+<img src="g2/pyslvs/Three Algorithm.png">
+</section>
+<section>
+<!--兩種誤差比較-->
+<h3>Convergence</h3>
+<hr>
+<img src="g2/pyslvs/Two Algorithm.png">
 </section>
 <section>
 <!--大概功能介紹-->
