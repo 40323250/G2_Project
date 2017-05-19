@@ -97,11 +97,8 @@
 <h4>平面連桿機構模擬及尺寸合成套件開發</h4>
 <ol>
 <li>使用技術</li>
-<li>平面模擬</li>
-<li>數學模型</li>
-<li>尺寸合成</li>
+<li>專案總覽</li>
 <li>功能簡介</li>
-<li>開發歷程</li>
 </ol>
 </section>
 <section>
@@ -590,8 +587,6 @@ V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制，以�
 <!--主要為「平面連桿模擬」以及「尺寸合成」兩個功能-->
 <img src="g2/pyslvs/cover.png">
 <p>
-Version 0.7 (stable)
-<br><br>
 Planar Linkages Simulation
 <br>
 Dimensional Synthesis
@@ -608,167 +603,46 @@ Dimensional Synthesis
 <li>易於閱讀與整理的程式碼</li>
 <li>與中低階語言的結合力</li>
 <li>背景記憶體處理</li>
-<li>Web 框架</li>
 <li>物件導向、泛型編成</li>
 <li>豐富、易使用的模組資源</li>
 </ul>
 </p>
 </section>
 <section>
-<!--利用的技術-->
-<h3>Technologies</h3>
+<!--專案總覽-->
+<h3>專案總覽</h3>
 <hr>
 <img src="g2/pyslvs/Organization_chart.png" width="120%">
 </section>
 <section>
-<!--
-Python 控 C++：
-    SWIG - 擅長撰寫 C 語言
-    Cython - 擅長撰寫 Python
--->
-<h3>SWIG</h3>
-<hr>
-<div>
-<ul>
-<li>將 C 語言與 C++ 語言轉換給中高階語言使用</li>
-<li>適合對 C 語言熟悉的使用者製作程式端口</li>
-<li>能夠在高階語言的程式碼中發揮 C 語言高速運算的能力</li>
-<li>GPL 3.0 授權</li>
-</ul>
-</div>
-<h3>Cython</h3>
-<hr>
-<div>
-<img src="g2/pyslvs/Cython-logo.svg.png" width="35%">
-<ul>
-<li>以 Python 語法編寫程式</li>
-<li>使用 C++ 語言函式庫</li>
-<li>用以大量運算驗證後的數學模型</li>
-<li>擁有 C++ 語言高速執行的特性</li>
-</div>
-</section>
-<section>
-<!--Qt-->
-<h3>Qt and PyQt</h3>
-<hr>
-<div>
-<img src="g2/pyslvs/qtlogo.png" width="25%">
-<img src="g2/pyslvs/1200px-Python_and_Qt.svg.png" width="25%">
-</div>
-<h4>跨平台的 C++ 應用程式開發框架</h4>
-<h4>PyQt 作為 Python API 的形式連接 Qt</h4>
-<ul>
-<li>商業授權</li>
-<li>LGPL 2.1</li>
-<li>GPL 3.0</li>
-</ul>
-</section>
-<section>
-<!--編譯工具-->
-<h3>Tool Kit</h3>
-<hr>
-<p>
-編譯方法
-<img src="g2/pyslvs/Compile Python programs.png">
-</p>
-</section>
-<section>
-<!--版本控制-->
-<h3>Git and Fossil</h3>
-<hr>
-<div>
-<img src="g2/pyslvs/Git-Logo-2Color.png" width="50%">
-<img src="g2/pyslvs/1200px-Fossil_SCM_logo.svg.png" width="25%">
-</div>
-<br>
-<ul>
-<li>雲端倉儲管理軟體</li>
-<li>系統性的版本紀錄功能</li>
-</ul>
-</section>
-<section>
-<!--Solvespace 部份-->
-<h3>Planar Linkages Simulation</h3>
-<hr>
-<h4>Solvespace</h4>
-<h4>Open source 2D / 3D CAD Application</h4>
-<img src="g2/pyslvs/SolveSpace_-_-home-ahshoe-__-_Example__Two_Pairs_Mutiple_Link.slvs_001.png" width="80%">
-</section>
-<section>
-<!--Solvespace C++ kernel 介紹-->
-<h3>Problem-solving library</h3>
-<hr>
-<h4>獨立幾何解題程式庫</h4>
-<div>
-<img src="g2/pyslvs/CDemo.png" width="45%">
-<img src="g2/pyslvs/Solvespace_make.png" width="50%">
-</div>
-</section>
-<section>
-<!--三角形的解說-->
-<h3>Mathematical Model</h3>
-<hr>
-<img src="g2/pyslvs/triangle solver.png">
-</section>
-<section>
-<!--演算法-->
-<h3>Dimensional Synthesis</h3>
-<hr>
-<img src="g2/pyslvs/尺寸合成演算法.png">
-</section>
-<section>
-<!--三種誤差比較-->
-<h3>Convergence of f(x)=x</h3>
-<hr>
-<h4>Genetic, Firefly and Differential Evolution</h4>
-<img src="g2/pyslvs/Three Algorithm.png">
-</section>
-<section>
-<!--兩種誤差比較-->
-<h3>Convergence of f(x)=x</h3>
-<hr>
-<h4>Genetic and Firefly</h4>
-<img src="g2/pyslvs/Two Algorithm.png">
-</section>
-<section>
 <!--大概功能介紹-->
-<h3>Features</h3>
+<h3>功能簡介</h3>
 <hr>
 <img src="g2/pyslvs/Features.png">
 </section>
 <section>
 <!--主畫面-->
-<h3>Main Window</h3>
+<h3>平面連桿模擬</h3>
 <hr>
-<img src="g2/pyslvs/MainWindow.png">
+<img src="g2/pyslvs/MainWindow.png" width="85%">
 </section>
 <section>
 <!--主畫面-->
-<h3>Triangle Solver Panel</h3>
+<h3>尺寸合成</h3>
 <hr>
-<img src="g2/pyslvs/triangleSolver.png">
+<img src="g2/pyslvs/algorithm.png">
 </section>
 <section>
-<!--開發歷程介紹-->
-<h3>開發歷程</h3>
+<!--比對-->
+<h3>與 Solvespace 比對</h3>
 <hr>
-<ul>
-<li>研究 Solvespace 原始碼。（2016 年 7 ~ 8 月）</li>
-<li>編譯 Solvespace 對 Python API 成功，並成功用 matplotlib 繪製第一張四連桿的端點路徑。（2016 年 9 月初）</li>
-<li>PyQt 介面計畫開始。（2016 年 9 月中）</li>
-<li>第一個 Release 版本 v0.1。（2016 年 9 月 27 日）</li>
-<li>第四版 v0.4 加入了路徑解題的尺寸合成演算法系統。（2017 年 1 月 31 日）</li>
-</ul>
+<img src="g2/pyslvs/Evolution.png">
 </section>
 <section>
-<!--開發歷程介紹-->
-<h3>開發歷程</h3>
+<!--格式-->
+<h3>轉入 V-rep</h3>
 <hr>
-<ul>
-<li>第五版 v0.5 加入了滑塊和參數系統、復原重做功能、DXF 與 slvs 格式的匯出功能。（2017 年 3 月 4 日）</li>
-<li>第六版 v0.6 進行大量錯誤修正與介面改善，並加入三角求解器。（2017 年 3 月 23 日 ~ 4 月 29 日）</li>
-<li>第七版 v0.7 解決 Solvespace 技術問題，統一功能管理，大幅優化介面與運算排程。（2017 年 5 月中）</li>
-</ul>
+<img src="g2/pyslvs/Format.png">
 </section>
 </section>
 </div>

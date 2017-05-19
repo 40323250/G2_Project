@@ -95,23 +95,13 @@
 </v>
 <v t="leo.20170505053249.96" a="E"><vh>Python Solvespace(#pyslvs)</vh>
 <v t="leo.20170505053249.97"><vh>概述</vh></v>
-<v t="ahshoe.20170510231618.1"><vh>使用技術 - Python</vh></v>
-<v t="ahshoe.20170510224721.1"><vh>使用技術 - 專案總覽</vh></v>
-<v t="ahshoe.20170510232210.1"><vh>使用技術 - 橋接技術</vh></v>
-<v t="ahshoe.20170510233238.1"><vh>使用技術 - Qt</vh></v>
-<v t="ahshoe.20170510232035.1"><vh>使用技術 - 編譯工具</vh></v>
-<v t="ahshoe.20170510232751.1"><vh>使用技術 - 版本控制</vh></v>
-<v t="ahshoe.20170510224924.1"><vh>平面模擬 - Solvespace</vh></v>
-<v t="ahshoe.20170511172336.1"><vh>平面模擬 - C++ to Python 流程</vh></v>
-<v t="ahshoe.20170510224926.1"><vh>數學模型</vh></v>
-<v t="ahshoe.20170510224927.1"><vh>尺寸合成</vh></v>
-<v t="ahshoe.20170519121706.1"><vh>尺寸合成 - 三種收斂誤差</vh></v>
-<v t="ahshoe.20170519122009.1"><vh>尺寸合成 - 兩種收斂誤差</vh></v>
+<v t="ahshoe.20170510231618.1"><vh>使用技術 - Python 3</vh></v>
+<v t="ahshoe.20170510224721.1"><vh>專案總覽</vh></v>
 <v t="ahshoe.20170510224930.1"><vh>功能簡介</vh></v>
-<v t="ahshoe.20170519134311.1"><vh>功能簡介 - 主畫面</vh></v>
-<v t="ahshoe.20170519142618.1"><vh>功能簡介 - 面版</vh></v>
-<v t="ahshoe.20170510231343.1"><vh>開發歷程 - 1</vh></v>
-<v t="ahshoe.20170518002614.1"><vh>開發歷程 - 2</vh></v>
+<v t="ahshoe.20170519134311.1"><vh>功能簡介 - 平面連桿模擬</vh></v>
+<v t="ahshoe.20170519233231.1"><vh>功能簡介 - 尺寸合成</vh></v>
+<v t="ahshoe.20170519231059.1"><vh>功能簡介 - 與 Solvespace 比對</vh></v>
+<v t="ahshoe.20170519232249.1"><vh>功能簡介 - 轉入 V-rep</vh></v>
 </v>
 </v>
 </v>
@@ -500,48 +490,16 @@ V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制，以�
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
-&lt;!--利用的技術--&gt;
-&lt;h3&gt;Technologies&lt;/h3&gt;
+&lt;!--專案總覽--&gt;
+&lt;h3&gt;專案總覽&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/pyslvs/Organization_chart.png" width="120%"&gt;
 &lt;/section&gt;</t>
-<t tx="ahshoe.20170510224924.1">&lt;section&gt;
-&lt;!--Solvespace 部份--&gt;
-&lt;h3&gt;Planar Linkages Simulation&lt;/h3&gt;
-&lt;hr&gt;
-&lt;h4&gt;Solvespace&lt;/h4&gt;
-&lt;h4&gt;Open source 2D / 3D CAD Application&lt;/h4&gt;
-&lt;img src="g2/pyslvs/SolveSpace_-_-home-ahshoe-__-_Example__Two_Pairs_Mutiple_Link.slvs_001.png" width="80%"&gt;
-&lt;/section&gt;</t>
-<t tx="ahshoe.20170510224926.1">&lt;section&gt;
-&lt;!--三角形的解說--&gt;
-&lt;h3&gt;Mathematical Model&lt;/h3&gt;
-&lt;hr&gt;
-&lt;img src="g2/pyslvs/triangle solver.png"&gt;
-&lt;/section&gt;</t>
-<t tx="ahshoe.20170510224927.1">&lt;section&gt;
-&lt;!--演算法--&gt;
-&lt;h3&gt;Dimensional Synthesis&lt;/h3&gt;
-&lt;hr&gt;
-&lt;img src="g2/pyslvs/尺寸合成演算法.png"&gt;
-&lt;/section&gt;</t>
 <t tx="ahshoe.20170510224930.1">&lt;section&gt;
 &lt;!--大概功能介紹--&gt;
-&lt;h3&gt;Features&lt;/h3&gt;
+&lt;h3&gt;功能簡介&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/pyslvs/Features.png"&gt;
-&lt;/section&gt;</t>
-<t tx="ahshoe.20170510231343.1">&lt;section&gt;
-&lt;!--開發歷程介紹--&gt;
-&lt;h3&gt;開發歷程&lt;/h3&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;研究 Solvespace 原始碼。（2016 年 7 ~ 8 月）&lt;/li&gt;
-&lt;li&gt;編譯 Solvespace 對 Python API 成功，並成功用 matplotlib 繪製第一張四連桿的端點路徑。（2016 年 9 月初）&lt;/li&gt;
-&lt;li&gt;PyQt 介面計畫開始。（2016 年 9 月中）&lt;/li&gt;
-&lt;li&gt;第一個 Release 版本 v0.1。（2016 年 9 月 27 日）&lt;/li&gt;
-&lt;li&gt;第四版 v0.4 加入了路徑解題的尺寸合成演算法系統。（2017 年 1 月 31 日）&lt;/li&gt;
-&lt;/ul&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510231618.1">&lt;section&gt;
 &lt;!--Python--&gt;
@@ -554,123 +512,34 @@ V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制，以�
 &lt;li&gt;易於閱讀與整理的程式碼&lt;/li&gt;
 &lt;li&gt;與中低階語言的結合力&lt;/li&gt;
 &lt;li&gt;背景記憶體處理&lt;/li&gt;
-&lt;li&gt;Web 框架&lt;/li&gt;
 &lt;li&gt;物件導向、泛型編成&lt;/li&gt;
 &lt;li&gt;豐富、易使用的模組資源&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;
 &lt;/section&gt;</t>
-<t tx="ahshoe.20170510232035.1">&lt;section&gt;
-&lt;!--編譯工具--&gt;
-&lt;h3&gt;Tool Kit&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p&gt;
-編譯方法
-&lt;img src="g2/pyslvs/Compile Python programs.png"&gt;
-&lt;/p&gt;
-&lt;/section&gt;</t>
-<t tx="ahshoe.20170510232210.1">&lt;section&gt;
-&lt;!--
-Python 控 C++：
-    SWIG - 擅長撰寫 C 語言
-    Cython - 擅長撰寫 Python
---&gt;
-&lt;h3&gt;SWIG&lt;/h3&gt;
-&lt;hr&gt;
-&lt;div&gt;
-&lt;ul&gt;
-&lt;li&gt;將 C 語言與 C++ 語言轉換給中高階語言使用&lt;/li&gt;
-&lt;li&gt;適合對 C 語言熟悉的使用者製作程式端口&lt;/li&gt;
-&lt;li&gt;能夠在高階語言的程式碼中發揮 C 語言高速運算的能力&lt;/li&gt;
-&lt;li&gt;GPL 3.0 授權&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;h3&gt;Cython&lt;/h3&gt;
-&lt;hr&gt;
-&lt;div&gt;
-&lt;img src="g2/pyslvs/Cython-logo.svg.png" width="35%"&gt;
-&lt;ul&gt;
-&lt;li&gt;以 Python 語法編寫程式&lt;/li&gt;
-&lt;li&gt;使用 C++ 語言函式庫&lt;/li&gt;
-&lt;li&gt;用以大量運算驗證後的數學模型&lt;/li&gt;
-&lt;li&gt;擁有 C++ 語言高速執行的特性&lt;/li&gt;
-&lt;/div&gt;
-&lt;/section&gt;</t>
-<t tx="ahshoe.20170510232751.1">&lt;section&gt;
-&lt;!--版本控制--&gt;
-&lt;h3&gt;Git and Fossil&lt;/h3&gt;
-&lt;hr&gt;
-&lt;div&gt;
-&lt;img src="g2/pyslvs/Git-Logo-2Color.png" width="50%"&gt;
-&lt;img src="g2/pyslvs/1200px-Fossil_SCM_logo.svg.png" width="25%"&gt;
-&lt;/div&gt;
-&lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;雲端倉儲管理軟體&lt;/li&gt;
-&lt;li&gt;系統性的版本紀錄功能&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;</t>
-<t tx="ahshoe.20170510233238.1">&lt;section&gt;
-&lt;!--Qt--&gt;
-&lt;h3&gt;Qt and PyQt&lt;/h3&gt;
-&lt;hr&gt;
-&lt;div&gt;
-&lt;img src="g2/pyslvs/qtlogo.png" width="25%"&gt;
-&lt;img src="g2/pyslvs/1200px-Python_and_Qt.svg.png" width="25%"&gt;
-&lt;/div&gt;
-&lt;h4&gt;跨平台的 C++ 應用程式開發框架&lt;/h4&gt;
-&lt;h4&gt;PyQt 作為 Python API 的形式連接 Qt&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;商業授權&lt;/li&gt;
-&lt;li&gt;LGPL 2.1&lt;/li&gt;
-&lt;li&gt;GPL 3.0&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;</t>
-<t tx="ahshoe.20170511172336.1">&lt;section&gt;
-&lt;!--Solvespace C++ kernel 介紹--&gt;
-&lt;h3&gt;Problem-solving library&lt;/h3&gt;
-&lt;hr&gt;
-&lt;h4&gt;獨立幾何解題程式庫&lt;/h4&gt;
-&lt;div&gt;
-&lt;img src="g2/pyslvs/CDemo.png" width="45%"&gt;
-&lt;img src="g2/pyslvs/Solvespace_make.png" width="50%"&gt;
-&lt;/div&gt;
-&lt;/section&gt;</t>
-<t tx="ahshoe.20170518002614.1">&lt;section&gt;
-&lt;!--開發歷程介紹--&gt;
-&lt;h3&gt;開發歷程&lt;/h3&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;第五版 v0.5 加入了滑塊和參數系統、復原重做功能、DXF 與 slvs 格式的匯出功能。（2017 年 3 月 4 日）&lt;/li&gt;
-&lt;li&gt;第六版 v0.6 進行大量錯誤修正與介面改善，並加入三角求解器。（2017 年 3 月 23 日 ~ 4 月 29 日）&lt;/li&gt;
-&lt;li&gt;第七版 v0.7 解決 Solvespace 技術問題，統一功能管理，大幅優化介面與運算排程。（2017 年 5 月中）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;</t>
-<t tx="ahshoe.20170519121706.1">&lt;section&gt;
-&lt;!--三種誤差比較--&gt;
-&lt;h3&gt;Convergence of f(x)=x&lt;/h3&gt;
-&lt;hr&gt;
-&lt;h4&gt;Genetic, Firefly and Differential Evolution&lt;/h4&gt;
-&lt;img src="g2/pyslvs/Three Algorithm.png"&gt;
-&lt;/section&gt;</t>
-<t tx="ahshoe.20170519122009.1">&lt;section&gt;
-&lt;!--兩種誤差比較--&gt;
-&lt;h3&gt;Convergence of f(x)=x&lt;/h3&gt;
-&lt;hr&gt;
-&lt;h4&gt;Genetic and Firefly&lt;/h4&gt;
-&lt;img src="g2/pyslvs/Two Algorithm.png"&gt;
-&lt;/section&gt;</t>
 <t tx="ahshoe.20170519134311.1">&lt;section&gt;
 &lt;!--主畫面--&gt;
-&lt;h3&gt;Main Window&lt;/h3&gt;
+&lt;h3&gt;平面連桿模擬&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/pyslvs/MainWindow.png"&gt;
+&lt;img src="g2/pyslvs/MainWindow.png" width="85%"&gt;
 &lt;/section&gt;</t>
-<t tx="ahshoe.20170519142618.1">&lt;section&gt;
-&lt;!--主畫面--&gt;
-&lt;h3&gt;Triangle Solver Panel&lt;/h3&gt;
+<t tx="ahshoe.20170519231059.1">&lt;section&gt;
+&lt;!--比對--&gt;
+&lt;h3&gt;與 Solvespace 比對&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/pyslvs/triangleSolver.png"&gt;
+&lt;img src="g2/pyslvs/Evolution.png"&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20170519232249.1">&lt;section&gt;
+&lt;!--格式--&gt;
+&lt;h3&gt;轉入 V-rep&lt;/h3&gt;
+&lt;hr&gt;
+&lt;img src="g2/pyslvs/Format.png"&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20170519233231.1">&lt;section&gt;
+&lt;!--主畫面--&gt;
+&lt;h3&gt;尺寸合成&lt;/h3&gt;
+&lt;hr&gt;
+&lt;img src="g2/pyslvs/algorithm.png"&gt;
 &lt;/section&gt;</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
@@ -924,11 +793,8 @@ Reveal.initialize({
 &lt;h4&gt;平面連桿機構模擬及尺寸合成套件開發&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;使用技術&lt;/li&gt;
-&lt;li&gt;平面模擬&lt;/li&gt;
-&lt;li&gt;數學模型&lt;/li&gt;
-&lt;li&gt;尺寸合成&lt;/li&gt;
+&lt;li&gt;專案總覽&lt;/li&gt;
 &lt;li&gt;功能簡介&lt;/li&gt;
-&lt;li&gt;開發歷程&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.35">&lt;section id="vrep"&gt;
@@ -1041,8 +907,6 @@ V-rep為 Virtual robot experimentation platform 的縮寫，是一套機器人�
 &lt;!--主要為「平面連桿模擬」以及「尺寸合成」兩個功能--&gt;
 &lt;img src="g2/pyslvs/cover.png"&gt;
 &lt;p&gt;
-Version 0.7 (stable)
-&lt;br&gt;&lt;br&gt;
 Planar Linkages Simulation
 &lt;br&gt;
 Dimensional Synthesis
