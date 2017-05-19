@@ -1114,8 +1114,8 @@ V-rep的組合方式是由基座開始排序每個零件的主從關係，由上
 &lt;img src="g2/v_rep/vrep_example.png" align="center" width="35%"&gt;
 &lt;img src="g2/v_rep/vrep_example2.png" align="center" width="50%"&gt;
 &lt;p class="article"&gt;
-排序到需要轉動的地方時，需要加裝 Revolute _ joint ( 類似馬達 )，它可以設定固定的轉速或扭矩。&lt;br&gt;
-呼叫出 Revolute _ joint 時需要和軸重疊，排序完成後設定參數，按下啟動就可以使軸轉動。
+需要轉動的部分必須加裝 Revolute _ joint ( 虛擬轉軸 )，它可以設定固定的轉速、扭矩或相對旋轉運動。&lt;br&gt;
+Revolute _ joint 需要和軸重疊，排序完成後設定參數，按下啟動就可以開始模擬。
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170519025325.1">&lt;section&gt;
