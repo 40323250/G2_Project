@@ -451,10 +451,10 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;/br&gt;
 做法：開啟 Cura 的參數設置修改斜桿長度(圖.13)  
 &lt;/p&gt;
-&lt;img src="g2/40323231/24.PNG" style="float:right;" width="40%"&gt;
+&lt;img src="g2/40323231/24.PNG" style="float:left;" width="40%"&gt;
 &lt;ul style="font-size:0.75em"&gt;
 &lt;li&gt;斜桿長度增加 1mm - 列印成品尺寸減少 0.2mm&lt;/li&gt;
-&lt;li&gt;斜桿長度減少 1mm - 列印成品尺寸增加0.2mm&lt;/li&gt;
+&lt;li&gt;斜桿長度減少 1mm - 列印成品尺寸增加 0.2mm&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p class="article"&gt;
 本題須將 39.40mm 增加到 40.00mm，則減少斜桿長度 3mm。按下保存後復歸。
