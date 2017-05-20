@@ -567,7 +567,7 @@ Reveal.initialize({
 @others
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.36">&lt;section&gt;
-&lt;h3&gt;Delta 3D-Printer 結構介紹&lt;/h3&gt;
+&lt;h3&gt;Delta 3D-Printer 架構介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/40323231/1.png" width="65%"&gt;
 &lt;/section&gt;</t>
