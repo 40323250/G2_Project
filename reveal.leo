@@ -36,12 +36,8 @@
 <v t="leo.20170505053249.12" a="E"><vh>div class="slides"</vh>
 <v t="leo.20170505053249.19" a="E"><vh>目錄(#contents)</vh>
 <v t="leo.20170505053249.13"><vh>投影封面</vh></v>
-<v t="leo.20170505053249.20"><vh>3D Printer 目錄</vh></v>
-<v t="leo.20170505053249.25"><vh>V-rep 目錄</vh></v>
-<v t="leo.20170505053249.30"><vh>Pyslvs 目錄</vh></v>
 <v t="544.20170515005232.1"><vh>摘要</vh></v>
 <v t="544.20170515005219.1"><vh>研究動機</vh></v>
-<v t="544.20170516214054.1"><vh>研究目的</vh></v>
 </v>
 <v t="leo.20170505053249.35" a="E"><vh>3D Printer(#3D printer)</vh>
 <v t="leo.20170505053249.36"><vh>3D Printer 結構</vh></v>
@@ -53,16 +49,6 @@
 <v t="leo.20170505053249.61"><vh>Cura - 參數設定2</vh></v>
 <v t="leo.20170505053249.66"><vh>Cura - 介面說明</vh></v>
 <v t="544.20170516232554.1"><vh>Pronterface - 介面</vh></v>
-<v t="544.20170516232554.2"><vh>機台校正 - 與 Pronterface 連接</vh></v>
-<v t="544.20170516232554.3"><vh>機台校正 - 原點復歸</vh></v>
-<v t="544.20170516232555.1"><vh>機台校正 - 量測列印高度</vh></v>
-<v t="544.20170516232555.2"><vh>機台校正 - 修改列印高度</vh></v>
-<v t="544.20170517005916.1"><vh>機台校正 - 調整 XYZ 軸的高度1</vh></v>
-<v t="544.20170517010100.1"><vh>機台校正 - 調整 XYZ 軸的高度2</vh></v>
-<v t="544.20170517010100.2"><vh>機台校正 - 調整 XYZ 軸的高度3</vh></v>
-<v t="544.20170517010100.3"><vh>機台校正 - 調整 XYZ 軸的高度4</vh></v>
-<v t="544.20170517010100.4"><vh>機台校正 - 調整 XYZ 軸的高度5</vh></v>
-<v t="544.20170517010633.1"><vh>機台校正 - 修改列印成品大小</vh></v>
 </v>
 <v t="leo.20170505053249.71" a="E"><vh>V-rep(#v-rep)</vh>
 <v t="leo.20170505053249.72"><vh>V-rep 基本介紹</vh></v>
@@ -73,7 +59,6 @@
 <v t="leo.20170519025311.1"><vh>V-rep細部介紹2 </vh></v>
 <v t="leo.20170519025325.1"><vh>V-rep細部介紹3 close_chain</vh></v>
 <v t="544.20170514200732.1"><vh>四連桿 範例1</vh></v>
-<v t="544.20170518123349.1"><vh>四連桿 範例2</vh></v>
 <v t="544.20170514200732.2"><vh>八連桿 範例1</vh></v>
 <v t="544.20170515002049.1"><vh>V-rep Printer 組裝</vh></v>
 <v t="544.20170514200732.3" a="E"><vh>以下為控制模擬</vh>
@@ -134,8 +119,8 @@ Summary: 導入 notebook 內容
 &lt;h3&gt;V-rep 列印成果影片&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-&lt;iframe width="1024" height="576" src="https://www.youtube.com/embed/CF8xtkBd60k" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
+&lt;img src="g2/v_rep/V-rep 3D-Printer simulation.gif" align="center" width="80%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170514195356.1">&lt;section&gt;
 &lt;h3&gt;結論 &lt;/h3&gt;
@@ -240,7 +225,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;h3&gt;摘要&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-根據國外研究指出，3D Printing 是近年來發展最快速的技術之一，國內外各家科技大廠紛紛投入。
+根據國外研究指出，3D 列印 是近年來發展最快速的技術之一 (參考哪篇文章??)，國內外各家科技大廠紛紛投入。
 &lt;/br&gt;&lt;/br&gt;
 3D列印技術讓原本只存在腦海中的概念，經由 3D Printer 做快速打樣成型，節省了過往傳統打樣的繁複過程與費用。
 &lt;/br&gt;&lt;/br&gt;
@@ -266,7 +251,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;img src="g2/example2_lua.png" align="center" width="60%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515195524.1">&lt;section&gt;
-&lt;h3&gt;V-rep - 細部介紹&lt;/h3&gt;
+&lt;h3&gt;V-rep - 介面介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/40323218/introduce1.PNG" width="100%"&gt;
 &lt;p&gt;
@@ -323,13 +308,6 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;/p&gt;
 &lt;img src="g2/printer.png" width="25%"&gt;
 &lt;/section&gt;</t>
-<t tx="544.20170516214054.1">&lt;section&gt;
-&lt;h3&gt;研究目的&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-內容
-&lt;/p&gt;
-&lt;/section&gt;</t>
 <t tx="544.20170516232554.1">&lt;section&gt;
 &lt;h3&gt;Pronterface - 介面&lt;/h3&gt;
 &lt;hr&gt;
@@ -337,118 +315,6 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;/p&gt;
 &lt;img src="g2/40323231/13.PNG" width="45%"&gt;
 &lt;img src="g2/40323231/14.PNG" width="50%"&gt;
-&lt;/section&gt;</t>
-<t tx="544.20170516232554.2">&lt;section&gt;
-&lt;h3&gt;機台校正&lt;/h3&gt;
-&lt;hr&gt;
-&lt;h4&gt;與 Pronterface 連接&lt;/h4&gt;
-&lt;p class="article"&gt;
-電腦先與3D列印機連接（USB），之後開啟 Pronterface，按下 Port（自動搜尋端口），之後按下 connect 進行連接 (圖.3)。
-&lt;/p&gt;
-&lt;img src="g2/40323231/15.PNG" width="60%"&gt;
-&lt;/section&gt;</t>
-<t tx="544.20170516232554.3">&lt;section&gt;
-&lt;h3&gt;機台校正&lt;/h3&gt;
-&lt;hr&gt;
-&lt;h4&gt;原點復歸&lt;/h4&gt;
-&lt;p class="article"&gt;
-在圖樣控制面板中按下原點復歸，讓 Pronterface 紀錄原點，沒做此步驟可能會造成撞機 (圖.4)。
-&lt;/p&gt;
-&lt;img src="g2/40323231/16.PNG" width="40%"&gt;
-&lt;/section&gt;</t>
-<t tx="544.20170516232555.1">&lt;section&gt;
-&lt;h3&gt;機台校正&lt;/h3&gt;
-&lt;hr&gt;
-&lt;h4&gt;量測列印高度&lt;/h4&gt;
-&lt;p class="article"&gt;
-在輸入地方輸入 G01  Z10，讓噴頭下降至距離平台 10mm 處，預留避免撞機的可能，放置一張紙在平台上，之後在圖樣控制面板中按 Z 軸的位移量讓噴頭接近平台，位移量由大到小避免撞機。噴頭下降的過程中挪動平台上的紙張，直到拉動紙張會有一股阻力時，即可紀錄顯示中的數值。
-&lt;/p&gt;
-&lt;/section&gt;</t>
-<t tx="544.20170516232555.2">&lt;section&gt;
-&lt;h3&gt;機台校正&lt;/h3&gt;
-&lt;hr&gt;
-&lt;h4&gt;修改列印高度&lt;/h4&gt;
-&lt;p class="article"&gt;
-按下 disconnect 解除連結，之後開啟 Cura，點選機型選單中的機器調試，修改列印高度。(圖.5)
-&lt;/br&gt;
-&lt;img src="g2/40323231/17.PNG" width="50%"&gt;
-&lt;/br&gt;
-如果 Ponterface 上顯示 Z 軸為正數，則將列印高度的數值減掉顯示的數值；反之則加上。改完後，按下保存後復位。
-&lt;/p&gt;
-
-&lt;/section&gt;</t>
-<t tx="544.20170517005916.1">&lt;section&gt;
-&lt;h3&gt;機台校正&lt;/h3&gt;
-&lt;hr&gt;
-&lt;h4&gt;調整 XYZ 軸的高度&lt;/h4&gt;
-&lt;p class="article"&gt;
-連接 Pronterface 重複連接和復歸後下指令量測紅色三點 (圖.6)，並記錄下來。
-&lt;/p&gt;
-&lt;img src="g2/40323231/18.PNG" width="60%"&gt;
-&lt;/section&gt;</t>
-<t tx="544.20170517010100.1">&lt;section&gt;
-&lt;h3&gt;機台校正&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-之後調整各軸滑塊上的螺絲，使螺絲向上或向下移動，影響光學極限開關，讓各軸的總位移量改變。(圖.7)
-&lt;/p&gt;
-&lt;img src="g2/40323231/19.PNG" width="60%"&gt;
-&lt;/section&gt;</t>
-<t tx="544.20170517010100.2">&lt;section&gt;
-&lt;h3&gt;機台校正&lt;/h3&gt;
-&lt;hr&gt;
-&lt;h4&gt;圖.8 和 圖.9 分別為 pronterface 與調整螺絲後的數值。&lt;/h4&gt;
-&lt;img src="g2/40323231/20.PNG" width="45%"&gt;
-&lt;ul style="font-size:0.75em"&gt;
-&lt;li&gt;螺絲逆時針轉一圈，值上升0.4mm&lt;/li&gt;
-&lt;li&gt;螺絲順時針轉一圈，值下降0.4mm&lt;/li&gt;
-&lt;li&gt;A軸 - 由0.9上升到1.6，將螺絲逆時針轉1.75圈&lt;/li&gt;
-&lt;li&gt;B軸 - 由1.5上升到1.6，將螺絲逆時針轉0.25圈&lt;/li&gt;
-&lt;li&gt;C軸 - 由2.5下降到1.6，將螺絲順時針轉2.25圈&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/section&gt;</t>
-<t tx="544.20170517010100.3">&lt;section&gt;
-&lt;h3&gt;機台校正&lt;/h3&gt;
-&lt;hr&gt;
-&lt;h4&gt;四點同高&lt;/h4&gt;
-&lt;p class="article"&gt;
-做完機台校正、原點復歸、測量與修改列印高度後，四點高度為如 圖.10，這種狀況會讓列印出來的東西變碗狀，四周較高而中間偏低。
-&lt;/p&gt;
-&lt;img src="g2/40323231/21.PNG" style="float:left;" width="30%"&gt;
-&lt;img src="g2/40323231/22.PNG" style="float:right;" width="20%"&gt;
-&lt;/section&gt;</t>
-<t tx="544.20170517010100.4">&lt;section&gt;
-&lt;h3&gt;機台校正&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-切斷 Pronterface ，切換至 Cura 中的參數設定頁面，修改水平半徑的參數。(圖.12)
-&lt;/p&gt;
-&lt;img src="g2/40323231/23.PNG" width="35%"&gt;
-&lt;ul style="font-size:0.75em"&gt;
-&lt;li&gt;水平半徑數值減少 - 四周數值增加 0.2&lt;/li&gt;
-&lt;li&gt;水平半徑數值增加 - 四周數值減少 0.2&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="article"&gt;
-本例題為將四周數值降低 1.6，因此將水平半徑的數值增加 8。修改完後按下保存，在按復歸後完成。
-&lt;/p&gt;
-&lt;/section&gt;</t>
-<t tx="544.20170517010633.1">&lt;section&gt;
-&lt;h3&gt;機台校正&lt;/h3&gt;
-&lt;hr&gt;
-&lt;h4&gt;修改列印成品大小&lt;/h4&gt;
-&lt;p class="article"&gt;
-做完步驟一到步驟五後即可開始列印，列印出來的工件用游標卡尺做量測，有可能會發現工件不如預期的縮水或變大。
-&lt;/br&gt;
-做法：開啟 Cura 的參數設置修改斜桿長度(圖.13)  
-&lt;/p&gt;
-&lt;img src="g2/40323231/24.PNG" style="float:left;" width="40%"&gt;
-&lt;ul style="font-size:0.75em"&gt;
-&lt;li&gt;斜桿長度增加 1mm - 列印成品尺寸減少 0.2mm&lt;/li&gt;
-&lt;li&gt;斜桿長度減少 1mm - 列印成品尺寸增加 0.2mm&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p class="article"&gt;
-本題須將 39.40mm 增加到 40.00mm，則減少斜桿長度 3mm。按下保存後復歸。
-&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170517205437.1">&lt;section&gt;
 &lt;h3&gt;韌體程式碼&lt;/h3&gt;
@@ -460,25 +326,11 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;/br&gt;
 &lt;img src="g2/40323231/30.PNG" width="50%"&gt;
 &lt;/section&gt;</t>
-<t tx="544.20170518123349.1">&lt;section&gt;
-&lt;h3&gt;V-rep - 四連桿範例&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-若 Close chain 不使用 dummy 接合，會導致運動狀況出問題。
-&lt;/p&gt;
-&lt;img src="g2/v_rep/fourbar_3.png" align="left" width="35%"&gt;
-&lt;img src="g2/v_rep/fourbar_4.png" align="center" width="35%"&gt;
-&lt;img src="g2/v_test2.gif" align="center" width="35%"&gt;
-
-
-
-&lt;/section&gt;</t>
 <t tx="544.20170519005035.1">&lt;section&gt;
 &lt;h3&gt;V-rep - 內部 Scripts 控制&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-V-rep可透過內部 Scripts 編寫控制指令，能夠控制轉軸角度、位置、路徑等等，如下圖，先讓轉軸 往負45度角轉動,當轉軸到達目標時，再往45度角轉動。
-&lt;/br&gt;
+V-rep可透過內部 Scripts 編寫控制指令，能夠控制轉軸角度、位置、路徑等等。
 &lt;/p&gt;
 &lt;img src="g2/v_rep/scripts_example.png" align="left" width="50%"&gt;
 &lt;img src="g2/v_rep/fourbar_scripts.gif" width="40%"&gt;
@@ -752,51 +604,10 @@ Reveal.initialize({
 而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
 且支援平行與垂直的投影片配置方法
 --&gt;</t>
-<t tx="leo.20170505053249.20">&lt;section&gt;
-&lt;h3&gt;Delta 3D-Printer&lt;/h3&gt;
-&lt;hr&gt;
-&lt;h4&gt;3D 列印機硬體設置&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;3D Printer 結構介紹&lt;/li&gt;
-&lt;li&gt;韌體程式碼介紹&lt;/li&gt;
-&lt;li&gt;程式碼介紹&lt;/li&gt;
-&lt;li&gt;Cura介紹&lt;/li&gt;
-&lt;li&gt;Pronterface介紹&lt;/li&gt;
-&lt;li&gt;校正機台&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;</t>
-<t tx="leo.20170505053249.25">&lt;section&gt;
-&lt;h3&gt;V-rep&lt;/h3&gt;
-&lt;hr&gt;
-&lt;h4&gt;電腦輔助動態模擬&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;V-rep 基本介紹&lt;/li&gt;
-&lt;li&gt;Onshape 介紹&lt;/li&gt;
-&lt;li&gt;V-rep 細部介紹&lt;/li&gt;
-&lt;li&gt;四連桿 範例&lt;/li&gt;
-&lt;li&gt;八連桿 範例&lt;/li&gt;
-&lt;li&gt;V-rep Printer 組裝&lt;/li&gt;
-&lt;li&gt;控制範例 1 - 可變電阻控制噴頭位置&lt;/li&gt;
-&lt;li&gt;控制範例 2 - 六軸感測器控制噴頭位置&lt;/li&gt;
-&lt;li&gt;V-rep - Printer校正&lt;/li&gt;
-&lt;li&gt;V-rep - 模擬列印&lt;/li&gt;
-&lt;li&gt;結論&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;</t>
 <t tx="leo.20170505053249.3">&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
 @others
 &lt;/html&gt;</t>
-<t tx="leo.20170505053249.30">&lt;section&gt;
-&lt;h3&gt;Pyslvs&lt;/h3&gt;
-&lt;hr&gt;
-&lt;h4&gt;平面連桿機構模擬及尺寸合成套件開發&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;使用技術&lt;/li&gt;
-&lt;li&gt;專案總覽&lt;/li&gt;
-&lt;li&gt;功能簡介&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;</t>
 <t tx="leo.20170505053249.35">&lt;section id="vrep"&gt;
 @others
 &lt;/section&gt;</t>
@@ -916,11 +727,11 @@ Dimensional Synthesis
 &lt;h3&gt;Onshape - 繪製範例&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-&lt;img src="g2/onshape/example_1.gif" width="26%"&gt;
+&lt;img src="g2/onshape/example_1.gif" width="30%"&gt;
 &amp;nbsp;&amp;nbsp;
-&lt;img src="g2/onshape/example_2.gif"  width="31%"&gt;
+&lt;img src="g2/onshape/example_2.gif"  width="35%"&gt;
 &amp;nbsp;&amp;nbsp;
-&lt;img src="g2/onshape/example_3.gif"  width="37%"&gt;
+&lt;img src="g2/onshape/onshape_printer2.gif"  width="28%"&gt;
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170519025311.1">&lt;section&gt;

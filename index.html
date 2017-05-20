@@ -61,51 +61,10 @@
 <h4>李武鉦 教授</h4>
 </section>
 <section>
-<h3>Delta 3D-Printer</h3>
-<hr>
-<h4>3D 列印機硬體設置</h4>
-<ol>
-<li>3D Printer 結構介紹</li>
-<li>韌體程式碼介紹</li>
-<li>程式碼介紹</li>
-<li>Cura介紹</li>
-<li>Pronterface介紹</li>
-<li>校正機台</li>
-</ol>
-</section>
-<section>
-<h3>V-rep</h3>
-<hr>
-<h4>電腦輔助動態模擬</h4>
-<ol>
-<li>V-rep 基本介紹</li>
-<li>Onshape 介紹</li>
-<li>V-rep 細部介紹</li>
-<li>四連桿 範例</li>
-<li>八連桿 範例</li>
-<li>V-rep Printer 組裝</li>
-<li>控制範例 1 - 可變電阻控制噴頭位置</li>
-<li>控制範例 2 - 六軸感測器控制噴頭位置</li>
-<li>V-rep - Printer校正</li>
-<li>V-rep - 模擬列印</li>
-<li>結論</li>
-</ol>
-</section>
-<section>
-<h3>Pyslvs</h3>
-<hr>
-<h4>平面連桿機構模擬及尺寸合成套件開發</h4>
-<ol>
-<li>使用技術</li>
-<li>專案總覽</li>
-<li>功能簡介</li>
-</ol>
-</section>
-<section>
 <h3>摘要</h3>
 <hr>
 <p class="article">
-根據國外研究指出，3D Printing 是近年來發展最快速的技術之一，國內外各家科技大廠紛紛投入。
+根據國外研究指出，3D 列印 是近年來發展最快速的技術之一 (參考哪篇文章??)，國內外各家科技大廠紛紛投入。
 </br></br>
 3D列印技術讓原本只存在腦海中的概念，經由 3D Printer 做快速打樣成型，節省了過往傳統打樣的繁複過程與費用。
 </br></br>
@@ -121,13 +80,6 @@
 問題，導致花費許多時間和材料，經過討論想到如果有一
 套能夠模擬3D列印的軟體，先經過這套軟體的模擬可以降
 低錯誤的發生率，也可以提升印製的品質。
-</p>
-</section>
-<section>
-<h3>研究目的</h3>
-<hr>
-<p class="article">
-內容
 </p>
 </section>
 </section>
@@ -204,118 +156,6 @@
 <img src="g2/40323231/13.PNG" width="45%">
 <img src="g2/40323231/14.PNG" width="50%">
 </section>
-<section>
-<h3>機台校正</h3>
-<hr>
-<h4>與 Pronterface 連接</h4>
-<p class="article">
-電腦先與3D列印機連接（USB），之後開啟 Pronterface，按下 Port（自動搜尋端口），之後按下 connect 進行連接 (圖.3)。
-</p>
-<img src="g2/40323231/15.PNG" width="60%">
-</section>
-<section>
-<h3>機台校正</h3>
-<hr>
-<h4>原點復歸</h4>
-<p class="article">
-在圖樣控制面板中按下原點復歸，讓 Pronterface 紀錄原點，沒做此步驟可能會造成撞機 (圖.4)。
-</p>
-<img src="g2/40323231/16.PNG" width="40%">
-</section>
-<section>
-<h3>機台校正</h3>
-<hr>
-<h4>量測列印高度</h4>
-<p class="article">
-在輸入地方輸入 G01  Z10，讓噴頭下降至距離平台 10mm 處，預留避免撞機的可能，放置一張紙在平台上，之後在圖樣控制面板中按 Z 軸的位移量讓噴頭接近平台，位移量由大到小避免撞機。噴頭下降的過程中挪動平台上的紙張，直到拉動紙張會有一股阻力時，即可紀錄顯示中的數值。
-</p>
-</section>
-<section>
-<h3>機台校正</h3>
-<hr>
-<h4>修改列印高度</h4>
-<p class="article">
-按下 disconnect 解除連結，之後開啟 Cura，點選機型選單中的機器調試，修改列印高度。(圖.5)
-</br>
-<img src="g2/40323231/17.PNG" width="50%">
-</br>
-如果 Ponterface 上顯示 Z 軸為正數，則將列印高度的數值減掉顯示的數值；反之則加上。改完後，按下保存後復位。
-</p>
-
-</section>
-<section>
-<h3>機台校正</h3>
-<hr>
-<h4>調整 XYZ 軸的高度</h4>
-<p class="article">
-連接 Pronterface 重複連接和復歸後下指令量測紅色三點 (圖.6)，並記錄下來。
-</p>
-<img src="g2/40323231/18.PNG" width="60%">
-</section>
-<section>
-<h3>機台校正</h3>
-<hr>
-<p class="article">
-之後調整各軸滑塊上的螺絲，使螺絲向上或向下移動，影響光學極限開關，讓各軸的總位移量改變。(圖.7)
-</p>
-<img src="g2/40323231/19.PNG" width="60%">
-</section>
-<section>
-<h3>機台校正</h3>
-<hr>
-<h4>圖.8 和 圖.9 分別為 pronterface 與調整螺絲後的數值。</h4>
-<img src="g2/40323231/20.PNG" width="45%">
-<ul style="font-size:0.75em">
-<li>螺絲逆時針轉一圈，值上升0.4mm</li>
-<li>螺絲順時針轉一圈，值下降0.4mm</li>
-<li>A軸 - 由0.9上升到1.6，將螺絲逆時針轉1.75圈</li>
-<li>B軸 - 由1.5上升到1.6，將螺絲逆時針轉0.25圈</li>
-<li>C軸 - 由2.5下降到1.6，將螺絲順時針轉2.25圈</li>
-</ul>
-</section>
-<section>
-<h3>機台校正</h3>
-<hr>
-<h4>四點同高</h4>
-<p class="article">
-做完機台校正、原點復歸、測量與修改列印高度後，四點高度為如 圖.10，這種狀況會讓列印出來的東西變碗狀，四周較高而中間偏低。
-</p>
-<img src="g2/40323231/21.PNG" style="float:left;" width="30%">
-<img src="g2/40323231/22.PNG" style="float:right;" width="20%">
-</section>
-<section>
-<h3>機台校正</h3>
-<hr>
-<p class="article">
-切斷 Pronterface ，切換至 Cura 中的參數設定頁面，修改水平半徑的參數。(圖.12)
-</p>
-<img src="g2/40323231/23.PNG" width="35%">
-<ul style="font-size:0.75em">
-<li>水平半徑數值減少 - 四周數值增加 0.2</li>
-<li>水平半徑數值增加 - 四周數值減少 0.2</li>
-</ul>
-<p class="article">
-本例題為將四周數值降低 1.6，因此將水平半徑的數值增加 8。修改完後按下保存，在按復歸後完成。
-</p>
-</section>
-<section>
-<h3>機台校正</h3>
-<hr>
-<h4>修改列印成品大小</h4>
-<p class="article">
-做完步驟一到步驟五後即可開始列印，列印出來的工件用游標卡尺做量測，有可能會發現工件不如預期的縮水或變大。
-</br>
-做法：開啟 Cura 的參數設置修改斜桿長度(圖.13)  
-</p>
-<img src="g2/40323231/24.PNG" style="float:left;" width="40%">
-<ul style="font-size:0.75em">
-<li>斜桿長度增加 1mm - 列印成品尺寸減少 0.2mm</li>
-<li>斜桿長度減少 1mm - 列印成品尺寸增加 0.2mm</li>
-</ul>
-<p class="article">
-本題須將 39.40mm 增加到 40.00mm，則減少斜桿長度 3mm。按下保存後復歸。
-</p>
-</section>
 </section>
 <section id="vrep">
 <section>
@@ -355,15 +195,15 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 <h3>Onshape - 繪製範例</h3>
 <hr>
 <p class="article">
-<img src="g2/onshape/example_1.gif" width="26%">
+<img src="g2/onshape/example_1.gif" width="30%">
 &nbsp;&nbsp;
-<img src="g2/onshape/example_2.gif"  width="31%">
+<img src="g2/onshape/example_2.gif"  width="35%">
 &nbsp;&nbsp;
-<img src="g2/onshape/example_3.gif"  width="37%">
+<img src="g2/onshape/onshape_printer2.gif"  width="28%">
 </p>
 </section>
 <section>
-<h3>V-rep - 細部介紹</h3>
+<h3>V-rep - 介面介紹</h3>
 <hr>
 <img src="g2/40323218/introduce1.PNG" width="100%">
 <p>
@@ -424,19 +264,6 @@ Close chain - 當系統架構為封閉式機構，會有兩個 (含 )以上零�
 
 </section>
 <section>
-<h3>V-rep - 四連桿範例</h3>
-<hr>
-<p class="article">
-若 Close chain 不使用 dummy 接合，會導致運動狀況出問題。
-</p>
-<img src="g2/v_rep/fourbar_3.png" align="left" width="35%">
-<img src="g2/v_rep/fourbar_4.png" align="center" width="35%">
-<img src="g2/v_test2.gif" align="center" width="35%">
-
-
-
-</section>
-<section>
 <h3>V-rep - 八連桿範例</h3>
 <hr>
 <p class="article">
@@ -457,8 +284,7 @@ Close chain - 當系統架構為封閉式機構，會有兩個 (含 )以上零�
 <h3>V-rep - 內部 Scripts 控制</h3>
 <hr>
 <p class="article">
-V-rep可透過內部 Scripts 編寫控制指令，能夠控制轉軸角度、位置、路徑等等，如下圖，先讓轉軸 往負45度角轉動,當轉軸到達目標時，再往45度角轉動。
-</br>
+V-rep可透過內部 Scripts 編寫控制指令，能夠控制轉軸角度、位置、路徑等等。
 </p>
 <img src="g2/v_rep/scripts_example.png" align="left" width="50%">
 <img src="g2/v_rep/fourbar_scripts.gif" width="40%">
@@ -570,8 +396,8 @@ V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制，以�
 <h3>V-rep 列印成果影片</h3>
 <hr>
 <p class="article">
-<iframe width="1024" height="576" src="https://www.youtube.com/embed/CF8xtkBd60k" frameborder="0" allowfullscreen></iframe>
 </p>
+<img src="g2/v_rep/V-rep 3D-Printer simulation.gif" align="center" width="80%">
 </section>
 <section>
 <h3>結論 </h3>
