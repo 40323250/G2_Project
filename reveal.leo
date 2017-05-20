@@ -52,6 +52,7 @@
 <v t="544.20170515195524.1"><vh>V-rep細部介紹1</vh></v>
 <v t="544.20170514200732.2"><vh>八連桿範例</vh></v>
 <v t="544.20170514200732.3" a="E"><vh>以下為控制模擬</vh>
+<v t="544.20170515003915.1"><vh>V-rep Printer 1 校正</vh></v>
 <v t="544.20170519005035.1"><vh>V-rep Scripts</vh></v>
 <v t="544.20170515003940.1"><vh>V-rep 可變電阻範例 1</vh></v>
 <v t="544.20170515191155.1"><vh>V-rep 可變電阻範例 1 - Arduino</vh></v>
@@ -59,11 +60,8 @@
 <v t="leo.20170505053249.92"><vh>V-rep 可變電阻範例 1 影片</vh></v>
 <v t="544.20170515003932.1"><vh>V-rep 6軸加速度感測器範例 2</vh></v>
 <v t="leo.20170505053249.87"><vh>V-rep 6軸加速度感測器範例 2 影片</vh></v>
-<v t="544.20170515003915.1"><vh>V-rep Printer 1 校正</vh></v>
-<v t="544.20170515212926.1"><vh>V-rep Printer 2 tkinter 介面</vh></v>
+<v t="544.20170515222109.1"><vh>V-rep Printer 4 Pyquino</vh></v>
 <v t="544.20170515202348.1"><vh>V-rep Printer 3 particles</vh></v>
-<v t="544.20170515222109.1"><vh>V-rep Printer 4 simulation-1</vh></v>
-<v t="544.20170515225150.1"><vh>V-rep Printer 5 simulation-2</vh></v>
 <v t="544.20170514180423.1"><vh>V-rep 列印成果影片</vh></v>
 </v>
 <v t="544.20170514195356.1"><vh>結論、未來展望</vh></v>
@@ -116,7 +114,8 @@ Summary: 導入 notebook 內容
 &lt;h3&gt;結論 &lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-結論內容
+結論
+&lt;img src="g2/printer.png"  align="right" width="30%"&gt;
 
 &lt;/p&gt;
 &lt;/section&gt;</t>
@@ -164,13 +163,11 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;h3&gt;V-rep - Printer校正&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-前兩者為模擬練習，只有限制移動範圍但並未經過精準校正，但控制器和實體列印時同樣需要校正，雖然實體熱床對於 CURA 程式的座標為 (0,0,0)，但 V-rep 之內部座標還要包含熱床本身之高度，故要補償一個高度值 (L1+L2)，如此就能控制出料口之位置。
-&lt;br&gt;
-&lt;br&gt;
-如圖，出料口碰觸熱床之補正後高度為 t，經單位換算後之高度 t = L1+L2 = 0.1165m ( 116.5 mm )
+虛擬的 Printer 和 實體同樣需要校正，補正參數設定於控制程式內部。
+&lt;br&gt;&lt;br&gt;    
 &lt;/p&gt;
-&lt;img src="g2/setposition.png" align="left" width="30%"&gt;
-&lt;img src="g2/tk_code.png" align="right" width="70%"&gt;
+&lt;img src="g2/setposition.png" align="center" width="40%"&gt;
+
 &lt;/section&gt;</t>
 <t tx="544.20170515003932.1">&lt;section&gt;
 &lt;h3&gt;控制範例 2 - 六軸感測器控制噴頭位置 &lt;/h3&gt;
@@ -184,7 +181,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;h3&gt;控制範例 1 - 可變電阻控制噴頭位置&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-若要使用 Arduino 控制 V-rep，除了Arduino本身的程式碼之外，還須設定 V-rep 的 Scripts 內部程式，並透過設定相同的通訊埠和 Arduino 的 COM 點，才能達到內外溝通的功能。
+若要使用 Arduino 控制 V-rep，除了Arduino本身的程式碼之外，還須設定 V-rep 的 Scripts 內部程式，並透過設定相同的通訊埠和鮑率，才能達到內外溝通的功能。
 &lt;/p&gt;
 &lt;img src="g2/arduino_lua.png" align="center" width="60%"&gt;
 &lt;/section&gt;</t>
@@ -192,27 +189,35 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;h3&gt;研究動機&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-一開始我們在研究模擬腳踏車的齒輪與鍊條機構，利用 3D Printer 印製零件組裝，但是在印製的過程時常出現問題，導致花費許多時間和材料，經過討論想到如果有一套能夠模擬 3D列印 的軟體，先經過這套軟體的模擬可以降低錯誤的發生率，也可以提升印製的品質。
+一開始我們在研究模擬腳踏車的齒輪與鍊條機構，利用 3D Printer 印製零件組裝，但是在印製的過程時常出現問題，導致花費許多時間和材料。
+&lt;/br&gt;&lt;/br&gt;
+經過討論想到如果有一套能夠模擬 3D列印 的軟體，先經過這套軟體的模擬可以降低錯誤的發生率，也可以提升印製的品質。
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515005232.1">&lt;section&gt;
 &lt;h3&gt;摘要&lt;/h3&gt;
 &lt;hr&gt;
+&lt;img src="g2/system1.png" align="center" width="50%"&gt;
 &lt;p class="article"&gt;
 根據 Gartner新興技術 報告指出，3D列印 是近年來發展最快速的技術之一 ，國內外各家科技大廠紛紛投入。
 &lt;/br&gt;&lt;/br&gt;
-3D列印技術讓原本只存在腦海中的概念，經由 3D Printer 做快速打樣成型，節省了過往傳統打樣的繁複過程與費用。
+3D列印技術讓原本只存在腦海中的概念，經由 3D-Printer 做快速打樣成型，節省了過往傳統打樣的繁複過程與費用。
 &lt;/br&gt;&lt;/br&gt;
-在使用 3D Printer 列印的過程中，我們發現有時會有路徑錯誤的問題，相較於 CNC ，還缺少了模擬列印的功能，在列印前缺少一道檢查錯誤的程序。
+在使用 3D-Printer 列印的過程中，我們發現有時會有路徑錯誤的問題，相較於 CNC ，還缺少了模擬列印的功能，在列印前缺少一道檢查錯誤的程序。
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515191155.1">&lt;section&gt;
 &lt;h3&gt;控制範例 1 - Arduino程式&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-以下程式碼為使用三個可變電阻，分別控制V-rep內之Printer噴頭位置，可變電阻能轉之角度為360度，轉1度之電阻值為 最大電阻值/360 ，經單位換算，電阻每轉一度能使噴頭移動固定距離 。
-&lt;/br&gt;&lt;/br&gt;
-分別將三個可變電阻的值存成固定格式 (x,y,z)，以便在 V-rep 內部讀取後轉換成噴頭位置 。
+以下程式碼為使用三個可變電阻，分別控制V-rep內的Printer噴頭座標位置 。
+&lt;/p&gt;
+&lt;/br&gt;
+&lt;p align="left"&gt;
+方式:
+&lt;/p&gt;
+&lt;p class="article"&gt;
+將三個可變電阻的值存成固定格式 (x,y,z)，以便在 V-rep 內部讀取後轉換成噴頭位置 。
 &lt;/p&gt;
 &lt;img src="g2/example2_ardunio.png" align="center" width="40%"&gt;
 &lt;/section&gt;</t>
@@ -251,42 +256,26 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;h3&gt;V-rep - Particles&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-為了能夠達到模擬列印的功能，必須讓噴頭的位置產生物件(粒子)，且這個物件產生的位置會隨著噴頭的位置變化而改變，但因為粒子的屬性為 dynamic，電腦運算的部分會隨粒子的數目變多而變慢，故不太能列印大型零件。
+當噴頭經由G-Code得到路徑後，粒子會隨著噴頭的位置改變而產生。
 
 &lt;/p&gt;
 &lt;img src="g2/print1.png" width="80%"&gt;
 &lt;/section&gt;</t>
-<t tx="544.20170515212926.1">&lt;section&gt;
-&lt;h3&gt;V-rep - Tkinter控制介面&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-此控制採用 Python 本身的 Tkinter 模組，經由 Vrep.py 將 V-rep 內的函式轉換後 再由 Python 控制,通訊採用類似 Arduino 之通訊埠，達到內外溝通。
-&lt;/br&gt;&lt;/br&gt;
-以下為Tkinter介面，依照輸入的座標位置，讓噴頭移動至該位置。
-&lt;/p&gt;
-&lt;img src="g2/controller.png" width="40%"&gt;
-&lt;/section&gt;</t>
 <t tx="544.20170515222109.1">&lt;section&gt;
-&lt;h3&gt;V-rep - Printer模擬列印&lt;/h3&gt;
+&lt;h3&gt;V-rep - G-Code&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-當控制及列印的粒子完成之後， G-Code 的部分為 CURA 產生，使用 Pyquino 解讀後將數值傳回V-rep內部。
+G-Code 的部分為 CURA 產生，並透過 Pyquino 解讀後將數值傳回 V-rep 內部，
+&lt;/br&gt;
+傳值方式類似於前兩者範例。
 &lt;/p&gt;
 &lt;img src="g2/gcode.png" width="80%"&gt;
-&lt;/section&gt;</t>
-<t tx="544.20170515225150.1">&lt;section&gt;
-&lt;h3&gt;V-rep - Printer模擬列印&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-如同先前所說，列印的粒子數量不能太龐大，如同填充的密度不可太密，但模擬的部分稍為將粒子的尺寸調大，達到更真實的效果，如同填充密度100%。
-&lt;/p&gt;
-&lt;img src="g2/printer.png" width="25%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170519005035.1">&lt;section&gt;
 &lt;h3&gt;V-rep - 內部 Scripts 控制&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-V-rep可透過內部 Scripts 編寫控制指令，但要達到模擬列印還是要透過。
+V-rep可透過內部 Scripts 編寫控制指令，但要為了到模擬列印，需要與其他裝置或介面通訊。
 &lt;/br&gt;
 &lt;/p&gt;
 &lt;img src="g2/v_rep/scripts_example.png" align="left" width="50%"&gt;
@@ -295,23 +284,23 @@ V-rep可透過內部 Scripts 編寫控制指令，但要達到模擬列印還是
 &lt;/br&gt;
 &lt;/br&gt;
 &lt;p class="article"&gt;
-V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制，以下拿 Arduino 做為範例。
+以下拿 Arduino 做為通訊範例。
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170520153339.1">&lt;section&gt;
 &lt;h3&gt;虛擬控制 - 系統圖&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-
 &lt;/p&gt;
-
+&lt;img src="g2/system3.png" align="center" width="100%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170520153429.1">&lt;section&gt;
 &lt;h3&gt;實體 - 系統圖&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-
 &lt;/p&gt;
+
+&lt;img src="g2/system2.png"  align="center" width="100%"&gt;
 
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
@@ -548,13 +537,13 @@ NOTEBOOK_DIR = 'notebook'
 <t tx="leo.20170505053249.13">&lt;section&gt;
 &lt;h3&gt;V-rep 在 Delta 3D-Printer&lt;/br&gt;虚實整合模擬上的應用&lt;/h3&gt;
 &lt;hr&gt;
-&lt;h4 style="font-size:0.75em"&gt;組員&lt;/h4&gt;
+&lt;h4 style="font-size:0.8em"&gt;組員&lt;/h4&gt;
 &lt;h4&gt;40323218 李冠興&lt;/h4&gt;
 &lt;h4&gt;40323230 張&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;元&lt;/h4&gt;
 &lt;h4&gt;40323231 張立昇&lt;/h4&gt;
 &lt;h4&gt;40323250 詹偉志&lt;/h4&gt;
 &lt;br&gt;
-&lt;h4 style="font-size:0.75em"&gt;指導老師&lt;/h4&gt;
+&lt;h4 style="font-size:0.8em"&gt;指導老師&lt;/h4&gt;
 &lt;h4&gt;嚴家銘 教授&lt;/h4&gt;
 &lt;h4&gt;李武鉦 教授&lt;/h4&gt;
 &lt;/section&gt;</t>
