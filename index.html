@@ -81,12 +81,28 @@
 </section>
 <section id="vrep">
 <section>
+<h3>實體 - 系統圖</h3>
+<hr>
+<p class="article">
+
+</p>
+
+</section>
+<section>
 <h3>Delta 3D-Printer 架構介紹</h3>
 <hr>
 <img src="g2/40323231/1.png" width="65%">
 </section>
 </section>
 <section id="vrep">
+<section>
+<h3>虛擬控制 - 系統圖</h3>
+<hr>
+<p class="article">
+
+</p>
+
+</section>
 <section>
 <h3>V-rep - 簡介</h3>
 <hr>
@@ -174,7 +190,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 <h3>V-rep - 內部 Scripts 控制</h3>
 <hr>
 <p class="article">
-V-rep可透過內部 Scripts 編寫控制指令，能夠控制轉軸角度、位置、路徑等等，如下圖，先讓轉軸 往負45度角轉動,當轉軸到達目標時，再往45度角轉動。
+V-rep可透過內部 Scripts 編寫控制指令，但要達到模擬列印還是要透過。
 </br>
 </p>
 <img src="g2/v_rep/scripts_example.png" align="left" width="50%">
@@ -217,7 +233,7 @@ V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制，以�
 <hr>
 <p class="article">
 <br>
-<iframe width="1024" height="576" src="https://www.youtube.com/embed/Nsgt8YPSDpU" frameborder="0" allowfullscreen></iframe>
+<img src="g2/v_rep/v-rep control with arduino.gif" align="center" width="100%">
 </p>
 </section>
 <section>
@@ -234,7 +250,8 @@ V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制，以�
 <p align="center">
 因為手的晃動導致噴頭位置不穩定
 </p>
-<iframe width="1024" height="576" src="https://www.youtube.com/embed/y1vbxmeJ4M0" frameborder="0" allowfullscreen></iframe>
+<img src="g2/v_rep/vrep - printer  simulation  by CJMCU-116.gif"" align="center" width="100%">
+ 
 </section>
 <section>
 <h3>V-rep - Printer校正</h3>
@@ -271,7 +288,7 @@ V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制，以�
 <h3>V-rep - Printer模擬列印</h3>
 <hr>
 <p class="article">
-當控制及列印的粒子完成之後， G-Code 的部分為 CURA 產生，並採用先前報告小組同學 祐生的程式來解讀，並透過先前的方式，將值傳回V-rep內部，雖然不是專門模擬列印的軟體，也是能達到模擬列印的功能。
+當控制及列印的粒子完成之後， G-Code 的部分為 CURA 產生，使用 Pyquino 解讀後將數值傳回V-rep內部。
 </p>
 <img src="g2/gcode.png" width="80%">
 </section>

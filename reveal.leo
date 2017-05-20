@@ -40,9 +40,11 @@
 <v t="544.20170515005219.1"><vh>研究動機</vh></v>
 </v>
 <v t="leo.20170505053249.35" a="E"><vh>3D Printer(#3D printer)</vh>
+<v t="544.20170520153429.1"><vh>實體 系統圖</vh></v>
 <v t="leo.20170505053249.36"><vh>3D Printer 結構</vh></v>
 </v>
 <v t="leo.20170505053249.71" a="E"><vh>V-rep(#v-rep)</vh>
+<v t="544.20170520153339.1"><vh>虛擬控制 - 架構 系統圖</vh></v>
 <v t="leo.20170505053249.72"><vh>V-rep 基本介紹</vh></v>
 <v t="544.20170514200717.2"><vh>Onshape 介紹1</vh></v>
 <v t="544.20170514201601.1"><vh>Onshape 介紹2</vh></v>
@@ -268,7 +270,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;h3&gt;V-rep - Printer模擬列印&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-當控制及列印的粒子完成之後， G-Code 的部分為 CURA 產生，並採用先前報告小組同學 祐生的程式來解讀，並透過先前的方式，將值傳回V-rep內部，雖然不是專門模擬列印的軟體，也是能達到模擬列印的功能。
+當控制及列印的粒子完成之後， G-Code 的部分為 CURA 產生，使用 Pyquino 解讀後將數值傳回V-rep內部。
 &lt;/p&gt;
 &lt;img src="g2/gcode.png" width="80%"&gt;
 &lt;/section&gt;</t>
@@ -284,7 +286,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;h3&gt;V-rep - 內部 Scripts 控制&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-V-rep可透過內部 Scripts 編寫控制指令，能夠控制轉軸角度、位置、路徑等等，如下圖，先讓轉軸 往負45度角轉動,當轉軸到達目標時，再往45度角轉動。
+V-rep可透過內部 Scripts 編寫控制指令，但要達到模擬列印還是要透過。
 &lt;/br&gt;
 &lt;/p&gt;
 &lt;img src="g2/v_rep/scripts_example.png" align="left" width="50%"&gt;
@@ -295,6 +297,22 @@ V-rep可透過內部 Scripts 編寫控制指令，能夠控制轉軸角度、位
 &lt;p class="article"&gt;
 V-rep 也可藉由 Scripts 接收其他裝置傳送的資料達到控制，以下拿 Arduino 做為範例。
 &lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="544.20170520153339.1">&lt;section&gt;
+&lt;h3&gt;虛擬控制 - 系統圖&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+
+&lt;/p&gt;
+
+&lt;/section&gt;</t>
+<t tx="544.20170520153429.1">&lt;section&gt;
+&lt;h3&gt;實體 - 系統圖&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+
+&lt;/p&gt;
+
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--專案總覽--&gt;
@@ -604,7 +622,8 @@ V-rep為 Virtual robot experimentation platform 的縮寫，是一套機器人�
 &lt;p align="center"&gt;
 因為手的晃動導致噴頭位置不穩定
 &lt;/p&gt;
-&lt;iframe width="1024" height="576" src="https://www.youtube.com/embed/y1vbxmeJ4M0" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;img src="g2/v_rep/vrep - printer  simulation  by CJMCU-116.gif"" align="center" width="100%"&gt;
+ 
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.9">&lt;style&gt;
 @others
@@ -614,7 +633,7 @@ V-rep為 Virtual robot experimentation platform 的縮寫，是一套機器人�
 &lt;hr&gt;
 &lt;p class="article"&gt;
 &lt;br&gt;
-&lt;iframe width="1024" height="576" src="https://www.youtube.com/embed/Nsgt8YPSDpU" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;img src="g2/v_rep/v-rep control with arduino.gif" align="center" width="100%"&gt;
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.96">&lt;section id="pyslvs"&gt;
