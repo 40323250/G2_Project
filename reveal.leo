@@ -300,7 +300,7 @@ V-rep可透過內部 Scripts 編寫控制指令，但要為了到模擬列印，
 &lt;p class="article"&gt;
 &lt;/p&gt;
 
-&lt;img src="g2/system2.png"  align="center" width="100%"&gt;
+&lt;img src="g2/system2.png"  align="center" width="80%"&gt;
 
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
