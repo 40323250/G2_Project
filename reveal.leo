@@ -331,7 +331,7 @@ Dimensional Synthesis
 &lt;!--主畫面--&gt;
 &lt;h3&gt;平面連桿模擬&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/pyslvs/MainWindow.png" width="85%"&gt;
+&lt;img src="g2/pyslvs/MainWindow.gif"&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170519231059.1">&lt;section&gt;
 &lt;!--比對--&gt;
@@ -349,7 +349,7 @@ Dimensional Synthesis
 &lt;!--主畫面--&gt;
 &lt;h3&gt;尺寸合成&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/pyslvs/algorithm.png"&gt;
+&lt;img src="g2/pyslvs/algorithm.gif"&gt;
 &lt;/section&gt;</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
