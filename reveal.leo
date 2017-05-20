@@ -41,14 +41,6 @@
 </v>
 <v t="leo.20170505053249.35" a="E"><vh>3D Printer(#3D printer)</vh>
 <v t="leo.20170505053249.36"><vh>3D Printer 結構</vh></v>
-<v t="leo.20170505053249.41"><vh>3D Printer 硬體</vh></v>
-<v t="544.20170517205437.1"><vh>韌體程式碼</vh></v>
-<v t="leo.20170505053249.46"><vh>韌體程式碼</vh></v>
-<v t="leo.20170505053249.51"><vh>Cura - 機台設定</vh></v>
-<v t="leo.20170505053249.56"><vh>Cura - 參數設定1</vh></v>
-<v t="leo.20170505053249.61"><vh>Cura - 參數設定2</vh></v>
-<v t="leo.20170505053249.66"><vh>Cura - 介面說明</vh></v>
-<v t="544.20170516232554.1"><vh>Pronterface - 介面</vh></v>
 </v>
 <v t="leo.20170505053249.71" a="E"><vh>V-rep(#v-rep)</vh>
 <v t="leo.20170505053249.72"><vh>V-rep 基本介紹</vh></v>
@@ -56,11 +48,7 @@
 <v t="544.20170514201601.1"><vh>Onshape 介紹2</vh></v>
 <v t="leo.20170518041620.1"><vh>Onshape 範例圖形</vh></v>
 <v t="544.20170515195524.1"><vh>V-rep細部介紹1</vh></v>
-<v t="leo.20170519025311.1"><vh>V-rep細部介紹2 </vh></v>
-<v t="leo.20170519025325.1"><vh>V-rep細部介紹3 close_chain</vh></v>
-<v t="544.20170514200732.1"><vh>四連桿 範例1</vh></v>
-<v t="544.20170514200732.2"><vh>八連桿 範例1</vh></v>
-<v t="544.20170515002049.1"><vh>V-rep Printer 組裝</vh></v>
+<v t="544.20170514200732.2"><vh>八連桿範例</vh></v>
 <v t="544.20170514200732.3" a="E"><vh>以下為控制模擬</vh>
 <v t="544.20170519005035.1"><vh>V-rep Scripts</vh></v>
 <v t="544.20170515003940.1"><vh>V-rep 可變電阻範例 1</vh></v>
@@ -143,25 +131,21 @@ Onshape的使用者分類 ：&lt;br&gt;
 教育、商業跟業餘三大類。
 &lt;/p&gt;
 &lt;/section&gt;</t>
-<t tx="544.20170514200732.1">&lt;section&gt;
-&lt;h3&gt;V-rep - 四連桿範例&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-以此例來說，當組合階層變成了一個封閉迴路，就會有一個零件會被共用，稱為 Close chain，這時候就必須使用 dummy 連結，以保持此機構之約束條件。
-&lt;/p&gt;
-&lt;img src="g2/v_rep/fourbar_1.png" align="left" width="30%"&gt;
-&lt;img src="g2/v_rep/fourbar_2.png" align="center" width="40%"&gt;
-&lt;img src="g2/4_links.gif" align="center" width="40%"&gt;
-
-&lt;/section&gt;</t>
 <t tx="544.20170514200732.2">&lt;section&gt;
 &lt;h3&gt;V-rep - 八連桿範例&lt;/h3&gt;
 &lt;hr&gt;
+
 &lt;p class="article"&gt;
-八連桿範例也屬於 Close chain，因為多處都有連接複數零件，故要使用的 dummy 較四連桿多。
+八連桿機構能在 V-rep 內做模擬，在未來若朝向 仿生機構 研究，使用此軟體是不錯的選擇。
 &lt;/p&gt;
 &lt;img src="g2/v_rep/eightbar_1.png" align="left" width="30%"&gt;
-&lt;img src="g2/solvespace_successful.gif" width="45%"&gt;
+&lt;p align="center"&gt;
+&lt;/br&gt;&lt;/br&gt;
+八連桿模擬 與 實際應用
+&lt;/p&gt;
+&lt;img src="g2/solvespace_successful.gif" width="28%"&gt;
+
+&lt;img src="g2/v_rep/8links.gif" width="40%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170514200732.3"></t>
 <t tx="544.20170514201601.1">&lt;section&gt;
@@ -173,14 +157,6 @@ Onshape的使用者分類 ：&lt;br&gt;
 Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"雲端" ，提供協同設計的功能，並且可以很容易地從雲上找到其他人公開的模型。 &lt;br&gt;
 協同設計主要的概念為團隊間的分工合作，大家提供自己的想法或專長，使概念更完善，這部份 Onshape 甚至提供可在平板或手機上使用的功能。
 &lt;/p&gt;
-&lt;/section&gt;</t>
-<t tx="544.20170515002049.1">&lt;section&gt;
-&lt;h3&gt;V-rep - Printer組裝&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-當 Printer 匯入 V-rep 後，拆解開來的零件約有一百個，組裝時須要特別留意，尤其是噴頭座的部分為 Close chain，該關節處因為自由度的關係， joint 的位置就顯得非常重要。
-&lt;/p&gt;
-&lt;img src="g2/v_rep/heater.png" align="center" width="40%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515003915.1">&lt;section&gt;
 &lt;h3&gt;V-rep - Printer校正&lt;/h3&gt;
@@ -214,22 +190,18 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;h3&gt;研究動機&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-一開始我們在研究模擬腳踏車的齒輪與鍊條機構，利用
-3D Printer 印製零件組裝，但是在印製的過程時常出現
-問題，導致花費許多時間和材料，經過討論想到如果有一
-套能夠模擬3D列印的軟體，先經過這套軟體的模擬可以降
-低錯誤的發生率，也可以提升印製的品質。
+一開始我們在研究模擬腳踏車的齒輪與鍊條機構，利用 3D Printer 印製零件組裝，但是在印製的過程時常出現問題，導致花費許多時間和材料，經過討論想到如果有一套能夠模擬 3D列印 的軟體，先經過這套軟體的模擬可以降低錯誤的發生率，也可以提升印製的品質。
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515005232.1">&lt;section&gt;
 &lt;h3&gt;摘要&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-根據國外研究指出，3D 列印 是近年來發展最快速的技術之一 (參考哪篇文章??)，國內外各家科技大廠紛紛投入。
+根據 Gartner新興技術 報告指出，3D列印 是近年來發展最快速的技術之一 ，國內外各家科技大廠紛紛投入。
 &lt;/br&gt;&lt;/br&gt;
 3D列印技術讓原本只存在腦海中的概念，經由 3D Printer 做快速打樣成型，節省了過往傳統打樣的繁複過程與費用。
 &lt;/br&gt;&lt;/br&gt;
-在使用 3D Printer 列印的過程中，我們發現有時會有路徑錯誤的問題，跟 CNC 比較起來缺少模擬列印的功能，使列印前缺少一道檢查錯誤的步驟。
+在使用 3D Printer 列印的過程中，我們發現有時會有路徑錯誤的問題，相較於 CNC ，還缺少了模擬列印的功能，在列印前缺少一道檢查錯誤的程序。
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515191155.1">&lt;section&gt;
@@ -308,29 +280,12 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;/p&gt;
 &lt;img src="g2/printer.png" width="25%"&gt;
 &lt;/section&gt;</t>
-<t tx="544.20170516232554.1">&lt;section&gt;
-&lt;h3&gt;Pronterface - 介面&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-&lt;/p&gt;
-&lt;img src="g2/40323231/13.PNG" width="45%"&gt;
-&lt;img src="g2/40323231/14.PNG" width="50%"&gt;
-&lt;/section&gt;</t>
-<t tx="544.20170517205437.1">&lt;section&gt;
-&lt;h3&gt;韌體程式碼&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-先下載 Arduino，之後開啟 Repetier 中的 Configuration.h 進行修改裡面的參數，修改完後按編譯，完成韌體的參數設定。
-&lt;/p&gt;
-&lt;img src="g2/40323231/31.PNG" width="40%"&gt;
-&lt;/br&gt;
-&lt;img src="g2/40323231/30.PNG" width="50%"&gt;
-&lt;/section&gt;</t>
 <t tx="544.20170519005035.1">&lt;section&gt;
 &lt;h3&gt;V-rep - 內部 Scripts 控制&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-V-rep可透過內部 Scripts 編寫控制指令，能夠控制轉軸角度、位置、路徑等等。
+V-rep可透過內部 Scripts 編寫控制指令，能夠控制轉軸角度、位置、路徑等等，如下圖，先讓轉軸 往負45度角轉動,當轉軸到達目標時，再往45度角轉動。
+&lt;/br&gt;
 &lt;/p&gt;
 &lt;img src="g2/v_rep/scripts_example.png" align="left" width="50%"&gt;
 &lt;img src="g2/v_rep/fourbar_scripts.gif" width="40%"&gt;
@@ -627,55 +582,6 @@ Reveal.initialize({
 &lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
 &lt;![endif]--&gt;
 &lt;/head&gt;</t>
-<t tx="leo.20170505053249.41">&lt;section&gt;
-&lt;h3&gt;Delta 3D-Printer 硬體&lt;/h3&gt;
-&lt;hr&gt;
-&lt;img src="g2/printer.jpg" width="50%"&gt;
-&lt;img src="g2/40323231/02.jpg" width="40%"&gt;
-&lt;/section&gt;</t>
-<t tx="leo.20170505053249.46">&lt;section&gt;
-&lt;h3&gt;韌體程式碼&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-&lt;/p&gt;
-&lt;img src="g2/40323231/4.PNG" width="62%"&gt;
-&lt;img src="g2/40323231/5.PNG" width="35%"&gt;
-&lt;/section&gt;</t>
-<t tx="leo.20170505053249.51">&lt;section&gt;
-&lt;h3&gt;Cura - 機台設定&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-進入 Cura 的主畫面後須先設定機台，點選機型設置 (圖.1) 進入設定頁面 (圖.2)，此機台的平台為圓形所以寬、深相同，設定 Circular。
-&lt;/br&gt;&lt;/br&gt;
-由於機台為三角形機台，因此平台中心設為 (0,0)。波特率設為 115200（需與韌體相同）。設定完之後即可開始使用 Cura。
-&lt;/p&gt;
-&lt;img src="g2/40323231/03.jpg" width="40%"&gt;
-&lt;img src="g2/40323231/04.jpg" width="50%"&gt;
-&lt;/section&gt;</t>
-<t tx="leo.20170505053249.56">&lt;section&gt;
-&lt;h3&gt;Cura - 參數設定&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-&lt;/p&gt;
-&lt;img src="g2/40323231/8.PNG" width="45%"&gt;
-&lt;img src="g2/40323231/9.PNG" width="45%"&gt;
-&lt;/section&gt;</t>
-<t tx="leo.20170505053249.61">&lt;section&gt;
-&lt;h3&gt;Cura - 參數設定&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-&lt;/p&gt;
-&lt;img src="g2/40323231/10.PNG" width="40%"&gt;
-&lt;img src="g2/40323231/11.PNG" width="40%"&gt;
-&lt;/section&gt;</t>
-<t tx="leo.20170505053249.66">&lt;section&gt;
-&lt;h3&gt;Cura - 介面說明&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-&lt;/p&gt;
-&lt;img src="g2/40323231/12.PNG" width="50%"&gt;
-&lt;img src="g2/40323231/25.png" width="45%"&gt;
-&lt;/section&gt;</t>
 <t tx="leo.20170505053249.71">&lt;section id="vrep"&gt;
 @others
 &lt;/section&gt;</t>
@@ -729,37 +635,10 @@ Dimensional Synthesis
 &lt;p class="article"&gt;
 &lt;img src="g2/onshape/example_1.gif" width="30%"&gt;
 &amp;nbsp;&amp;nbsp;
-&lt;img src="g2/onshape/example_2.gif"  width="35%"&gt;
+&lt;img src="g2/onshape/example_4.gif"  width="35%"&gt;
 &amp;nbsp;&amp;nbsp;
 &lt;img src="g2/onshape/onshape_printer2.gif"  width="28%"&gt;
 &lt;/p&gt;
-&lt;/section&gt;</t>
-<t tx="leo.20170519025311.1">&lt;section&gt;
-&lt;h3&gt;V-rep - 細部介紹&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-V-rep的組合方式是由基座開始排序每個零件的主從關係，由上往下所構成，類似樹狀圖的方式往下延伸。
-&lt;/p&gt;
-&lt;img src="g2/v_rep/vrep_example.png" align="center" width="35%"&gt;
-&lt;img src="g2/v_rep/vrep_example2.png" align="center" width="50%"&gt;
-&lt;p class="article"&gt;
-需要轉動的部分必須加裝 Revolute _ joint ( 虛擬轉軸 )，它可以設定固定的轉速、扭矩或相對旋轉運動。&lt;br&gt;
-Revolute _ joint 需要和軸重疊，排序完成後設定參數，按下啟動就可以開始模擬。
-&lt;/p&gt;
-&lt;/section&gt;</t>
-<t tx="leo.20170519025325.1">&lt;section&gt;
-&lt;h3&gt;V-rep - 細部介紹&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-組合的系統分成開放式 (Open chain) 與封閉式 (Close chain)，這種狀況在某些分析軟體也會遇到。 
-&lt;/br&gt;&lt;/br&gt;
-Open chain - 當系統架構為非封閉式機構，各個零件只受另一零件影響做相對運動。
-&lt;/br&gt;&lt;/br&gt;
-Close chain - 當系統架構為封閉式機構，會有兩個 (含 )以上零件同時對單一零件造成影響。
-&lt;/p&gt;
-&lt;img src="g2/v_rep/open_chain.png" align="center" width="35%"&gt;
-&lt;img src="g2/v_rep/close_chain.png" align="center" width="55%"&gt;
-
 &lt;/section&gt;</t>
 </tnodes>
 </leo_file>
