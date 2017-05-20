@@ -67,10 +67,9 @@
 <v t="544.20170514195356.1"><vh>結論、未來展望</vh></v>
 </v>
 <v t="leo.20170505053249.96" a="E"><vh>Python Solvespace(#pyslvs)</vh>
-<v t="leo.20170505053249.97"><vh>概述</vh></v>
-<v t="ahshoe.20170510231618.1"><vh>使用技術 - Python 3</vh></v>
-<v t="ahshoe.20170510224721.1"><vh>專案總覽</vh></v>
+<v t="ahshoe.20170510224721.1"><vh>平面連桿機構模擬 - 系統圖</vh></v>
 <v t="ahshoe.20170510224930.1"><vh>功能簡介</vh></v>
+<v t="ahshoe.20170510231618.1"><vh>使用技術 - Python 3</vh></v>
 <v t="ahshoe.20170519134311.1"><vh>功能簡介 - 平面連桿模擬</vh></v>
 <v t="ahshoe.20170519233231.1"><vh>功能簡介 - 尺寸合成</vh></v>
 <v t="ahshoe.20170519231059.1"><vh>功能簡介 - 與 Solvespace 比對</vh></v>
@@ -191,19 +190,19 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;p class="article"&gt;
 一開始我們在研究模擬腳踏車的齒輪與鍊條機構，利用 3D Printer 印製零件組裝，但是在印製的過程時常出現問題，導致花費許多時間和材料。
 &lt;/br&gt;&lt;/br&gt;
-經過討論想到如果有一套能夠模擬 3D列印 的軟體，先經過這套軟體的模擬可以降低錯誤的發生率，也可以提升印製的品質。
+經過討論想到如果有一套能夠模擬 3D 列印的軟體，先經過這套軟體的模擬可以降低錯誤的發生率，也可以提升印製的品質。
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515005232.1">&lt;section&gt;
 &lt;h3&gt;摘要&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/system1.png" align="center" width="50%"&gt;
+&lt;img src="g2/system1.png" style="float:right;margin-left: 15px;" width="50%"&gt;
 &lt;p class="article"&gt;
-根據 Gartner新興技術 報告指出，3D列印 是近年來發展最快速的技術之一 ，國內外各家科技大廠紛紛投入。
+根據 Gartner 新興技術 報告指出，3D 列印是近年來發展最快速的技術之一 ，國內外各家科技大廠紛紛投入。
 &lt;/br&gt;&lt;/br&gt;
-3D列印技術讓原本只存在腦海中的概念，經由 3D-Printer 做快速打樣成型，節省了過往傳統打樣的繁複過程與費用。
+3D 列印技術讓原本只存在腦海中的概念，經由 3D-Printer 做快速打樣成型，節省了過往傳統打樣的繁複過程與費用。
 &lt;/br&gt;&lt;/br&gt;
-在使用 3D-Printer 列印的過程中，我們發現有時會有路徑錯誤的問題，相較於 CNC ，還缺少了模擬列印的功能，在列印前缺少一道檢查錯誤的程序。
+在使用 3D-Printer 列印的過程中，我們發現有時會有路徑錯誤的問題，相較於 CNC，還缺少了模擬列印的功能，在列印前缺少一道檢查錯誤的程序。
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170515191155.1">&lt;section&gt;
@@ -290,30 +289,27 @@ V-rep可透過內部 Scripts 編寫控制指令，但要為了到模擬列印，
 <t tx="544.20170520153339.1">&lt;section&gt;
 &lt;h3&gt;虛擬控制 - 系統圖&lt;/h3&gt;
 &lt;hr&gt;
-&lt;p class="article"&gt;
-&lt;/p&gt;
-&lt;img src="g2/system3.png" align="center" width="100%"&gt;
+&lt;img src="g2/system3.png" width="75%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170520153429.1">&lt;section&gt;
 &lt;h3&gt;實體 - 系統圖&lt;/h3&gt;
 &lt;hr&gt;
-&lt;p class="article"&gt;
-&lt;/p&gt;
-
-&lt;img src="g2/system2.png"  align="center" width="80%"&gt;
-
+&lt;img src="g2/system2.png"  align="center" width="50%"&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--專案總覽--&gt;
-&lt;h3&gt;專案總覽&lt;/h3&gt;
+&lt;h3&gt;平面連桿機構模擬 - 系統圖&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/pyslvs/Organization_chart.png" width="120%"&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224930.1">&lt;section&gt;
 &lt;!--大概功能介紹--&gt;
-&lt;h3&gt;功能簡介&lt;/h3&gt;
-&lt;hr&gt;
-&lt;img src="g2/pyslvs/Features.png"&gt;
+&lt;img src="g2/pyslvs/cover.png"&gt;
+&lt;p&gt;
+Planar Linkages Simulation
+&lt;br&gt;
+Dimensional Synthesis
+&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510231618.1">&lt;section&gt;
 &lt;!--Python--&gt;
@@ -627,15 +623,6 @@ V-rep為 Virtual robot experimentation platform 的縮寫，是一套機器人�
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.96">&lt;section id="pyslvs"&gt;
 @others
-&lt;/section&gt;</t>
-<t tx="leo.20170505053249.97">&lt;section&gt;
-&lt;!--主要為「平面連桿模擬」以及「尺寸合成」兩個功能--&gt;
-&lt;img src="g2/pyslvs/cover.png"&gt;
-&lt;p&gt;
-Planar Linkages Simulation
-&lt;br&gt;
-Dimensional Synthesis
-&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170518041620.1">&lt;section&gt;
 &lt;h3&gt;Onshape - 繪製範例&lt;/h3&gt;
