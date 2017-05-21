@@ -73,6 +73,7 @@
 <v t="ahshoe.20170519233231.1"><vh>功能簡介 - 尺寸合成</vh></v>
 <v t="ahshoe.20170519231059.1"><vh>功能簡介 - 與 Solvespace 比對</vh></v>
 <v t="ahshoe.20170519232249.1"><vh>功能簡介 - 轉入 V-rep</vh></v>
+<v t="ahshoe.20170521165558.1"><vh>倉儲</vh></v>
 </v>
 </v>
 </v>
@@ -334,7 +335,16 @@ Dimensional Synthesis
 &lt;!--主畫面--&gt;
 &lt;h3&gt;尺寸合成&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/pyslvs/algorithm.gif"&gt;
+&lt;video controls&gt;
+&lt;source src="g2/pyslvs/algorithm.mp4" type="video/mp4"&gt;
+&lt;/video&gt;
+&lt;/section&gt;</t>
+<t tx="ahshoe.20170521165558.1">&lt;section&gt;
+&lt;!--格式--&gt;
+&lt;h3&gt;倉儲&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h4&gt;&lt;a href="https://github.com/KmolYuan/Pyslvs-PyQt5"&gt;https://github.com/KmolYuan/Pyslvs-PyQt5&lt;/a&gt;&lt;/h4&gt;
+&lt;img src="g2/pyslvs/github.png" width="80%"&gt;
 &lt;/section&gt;</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
