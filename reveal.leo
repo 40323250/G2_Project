@@ -69,7 +69,6 @@
 <v t="leo.20170505053249.96" a="E"><vh>Python Solvespace(#pyslvs)</vh>
 <v t="ahshoe.20170510224721.1"><vh>平面連桿機構模擬 - 系統圖</vh></v>
 <v t="ahshoe.20170510224930.1"><vh>功能簡介</vh></v>
-<v t="ahshoe.20170510231618.1"><vh>使用技術 - Python 3</vh></v>
 <v t="ahshoe.20170519134311.1"><vh>功能簡介 - 平面連桿模擬</vh></v>
 <v t="ahshoe.20170519233231.1"><vh>功能簡介 - 尺寸合成</vh></v>
 <v t="ahshoe.20170519231059.1"><vh>功能簡介 - 與 Solvespace 比對</vh></v>
@@ -311,27 +310,13 @@ Planar Linkages Simulation
 Dimensional Synthesis
 &lt;/p&gt;
 &lt;/section&gt;</t>
-<t tx="ahshoe.20170510231618.1">&lt;section&gt;
-&lt;!--Python--&gt;
-&lt;h3&gt;Python 3&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p&gt;
-&lt;img src="g2/pyslvs/python-logo-inkscape.svg"&gt;
-&lt;ul&gt;
-&lt;li style="color: red;"&gt;直譯式語言利於有效率地測試調整&lt;/li&gt;
-&lt;li&gt;易於閱讀與整理的程式碼&lt;/li&gt;
-&lt;li&gt;與中低階語言的結合力&lt;/li&gt;
-&lt;li&gt;背景記憶體處理&lt;/li&gt;
-&lt;li&gt;物件導向、泛型編成&lt;/li&gt;
-&lt;li&gt;豐富、易使用的模組資源&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-&lt;/section&gt;</t>
 <t tx="ahshoe.20170519134311.1">&lt;section&gt;
 &lt;!--主畫面--&gt;
 &lt;h3&gt;平面連桿模擬&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/pyslvs/MainWindow.gif"&gt;
+&lt;video controls&gt;
+&lt;source src="g2/pyslvs/MainWindow.mp4" type="video/mp4"&gt;
+&lt;/video&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170519231059.1">&lt;section&gt;
 &lt;!--比對--&gt;
