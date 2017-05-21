@@ -113,8 +113,14 @@ Summary: 導入 notebook 內容
 &lt;h3&gt;結論 &lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-結論
 &lt;img src="g2/printer.png"  align="right" width="30%"&gt;
+&lt;br&gt;&lt;br&gt;
+模擬列印是一個新開發的領域，在網路上搜尋時很少看到類似的研究資料。
+&lt;br&gt;&lt;br&gt;
+決定目標後，我們大膽的構思並驗證，尋找最好的解決方式，在這期間不停地增加知識並應用在研究中。
+&lt;br&gt;&lt;br&gt;
+這次的專題製作讓我們研究許多不同的領域，在機構、程式、模擬方面的知識都有所成長。
+
 
 &lt;/p&gt;
 &lt;/section&gt;</t>
