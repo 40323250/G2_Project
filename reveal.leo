@@ -289,18 +289,18 @@ V-rep可透過內部 Scripts 編寫控制指令，但要為了到模擬列印，
 &lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170520153339.1">&lt;section&gt;
-&lt;h3&gt;虛擬控制 - 系統圖&lt;/h3&gt;
+&lt;h3&gt;虛擬控制&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/system3.png" width="75%"&gt;
 &lt;/section&gt;</t>
 <t tx="544.20170520153429.1">&lt;section&gt;
-&lt;h3&gt;實體 - 系統圖&lt;/h3&gt;
+&lt;h3&gt;列印機實體&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/system2.png"  align="center" width="50%"&gt;
+&lt;img src="g2/system2.png"&gt;
 &lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--專案總覽--&gt;
-&lt;h3&gt;平面連桿機構模擬 - 系統圖&lt;/h3&gt;
+&lt;h3&gt;套件開發&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/pyslvs/Organization_chart.png" width="120%"&gt;
 &lt;/section&gt;</t>
@@ -569,7 +569,7 @@ Reveal.initialize({
 <t tx="leo.20170505053249.36">&lt;section&gt;
 &lt;h3&gt;Delta 3D-Printer 架構介紹&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/40323231/1.png" width="65%"&gt;
+&lt;img src="g2/40323231/1.png"&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20170505053249.4">&lt;head&gt;
 &lt;meta charset="utf-8"&gt;
