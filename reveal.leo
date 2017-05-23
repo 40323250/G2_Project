@@ -108,7 +108,8 @@ Summary: 導入 notebook 內容
 &lt;p class="article"&gt;
 &lt;/p&gt;
 &lt;img src="g2/v_rep/V-rep 3D-Printer simulation.gif" align="center" width="80%"&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="544.20170514195356.1">&lt;section&gt;
 &lt;h3&gt;結論 &lt;/h3&gt;
 &lt;hr&gt;
@@ -119,7 +120,8 @@ Summary: 導入 notebook 內容
 &lt;br&gt;&lt;br&gt;
 若在未來能持續往這方面發展，並將模擬驗證的誤差控制在範圍內時，大部分的機械式系統將會迅速的向上發展。
 &lt;/p&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="544.20170514200717.2">&lt;section&gt;
 &lt;h3&gt;Onshape - 簡介&lt;/h3&gt;
 &lt;hr&gt;
@@ -132,7 +134,8 @@ Onshape 是一套由前 Solidworks 團隊開發出來的 3D 建模平台，它�
 Onshape的使用者分類 ：&lt;br&gt;
 教育、商業跟業餘三大類。
 &lt;/p&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="544.20170514200732.2">&lt;section&gt;
 &lt;h3&gt;V-rep - 八連桿範例&lt;/h3&gt;
 &lt;hr&gt;
@@ -148,7 +151,8 @@ Onshape的使用者分類 ：&lt;br&gt;
 &lt;img src="g2/solvespace_successful.gif" width="28%"&gt;
 
 &lt;img src="g2/v_rep/8links.gif" width="40%"&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="544.20170514200732.3"></t>
 <t tx="544.20170514201601.1">&lt;section&gt;
 &lt;h3&gt;Onshape - 簡介&lt;/h3&gt;
@@ -159,7 +163,8 @@ Onshape的使用者分類 ：&lt;br&gt;
 Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"雲端" ，提供協同設計的功能，並且可以很容易地從雲上找到其他人公開的模型。 &lt;br&gt;
 協同設計主要的概念為團隊間的分工合作，大家提供自己的想法或專長，使概念更完善，這部份 Onshape 甚至提供可在平板或手機上使用的功能。
 &lt;/p&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="544.20170515003915.1">&lt;section&gt;
 &lt;h3&gt;V-rep - Printer校正&lt;/h3&gt;
 &lt;hr&gt;
@@ -169,7 +174,8 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;/p&gt;
 &lt;img src="g2/setposition.png" align="center" width="40%"&gt;
 
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="544.20170515003932.1">&lt;section&gt;
 &lt;h3&gt;控制範例 2 - 六軸感測器控制噴頭位置 &lt;/h3&gt;
 &lt;hr&gt;
@@ -177,7 +183,8 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 這個控制採用 MPU6050 六軸加速度感測器，經由角度之變化後，透過和前範例相同的方式，傳送數值到 V-rep 內部後，轉換成噴頭欲移動之座標點。
 &lt;/p&gt;
 &lt;img src="g2/6axis_arduino.png" align="center" width="50%"&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="544.20170515003940.1">&lt;section&gt;
 &lt;h3&gt;控制範例 1 - 可變電阻控制噴頭位置&lt;/h3&gt;
 &lt;hr&gt;
@@ -185,7 +192,8 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 若要使用 Arduino 控制 V-rep，除了Arduino本身的程式碼之外，還須設定 V-rep 的 Scripts 內部程式，並透過設定相同的通訊埠和鮑率，才能達到內外溝通的功能。
 &lt;/p&gt;
 &lt;img src="g2/arduino_lua.png" align="center" width="60%"&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="544.20170515005219.1">&lt;section&gt;
 &lt;h3&gt;研究動機&lt;/h3&gt;
 &lt;hr&gt;
@@ -194,17 +202,19 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;/br&gt;&lt;/br&gt;
 經過討論想到如果有一套能夠模擬 3D 列印的軟體，先經過這套軟體的模擬可以降低錯誤的發生率，也可以提升印製的品質。
 &lt;/p&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="544.20170515005232.1">&lt;section&gt;
 &lt;h3&gt;摘要&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/system1.png" style="float:right;margin-left: 15px;" width="50%"&gt;
 &lt;p class="article"&gt;
 本研究針對3D Printer在虛擬模擬列印上，在初期我們使Solvespace研究八連桿機構，並透過3D-Printer列印出零件來驗證，但過程中時常發生列印件有翹曲或者是堵料等狀況小組討論時想到許多車、銑加工都可以透過CNC來模擬整個過程，而較少有研究完整模擬3D Printer列印狀況的軟體，我們就逐漸往這方面思考，最後發現一套名為 V-rep 的機器人模擬軟體，在看過這套軟體所製作出的成果影片後開始著手朝向模擬列印的目標研究。 
-&lt;/br&gt;&lt;/br&gt;
+&lt;/br&gt;&lt;/br&gt; 
 由於Solvespace早已於2013年7月份，公開解幾合約束的程式庫，所以大家也討論，若可以自己寫一個簡單的平面機構與合成的程式，就能拿來輔助驗證連桿機構等問題衍生出Pyslvs這個套件的開發。
 &lt;/p&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="544.20170515191155.1">&lt;section&gt;
 &lt;h3&gt;控制範例 1 - Arduino程式&lt;/h3&gt;
 &lt;hr&gt;
@@ -219,7 +229,8 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 將三個可變電阻的值存成固定格式 (x,y,z)，以便在 V-rep 內部讀取後轉換成噴頭位置 。
 &lt;/p&gt;
 &lt;img src="g2/example2_ardunio.png" align="center" width="40%"&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="544.20170515192011.1">&lt;section&gt;
 &lt;h3&gt;控制範例 1 - Scripts 程式&lt;/h3&gt;
 &lt;hr&gt;
@@ -227,7 +238,8 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 本程式基本架構由 Eric Rohmer 所提供，控制方式為收到 Arduino 傳來固定格式的數值後，經由程式語法將其轉換為點座標，使噴頭移動到相對映的位置。
 &lt;/p&gt;
 &lt;img src="g2/example2_lua.png" align="center" width="60%"&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="544.20170515195524.1">&lt;section&gt;
 &lt;h3&gt;V-rep - 介面介紹&lt;/h3&gt;
 &lt;hr&gt;
@@ -250,7 +262,8 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 &lt;/ol&gt;
 &lt;/div&gt;
 &lt;/p&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="544.20170515202348.1">&lt;section&gt;
 &lt;h3&gt;V-rep - Particles&lt;/h3&gt;
 &lt;hr&gt;
@@ -259,7 +272,8 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 
 &lt;/p&gt;
 &lt;img src="g2/print1.png" width="80%"&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="544.20170515222109.1">&lt;section&gt;
 &lt;h3&gt;V-rep - G-Code&lt;/h3&gt;
 &lt;hr&gt;
@@ -269,7 +283,8 @@ G-Code 的部分為 CURA 產生，並透過 Pyquino 解讀後將數值傳回 V-r
 傳值方式類似於前兩者範例。
 &lt;/p&gt;
 &lt;img src="g2/gcode.png" width="80%"&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="544.20170519005035.1">&lt;section&gt;
 &lt;h3&gt;V-rep - 內部 Scripts 控制&lt;/h3&gt;
 &lt;hr&gt;
@@ -285,23 +300,27 @@ V-rep可透過內部 Scripts 編寫控制指令，但要為了到模擬列印，
 &lt;p class="article"&gt;
 以下拿 Arduino 做為通訊範例。
 &lt;/p&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="544.20170520153339.1">&lt;section&gt;
 &lt;h3&gt;虛擬控制&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/system3.png" width="75%"&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="544.20170520153429.1">&lt;section&gt;
 &lt;h3&gt;列印機實體&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/system2.png" width="75%"&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--專案總覽--&gt;
 &lt;h3&gt;套件開發&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/pyslvs/Organization_chart.png" width="120%"&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="ahshoe.20170510224930.1">&lt;section&gt;
 &lt;!--大概功能介紹--&gt;
 &lt;img src="g2/pyslvs/cover.png"&gt;
@@ -310,7 +329,8 @@ Planar Linkages Simulation
 &lt;br&gt;
 Dimensional Synthesis
 &lt;/p&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="ahshoe.20170519134311.1">&lt;section&gt;
 &lt;!--主畫面--&gt;
 &lt;h3&gt;平面連桿模擬&lt;/h3&gt;
@@ -318,19 +338,22 @@ Dimensional Synthesis
 &lt;video controls&gt;
 &lt;source src="g2/pyslvs/MainWindow.mp4" type="video/mp4"&gt;
 &lt;/video&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="ahshoe.20170519231059.1">&lt;section&gt;
 &lt;!--比對--&gt;
 &lt;h3&gt;與 Solvespace 比對&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/pyslvs/Evolution.png"&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="ahshoe.20170519232249.1">&lt;section&gt;
 &lt;!--格式--&gt;
 &lt;h3&gt;轉入 V-rep&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/pyslvs/Format.png"&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="ahshoe.20170519233231.1">&lt;section&gt;
 &lt;!--主畫面--&gt;
 &lt;h3&gt;尺寸合成&lt;/h3&gt;
@@ -338,14 +361,16 @@ Dimensional Synthesis
 &lt;video controls&gt;
 &lt;source src="g2/pyslvs/algorithm.mp4" type="video/mp4"&gt;
 &lt;/video&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="ahshoe.20170521165558.1">&lt;section&gt;
 &lt;!--格式--&gt;
 &lt;h3&gt;倉儲&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h4&gt;&lt;a href="https://github.com/KmolYuan/Pyslvs-PyQt5"&gt;https://github.com/KmolYuan/Pyslvs-PyQt5&lt;/a&gt;&lt;/h4&gt;
 &lt;img src="g2/pyslvs/github.png" width="80%"&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="amd.20150913232631.1"></t>
 <t tx="amd.20150913232631.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -496,7 +521,8 @@ NOTEBOOK_DIR = 'notebook'
 </t>
 <t tx="leo.20170505053249.1">@language xml
 @tabwidth -4
-@others</t>
+@others
+</t>
 <t tx="leo.20170505053249.10">@language css
 /*
 規則：
@@ -516,15 +542,18 @@ NOTEBOOK_DIR = 'notebook'
 .reveal .article {
   text-align : left;
   font-size : 0.75em;
-}</t>
+}
+</t>
 <t tx="leo.20170505053249.11">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
 &lt;div class="reveal"&gt;
 @others
-&lt;/div&gt;</t>
+&lt;/div&gt;
+</t>
 <t tx="leo.20170505053249.12">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
 &lt;div class="slides"&gt;
 @others
-&lt;/div&gt;</t>
+&lt;/div&gt;
+</t>
 <t tx="leo.20170505053249.13">&lt;section&gt;
 &lt;h3&gt;V-rep 在 Delta 3D-Printer&lt;/br&gt;虚實整合模擬上的應用&lt;/h3&gt;
 &lt;hr&gt;
@@ -537,38 +566,45 @@ NOTEBOOK_DIR = 'notebook'
 &lt;h4 style="font-size:0.8em"&gt;指導老師&lt;/h4&gt;
 &lt;h4&gt;嚴家銘 教授&lt;/h4&gt;
 &lt;h4&gt;李武鉦 教授&lt;/h4&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20170505053249.142">&lt;!--script src="lib/js/head.min.js"&gt;&lt;/script--&gt;
 &lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
 &lt;script&gt;
 // 啟動 Reveal.
 Reveal.initialize({
 });
-&lt;/script&gt;</t>
+&lt;/script&gt;
+</t>
 <t tx="leo.20170505053249.19">&lt;!-- 以下為投影片 --&gt;
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;section id="contents"&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20170505053249.2">&lt;!--
 這個檔案展示了 reveal.js 投影片資料的基本架構
 其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
 而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
 且支援平行與垂直的投影片配置方法
---&gt;</t>
+--&gt;
+</t>
 <t tx="leo.20170505053249.3">&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
 @others
-&lt;/html&gt;</t>
+&lt;/html&gt;
+</t>
 <t tx="leo.20170505053249.35">&lt;section id="vrep"&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20170505053249.36">&lt;section&gt;
 &lt;h3&gt;Delta 3D-Printer 架構介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/40323231/1.png"&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20170505053249.4">&lt;head&gt;
 &lt;meta charset="utf-8"&gt;
 &lt;link rel="icon" href="kmol.ico"&gt;
@@ -579,10 +615,12 @@ Reveal.initialize({
 &lt;!--[if lt IE 9]&gt;
 &lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
 &lt;![endif]--&gt;
-&lt;/head&gt;</t>
+&lt;/head&gt;
+</t>
 <t tx="leo.20170505053249.71">&lt;section id="vrep"&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20170505053249.72">&lt;section&gt;
 &lt;h3&gt;V-rep - 簡介&lt;/h3&gt;
 &lt;hr&gt;
@@ -592,10 +630,12 @@ V-rep為 Virtual robot experimentation platform 的縮寫，是一套機器人�
 程式語言支援 C/C++、 Python、 Java、 Lua、 Matlab、 Octave 等等，可使用在遠端監控、硬體控制、快速原型驗證、演算法開發與參數調整、安全性檢查、機器人教學與工廠自動化模擬等各種領域。
 &lt;/p&gt;
 &lt;img src="g2/vrep.jpg" width="55%"&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20170505053249.8">&lt;body&gt;
 @others
-&lt;/body&gt;</t>
+&lt;/body&gt;
+</t>
 <t tx="leo.20170505053249.87">&lt;section&gt;
 &lt;h3&gt;六軸感測器控制噴頭位置 範例影片&lt;/h3&gt;
 &lt;hr&gt;
@@ -604,10 +644,12 @@ V-rep為 Virtual robot experimentation platform 的縮寫，是一套機器人�
 &lt;/p&gt;
 &lt;img src="g2/v_rep/vrep - printer  simulation  by CJMCU-116.gif"" align="center" width="100%"&gt;
  
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20170505053249.9">&lt;style&gt;
 @others
-&lt;/style&gt;</t>
+&lt;/style&gt;
+</t>
 <t tx="leo.20170505053249.92">&lt;section&gt;
 &lt;h3&gt;可變電阻控制噴頭位置 範例影片&lt;/h3&gt;
 &lt;hr&gt;
@@ -615,10 +657,12 @@ V-rep為 Virtual robot experimentation platform 的縮寫，是一套機器人�
 &lt;br&gt;
 &lt;img src="g2/v_rep/v-rep control with arduino.gif" align="center" width="100%"&gt;
 &lt;/p&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20170505053249.96">&lt;section id="pyslvs"&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20170518041620.1">&lt;section&gt;
 &lt;h3&gt;Onshape - 繪製範例&lt;/h3&gt;
 &lt;hr&gt;
@@ -629,6 +673,7 @@ V-rep為 Virtual robot experimentation platform 的縮寫，是一套機器人�
 &amp;nbsp;&amp;nbsp;
 &lt;img src="g2/onshape/onshape_printer2.gif"  width="28%"&gt;
 &lt;/p&gt;
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 </tnodes>
 </leo_file>
