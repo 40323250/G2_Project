@@ -207,11 +207,8 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 <t tx="544.20170515005232.1">&lt;section&gt;
 &lt;h3&gt;摘要&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/system1.png" style="float:right;margin-left: 15px;" width="50%"&gt;
+&lt;img src="g2/system1.png" style="float:right;margin-left: 15px;" width="80%"&gt;
 &lt;p class="article"&gt;
-本研究針對3D Printer在虛擬模擬列印上，在初期我們使Solvespace研究八連桿機構，並透過3D-Printer列印出零件來驗證，但過程中時常發生列印件有翹曲或者是堵料等狀況小組討論時想到許多車、銑加工都可以透過CNC來模擬整個過程，而較少有研究完整模擬3D Printer列印狀況的軟體，我們就逐漸往這方面思考，最後發現一套名為 V-rep 的機器人模擬軟體，在看過這套軟體所製作出的成果影片後開始著手朝向模擬列印的目標研究。 
-&lt;/br&gt;&lt;/br&gt; 
-由於Solvespace早已於2013年7月份，公開解幾合約束的程式庫，所以大家也討論，若可以自己寫一個簡單的平面機構與合成的程式，就能拿來輔助驗證連桿機構等問題衍生出Pyslvs這個套件的開發。
 &lt;/p&gt;
 &lt;/section&gt;
 </t>
