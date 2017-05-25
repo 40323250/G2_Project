@@ -42,6 +42,7 @@
 <v t="leo.20170505053249.35" a="E"><vh>3D Printer(#3D printer)</vh>
 <v t="544.20170520153429.1"><vh>實體 系統圖</vh></v>
 <v t="leo.20170505053249.36"><vh>3D Printer 結構</vh></v>
+<v t="544.20170525220013.1"><vh>圖</vh></v>
 </v>
 <v t="leo.20170505053249.71" a="E"><vh>V-rep(#v-rep)</vh>
 <v t="544.20170520153339.1"><vh>虛擬控制 - 架構 系統圖</vh></v>
@@ -309,6 +310,12 @@ V-rep可透過內部 Scripts 編寫控制指令，但要為了到模擬列印，
 &lt;h3&gt;印表機實體&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/system2.png" width="75%"&gt;
+&lt;/section&gt;
+</t>
+<t tx="544.20170525220013.1">&lt;section&gt;
+&lt;h3&gt;校正機台&lt;/h3&gt;
+&lt;hr&gt;
+&lt;img src="g2/40323231/50.png"&gt;
 &lt;/section&gt;
 </t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
