@@ -306,7 +306,7 @@ V-rep可透過內部 Scripts 編寫控制指令，但要為了到模擬列印，
 &lt;/section&gt;
 </t>
 <t tx="544.20170520153429.1">&lt;section&gt;
-&lt;h3&gt;列印機實體&lt;/h3&gt;
+&lt;h3&gt;印表機實體&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/system2.png" width="75%"&gt;
 &lt;/section&gt;
