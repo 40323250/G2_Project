@@ -207,7 +207,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 <t tx="544.20170515005232.1">&lt;section&gt;
 &lt;h3&gt;摘要&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/system1.png" style="float:right;margin-left: 15px;" width="80%"&gt;
+&lt;img src="g2/system1.png"  width="80%"&gt;
 &lt;p class="article"&gt;
 &lt;/p&gt;
 &lt;/section&gt;
