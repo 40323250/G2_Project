@@ -552,7 +552,7 @@ NOTEBOOK_DIR = 'notebook'
 &lt;/div&gt;
 </t>
 <t tx="leo.20170505053249.13">&lt;section&gt;
-&lt;h3&gt;V-rep 在 Delta 3D-Printer&lt;/br&gt;虚實整合模擬上的應用&lt;/h3&gt;
+&lt;h3&gt;V-rep 在 Delta 3D 印表機&lt;/br&gt;虚實整合模擬上的應用&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h4 style="font-size:0.8em"&gt;組員&lt;/h4&gt;
 &lt;h4&gt;40323218 李冠興&lt;/h4&gt;
