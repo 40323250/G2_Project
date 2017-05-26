@@ -71,7 +71,7 @@
 <h3>研究動機</h3>
 <hr>
 <p class="article">
-一開始我們透過Solvespace研究八連桿機構，並利用 3D Printer 印製零件組裝，但是在印製的過程時常出現問題，導致花費許多時間和材料。
+一開始我們透過 Solvespace 研究八連桿機構，並利用 3D Printer 印製零件組裝，但是在印製的過程時常出現問題，導致花費許多時間和材料。
 </br></br>
 經過討論想到如果有一套能夠模擬 3D 列印的軟體，先經過這套軟體的模擬可以降低錯誤的發生率，也可以提升印製的品質。
 </p>
@@ -119,7 +119,7 @@ V-rep為 Virtual robot experimentation platform 的縮寫，是一套機器人�
 Onshape 是一套由前 Solidworks 團隊開發出來的 3D 建模平台，它的優點及特色就是可以線上協同設計，和同伴能夠分工合作，且能達到參數式設計。
 </p>
 <p class="article">
-Onshape的使用者分類 ：<br>
+Onshape 的使用者分類 ：<br>
 教育、商業跟業餘三大類。
 </p>
 </section>
@@ -129,7 +129,7 @@ Onshape的使用者分類 ：<br>
 <img src="g2/cloud.jpg" width="40%">
 <img src="g2/cooperation.jpg" width="50%">
 <p class="article">
-Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"雲端" ，提供協同設計的功能，並且可以很容易地從雲上找到其他人公開的模型。 <br>
+Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在「雲端」 ，提供協同設計的功能，並且可以很容易地從雲上找到其他人公開的模型。 <br>
 協同設計主要的概念為團隊間的分工合作，大家提供自己的想法或專長，使概念更完善，這部份 Onshape 甚至提供可在平板或手機上使用的功能。
 </p>
 </section>
@@ -170,7 +170,6 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 <section>
 <h3>V-rep - 八連桿範例</h3>
 <hr>
-
 <p class="article">
 八連桿機構能在 V-rep 內做模擬，在未來若朝向 仿生機構 研究，使用此軟體是不錯的選擇。
 </p>
@@ -180,24 +179,22 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在"
 八連桿模擬 與 實際應用
 </p>
 <img src="g2/solvespace_successful.gif" width="28%">
-
 <img src="g2/v_rep/8links.gif" width="40%">
 </section>
 <section>
 <h3>V-rep - Printer校正</h3>
 <hr>
 <p class="article">
-虛擬的 Printer 和 實體同樣需要校正，補正參數設定於控制程式內部。
+虛擬的 Printer 和實體同樣需要校正，補正參數設定於控制程式內部。
 <br><br>    
 </p>
 <img src="g2/setposition.png" align="center" width="40%">
-
 </section>
 <section>
 <h3>V-rep - 內部 Scripts 控制</h3>
 <hr>
 <p class="article">
-V-rep可透過內部 Scripts 編寫控制指令，但要為了到模擬列印，需要與其他裝置或介面通訊。
+V-rep 可透過內部 Scripts 編寫控制指令，但要為了到模擬列印，需要與其他裝置或介面通訊。
 </br>
 </p>
 <img src="g2/v_rep/scripts_example.png" align="left" width="50%">
@@ -213,7 +210,7 @@ V-rep可透過內部 Scripts 編寫控制指令，但要為了到模擬列印，
 <h3>控制範例 1 - 可變電阻控制噴頭位置</h3>
 <hr>
 <p class="article">
-若要使用 Arduino 控制 V-rep，除了Arduino本身的程式碼之外，還須設定 V-rep 的 Scripts 內部程式，並透過設定相同的通訊埠和鮑率，才能達到內外溝通的功能。
+若要使用 Arduino 控制 V-rep，除了Arduino 本身的程式碼之外，還須設定 V-rep 的 Scripts 內部程式，並透過設定相同的通訊埠和鮑率，才能達到內外溝通的功能。
 </p>
 <img src="g2/arduino_lua.png" align="center" width="60%">
 </section>
@@ -221,11 +218,11 @@ V-rep可透過內部 Scripts 編寫控制指令，但要為了到模擬列印，
 <h3>控制範例 1 - Arduino程式</h3>
 <hr>
 <p class="article">
-以下程式碼為使用三個可變電阻，分別控制V-rep內的Printer噴頭座標位置 。
+以下程式碼為使用三個可變電阻，分別控制 V-rep 內的 Printer 噴頭座標位置 。
 </p>
 </br>
 <p align="left">
-方式:
+方式：
 </p>
 <p class="article">
 將三個可變電阻的值存成固定格式 (x,y,z)，以便在 V-rep 內部讀取後轉換成噴頭位置 。
@@ -263,7 +260,6 @@ V-rep可透過內部 Scripts 編寫控制指令，但要為了到模擬列印，
 因為手的晃動導致噴頭位置不穩定
 </p>
 <img src="g2/v_rep/vrep - printer  simulation  by CJMCU-116.gif"" align="center" width="100%">
- 
 </section>
 <section>
 <h3>V-rep - G-Code</h3>
@@ -279,8 +275,7 @@ G-Code 的部分為 CURA 產生，並透過 Pyquino 解讀後將數值傳回 V-r
 <h3>V-rep - Particles</h3>
 <hr>
 <p class="article">
-當噴頭經由G-Code得到路徑後，粒子會隨著噴頭的位置改變而產生。
-
+當噴頭經由 G-Code 得到路徑後，粒子會隨著噴頭的位置改變而產生。
 </p>
 <img src="g2/print1.png" width="80%">
 </section>
