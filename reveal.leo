@@ -247,9 +247,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在�
 &lt;h3&gt;V-rep - G-Code&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-G-Code 的部分為 CURA 產生，並透過 Pyquino 解讀後將數值傳回 V-rep 內部，
-&lt;/br&gt;
-傳值方式類似於前兩者範例。
+補正參數已設置於Pyquino內，不同的機型須配置相對應的補正值。
 &lt;/p&gt;
 &lt;img src="g2/gcode.png" width="80%"&gt;
 &lt;/section&gt;
@@ -293,9 +291,7 @@ V-rep 可透過內部 Scripts 編寫控制指令，但要為了到模擬列印�
 &lt;h3&gt;V-rep - Printer控制流程&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-G-Code 的部分為 CURA 產生，並透過 Pyquino 解讀後將數值傳回 V-rep 內部，
-&lt;/br&gt;
-傳值方式類似於前兩者範例。
+
 &lt;/p&gt;
 &lt;img src="g2/v_rep/process.png" width="40%"&gt;
 &lt;/section&gt;</t>
