@@ -38,6 +38,14 @@
   text-align : left;
   font-size : 0.75em;
 }
+
+/*頁碼*/
+.reveal .slide-number {
+  font-size : 24pt;
+  position : absolute;
+  right : 2em;
+  top : 1em;
+}
 </style>
 <!-- 將整個投影片包在 "reveal" class 中 -->
 <div class="reveal">
@@ -339,9 +347,11 @@ Dimensional Synthesis
 <!--script src="lib/js/head.min.js"></script-->
 <script src="js/reveal.min.js"></script>
 <script>
-// 啟動 Reveal.
+// 啟動 Reveal
 Reveal.initialize({
-});
+    slideNumber: true,
+    transition: 'slide', // none/fade/slide/convex/concave/zoom
+    });
 </script>
 </body>
 </html>

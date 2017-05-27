@@ -524,6 +524,14 @@ NOTEBOOK_DIR = 'notebook'
   text-align : left;
   font-size : 0.75em;
 }
+
+/*頁碼*/
+.reveal .slide-number {
+  font-size : 24pt;
+  position : absolute;
+  right : 2em;
+  top : 1em;
+}
 </t>
 <t tx="leo.20170505053249.11">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
 &lt;div class="reveal"&gt;
@@ -552,9 +560,11 @@ NOTEBOOK_DIR = 'notebook'
 <t tx="leo.20170505053249.142">&lt;!--script src="lib/js/head.min.js"&gt;&lt;/script--&gt;
 &lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
 &lt;script&gt;
-// 啟動 Reveal.
+// 啟動 Reveal
 Reveal.initialize({
-});
+    slideNumber: true,
+    transition: 'slide', // none/fade/slide/convex/concave/zoom
+    });
 &lt;/script&gt;
 </t>
 <t tx="leo.20170505053249.19">&lt;!-- 以下為投影片 --&gt;
