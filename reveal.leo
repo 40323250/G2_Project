@@ -148,7 +148,7 @@ Onshape 的使用者分類 ：&lt;br&gt;
 &lt;/br&gt;&lt;/br&gt;
 八連桿模擬 與 實際應用
 &lt;/p&gt;
-&lt;img src="g2/solvespace_successful.gif" width="28%"&gt;
+&lt;img src="g2/solvespace_tutorial.gif" width="28%"&gt;
 &lt;img src="g2/v_rep/8links.gif" width="40%"&gt;
 &lt;/section&gt;
 </t>
