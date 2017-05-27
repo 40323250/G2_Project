@@ -179,9 +179,9 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在�
 &lt;h3&gt;控制範例 2 - 六軸感測器控制噴頭位置 &lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article" &gt;
-這個控制採用 MPU6050 六軸加速度感測器，經由角度之變化後，透過和前範例相同的方式，傳送數值到 V-rep 內部後，轉換成噴頭欲移動之座標點。
+這個控制採用 MPU6050 六軸加速度感測器，透過和前範例相同的方式，經由感測器的產生數值變化後，將數值傳送到 V-rep 內部，轉換成噴頭欲移動之座標點。
 &lt;/p&gt;
-&lt;img src="g2/6axis_arduino.png" align="center" width="50%"&gt;
+&lt;img src="g2/6axis_arduino.png" align="center" width="100%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="544.20170515005219.1">&lt;section&gt;
