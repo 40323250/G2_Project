@@ -131,8 +131,8 @@ Summary: 導入 notebook 內容
 Onshape 是一套由前 Solidworks 團隊開發出來的 3D 建模平台，它的優點及特色就是可以線上協同設計，和同伴能夠分工合作，且能達到參數式設計。
 &lt;/p&gt;
 &lt;p class="article"&gt;
-Onshape 的使用者分類 ：&lt;br&gt;
-教育、商業跟業餘三大類。
+Onshape 支援的檔案格式 ：&lt;br&gt;
+ACIS、STEP、IGES、CATIA、SolidWorks、Inventor、Pro/E、Rhino與STL等格式。
 &lt;/p&gt;
 &lt;/section&gt;
 </t>
