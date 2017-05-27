@@ -55,9 +55,7 @@
 <v t="544.20170514200732.3" a="E"><vh>以下為控制模擬</vh>
 <v t="544.20170515003915.1"><vh>V-rep Printer 1 校正</vh></v>
 <v t="544.20170519005035.1"><vh>V-rep Scripts</vh></v>
-<v t="544.20170515003940.1"><vh>V-rep 可變電阻範例 1</vh></v>
-<v t="544.20170515191155.1"><vh>V-rep 可變電阻範例 1 - Arduino</vh></v>
-<v t="544.20170515192011.1"><vh>V-rep 可變電阻範例 1 - Scripts</vh></v>
+<v t="544.20170515191155.1"><vh>V-rep 可變電阻範例 1</vh></v>
 <v t="leo.20170505053249.92"><vh>V-rep 可變電阻範例 1 影片</vh></v>
 <v t="544.20170515003932.1"><vh>V-rep 6軸加速度感測器範例 2</vh></v>
 <v t="leo.20170505053249.87"><vh>V-rep 6軸加速度感測器範例 2 影片</vh></v>
@@ -183,15 +181,6 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在�
 &lt;img src="g2/6axis_arduino.png" align="center" width="50%"&gt;
 &lt;/section&gt;
 </t>
-<t tx="544.20170515003940.1">&lt;section&gt;
-&lt;h3&gt;控制範例 1 - 可變電阻控制噴頭位置&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-若要使用 Arduino 控制 V-rep，除了Arduino 本身的程式碼之外，還須設定 V-rep 的 Scripts 內部程式，並透過設定相同的通訊埠和鮑率，才能達到內外溝通的功能。
-&lt;/p&gt;
-&lt;img src="g2/arduino_lua.png" align="center" width="60%"&gt;
-&lt;/section&gt;
-</t>
 <t tx="544.20170515005219.1">&lt;section&gt;
 &lt;h3&gt;研究動機&lt;/h3&gt;
 &lt;hr&gt;
@@ -211,28 +200,14 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在�
 &lt;/section&gt;
 </t>
 <t tx="544.20170515191155.1">&lt;section&gt;
-&lt;h3&gt;控制範例 1 - Arduino程式&lt;/h3&gt;
+&lt;h3&gt;控制範例 1 - 可變電阻控制噴頭位置&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-以下程式碼為使用三個可變電阻，分別控制 V-rep 內的 Printer 噴頭座標位置 。
+透過三個可變電阻的電阻值變化，控制 V-rep 內 Printer 噴頭的座標位置 。
 &lt;/p&gt;
 &lt;/br&gt;
-&lt;p align="left"&gt;
-方式：
-&lt;/p&gt;
-&lt;p class="article"&gt;
-將三個可變電阻的值存成固定格式 (x,y,z)，以便在 V-rep 內部讀取後轉換成噴頭位置 。
-&lt;/p&gt;
-&lt;img src="g2/example2_ardunio.png" align="center" width="40%"&gt;
-&lt;/section&gt;
-</t>
-<t tx="544.20170515192011.1">&lt;section&gt;
-&lt;h3&gt;控制範例 1 - Scripts 程式&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-本程式基本架構由 Eric Rohmer 所提供，控制方式為收到 Arduino 傳來固定格式的數值後，經由程式語法將其轉換為點座標，使噴頭移動到相對映的位置。
-&lt;/p&gt;
-&lt;img src="g2/example2_lua.png" align="center" width="60%"&gt;
+
+&lt;img src="g2/v_rep/example.png" align="center" width="55%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="544.20170515195524.1">&lt;section&gt;
