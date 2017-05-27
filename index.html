@@ -188,7 +188,8 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在�
 虛擬的 Printer 和實體同樣需要校正，補正參數設定於控制程式內部。
 <br><br>    
 </p>
-<img src="g2/setposition.png" align="center" width="40%">
+<img src="g2/setposition.png" align="left" width="40%">
+<img src="g2/v_rep/example1.png" align="center" width="40%">
 </section>
 <section>
 <h3>V-rep - 內部 Scripts 控制</h3>
@@ -212,9 +213,7 @@ V-rep 可透過內部 Scripts 編寫控制指令，但要為了到模擬列印�
 <p class="article">
 透過三個可變電阻的電阻值變化，控制 V-rep 內 Printer 噴頭的座標位置 。
 </p>
-</br>
-
-<img src="g2/v_rep/example.png" align="center" width="55%">
+<img src="g2/v_rep/example.png" align="center" width="28%">
 </section>
 <section>
 <h3>可變電阻控制噴頭位置 範例影片</h3>
@@ -239,6 +238,16 @@ V-rep 可透過內部 Scripts 編寫控制指令，但要為了到模擬列印�
 因為手的晃動導致噴頭位置不穩定
 </p>
 <img src="g2/v_rep/vrep - printer  simulation  by CJMCU-116.gif"" align="center" width="100%">
+</section>
+<section>
+<h3>V-rep - Printer控制流程</h3>
+<hr>
+<p class="article">
+G-Code 的部分為 CURA 產生，並透過 Pyquino 解讀後將數值傳回 V-rep 內部，
+</br>
+傳值方式類似於前兩者範例。
+</p>
+<img src="g2/v_rep/process.png" width="40%">
 </section>
 <section>
 <h3>V-rep - G-Code</h3>

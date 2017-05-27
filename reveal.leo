@@ -53,13 +53,14 @@
 <v t="544.20170515195524.1"><vh>V-rep細部介紹1</vh></v>
 <v t="544.20170514200732.2"><vh>八連桿範例</vh></v>
 <v t="544.20170514200732.3" a="E"><vh>以下為控制模擬</vh>
-<v t="544.20170515003915.1"><vh>V-rep Printer 1 校正</vh></v>
+<v t="544.20170515003915.1"><vh>V-rep Printer 校正</vh></v>
 <v t="544.20170519005035.1"><vh>V-rep Scripts</vh></v>
 <v t="544.20170515191155.1"><vh>V-rep 可變電阻範例 1</vh></v>
 <v t="leo.20170505053249.92"><vh>V-rep 可變電阻範例 1 影片</vh></v>
 <v t="544.20170515003932.1"><vh>V-rep 6軸加速度感測器範例 2</vh></v>
 <v t="leo.20170505053249.87"><vh>V-rep 6軸加速度感測器範例 2 影片</vh></v>
-<v t="544.20170515222109.1"><vh>V-rep Printer 4 Pyquino</vh></v>
+<v t="544.20170527123051.1"><vh>V-rep Printer 1 控制流程</vh></v>
+<v t="544.20170515222109.1"><vh>V-rep Printer 2 Pyquino</vh></v>
 <v t="544.20170515202348.1"><vh>V-rep Printer 3 particles</vh></v>
 <v t="544.20170514180423.1"><vh>V-rep 列印成果影片</vh></v>
 </v>
@@ -169,7 +170,8 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在�
 虛擬的 Printer 和實體同樣需要校正，補正參數設定於控制程式內部。
 &lt;br&gt;&lt;br&gt;    
 &lt;/p&gt;
-&lt;img src="g2/setposition.png" align="center" width="40%"&gt;
+&lt;img src="g2/setposition.png" align="left" width="40%"&gt;
+&lt;img src="g2/v_rep/example1.png" align="center" width="40%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="544.20170515003932.1">&lt;section&gt;
@@ -205,9 +207,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在�
 &lt;p class="article"&gt;
 透過三個可變電阻的電阻值變化，控制 V-rep 內 Printer 噴頭的座標位置 。
 &lt;/p&gt;
-&lt;/br&gt;
-
-&lt;img src="g2/v_rep/example.png" align="center" width="55%"&gt;
+&lt;img src="g2/v_rep/example.png" align="center" width="28%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="544.20170515195524.1">&lt;section&gt;
@@ -289,6 +289,16 @@ V-rep 可透過內部 Scripts 編寫控制指令，但要為了到模擬列印�
 &lt;img src="g2/40323231/50.png"&gt;
 &lt;/section&gt;
 </t>
+<t tx="544.20170527123051.1">&lt;section&gt;
+&lt;h3&gt;V-rep - Printer控制流程&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p class="article"&gt;
+G-Code 的部分為 CURA 產生，並透過 Pyquino 解讀後將數值傳回 V-rep 內部，
+&lt;/br&gt;
+傳值方式類似於前兩者範例。
+&lt;/p&gt;
+&lt;img src="g2/v_rep/process.png" width="40%"&gt;
+&lt;/section&gt;</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--專案總覽--&gt;
 &lt;h3&gt;套件開發&lt;/h3&gt;
