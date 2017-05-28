@@ -285,7 +285,7 @@ V-rep 可透過內部 Scripts 編寫控制指令，但要為了到模擬列印�
 <t tx="544.20170525220013.1">&lt;section&gt;
 &lt;h3&gt;校正機台&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/40323231/50.png"&gt;
+&lt;img src="g2/40323231/50.png" width="60%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="544.20170527123051.1">&lt;section&gt;
