@@ -16,7 +16,7 @@
 <v t="amd.20150919102739.1"><vh>專案架構</vh></v>
 <v t="amd.20150919113957.1" a="E"><vh>以下為 pelican 文章</vh>
 <v t="amd.20150919124128.1"><vh>@button user pelican</vh></v>
-<v t="amd.20150919114010.1" a="E"><vh>@path pelican</vh>
+<v t="amd.20150919114010.1"><vh>@path pelican</vh>
 <v t="amd.20151006130205.1"><vh>edit publishconf.py</vh></v>
 <v t="amd.20151006113136.1" a="E"><vh>@path content</vh>
 <v t="40323250.20151124123658.1"><vh>edit 2015cpnote1.md</vh></v>
@@ -25,15 +25,14 @@
 </v>
 <v t="amd.20150919120205.1" a="E"><vh>以下為 reveal 投影片</vh>
 <v t="leo.20170505053249.1" a="E"><vh>@clean index.html</vh>
-<v t="leo.20170505053249.2"><vh>檔案說明</vh></v>
 <v t="leo.20170505053249.3" a="E"><vh>html 標註</vh>
 <v t="leo.20170505053249.4"><vh>head</vh></v>
 <v t="leo.20170505053249.8" a="E"><vh>body 標註</vh>
 <v t="leo.20170505053249.9" a="E"><vh>style</vh>
 <v t="leo.20170505053249.10"><vh>自訂的CSS內容</vh></v>
 </v>
-<v t="leo.20170505053249.11" a="E"><vh>div class="reveal"</vh>
-<v t="leo.20170505053249.12" a="E"><vh>div class="slides"</vh>
+<v t="leo.20170505053249.11" a="E"><vh>reveal</vh>
+<v t="leo.20170505053249.12" a="E"><vh>slides</vh>
 <v t="leo.20170505053249.19" a="E"><vh>目錄(#contents)</vh>
 <v t="leo.20170505053249.13"><vh>投影封面</vh></v>
 <v t="544.20170515005232.1"><vh>摘要</vh></v>
@@ -114,7 +113,7 @@ Summary: 導入 notebook 內容
 &lt;h3&gt;結論 &lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-&lt;img src="g2/printer.png"  align="right" width="30%"&gt;
+&lt;img src="g2/printer.png"  align="right" width="26%"&gt;
 &lt;br&gt;&lt;br&gt;
 當自己設計的機構能使用自己寫的程式來驗證，並能透過虛擬列印零件、組立完成加以模擬，完全不用消耗任何實體資源，能夠替我們省下許多修正錯誤的時間。
 &lt;br&gt;&lt;br&gt;
@@ -143,7 +142,7 @@ ACIS、STEP、IGES、CATIA、SolidWorks、Inventor、Pro/E、Rhino與STL等格�
 &lt;p class="article"&gt;
 八連桿機構能在 V-rep 內做模擬，在未來若朝向 仿生機構 研究，使用此軟體是不錯的選擇。
 &lt;/p&gt;
-&lt;img src="g2/v_rep/eightbar_1.png" align="left" width="30%"&gt;
+&lt;img src="g2/v_rep/eightbar_1.png" align="left" width="26%"&gt;
 &lt;p align="center"&gt;
 &lt;/br&gt;&lt;/br&gt;
 八連桿模擬 與 實際應用
@@ -208,7 +207,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在�
 &lt;p class="article"&gt;
 透過三個可變電阻的電阻值變化，控制 V-rep 內 Printer 噴頭的座標位置 。
 &lt;/p&gt;
-&lt;img src="g2/v_rep/example.png" align="center" width="28%"&gt;
+&lt;img src="g2/v_rep/example.png" align="center" width="24%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="544.20170515195524.1">&lt;section&gt;
@@ -216,7 +215,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在�
 &lt;hr&gt;
 &lt;img src="g2/40323218/introduce1.PNG" width="100%"&gt;
 &lt;p&gt;
-&lt;img src="g2/vrep_printer.png" style="float:right;" width="55%"&gt;
+&lt;img src="g2/vrep_printer.png" style="float:right;" width="50%"&gt;
 &lt;div style="float:left;"&gt;
 &lt;ol style="font-size:0.9em"&gt;
 &lt;li&gt;視角移動&lt;/li&gt;
@@ -262,12 +261,6 @@ V-rep 可透過內部 Scripts 編寫控制指令，但要為了到模擬列印�
 &lt;/p&gt;
 &lt;img src="g2/v_rep/scripts_example.png" align="left" width="50%"&gt;
 &lt;img src="g2/v_rep/fourbar_scripts.gif" width="40%"&gt;
-&lt;/br&gt;
-&lt;/br&gt;
-&lt;/br&gt;
-&lt;p class="article"&gt;
-以下拿 Arduino 做為通訊範例。
-&lt;/p&gt;
 &lt;/section&gt;
 </t>
 <t tx="544.20170520153339.1">&lt;section&gt;
@@ -501,7 +494,7 @@ NOTEBOOK_DIR = 'notebook'
 
 
 </t>
-<t tx="leo.20170505053249.1">@language xml
+<t tx="leo.20170505053249.1">@language html
 @tabwidth -4
 @others
 </t>
@@ -512,14 +505,11 @@ NOTEBOOK_DIR = 'notebook'
 內文使用 class="article" 來識別
 */
 
-/*目錄*/
-#contents h4 {
+.reveal .slides {
+  height: 60%;
+  font-size: 1.75vw;
+}
 
-}
-#contents .article {
-  font-size : 30px;
-  text-align : left;
-}
 /*所有內文*/
 .reveal .article {
   text-align : left;
@@ -532,6 +522,7 @@ NOTEBOOK_DIR = 'notebook'
   position : absolute;
   right : 2em;
   top : 1em;
+  background-color : transparent;
 }
 </t>
 <t tx="leo.20170505053249.11">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
@@ -558,29 +549,26 @@ NOTEBOOK_DIR = 'notebook'
 &lt;h4&gt;李武鉦 教授&lt;/h4&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20170505053249.142">&lt;!--script src="lib/js/head.min.js"&gt;&lt;/script--&gt;
-&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+<t tx="leo.20170505053249.142">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.js"&gt;&lt;/script&gt;
 &lt;script&gt;
 // 啟動 Reveal
 Reveal.initialize({
-    slideNumber: true,
-    transition: 'slide', // none/fade/slide/convex/concave/zoom
+    slideNumber: 'c/t',
+    dependencies: [
+        { src: 'plugin/markdown/marked.js' },
+        { src: 'plugin/markdown/markdown.js' },
+        { src: 'plugin/notes/notes.js', async: true },
+        { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); }}
+        ]
     });
-&lt;/script&gt;
-</t>
+&lt;/script&gt;</t>
 <t tx="leo.20170505053249.19">&lt;!-- 以下為投影片 --&gt;
 &lt;!-- 每一個 section 都代表一張投影片,  --&gt;
 &lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
 &lt;section id="contents"&gt;
 @others
 &lt;/section&gt;
-</t>
-<t tx="leo.20170505053249.2">&lt;!--
-這個檔案展示了 reveal.js 投影片資料的基本架構
-其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
-而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
-且支援平行與垂直的投影片配置方法
---&gt;
 </t>
 <t tx="leo.20170505053249.3">&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
@@ -601,8 +589,18 @@ Reveal.initialize({
 &lt;meta charset="utf-8"&gt;
 &lt;link rel="icon" href="kmol.ico"&gt;
 &lt;title&gt;專題簡報：V-rep 在 Delta 3D Printer 虚實整合模擬上的應用&lt;/title&gt;
-&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+&lt;link rel="stylesheet" href="css/reveal.css"&gt;
 &lt;link rel="stylesheet" href="css/theme/serif.css" id="theme"&gt;
+&lt;!-- Theme used for syntax highlighting of code --&gt;
+&lt;link rel="stylesheet" href="lib/css/zenburn.css"&gt;
+&lt;!-- Printing and PDF exports --&gt;
+&lt;script&gt;
+var link = document.createElement( 'link' );
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+document.getElementsByTagName( 'head' )[0].appendChild( link );
+&lt;/script&gt;
 &lt;!--增加對於 IE 早期版本的支援 --&gt;
 &lt;!--[if lt IE 9]&gt;
 &lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
@@ -631,9 +629,6 @@ V-rep為 Virtual robot experimentation platform 的縮寫，是一套機器人�
 <t tx="leo.20170505053249.87">&lt;section&gt;
 &lt;h3&gt;六軸感測器控制噴頭位置 範例影片&lt;/h3&gt;
 &lt;hr&gt;
-&lt;p align="center"&gt;
-因為手的晃動導致噴頭位置不穩定
-&lt;/p&gt;
 &lt;img src="g2/v_rep/vrep - printer  simulation  by CJMCU-116.gif"" align="center" width="100%"&gt;
 &lt;/section&gt;
 </t>
@@ -662,7 +657,7 @@ V-rep為 Virtual robot experimentation platform 的縮寫，是一套機器人�
 &amp;nbsp;&amp;nbsp;
 &lt;img src="g2/onshape/example_4.gif"  width="35%"&gt;
 &amp;nbsp;&amp;nbsp;
-&lt;img src="g2/onshape/onshape_printer2.gif"  width="28%"&gt;
+&lt;img src="g2/onshape/onshape_printer2.gif"  width="26%"&gt;
 &lt;/p&gt;
 &lt;/section&gt;
 </t>
