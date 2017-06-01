@@ -33,17 +33,17 @@
 </v>
 <v t="leo.20170505053249.11" a="E"><vh>reveal</vh>
 <v t="leo.20170505053249.12" a="E"><vh>slides</vh>
-<v t="leo.20170505053249.19" a="E"><vh>目錄(#contents)</vh>
+<v t="leo.20170505053249.19"><vh>目錄(#contents)</vh>
 <v t="leo.20170505053249.13"><vh>投影封面</vh></v>
 <v t="544.20170515005232.1"><vh>摘要</vh></v>
 <v t="544.20170515005219.1"><vh>研究動機</vh></v>
 </v>
-<v t="leo.20170505053249.35" a="E"><vh>3D Printer(#3D printer)</vh>
+<v t="leo.20170505053249.35"><vh>3D Printer(#3D printer)</vh>
 <v t="544.20170520153429.1"><vh>實體 系統圖</vh></v>
 <v t="leo.20170505053249.36"><vh>3D Printer 結構</vh></v>
 <v t="544.20170525220013.1"><vh>圖</vh></v>
 </v>
-<v t="leo.20170505053249.71" a="E"><vh>V-rep(#v-rep)</vh>
+<v t="leo.20170505053249.71"><vh>V-rep(#v-rep)</vh>
 <v t="544.20170520153339.1"><vh>虛擬控制 - 架構 系統圖</vh></v>
 <v t="leo.20170505053249.72"><vh>V-rep 基本介紹</vh></v>
 <v t="544.20170514200717.2"><vh>Onshape 介紹1</vh></v>
@@ -310,9 +310,7 @@ Dimensional Synthesis
 &lt;!--主畫面--&gt;
 &lt;h3&gt;平面連桿模擬&lt;/h3&gt;
 &lt;hr&gt;
-&lt;video controls&gt;
-&lt;source src="g2/pyslvs/MainWindow.mp4" type="video/mp4"&gt;
-&lt;/video&gt;
+&lt;img src="g2/pyslvs/MainWindow.gif"&gt;
 &lt;/section&gt;
 </t>
 <t tx="ahshoe.20170519231059.1">&lt;section&gt;
@@ -333,9 +331,7 @@ Dimensional Synthesis
 &lt;!--主畫面--&gt;
 &lt;h3&gt;尺寸合成&lt;/h3&gt;
 &lt;hr&gt;
-&lt;video controls&gt;
-&lt;source src="g2/pyslvs/algorithm.mp4" type="video/mp4"&gt;
-&lt;/video&gt;
+&lt;img src="g2/pyslvs/algorithm.gif" width="80%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="ahshoe.20170521165558.1">&lt;section&gt;
@@ -499,15 +495,18 @@ NOTEBOOK_DIR = 'notebook'
 @others
 </t>
 <t tx="leo.20170505053249.10">@language css
-/*
-規則：
-章節使用 id="章節名稱" 來識別
-內文使用 class="article" 來識別
-*/
+/*內文使用 class="article" 來識別*/
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal p {
+  font-family : "文泉驛微米黑";
+}
 
 .reveal .slides {
-  height: 60%;
-  font-size: 1.75vw;
+  font-size : 3vh;
 }
 
 /*所有內文*/
@@ -619,7 +618,7 @@ V-rep為 Virtual robot experimentation platform 的縮寫，是一套機器人�
 &lt;br&gt;&lt;br&gt;
 程式語言支援 C/C++、 Python、 Java、 Lua、 Matlab、 Octave 等等，可使用在遠端監控、硬體控制、快速原型驗證、演算法開發與參數調整、安全性檢查、機器人教學與工廠自動化模擬等各種領域。
 &lt;/p&gt;
-&lt;img src="g2/vrep.jpg" width="55%"&gt;
+&lt;img src="g2/vrep.jpg" width="45%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="leo.20170505053249.8">&lt;body&gt;

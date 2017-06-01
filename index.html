@@ -23,15 +23,18 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 </head>
 <body>
 <style>
-/*
-規則：
-章節使用 id="章節名稱" 來識別
-內文使用 class="article" 來識別
-*/
+/*內文使用 class="article" 來識別*/
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal p {
+  font-family : "文泉驛微米黑";
+}
 
 .reveal .slides {
-  height: 60%;
-  font-size: 1.75vw;
+  font-size : 3vh;
 }
 
 /*所有內文*/
@@ -118,7 +121,7 @@ V-rep為 Virtual robot experimentation platform 的縮寫，是一套機器人�
 <br><br>
 程式語言支援 C/C++、 Python、 Java、 Lua、 Matlab、 Octave 等等，可使用在遠端監控、硬體控制、快速原型驗證、演算法開發與參數調整、安全性檢查、機器人教學與工廠自動化模擬等各種領域。
 </p>
-<img src="g2/vrep.jpg" width="55%">
+<img src="g2/vrep.jpg" width="45%">
 </section>
 <section>
 <h3>Onshape - 簡介</h3>
@@ -304,17 +307,13 @@ Dimensional Synthesis
 <!--主畫面-->
 <h3>平面連桿模擬</h3>
 <hr>
-<video controls>
-<source src="g2/pyslvs/MainWindow.mp4" type="video/mp4">
-</video>
+<img src="g2/pyslvs/MainWindow.gif">
 </section>
 <section>
 <!--主畫面-->
 <h3>尺寸合成</h3>
 <hr>
-<video controls>
-<source src="g2/pyslvs/algorithm.mp4" type="video/mp4">
-</video>
+<img src="g2/pyslvs/algorithm.gif" width="80%">
 </section>
 <section>
 <!--比對-->
