@@ -196,7 +196,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在�
 <t tx="544.20170515005232.1">&lt;section&gt;
 &lt;h3&gt;摘要&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/system1.png"  width="80%"&gt;
+&lt;img src="g2/system1.png"  width="75%"&gt;
 &lt;p class="article"&gt;
 &lt;/p&gt;
 &lt;/section&gt;
@@ -249,7 +249,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在�
 &lt;p class="article"&gt;
 補正參數已設置於Pyquino內，不同的機型須配置相對應的補正值。
 &lt;/p&gt;
-&lt;img src="g2/gcode.png" width="80%"&gt;
+&lt;img src="g2/gcode.png" width="76%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="544.20170519005035.1">&lt;section&gt;
@@ -272,13 +272,13 @@ V-rep 可透過內部 Scripts 編寫控制指令，但要為了到模擬列印�
 <t tx="544.20170520153429.1">&lt;section&gt;
 &lt;h3&gt;印表機實體&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/system2.png" width="75%"&gt;
+&lt;img src="g2/system2.png" width="70%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="544.20170525220013.1">&lt;section&gt;
 &lt;h3&gt;校正機台&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/40323231/50.png" width="60%"&gt;
+&lt;img src="g2/40323231/50.png" width="55%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="544.20170527123051.1">&lt;section&gt;
@@ -343,7 +343,7 @@ Dimensional Synthesis
 &lt;h3&gt;倉儲&lt;/h3&gt;
 &lt;hr&gt;
 &lt;h4&gt;&lt;a href="https://github.com/KmolYuan/Pyslvs-PyQt5"&gt;https://github.com/KmolYuan/Pyslvs-PyQt5&lt;/a&gt;&lt;/h4&gt;
-&lt;img src="g2/pyslvs/github.png" width="80%"&gt;
+&lt;img src="g2/pyslvs/github.png" width="75%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="amd.20150913232631.1"></t>
@@ -556,8 +556,8 @@ NOTEBOOK_DIR = 'notebook'
 Reveal.initialize({
     slideNumber: 'c/t',
     dependencies: [
-        { src: 'plugin/markdown/marked.js' },
-        { src: 'plugin/markdown/markdown.js' },
+        { src: 'plugin/markdown/marked.js', async: true },
+        { src: 'plugin/markdown/markdown.js', async: true },
         { src: 'plugin/notes/notes.js', async: true },
         { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); }}
         ]
@@ -582,7 +582,7 @@ Reveal.initialize({
 <t tx="leo.20170505053249.36">&lt;section&gt;
 &lt;h3&gt;Delta 3D-Printer 架構介紹&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/40323231/1.png"&gt;
+&lt;img src="g2/40323231/1.png" width="60%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="leo.20170505053249.4">&lt;head&gt;
