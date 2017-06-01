@@ -9,7 +9,7 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="amd.20150913232631.1"><vh>@settings</vh>
+<v t="amd.20150913232631.1" a="E"><vh>@settings</vh>
 <v t="amd.20150913232631.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="amd.20150913232631.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
@@ -43,7 +43,7 @@
 <v t="leo.20170505053249.36"><vh>3D Printer 結構</vh></v>
 <v t="544.20170525220013.1"><vh>圖</vh></v>
 </v>
-<v t="leo.20170505053249.71"><vh>V-rep(#v-rep)</vh>
+<v t="leo.20170505053249.71" a="E"><vh>V-rep(#v-rep)</vh>
 <v t="544.20170520153339.1"><vh>虛擬控制 - 架構 系統圖</vh></v>
 <v t="leo.20170505053249.72"><vh>V-rep 基本介紹</vh></v>
 <v t="544.20170514200717.2"><vh>Onshape 介紹1</vh></v>
@@ -65,12 +65,12 @@
 </v>
 <v t="544.20170514195356.1"><vh>結論、未來展望</vh></v>
 </v>
-<v t="leo.20170505053249.96" a="E"><vh>Python Solvespace(#pyslvs)</vh>
+<v t="leo.20170505053249.96" a="E"><vh>Pyslvs(#pyslvs)</vh>
 <v t="ahshoe.20170510224721.1"><vh>平面連桿機構模擬 - 系統圖</vh></v>
 <v t="ahshoe.20170510224930.1"><vh>功能簡介</vh></v>
+<v t="ahshoe.20170519231059.1"><vh>功能簡介 - 與 Solvespace 比對</vh></v>
 <v t="ahshoe.20170519134311.1"><vh>功能簡介 - 平面連桿模擬</vh></v>
 <v t="ahshoe.20170519233231.1"><vh>功能簡介 - 尺寸合成</vh></v>
-<v t="ahshoe.20170519231059.1"><vh>功能簡介 - 與 Solvespace 比對</vh></v>
 <v t="ahshoe.20170519232249.1"><vh>功能簡介 - 轉入 V-rep</vh></v>
 <v t="ahshoe.20170521165558.1"><vh>倉儲</vh></v>
 </v>
@@ -217,7 +217,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在�
 &lt;p&gt;
 &lt;img src="g2/vrep_printer.png" style="float:right;" width="50%"&gt;
 &lt;div style="float:left;"&gt;
-&lt;ol style="font-size:0.9em"&gt;
+&lt;ol&gt;
 &lt;li&gt;視角移動&lt;/li&gt;
 &lt;li&gt;視角旋轉&lt;/li&gt;
 &lt;li&gt;視角縮放&lt;/li&gt;
@@ -317,14 +317,14 @@ Dimensional Synthesis
 &lt;!--比對--&gt;
 &lt;h3&gt;與 Solvespace 比對&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/pyslvs/Evolution.png"&gt;
+&lt;img src="g2/pyslvs/Evolution.png" width="150%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="ahshoe.20170519232249.1">&lt;section&gt;
 &lt;!--格式--&gt;
 &lt;h3&gt;轉入 V-rep&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/pyslvs/Format.png"&gt;
+&lt;img src="g2/pyslvs/Format.png" width="150%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="ahshoe.20170519233231.1">&lt;section&gt;
@@ -501,6 +501,7 @@ NOTEBOOK_DIR = 'notebook'
 .reveal h2,
 .reveal h3,
 .reveal h4,
+.reveal ol,
 .reveal p {
   font-family : "文泉驛微米黑";
 }
@@ -513,6 +514,10 @@ NOTEBOOK_DIR = 'notebook'
 .reveal .article {
   text-align : left;
   font-size : 0.75em;
+}
+
+.reveal ol {
+  font-size : 0.9em;
 }
 
 /*頁碼*/
@@ -614,7 +619,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 &lt;h3&gt;V-rep - 簡介&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-V-rep為 Virtual robot experimentation platform 的縮寫，是一套機器人模擬軟體，讓使用者可以模擬整個機械系統 。
+V-rep 為 Virtual robot experimentation platform 的縮寫，是一套機器人模擬軟體，讓使用者可以模擬整個機械系統 。
 &lt;br&gt;&lt;br&gt;
 程式語言支援 C/C++、 Python、 Java、 Lua、 Matlab、 Octave 等等，可使用在遠端監控、硬體控制、快速原型驗證、演算法開發與參數調整、安全性檢查、機器人教學與工廠自動化模擬等各種領域。
 &lt;/p&gt;

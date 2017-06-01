@@ -29,6 +29,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 .reveal h2,
 .reveal h3,
 .reveal h4,
+.reveal ol,
 .reveal p {
   font-family : "文泉驛微米黑";
 }
@@ -41,6 +42,10 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 .reveal .article {
   text-align : left;
   font-size : 0.75em;
+}
+
+.reveal ol {
+  font-size : 0.9em;
 }
 
 /*頁碼*/
@@ -117,7 +122,7 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 <h3>V-rep - 簡介</h3>
 <hr>
 <p class="article">
-V-rep為 Virtual robot experimentation platform 的縮寫，是一套機器人模擬軟體，讓使用者可以模擬整個機械系統 。
+V-rep 為 Virtual robot experimentation platform 的縮寫，是一套機器人模擬軟體，讓使用者可以模擬整個機械系統 。
 <br><br>
 程式語言支援 C/C++、 Python、 Java、 Lua、 Matlab、 Octave 等等，可使用在遠端監控、硬體控制、快速原型驗證、演算法開發與參數調整、安全性檢查、機器人教學與工廠自動化模擬等各種領域。
 </p>
@@ -164,7 +169,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在�
 <p>
 <img src="g2/vrep_printer.png" style="float:right;" width="50%">
 <div style="float:left;">
-<ol style="font-size:0.9em">
+<ol>
 <li>視角移動</li>
 <li>視角旋轉</li>
 <li>視角縮放</li>
@@ -304,6 +309,12 @@ Dimensional Synthesis
 </p>
 </section>
 <section>
+<!--比對-->
+<h3>與 Solvespace 比對</h3>
+<hr>
+<img src="g2/pyslvs/Evolution.png" width="150%">
+</section>
+<section>
 <!--主畫面-->
 <h3>平面連桿模擬</h3>
 <hr>
@@ -316,16 +327,10 @@ Dimensional Synthesis
 <img src="g2/pyslvs/algorithm.gif" width="80%">
 </section>
 <section>
-<!--比對-->
-<h3>與 Solvespace 比對</h3>
-<hr>
-<img src="g2/pyslvs/Evolution.png">
-</section>
-<section>
 <!--格式-->
 <h3>轉入 V-rep</h3>
 <hr>
-<img src="g2/pyslvs/Format.png">
+<img src="g2/pyslvs/Format.png" width="150%">
 </section>
 <section>
 <!--格式-->
