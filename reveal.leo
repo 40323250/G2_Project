@@ -45,9 +45,9 @@
 </v>
 <v t="leo.20170505053249.71" a="E"><vh>V-rep(#v-rep)</vh>
 <v t="544.20170520153339.1"><vh>虛擬控制 - 架構 系統圖</vh></v>
-<v t="leo.20170505053249.72"><vh>V-rep 基本介紹</vh></v>
-<v t="544.20170514200717.2"><vh>Onshape 介紹1</vh></v>
-<v t="544.20170514201601.1"><vh>Onshape 介紹2</vh></v>
+<v t="leo.20170505053249.72"><vh>V-rep 準備流程</vh></v>
+<v t="544.20170514200717.2"><vh>V-rep 基本介紹1</vh></v>
+<v t="544.20170514201601.1"><vh>V-rep 基本介紹2</vh></v>
 <v t="leo.20170518041620.1"><vh>Onshape 範例圖形</vh></v>
 <v t="544.20170515195524.1"><vh>V-rep細部介紹1</vh></v>
 <v t="544.20170514200732.2"><vh>八連桿範例</vh></v>
@@ -147,8 +147,8 @@ ACIS、STEP、IGES、CATIA、SolidWorks、Inventor、Pro/E、Rhino與STL等格�
 &lt;/br&gt;&lt;/br&gt;
 八連桿模擬 與 實際應用
 &lt;/p&gt;
-&lt;img src="g2/solvespace_tutorial.gif" width="28%"&gt;
 &lt;img src="g2/v_rep/8links.gif" width="40%"&gt;
+&lt;img src="g2/solvespace_tutorial.gif" width="28%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="544.20170514200732.3"></t>
@@ -616,12 +616,10 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 &lt;/section&gt;
 </t>
 <t tx="leo.20170505053249.72">&lt;section&gt;
-&lt;h3&gt;V-rep - 簡介&lt;/h3&gt;
+&lt;h3&gt;V-rep - 準備流程&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-V-rep 為 Virtual robot experimentation platform 的縮寫，是一套機器人模擬軟體，讓使用者可以模擬整個機械系統 。
-&lt;br&gt;&lt;br&gt;
-程式語言支援 C/C++、 Python、 Java、 Lua、 Matlab、 Octave 等等，可使用在遠端監控、硬體控制、快速原型驗證、演算法開發與參數調整、安全性檢查、機器人教學與工廠自動化模擬等各種領域。
+
 &lt;/p&gt;
 &lt;img src="g2/vrep.jpg" width="45%"&gt;
 &lt;/section&gt;
