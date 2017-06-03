@@ -503,7 +503,7 @@ NOTEBOOK_DIR = 'notebook'
 .reveal h4,
 .reveal ol,
 .reveal p {
-  font-family : "文泉驛微米黑";
+  font-family : "文泉驛微米黑", "新細明體";
 }
 
 .reveal .slides {
