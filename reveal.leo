@@ -48,7 +48,6 @@
 <v t="leo.20170505053249.72"><vh>V-rep 準備流程</vh></v>
 <v t="544.20170514200717.2"><vh>V-rep 基本介紹1</vh></v>
 <v t="544.20170514201601.1"><vh>V-rep 基本介紹2</vh></v>
-<v t="leo.20170518041620.1"><vh>Onshape 範例圖形</vh></v>
 <v t="544.20170515195524.1"><vh>V-rep細部介紹1</vh></v>
 <v t="544.20170514200732.2"><vh>八連桿範例</vh></v>
 <v t="544.20170514200732.3" a="E"><vh>以下為控制模擬</vh>
@@ -123,7 +122,7 @@ Summary: 導入 notebook 內容
 &lt;/section&gt;
 </t>
 <t tx="544.20170514200717.2">&lt;section&gt;
-&lt;h3&gt;Onshape - 簡介&lt;/h3&gt;
+&lt;h3&gt;V-rep 基本介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/onshape.png" width="50%"&gt;
 &lt;img src="g2/onshape.jpg" width="45%"&gt;
@@ -153,7 +152,7 @@ ACIS、STEP、IGES、CATIA、SolidWorks、Inventor、Pro/E、Rhino與STL等格�
 </t>
 <t tx="544.20170514200732.3"></t>
 <t tx="544.20170514201601.1">&lt;section&gt;
-&lt;h3&gt;Onshape - 簡介&lt;/h3&gt;
+&lt;h3&gt;V-rep 基本介紹&lt;/h3&gt;
 &lt;hr&gt;
 &lt;img src="g2/cloud.jpg" width="40%"&gt;
 &lt;img src="g2/cooperation.jpg" width="50%"&gt;
@@ -213,24 +212,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在�
 <t tx="544.20170515195524.1">&lt;section&gt;
 &lt;h3&gt;V-rep - 介面介紹&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/40323218/introduce1.PNG" width="100%"&gt;
-&lt;p&gt;
-&lt;img src="g2/vrep_printer.png" style="float:right;" width="50%"&gt;
-&lt;div style="float:left;"&gt;
-&lt;ol&gt;
-&lt;li&gt;視角移動&lt;/li&gt;
-&lt;li&gt;視角旋轉&lt;/li&gt;
-&lt;li&gt;視角縮放&lt;/li&gt;
-&lt;li&gt;視角移動至物體&lt;/li&gt;
-&lt;li&gt;物體定位 (x,y,z)&lt;/li&gt;
-&lt;li&gt;物體旋轉 (x,y,z)&lt;/li&gt;
-&lt;li&gt;開始模擬&lt;/li&gt;
-&lt;li&gt;暫停模擬&lt;/li&gt;
-&lt;li&gt;結束模擬&lt;/li&gt;
-&lt;li&gt;慢速&lt;/li&gt;
-&lt;li&gt;加速&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
+&lt;img src="g2/p12.png" width="80%"&gt;
 &lt;/p&gt;
 &lt;/section&gt;
 </t>
@@ -619,9 +601,8 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 &lt;h3&gt;V-rep - 準備流程&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-
 &lt;/p&gt;
-&lt;img src="g2/vrep.jpg" width="45%"&gt;
+&lt;img src="g2/p8.png" width="80%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="leo.20170505053249.8">&lt;body&gt;
@@ -649,18 +630,6 @@ document.getElementsByTagName( 'head' )[0].appendChild( link );
 </t>
 <t tx="leo.20170505053249.96">&lt;section id="pyslvs"&gt;
 @others
-&lt;/section&gt;
-</t>
-<t tx="leo.20170518041620.1">&lt;section&gt;
-&lt;h3&gt;Onshape - 繪製範例&lt;/h3&gt;
-&lt;hr&gt;
-&lt;p class="article"&gt;
-&lt;img src="g2/onshape/example_1.gif" width="30%"&gt;
-&amp;nbsp;&amp;nbsp;
-&lt;img src="g2/onshape/example_4.gif"  width="35%"&gt;
-&amp;nbsp;&amp;nbsp;
-&lt;img src="g2/onshape/onshape_printer2.gif"  width="26%"&gt;
-&lt;/p&gt;
 &lt;/section&gt;
 </t>
 </tnodes>
