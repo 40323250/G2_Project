@@ -259,8 +259,8 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在�
 V-rep 可透過內部 Scripts 編寫控制指令，但要為了到模擬列印，需要與其他裝置或介面通訊。
 &lt;/br&gt;
 &lt;/p&gt;
-&lt;img src="g2/v_rep/scripts_example.png" align="left" width="50%"&gt;
-&lt;img src="g2/v_rep/fourbar_scripts.gif" width="40%"&gt;
+&lt;img src="g2/v_rep/scripts1.png" align="center" width="70%"&gt;
+
 &lt;/section&gt;
 </t>
 <t tx="544.20170520153339.1">&lt;section&gt;
