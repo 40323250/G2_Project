@@ -46,10 +46,12 @@
 <v t="leo.20170505053249.71" a="E"><vh>V-rep(#v-rep)</vh>
 <v t="544.20170520153339.1"><vh>虛擬控制 - 架構 系統圖</vh></v>
 <v t="leo.20170505053249.72"><vh>V-rep 準備流程</vh></v>
-<v t="544.20170514200717.2"><vh>V-rep 基本介紹1</vh></v>
-<v t="544.20170514201601.1"><vh>V-rep 基本介紹2</vh></v>
-<v t="544.20170515195524.1"><vh>V-rep細部介紹1</vh></v>
 <v t="544.20170514200732.2"><vh>八連桿範例</vh></v>
+<v t="544.20170515195524.1"><vh>V-rep細部介紹1</vh></v>
+<v t="544.20170514200717.2"><vh>V-rep 組立前</vh></v>
+<v t="544.20170514201601.1"><vh>V-rep 組立後</vh></v>
+<v t="544.20170604143317.1"><vh>V-rep 加入旋轉軸</vh></v>
+<v t="544.20170604143652.1"><vh>V-rep 設定網格</vh></v>
 <v t="544.20170514200732.3" a="E"><vh>以下為控制模擬</vh>
 <v t="544.20170515003915.1"><vh>V-rep Printer 校正</vh></v>
 <v t="544.20170519005035.1"><vh>V-rep Scripts</vh></v>
@@ -122,17 +124,9 @@ Summary: 導入 notebook 內容
 &lt;/section&gt;
 </t>
 <t tx="544.20170514200717.2">&lt;section&gt;
-&lt;h3&gt;V-rep 基本介紹&lt;/h3&gt;
+&lt;h3&gt;V-rep - 組立前&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/onshape.png" width="50%"&gt;
-&lt;img src="g2/onshape.jpg" width="45%"&gt;
-&lt;p class="article"&gt;
-Onshape 是一套由前 Solidworks 團隊開發出來的 3D 建模平台，它的優點及特色就是可以線上協同設計，和同伴能夠分工合作，且能達到參數式設計。
-&lt;/p&gt;
-&lt;p class="article"&gt;
-Onshape 支援的檔案格式 ：&lt;br&gt;
-ACIS、STEP、IGES、CATIA、SolidWorks、Inventor、Pro/E、Rhino與STL等格式。
-&lt;/p&gt;
+&lt;img src="g2/v_rep/1.png" width="60%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="544.20170514200732.2">&lt;section&gt;
@@ -152,14 +146,9 @@ ACIS、STEP、IGES、CATIA、SolidWorks、Inventor、Pro/E、Rhino與STL等格�
 </t>
 <t tx="544.20170514200732.3"></t>
 <t tx="544.20170514201601.1">&lt;section&gt;
-&lt;h3&gt;V-rep 基本介紹&lt;/h3&gt;
+&lt;h3&gt;V-rep - 組立後&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/cloud.jpg" width="40%"&gt;
-&lt;img src="g2/cooperation.jpg" width="50%"&gt;
-&lt;p class="article"&gt;
-Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在「雲端」 ，提供協同設計的功能，並且可以很容易地從雲上找到其他人公開的模型。 &lt;br&gt;
-協同設計主要的概念為團隊間的分工合作，大家提供自己的想法或專長，使概念更完善，這部份 Onshape 甚至提供可在平板或手機上使用的功能。
-&lt;/p&gt;
+&lt;img src="g2/v_rep/2.png" width="60%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="544.20170515003915.1">&lt;section&gt;
@@ -238,7 +227,7 @@ Onshape 是一種 Full Cloud 的網路 CAD 設計平台，它的檔案都存在�
 &lt;h3&gt;V-rep - 內部 Scripts 控制&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
-V-rep 可透過內部 Scripts 編寫控制指令，但要為了到模擬列印，需要與其他裝置或介面通訊。
+V-rep 可透過內部 Scripts 編寫控制指令，但為了達到模擬列印的功能，需要與其他裝置或介面通訊。
 &lt;/br&gt;
 &lt;/p&gt;
 &lt;img src="g2/v_rep/scripts1.png" align="center" width="70%"&gt;
@@ -271,6 +260,18 @@ V-rep 可透過內部 Scripts 編寫控制指令，但要為了到模擬列印�
 &lt;/p&gt;
 &lt;img src="g2/v_rep/process.png" width="40%"&gt;
 &lt;/section&gt;</t>
+<t tx="544.20170604143317.1">&lt;section&gt;
+&lt;h3&gt;V-rep - 加入旋轉軸&lt;/h3&gt;
+&lt;hr&gt;
+&lt;img src="g2/v_rep/3.png" width="60%"&gt;
+&lt;/section&gt;
+</t>
+<t tx="544.20170604143652.1">&lt;section&gt;
+&lt;h3&gt;V-rep - 設定網格&lt;/h3&gt;
+&lt;hr&gt;
+&lt;img src="g2/v_rep/4.png" width="75%"&gt;
+&lt;/section&gt;
+</t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
 &lt;!--專案總覽--&gt;
 &lt;h3&gt;套件開發&lt;/h3&gt;
