@@ -261,7 +261,7 @@ V-rep 可透過內部 Scripts 編寫控制指令，但為了達到模擬列印�
 <t tx="544.20170604143652.1">&lt;section&gt;
 &lt;h3&gt;V-rep - 設定網格&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/v_rep/4.png" width="100%"&gt;
+&lt;img src="g2/v_rep/4.png" width="90%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
