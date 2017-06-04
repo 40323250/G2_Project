@@ -46,12 +46,11 @@
 <v t="leo.20170505053249.71" a="E"><vh>V-rep(#v-rep)</vh>
 <v t="544.20170520153339.1"><vh>虛擬控制 - 架構 系統圖</vh></v>
 <v t="leo.20170505053249.72"><vh>V-rep 準備流程</vh></v>
-<v t="544.20170514200732.2"><vh>八連桿範例</vh></v>
-<v t="544.20170515195524.1"><vh>V-rep細部介紹1</vh></v>
-<v t="544.20170514200717.2"><vh>V-rep 組立前</vh></v>
+<v t="544.20170514200717.2"><vh>V-rep 導入STL檔</vh></v>
 <v t="544.20170604143317.1"><vh>V-rep 加入旋轉軸</vh></v>
 <v t="544.20170514201601.1"><vh>V-rep 組立後</vh></v>
 <v t="544.20170604143652.1"><vh>V-rep 設定網格</vh></v>
+<v t="544.20170514200732.2"><vh>八連桿範例</vh></v>
 <v t="544.20170514200732.3" a="E"><vh>以下為控制模擬</vh>
 <v t="544.20170515003915.1"><vh>V-rep Printer 校正</vh></v>
 <v t="544.20170519005035.1"><vh>V-rep Scripts</vh></v>
@@ -124,13 +123,13 @@ Summary: 導入 notebook 內容
 &lt;/section&gt;
 </t>
 <t tx="544.20170514200717.2">&lt;section&gt;
-&lt;h3&gt;V-rep - 組立前&lt;/h3&gt;
+&lt;h3&gt;V-rep - 導入STL檔&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/v_rep/1.png" width="60%"&gt;
+&lt;img src="g2/v_rep/1.png" width="100%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="544.20170514200732.2">&lt;section&gt;
-&lt;h3&gt;V-rep - 八連桿範例&lt;/h3&gt;
+&lt;h3&gt;V-rep - 機構模擬&lt;/h3&gt;
 &lt;hr&gt;
 &lt;p class="article"&gt;
 八連桿機構能在 V-rep 內做模擬，在未來若朝向 仿生機構 研究，使用此軟體是不錯的選擇。
@@ -198,13 +197,6 @@ Summary: 導入 notebook 內容
 &lt;img src="g2/v_rep/example.png" align="center" width="24%"&gt;
 &lt;/section&gt;
 </t>
-<t tx="544.20170515195524.1">&lt;section&gt;
-&lt;h3&gt;V-rep - 介面介紹&lt;/h3&gt;
-&lt;hr&gt;
-&lt;img src="g2/p12.png" width="80%"&gt;
-&lt;/p&gt;
-&lt;/section&gt;
-</t>
 <t tx="544.20170515202348.1">&lt;section&gt;
 &lt;h3&gt;V-rep - Particles&lt;/h3&gt;
 &lt;hr&gt;
@@ -263,13 +255,13 @@ V-rep 可透過內部 Scripts 編寫控制指令，但為了達到模擬列印�
 <t tx="544.20170604143317.1">&lt;section&gt;
 &lt;h3&gt;V-rep - 加入旋轉軸&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/v_rep/3.png" width="60%"&gt;
+&lt;img src="g2/v_rep/3.png" width="100%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="544.20170604143652.1">&lt;section&gt;
 &lt;h3&gt;V-rep - 設定網格&lt;/h3&gt;
 &lt;hr&gt;
-&lt;img src="g2/v_rep/4.png" width="75%"&gt;
+&lt;img src="g2/v_rep/4.png" width="100%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="ahshoe.20170510224721.1">&lt;section&gt;
