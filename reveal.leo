@@ -38,10 +38,9 @@
 <v t="544.20170515005232.1"><vh>摘要</vh></v>
 <v t="544.20170515005219.1"><vh>研究動機</vh></v>
 </v>
-<v t="leo.20170505053249.35"><vh>3D Printer(#3D printer)</vh>
+<v t="leo.20170505053249.35" a="E"><vh>3D Printer(#3D printer)</vh>
 <v t="544.20170520153429.1"><vh>實體 系統圖</vh></v>
-<v t="leo.20170505053249.36"><vh>3D Printer 結構</vh></v>
-<v t="544.20170525220013.1"><vh>圖</vh></v>
+<v t="544.20170525220013.1"><vh>校正機台</vh></v>
 </v>
 <v t="leo.20170505053249.71" a="E"><vh>V-rep(#v-rep)</vh>
 <v t="544.20170520153339.1"><vh>虛擬控制 - 架構 系統圖</vh></v>
@@ -556,12 +555,6 @@ Reveal.initialize({
 </t>
 <t tx="leo.20170505053249.35">&lt;section id="vrep"&gt;
 @others
-&lt;/section&gt;
-</t>
-<t tx="leo.20170505053249.36">&lt;section&gt;
-&lt;h3&gt;Delta 3D-Printer 架構介紹&lt;/h3&gt;
-&lt;hr&gt;
-&lt;img src="g2/40323231/1.png" width="60%"&gt;
 &lt;/section&gt;
 </t>
 <t tx="leo.20170505053249.4">&lt;head&gt;
